@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T14:51:27Z",
+  "updatedAt": "2026-11-15T14:54:47Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T14:51:27Z",
+      "exportedAt": "2026-11-15T14:54:47Z",
       "addonVersion": "1.3.3",
       "character": {
         "name": "Scathe",
@@ -18,15 +18,15 @@
         "level": 23,
         "xp": 1973,
         "xpForNextLevel": 29400,
-        "restedXP": 1572,
+        "restedXP": 1582,
         "moneyCopper": 3077,
-        "maxHealth": 614,
+        "maxHealth": 954,
         "maxPower": 1027,
         "stats": {
           "agility": 34,
           "intellect": 57,
           "spirit": 86,
-          "stamina": 55,
+          "stamina": 59,
           "strength": 34
         }
       },
@@ -110,14 +110,14 @@
             "count": 1
           },
           {
+            "itemID": 10940,
+            "name": "Strange Dust",
+            "count": 2
+          },
+          {
             "itemID": 11143,
             "name": "Nugget Slug",
             "count": 12
-          },
-          {
-            "itemID": 14168,
-            "name": "Buccaneer's Gloves of Stamina",
-            "count": 1
           },
           {
             "itemID": 21071,
@@ -209,15 +209,15 @@
           "vendorPriceCopper": 45
         },
         {
-          "itemID": 4307,
-          "name": "Heavy Linen Gloves",
+          "itemID": 14168,
+          "name": "Buccaneer's Gloves of Stamina",
           "count": 1,
           "quality": 2,
-          "itemLevel": 10,
-          "requiredLevel": 5,
+          "itemLevel": 20,
+          "requiredLevel": 15,
           "slot": 10,
           "slotName": "hands",
-          "vendorPriceCopper": 29
+          "vendorPriceCopper": 275
         },
         {
           "itemID": 2584,
@@ -262,7 +262,7 @@
           "skillLineID": 197,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T14:42:20Z"
+          "recipesCapturedAt": "2026-11-15T14:54:09Z"
         },
         {
           "name": "Enchanting",
@@ -272,7 +272,7 @@
           "skillLineID": 333,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T12:13:26Z"
+          "recipesCapturedAt": "2026-11-15T14:53:03Z"
         },
         {
           "name": "First Aid",
@@ -306,6 +306,138 @@
         }
       ],
       "quests": [
+        {
+          "questID": 498,
+          "name": "The Rescue",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/1 Rescue Drull",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "0/1 Rescue Tog'thar",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 549,
+          "name": "WANTED: Syndicate Personnel",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "2/10 Syndicate Rogue slain",
+              "have": 2,
+              "need": 10,
+              "finished": false
+            },
+            {
+              "text": "10/10 Syndicate Watchman slain",
+              "have": 10,
+              "need": 10,
+              "finished": true
+            }
+          ]
+        },
+        {
+          "questID": 528,
+          "name": "Battle of Hillsbrad",
+          "level": 25,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/15 Hillsbrad Peasant slain",
+              "have": 0,
+              "need": 15,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 546,
+          "name": "Souvenirs of Death",
+          "level": 25,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "9/30 Hillsbrad Human Skull",
+              "have": 9,
+              "need": 30,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 567,
+          "name": "Dangerous!",
+          "level": 28,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/1 Clerk Horrace Whitesteed slain",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "1/1 Citizen Wilkes slain",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            },
+            {
+              "text": "0/1 Miner Hackett slain",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "1/1 Farmer Kalaba slain",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            }
+          ]
+        },
+        {
+          "questID": 92401,
+          "name": "A Frightened Request",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": true,
+          "zone": "Ruins of Lordaeron",
+          "objectives": [
+            {
+              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
         {
           "questID": 6548,
           "name": "Avenge My Village",
@@ -504,138 +636,6 @@
           "objectives": [
             {
               "text": "0/1 Steelsnap's Rib",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 498,
-          "name": "The Rescue",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "0/1 Rescue Drull",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            },
-            {
-              "text": "0/1 Rescue Tog'thar",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 549,
-          "name": "WANTED: Syndicate Personnel",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "2/10 Syndicate Rogue slain",
-              "have": 2,
-              "need": 10,
-              "finished": false
-            },
-            {
-              "text": "10/10 Syndicate Watchman slain",
-              "have": 10,
-              "need": 10,
-              "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 528,
-          "name": "Battle of Hillsbrad",
-          "level": 25,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "0/15 Hillsbrad Peasant slain",
-              "have": 0,
-              "need": 15,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 546,
-          "name": "Souvenirs of Death",
-          "level": 25,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "9/30 Hillsbrad Human Skull",
-              "have": 9,
-              "need": 30,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 567,
-          "name": "Dangerous!",
-          "level": 28,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "0/1 Clerk Horrace Whitesteed slain",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            },
-            {
-              "text": "1/1 Citizen Wilkes slain",
-              "have": 1,
-              "need": 1,
-              "finished": true
-            },
-            {
-              "text": "0/1 Miner Hackett slain",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            },
-            {
-              "text": "1/1 Farmer Kalaba slain",
-              "have": 1,
-              "need": 1,
-              "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 92401,
-          "name": "A Frightened Request",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": true,
-          "zone": "Ruins of Lordaeron",
-          "objectives": [
-            {
-              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
               "have": 0,
               "need": 1,
               "finished": false
@@ -1052,7 +1052,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:42:20Z",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:54:09Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1085,7 +1085,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Enchant Cloak - Minor Agility. It is learned and below its grey threshold (175). Gather the missing reagents first.",
-          "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T12:13:26Z",
+          "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T14:53:03Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1142,7 +1142,7 @@
               "slot": "Hands",
               "source": "Arcane Anomaly · Alterac Mountains",
               "status": "Requires level 27",
-              "current": "Heavy Linen Gloves"
+              "current": "Buccaneer's Gloves of Stamina"
             },
             {
               "itemID": 273043,

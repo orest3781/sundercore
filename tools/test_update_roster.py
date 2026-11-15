@@ -34,9 +34,26 @@ class ProjectionTests(unittest.TestCase):
         self.assertEqual(p['fieldPlan']['materials'][0]['action'],'Farm')
     def test_missing_bag_data_is_unknown_not_zero(self):
         s=snapshot();del s['analysis']['generalBagFree'];del s['analysis']['generalBagCapacity']
+        s['inventory']['bags']={'containers':[{'bagID':0,'capacity':20,'items':[]}]}
         p=sync.public_snapshot(s);self.assertNotIn('free',p['bags']);self.assertNotIn('capacity',p['bags'])
         s['analysis'].update(generalBagFree=0,generalBagCapacity=0)
         p=sync.public_snapshot(s);self.assertEqual(p['bags']['free'],0);self.assertEqual(p['bags']['capacity'],0)
+    def test_teardown_does_not_replace_valid_character(self):
+        good=sync.public_snapshot(snapshot());roster,_=sync.merge_roster(None,[good])
+        bad=snapshot(stamp='2026-11-15T11:00:00Z')
+        bad['character'].update(xpForNextLevel=0,moneyCopper=0)
+        bad['analysis'].update(generalBagFree=0,generalBagCapacity=0)
+        bad['inventory'].update(bagItemTotals=[],bags={'containers':[{'bagID':0,'capacity':0,'freeSlots':0,'items':[]}]})
+        with self.assertRaisesRegex(ValueError,'Incomplete snapshot'):sync.public_snapshot(bad)
+        self.assertEqual(roster['characters'][0]['character']['moneyCopper'],3247)
+        self.assertEqual(roster['characters'][0]['exportedAt'],'2026-11-15T10:00:00Z')
+        bad['analysis']['generalBagCapacity']=54
+        with self.assertRaisesRegex(ValueError,'Incomplete snapshot'):sync.public_snapshot(bad)
+    def test_empty_inventory_zero_money_max_level_xp_are_valid(self):
+        s=snapshot();s['character'].update(level=60,xp=0,xpForNextLevel=0,moneyCopper=0)
+        s['inventory'].update(bagItemTotals=[],bags={'containers':[{'bagID':0,'capacity':20,'freeSlots':20,'items':[]}]})
+        s['analysis'].update(generalBagFree=20,generalBagCapacity=20)
+        p=sync.public_snapshot(s);self.assertEqual(p['character']['xpForNextLevel'],0);self.assertEqual(p['character']['moneyCopper'],0);self.assertEqual(p['bags']['items'],[])
     def test_safe_escaping_and_comments(self):
         s=snapshot('Séan "quoted" \\ name');data=b'-- CharacterLedgerJSON = "bad"\n--[[\nCharacterLedgerJSON = "bad"\n]]\n'+lua(s)
         self.assertEqual(extract(data),s)

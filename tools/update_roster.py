@@ -116,8 +116,32 @@ def normalize_public(value):
     if c['level']<1: raise ValueError('Character level must be positive')
     return clean
 
+def validate_capture(source):
+    """Reject logout/teardown captures before they can replace a healthy row.
+
+    An empty inventory still has a real backpack with slots. Zero slots means
+    the container APIs were unavailable, not that the character owns no bags.
+    XP-to-next-level and money may legitimately be zero and are not sentinels.
+    Older exports without raw containers can use positive analysis capacity.
+    """
+    inventory=source.get('inventory',{});analysis=source.get('analysis',{})
+    if not isinstance(inventory,dict) or not isinstance(analysis,dict):
+        raise ValueError('Incomplete snapshot: inventory or analysis is unavailable')
+    bags=inventory.get('bags',{})
+    if not isinstance(bags,dict):raise ValueError('Incomplete snapshot: bag capture is unavailable')
+    containers=bags.get('containers',[])
+    if containers=={}:containers=[]
+    if not isinstance(containers,list):raise ValueError('Incomplete snapshot: invalid bag capture')
+    for bag in containers:
+        if isinstance(bag,dict) and bag.get('bagID')==0:
+            if integer(bag.get('capacity',0))>0:return
+            raise ValueError('Incomplete snapshot: backpack reports zero slots, likely logout teardown. Reload while in game to capture fresh data.')
+    if integer(analysis.get('generalBagCapacity',0))>0:return
+    raise ValueError('Incomplete snapshot: no positive backpack or bag capacity. Reload while in game to capture fresh data.')
+
 def public_snapshot(source):
     if not isinstance(source,dict) or type(source.get('schemaVersion')) is not int or source.get('schemaVersion')!=1: raise ValueError('Unsupported Character Ledger schema')
+    validate_capture(source)
     c=project(source.get('character'),CHARACTER)
     inventory=source.get('inventory',{});analysis=source.get('analysis',{})
     result=dict(exportedAt=source.get('exportedAt'),addonVersion=source.get('addonVersion','unknown'),character=c,

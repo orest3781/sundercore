@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T19:15:58Z",
+  "updatedAt": "2026-11-15T19:38:19Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T19:15:58Z",
+      "exportedAt": "2026-11-15T19:38:19Z",
       "addonVersion": "1.7.0",
       "character": {
         "name": "Scathe",
@@ -18,14 +18,15 @@
         "level": 23,
         "xp": 18174,
         "xpForNextLevel": 29400,
+        "restedXP": 24,
         "moneyCopper": 6483,
-        "maxHealth": 664,
+        "maxHealth": 564,
         "maxPower": 1102,
         "stats": {
           "agility": 27,
           "intellect": 62,
           "spirit": 68,
-          "stamina": 60,
+          "stamina": 50,
           "strength": 30
         }
       },
@@ -347,7 +348,7 @@
           "skillLineID": 197,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T17:18:00Z"
+          "recipesCapturedAt": "2026-11-15T19:25:51Z"
         },
         {
           "name": "Enchanting",
@@ -357,7 +358,7 @@
           "skillLineID": 333,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T17:28:38Z"
+          "recipesCapturedAt": "2026-11-15T19:29:28Z"
         },
         {
           "name": "First Aid",
@@ -367,7 +368,7 @@
           "skillLineID": 129,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T14:43:33Z"
+          "recipesCapturedAt": "2026-11-15T19:25:57Z"
         },
         {
           "name": "Fishing",
@@ -377,7 +378,7 @@
           "skillLineID": 356,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-14T22:36:35Z"
+          "recipesCapturedAt": "2026-11-15T19:25:54Z"
         },
         {
           "name": "Cooking",
@@ -844,7 +845,7 @@
           "category": "Professions",
           "status": "Batch materials ready",
           "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 4 crafts.",
-          "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
+          "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:57Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1114,7 +1115,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T17:18:00Z",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:51Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1147,7 +1148,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Enchant Cloak - Minor Agility. It is learned and below its grey threshold (175). Gather the missing reagents first.",
-          "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T17:28:38Z",
+          "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T19:29:28Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1861,7 +1862,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T19:15:58Z",
+        "generatedAt": "2026-11-15T19:38:19Z",
         "today": [
           {
             "id": "upgrade:253885",
@@ -1916,7 +1917,7 @@
             "title": "First Aid: 67 toward 75",
             "status": "Batch materials ready",
             "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 4 crafts.",
-            "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
+            "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:57Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1929,7 +1930,7 @@
             "title": "Tailoring: 94 toward 100",
             "status": "Materials needed",
             "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-            "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T17:18:00Z",
+            "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:51Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1942,7 +1943,7 @@
             "title": "Enchanting: 115 toward 125",
             "status": "Materials needed",
             "why": "Try Enchant Cloak - Minor Agility. It is learned and below its grey threshold (175). Gather the missing reagents first.",
-            "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T17:28:38Z",
+            "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T19:29:28Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,

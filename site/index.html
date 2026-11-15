@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111311">
+  <meta name="description" content="The SunderCore character chronicle. Progress, professions, and the next worthwhile adventure in WoW Forever.">
+  <title>SunderCore — Character Chronicle</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to character details</a>
+  <aside class="sidebar">
+    <a href="#overview" class="brand" aria-label="SunderCore home"><span class="crest" aria-hidden="true">S</span><span>SUNDERCORE<small>THE CHARACTER CHRONICLE</small></span></a>
+    <div class="section-label roster-label">THE ROSTER <span id="roster-count"></span></div>
+    <div id="roster" class="roster"><p class="muted">Reading character snapshots…</p></div>
+    <div class="section-label nav-label">CHARACTER JOURNAL</div>
+    <nav aria-label="Character journal" id="navigation">
+      <a href="#overview" data-view="overview"><span aria-hidden="true">◈</span> Overview</a>
+      <a href="#field" data-view="field"><span aria-hidden="true">⌖</span> Field guide <span class="nav-count" id="farm-count"></span></a>
+      <a href="#inventory" data-view="inventory"><span aria-hidden="true">▦</span> Inventory</a>
+      <a href="#professions" data-view="professions"><span aria-hidden="true">⚒</span> Professions</a>
+      <a href="#equipment" data-view="equipment"><span aria-hidden="true">◇</span> Equipment</a>
+      <a href="#activity" data-view="activity"><span aria-hidden="true">↗</span> Outings</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="tiny-dot"></span> WORLD OF WARCRAFT FOREVER<p>One family. Many adventures.</p><button class="text-button" id="manage-button">Manage updates <span aria-hidden="true">↗</span></button></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>THE SUNDERCORE JOURNAL <span class="separator">/</span> <span id="breadcrumb">Overview</span></span><span class="public-label"><span class="tiny-dot"></span> PUBLIC CHRONICLE</span></header>
+    <main id="main" tabindex="-1"><div class="loading-state">Opening the chronicle…</div></main>
+    <footer><span>Character Ledger <span id="addon-version"></span> <span class="separator">·</span> Captured in game, shared here.</span><button class="text-button" id="about-button">About the data</button></footer>
+  </div>
+  <dialog id="info-dialog"><button class="dialog-close" aria-label="Close dialog">×</button><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status"></div>
+</body>
+</html>

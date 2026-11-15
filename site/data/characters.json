@@ -1,0 +1,1982 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-15T10:43:15Z",
+  "characters": [
+    {
+      "id": "e29b7f172a19a4e3046c3c4a",
+      "exportedAt": "2026-11-15T00:30:03Z",
+      "addonVersion": "1.2.0",
+      "character": {
+        "name": "Scathe",
+        "realm": "CAMWOW US2 Realm 5 PvE",
+        "class": "Warlock",
+        "classToken": "WARLOCK",
+        "race": "Undead",
+        "faction": "Horde",
+        "zone": "Undercity",
+        "powerType": "MANA",
+        "level": 22,
+        "xp": 24638,
+        "xpForNextLevel": 27300,
+        "restedXP": 302,
+        "moneyCopper": 3247,
+        "maxHealth": 473,
+        "maxPower": 923,
+        "stats": {
+          "agility": 29,
+          "intellect": 52,
+          "spirit": 66,
+          "stamina": 42,
+          "strength": 30
+        }
+      },
+      "bags": {
+        "free": 9,
+        "capacity": 54,
+        "items": [
+          {
+            "itemID": 1081,
+            "name": "Crisp Spider Meat",
+            "count": 4
+          },
+          {
+            "itemID": 1206,
+            "name": "Moss Agate",
+            "count": 1
+          },
+          {
+            "itemID": 1288,
+            "name": "Large Venom Sac",
+            "count": 1
+          },
+          {
+            "itemID": 2251,
+            "name": "Gooey Spider Leg",
+            "count": 4
+          },
+          {
+            "itemID": 2319,
+            "name": "Medium Leather",
+            "count": 2
+          },
+          {
+            "itemID": 2321,
+            "name": "Fine Thread",
+            "count": 2
+          },
+          {
+            "itemID": 2589,
+            "name": "Linen Cloth",
+            "count": 37
+          },
+          {
+            "itemID": 2592,
+            "name": "Wool Cloth",
+            "count": 1
+          },
+          {
+            "itemID": 2996,
+            "name": "Bolt of Linen Cloth",
+            "count": 6
+          },
+          {
+            "itemID": 3182,
+            "name": "Spider's Silk",
+            "count": 3
+          },
+          {
+            "itemID": 3730,
+            "name": "Big Bear Meat",
+            "count": 11
+          },
+          {
+            "itemID": 3820,
+            "name": "Stranglekelp",
+            "count": 6
+          },
+          {
+            "itemID": 4234,
+            "name": "Heavy Leather",
+            "count": 1
+          },
+          {
+            "itemID": 4305,
+            "name": "Bolt of Silk Cloth",
+            "count": 1
+          },
+          {
+            "itemID": 4306,
+            "name": "Silk Cloth",
+            "count": 2
+          },
+          {
+            "itemID": 4471,
+            "name": "Flint and Tinder",
+            "count": 1
+          },
+          {
+            "itemID": 4538,
+            "name": "Snapvine Watermelon",
+            "count": 1
+          },
+          {
+            "itemID": 5088,
+            "name": "Control Console Operating Manual",
+            "count": 1
+          },
+          {
+            "itemID": 6218,
+            "name": "Runed Copper Rod",
+            "count": 1
+          },
+          {
+            "itemID": 6256,
+            "name": "Fishing Pole",
+            "count": 1
+          },
+          {
+            "itemID": 6265,
+            "name": "Soul Shard",
+            "count": 9
+          },
+          {
+            "itemID": 6289,
+            "name": "Raw Longjaw Mud Snapper",
+            "count": 34
+          },
+          {
+            "itemID": 6308,
+            "name": "Raw Bristle Whisker Catfish",
+            "count": 64
+          },
+          {
+            "itemID": 6377,
+            "name": "Formula: Enchant Boots - Minor Agility",
+            "count": 1
+          },
+          {
+            "itemID": 6948,
+            "name": "Hearthstone",
+            "count": 1
+          },
+          {
+            "itemID": 10940,
+            "name": "Strange Dust",
+            "count": 15
+          },
+          {
+            "itemID": 10978,
+            "name": "Small Glimmering Shard",
+            "count": 3
+          },
+          {
+            "itemID": 11083,
+            "name": "Soul Dust",
+            "count": 2
+          },
+          {
+            "itemID": 11143,
+            "name": "Nugget Slug",
+            "count": 12
+          },
+          {
+            "itemID": 11407,
+            "name": "Torn Bear Pelt",
+            "count": 4
+          },
+          {
+            "itemID": 21071,
+            "name": "Raw Sagefish",
+            "count": 4
+          },
+          {
+            "itemID": 211527,
+            "name": "Cozy Sleeping Bag",
+            "count": 1
+          },
+          {
+            "itemID": 216619,
+            "name": "Student Fodder",
+            "count": 3
+          },
+          {
+            "itemID": 248682,
+            "name": "Waylaid Crate: Apprentice Herbs",
+            "count": 1
+          },
+          {
+            "itemID": 248685,
+            "name": "Waylaid Crate: Apprentice Curiosities",
+            "count": 1
+          },
+          {
+            "itemID": 248705,
+            "name": "Waylaid Crate: Journeyman Fabrics",
+            "count": 1
+          },
+          {
+            "itemID": 278265,
+            "name": "Nutritious Slime Sludge",
+            "count": 4
+          },
+          {
+            "itemID": 279981,
+            "name": "Basic Campfire Kit",
+            "count": 8
+          }
+        ]
+      },
+      "equipment": [
+        {
+          "itemID": 4314,
+          "name": "Double-Stitched Woolen Shoulders",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 22,
+          "requiredLevel": 17,
+          "slot": 3,
+          "slotName": "shoulder",
+          "vendorPriceCopper": 331
+        },
+        {
+          "itemID": 6242,
+          "name": "Blue Linen Robe",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 14,
+          "requiredLevel": 9,
+          "slot": 5,
+          "slotName": "chest",
+          "vendorPriceCopper": 243
+        },
+        {
+          "itemID": 4786,
+          "name": "Wise Man's Belt",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 20,
+          "requiredLevel": 15,
+          "slot": 6,
+          "slotName": "waist",
+          "vendorPriceCopper": 278
+        },
+        {
+          "itemID": 5310,
+          "name": "Sea Dog Britches",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 20,
+          "requiredLevel": 0,
+          "slot": 7,
+          "slotName": "legs",
+          "vendorPriceCopper": 555
+        },
+        {
+          "itemID": 6482,
+          "name": "Firewalker Boots",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 24,
+          "requiredLevel": 0,
+          "slot": 8,
+          "slotName": "feet",
+          "vendorPriceCopper": 728
+        },
+        {
+          "itemID": 4308,
+          "name": "Green Linen Bracers",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 12,
+          "requiredLevel": 7,
+          "slot": 9,
+          "slotName": "wrist",
+          "vendorPriceCopper": 45
+        },
+        {
+          "itemID": 4307,
+          "name": "Heavy Linen Gloves",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 10,
+          "requiredLevel": 5,
+          "slot": 10,
+          "slotName": "hands",
+          "vendorPriceCopper": 29
+        },
+        {
+          "itemID": 2584,
+          "name": "Woolen Cape",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 16,
+          "requiredLevel": 11,
+          "slot": 15,
+          "slotName": "back",
+          "vendorPriceCopper": 142
+        },
+        {
+          "itemID": 5279,
+          "name": "Harpy Skinner",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 20,
+          "requiredLevel": 0,
+          "slot": 16,
+          "slotName": "mainHand",
+          "vendorPriceCopper": 1436
+        },
+        {
+          "itemID": 11288,
+          "name": "Greater Magic Wand",
+          "count": 1,
+          "quality": 2,
+          "itemLevel": 23,
+          "requiredLevel": 13,
+          "slot": 18,
+          "slotName": "ranged",
+          "vendorPriceCopper": 200
+        }
+      ],
+      "professions": [
+        {
+          "name": "Tailoring",
+          "skill": 94,
+          "maxSkill": 150,
+          "bonusSkill": 0,
+          "skillLineID": 197,
+          "isPrimary": true,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-14T23:05:26Z"
+        },
+        {
+          "name": "Enchanting",
+          "skill": 110,
+          "maxSkill": 150,
+          "bonusSkill": 0,
+          "skillLineID": 333,
+          "isPrimary": true,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-14T23:15:56Z"
+        },
+        {
+          "name": "First Aid",
+          "skill": 67,
+          "maxSkill": 150,
+          "bonusSkill": 0,
+          "skillLineID": 129,
+          "isPrimary": false,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-14T22:35:58Z"
+        },
+        {
+          "name": "Fishing",
+          "skill": 150,
+          "maxSkill": 150,
+          "bonusSkill": 0,
+          "skillLineID": 356,
+          "isPrimary": false,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-14T22:36:35Z"
+        },
+        {
+          "name": "Cooking",
+          "skill": 140,
+          "maxSkill": 150,
+          "bonusSkill": 0,
+          "skillLineID": 185,
+          "isPrimary": false,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-14T22:51:56Z"
+        }
+      ],
+      "quests": [
+        {
+          "questID": 498,
+          "name": "The Rescue",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/1 Rescue Drull",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "0/1 Rescue Tog'thar",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 549,
+          "name": "WANTED: Syndicate Personnel",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/10 Syndicate Rogue slain",
+              "have": 0,
+              "need": 10,
+              "finished": false
+            },
+            {
+              "text": "0/10 Syndicate Watchman slain",
+              "have": 0,
+              "need": 10,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 528,
+          "name": "Battle of Hillsbrad",
+          "level": 25,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/15 Hillsbrad Peasant slain",
+              "have": 0,
+              "need": 15,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 546,
+          "name": "Souvenirs of Death",
+          "level": 25,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/30 Hillsbrad Human Skull",
+              "have": 0,
+              "need": 30,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 567,
+          "name": "Dangerous!",
+          "level": 28,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/1 Clerk Horrace Whitesteed slain",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "1/1 Citizen Wilkes slain",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            },
+            {
+              "text": "0/1 Miner Hackett slain",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "1/1 Farmer Kalaba slain",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            }
+          ]
+        },
+        {
+          "questID": 92401,
+          "name": "A Frightened Request",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": true,
+          "zone": "Ruins of Lordaeron",
+          "objectives": [
+            {
+              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 6548,
+          "name": "Avenge My Village",
+          "level": 18,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Stonetalon Mountains",
+          "objectives": [
+            {
+              "text": "3/8 Grimtotem Ruffian slain",
+              "have": 3,
+              "need": 8,
+              "finished": false
+            },
+            {
+              "text": "2/6 Grimtotem Mercenary slain",
+              "have": 2,
+              "need": 6,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 1062,
+          "name": "Goblin Invaders",
+          "level": 19,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Stonetalon Mountains",
+          "objectives": [
+            {
+              "text": "0/15 Venture Co. Logger slain",
+              "have": 0,
+              "need": 15,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 1093,
+          "name": "Super Reaper 6000",
+          "level": 21,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Stonetalon Mountains",
+          "objectives": [
+            {
+              "text": "0/1 Super Reaper 6000 Blueprints",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 1058,
+          "name": "Jin'Zil's Forest Magic",
+          "level": 26,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Stonetalon Mountains",
+          "objectives": [
+            {
+              "text": "0/5 Stonetalon Sap",
+              "have": 0,
+              "need": 5,
+              "finished": false
+            },
+            {
+              "text": "0/5 Twilight Whisker",
+              "have": 0,
+              "need": 5,
+              "finished": false
+            },
+            {
+              "text": "0/30 Courser Eye",
+              "have": 0,
+              "need": 30,
+              "finished": false
+            },
+            {
+              "text": "0/1 Fey Dragon Scale",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 3922,
+          "name": "Nugget Slugs",
+          "level": 15,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "The Barrens",
+          "objectives": [
+            {
+              "text": "12/15 Nugget Slug",
+              "have": 12,
+              "need": 15,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 896,
+          "name": "Miner's Fortune",
+          "level": 18,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "The Barrens",
+          "objectives": [
+            {
+              "text": "0/1 Cats Eye Emerald",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 851,
+          "name": "Verog the Dervish",
+          "level": 18,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "The Barrens",
+          "objectives": [
+            {
+              "text": "0/1 Verog's Head",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 882,
+          "name": "Ishamuhale",
+          "level": 19,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "The Barrens",
+          "objectives": [
+            {
+              "text": "0/1 Ishamuhale's Fang",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 6541,
+          "name": "Report to Kadrak",
+          "level": 19,
+          "complete": true,
+          "failed": false,
+          "group": false,
+          "zone": "The Barrens",
+          "objectives": []
+        },
+        {
+          "questID": 4921,
+          "name": "Lost in Battle",
+          "level": 20,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "The Barrens",
+          "objectives": [
+            {
+              "text": "0/1 Find Mankrik's Wife",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 1131,
+          "name": "Steelsnap",
+          "level": 30,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Thunder Bluff",
+          "objectives": [
+            {
+              "text": "0/1 Steelsnap's Rib",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 8368,
+          "name": "Battle of Warsong Gulch",
+          "level": 19,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Warsong Gulch",
+          "objectives": [
+            {
+              "text": "0/3 Warsong Gulch Mark of Honor",
+              "have": 0,
+              "need": 3,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 1476,
+          "name": "Hearts of the Pure",
+          "level": 20,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Warlock",
+          "objectives": [
+            {
+              "text": "0/1 Dalin's Heart",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "0/1 Corma's Heart",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 65610,
+          "name": "Wish You Were Here",
+          "level": 27,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Warlock",
+          "objectives": [
+            {
+              "text": "0/1 Withered Scarf",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        }
+      ],
+      "goals": [
+        {
+          "id": "rank:356",
+          "title": "Raise Fishing's cap to 225",
+          "category": "Professions",
+          "status": "Save gold",
+          "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 32s 47c. Save another 67s 53c (before travel or other purchases).",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 94,
+          "purchaseCost": 10000,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1434,
+            "x": 0.274,
+            "y": 0.77
+          }
+        },
+        {
+          "id": "quest:6541",
+          "title": "Turn in: Report to Kadrak",
+          "category": "Leveling",
+          "status": "Ready to turn in",
+          "why": "The game marks this quest complete.",
+          "action": "Return to the quest giver for the reward.",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 92,
+          "questID": 6541,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "rank:185",
+          "title": "Raise Cooking's cap to 225",
+          "category": "Professions",
+          "status": "Save gold",
+          "why": "Cooking is 140/150. This rank requires 125 skill and level 20.",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 32s 47c. Save another 67s 53c (before travel or other purchases).",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 79,
+          "purchaseCost": 10000,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1443,
+            "x": 0.262,
+            "y": 0.698
+          }
+        },
+        {
+          "id": "training:now",
+          "title": "Review 7 unlearned class skills",
+          "category": "Leveling",
+          "status": "Trainer / quest",
+          "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
+          "action": "Searing Pain (level 18, listed 17s 0c)\nCurse of the Elements (level 20, listed 25s 0c)\nImmolate (level 20, listed 25s 0c)\nSummon Incubus (level 20, quest)\nSummon Succubus (level 20, quest)\nCurse of Weakness (level 22, listed 38s 0c)\nEye of Kilrogg (level 22, listed 38s 0c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
+          "actionType": "training",
+          "source": "Naowh Training 1.2.30 / TrainingData + live spellbook",
+          "button": "Open training",
+          "priority": 78,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "craft:129",
+          "title": "First Aid: 67 toward 75",
+          "category": "Professions",
+          "status": "Batch materials ready",
+          "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 18 crafts.",
+          "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-14T22:35:58Z",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 70,
+          "materials": [
+            {
+              "itemID": 2589,
+              "missing": 0,
+              "need": 2,
+              "name": "Linen Cloth"
+            }
+          ],
+          "targets": []
+        },
+        {
+          "id": "craft:185",
+          "title": "Cooking: 140 toward 150",
+          "category": "Professions",
+          "status": "Batch materials ready",
+          "why": "Try Bristle Whisker Catfish. It is learned and below its grey threshold (180). Your bags cover 64 crafts.",
+          "action": "Review one craft of Bristle Whisker Catfish.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-14T22:51:56Z",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 70,
+          "materials": [
+            {
+              "itemID": 6308,
+              "missing": 0,
+              "need": 1,
+              "name": "Raw Bristle Whisker Catfish"
+            }
+          ],
+          "targets": []
+        },
+        {
+          "id": "craft:333",
+          "title": "Enchanting: 110 toward 125",
+          "category": "Professions",
+          "status": "Batch materials ready",
+          "why": "Try Enchant Cloak - Minor Protection. It is learned and below its grey threshold (150). Your bags cover 7 crafts.",
+          "action": "Review one craft of Enchant Cloak - Minor Protection.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-14T23:15:56Z",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 70,
+          "materials": [
+            {
+              "itemID": 10940,
+              "missing": 0,
+              "need": 2,
+              "name": "Strange Dust"
+            }
+          ],
+          "targets": []
+        },
+        {
+          "id": "quest:498",
+          "title": "Quest: The Rescue",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 22. No group flag is reported.",
+          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 65,
+          "questID": 498,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:549",
+          "title": "Quest: WANTED: Syndicate Personnel",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 22. No group flag is reported.",
+          "action": "0/10 Syndicate Rogue slain\n0/10 Syndicate Watchman slain",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 65,
+          "questID": 549,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "gear:Shadowfang Keep",
+          "title": "Shadowfang Keep: 2 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Affliction Warlock level-30 wishlist; 2 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 64,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 273643,
+              "name": "Worgenbane Talisman",
+              "requiredLevel": 21,
+              "slot": "Trinket",
+              "source": "Commander Springvale · Shadowfang Keep",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 273645,
+              "name": "Blindwatcher's Sight",
+              "requiredLevel": 21,
+              "slot": "Head",
+              "source": "Odo the Blindwatcher · Shadowfang Keep",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Excavation Site: Wetlands",
+          "title": "Excavation Site: Wetlands: 3 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Affliction Warlock level-30 wishlist; 2 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 60,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 273024,
+              "name": "Glinteye Slippers",
+              "requiredLevel": 26,
+              "slot": "Feet",
+              "source": "Saltspine · Excavation Site: Wetlands",
+              "status": "Requires level 26",
+              "current": "Firewalker Boots"
+            },
+            {
+              "itemID": 273027,
+              "name": "Raptor's Gaze",
+              "requiredLevel": 26,
+              "slot": "Off hand",
+              "source": "Shadetooth · Excavation Site: Wetlands",
+              "status": "Requires level 26",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 273030,
+              "name": "Ring of Power Regulation",
+              "requiredLevel": 28,
+              "slot": "Ring",
+              "source": "Relic Guardian · Excavation Site: Wetlands",
+              "status": "Requires level 28",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "level:next",
+          "title": "Reach level 23",
+          "category": "Leveling",
+          "status": "Ongoing",
+          "why": "2662 XP remaining (90.2% through level 22).",
+          "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
+          "source": "Live character XP and quest log",
+          "priority": 60,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "gear:Quest",
+          "title": "Quest: 1 gear target",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 57,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6750,
+              "name": "Snake Hoop",
+              "requiredLevel": 0,
+              "slot": "Ring",
+              "source": "Willix the Importer · Quest",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Orgrimmar",
+          "title": "Orgrimmar: 1 gear target",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 55,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 15200,
+              "name": "Senior Sergeant's Insignia",
+              "requiredLevel": 30,
+              "slot": "Neck",
+              "source": "Sergeant Ba'sha · Orgrimmar",
+              "status": "Requires level 30",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Razorfen Kraul",
+          "title": "Razorfen Kraul: 4 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 55,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6685,
+              "name": "Death Speaker Mantle",
+              "requiredLevel": 27,
+              "slot": "Shoulders",
+              "source": "Death Speaker Jargba · Razorfen Kraul",
+              "status": "Requires level 27",
+              "current": "Double-Stitched Woolen Shoulders"
+            },
+            {
+              "itemID": 6691,
+              "name": "Swinetusk Shank",
+              "requiredLevel": 30,
+              "slot": "Main hand",
+              "source": "Agathelos the Raging · Razorfen Kraul",
+              "status": "Requires level 30",
+              "current": "Harpy Skinner"
+            },
+            {
+              "itemID": 274149,
+              "name": "Thornweaver Drape",
+              "requiredLevel": 25,
+              "slot": "Back",
+              "source": "Roogug · Razorfen Kraul",
+              "status": "Requires level 25",
+              "current": "Woolen Cape"
+            },
+            {
+              "itemID": 274152,
+              "name": "Roogug's Severed Head",
+              "requiredLevel": 25,
+              "slot": "Trinket",
+              "source": "Roogug · Razorfen Kraul",
+              "status": "Requires level 25",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Quest (Horde)",
+          "title": "Quest (Horde): 2 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 54,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 16975,
+              "name": "Warsong Sash",
+              "requiredLevel": 0,
+              "slot": "Waist",
+              "source": "Warsong Supplies · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Wise Man's Belt"
+            },
+            {
+              "itemID": 271740,
+              "name": "Knife-Polishing Rag",
+              "requiredLevel": 0,
+              "slot": "Wrist",
+              "source": "Open the Maw · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Green Linen Bracers"
+            }
+          ]
+        },
+        {
+          "id": "craft:197",
+          "title": "Tailoring: 94 toward 100",
+          "category": "Professions",
+          "status": "Materials needed",
+          "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-14T23:05:26Z",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 53,
+          "materials": [
+            {
+              "itemID": 2997,
+              "missing": 5,
+              "need": 5,
+              "name": "Bolt of Woolen Cloth"
+            },
+            {
+              "itemID": 2604,
+              "missing": 1,
+              "need": 1,
+              "name": "Red Dye"
+            },
+            {
+              "itemID": 2321,
+              "missing": 0,
+              "need": 1,
+              "name": "Fine Thread"
+            }
+          ],
+          "targets": []
+        },
+        {
+          "id": "gear:Alterac Mountains",
+          "title": "Alterac Mountains: 3 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 50,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 273034,
+              "name": "Ephemeral Grips",
+              "requiredLevel": 27,
+              "slot": "Hands",
+              "source": "Arcane Anomaly · Alterac Mountains",
+              "status": "Requires level 27",
+              "current": "Heavy Linen Gloves"
+            },
+            {
+              "itemID": 273043,
+              "name": "Wand of Mana Concentration",
+              "requiredLevel": 27,
+              "slot": "Wand / ranged",
+              "source": "Arcanic Enigma · Alterac Mountains",
+              "status": "Requires level 27",
+              "current": "Greater Magic Wand"
+            },
+            {
+              "itemID": 273044,
+              "name": "Violet Sorcerer's Robes",
+              "requiredLevel": 27,
+              "slot": "Chest",
+              "source": "Arcanic Enigma · Alterac Mountains",
+              "status": "Requires level 27",
+              "current": "Blue Linen Robe"
+            }
+          ]
+        },
+        {
+          "id": "gear:Blackfathom Deeps",
+          "title": "Blackfathom Deeps: 1 gear target",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 50,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6903,
+              "name": "Gaze Dreamer Pants",
+              "requiredLevel": 23,
+              "slot": "Legs",
+              "source": "Twilight Lord Kelris · Blackfathom Deeps",
+              "status": "Requires level 23",
+              "current": "Sea Dog Britches"
+            }
+          ]
+        },
+        {
+          "id": "rank:129",
+          "title": "Work toward First Aid's cap to 225",
+          "category": "Professions",
+          "status": "Requirements pending",
+          "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 32s 47c. Save another 67s 53c (before travel or other purchases).",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 42,
+          "purchaseCost": 0,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1445,
+            "x": 0.364,
+            "y": 0.304
+          }
+        },
+        {
+          "id": "rank:197",
+          "title": "Work toward Tailoring's cap to 225",
+          "category": "Professions",
+          "status": "Requirements pending",
+          "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 32s 47c. Save another 17s 53c (before travel or other purchases).",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 42,
+          "purchaseCost": 0,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1458,
+            "x": 0.704,
+            "y": 0.304
+          }
+        },
+        {
+          "id": "rank:333",
+          "title": "Work toward Enchanting's cap to 225",
+          "category": "Professions",
+          "status": "Requirements pending",
+          "why": "Enchanting is 110/150. This rank requires 125 skill and level 20.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 32s 47c. Save another 17s 53c (before travel or other purchases).",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 42,
+          "purchaseCost": 0,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1442,
+            "x": 0.492,
+            "y": 0.572
+          }
+        },
+        {
+          "id": "learn:7867",
+          "title": "Keep for later: Formula: Enchant Boots - Minor Agility",
+          "category": "Professions",
+          "status": "Skill requirement pending",
+          "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
+          "action": "Requires Enchanting 125; you have 110. Refresh the profession scan before using or selling the recipe.",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 40,
+          "materials": [],
+          "targets": []
+        }
+      ],
+      "nextSteps": [
+        "rank:356",
+        "quest:6541",
+        "rank:185",
+        "training:now",
+        "craft:129",
+        "gear:Shadowfang Keep"
+      ],
+      "fieldPlan": {
+        "materials": [
+          {
+            "id": 2592,
+            "bag": 1,
+            "bank": 0,
+            "missing": 14,
+            "need": 15,
+            "name": "Wool Cloth",
+            "usesText": "Gathering target",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          }
+        ],
+        "crafts": [],
+        "spots": [
+          {
+            "spot": {
+              "id": "syndicate",
+              "name": "Durnholde Syndicate",
+              "zone": "Hillsbrad Foothills",
+              "note": "Syndicate camps; alternate camp near 66,48. Watch linked pulls and runners.",
+              "low": 20,
+              "high": 22,
+              "map": 1424,
+              "x": 0.79,
+              "y": 0.43,
+              "items": [
+                2592,
+                2589
+              ],
+              "quests": [
+                549,
+                498
+              ]
+            },
+            "score": 104,
+            "reasons": [
+              "Needs Wool Cloth",
+              "The Rescue",
+              "WANTED: Syndicate Personnel"
+            ]
+          },
+          {
+            "spot": {
+              "id": "fields",
+              "name": "Hillsbrad Fields",
+              "zone": "Hillsbrad Foothills",
+              "note": "Farmers and footmen. Avoid the higher-level enemies until kills are comfortable.",
+              "faction": "Horde",
+              "low": 22,
+              "high": 26,
+              "map": 1424,
+              "x": 0.33,
+              "y": 0.42,
+              "items": [
+                2592,
+                2589
+              ],
+              "quests": [
+                527
+              ]
+            },
+            "score": 80,
+            "reasons": [
+              "Needs Wool Cloth"
+            ]
+          },
+          {
+            "spot": {
+              "id": "mosshide",
+              "name": "Sundown Marsh gnolls",
+              "zone": "Wetlands",
+              "note": "Mosshide camps. Travel can outweigh the benefit for Horde.",
+              "low": 22,
+              "high": 26,
+              "map": 1437,
+              "x": 0.38,
+              "y": 0.32,
+              "items": [
+                2592,
+                2589
+              ],
+              "quests": []
+            },
+            "score": 80,
+            "reasons": [
+              "Needs Wool Cloth"
+            ]
+          }
+        ],
+        "tasks": [
+          "Turn in: Report to Kadrak"
+        ],
+        "notices": [],
+        "budget": {
+          "available": 3247,
+          "rankTotal": 20000,
+          "reserve": 0,
+          "shortfall": 16753
+        }
+      },
+      "sessions": [],
+      "coverage": {
+        "bags": "current",
+        "bank": "personal bank only, last seen",
+        "professions": "current ranks; recipes last scanned",
+        "bankCapturedAt": "2026-11-14T23:28:16Z",
+        "bankStatus": "last_seen",
+        "sessions": "Not exported by this addon version"
+      }
+    },
+    {
+      "id": "59fd50bf5d7dccbf32f62b7a",
+      "exportedAt": "2026-11-15T10:43:15Z",
+      "addonVersion": "1.3.0",
+      "character": {
+        "name": "Seethe",
+        "realm": "CAMWOW US2 Realm 5 PvE",
+        "class": "Druid",
+        "classToken": "DRUID",
+        "race": "Tauren",
+        "faction": "Horde",
+        "zone": "Thunder Bluff",
+        "powerType": "MANA",
+        "level": 1,
+        "xp": 100,
+        "xpForNextLevel": 400,
+        "restedXP": 550,
+        "moneyCopper": 631,
+        "maxHealth": 78,
+        "maxPower": 67,
+        "stats": {
+          "agility": 15,
+          "intellect": 17,
+          "spirit": 24,
+          "stamina": 22,
+          "strength": 26
+        }
+      },
+      "bags": {
+        "free": 25,
+        "capacity": 38,
+        "items": [
+          {
+            "itemID": 2079,
+            "name": "Sergeant's Warhammer of Spirit",
+            "count": 1
+          },
+          {
+            "itemID": 3305,
+            "name": "Brackwater Leggings",
+            "count": 1
+          },
+          {
+            "itemID": 3335,
+            "name": "Farmer's Broom",
+            "count": 1
+          },
+          {
+            "itemID": 6657,
+            "name": "Savory Deviate Delight",
+            "count": 9
+          },
+          {
+            "itemID": 6948,
+            "name": "Hearthstone",
+            "count": 1
+          },
+          {
+            "itemID": 11101,
+            "name": "Formula: Enchant Bracer - Lesser Strength",
+            "count": 1
+          },
+          {
+            "itemID": 14096,
+            "name": "Native Vest of Intellect",
+            "count": 1
+          },
+          {
+            "itemID": 14723,
+            "name": "War Paint Bindings",
+            "count": 1
+          },
+          {
+            "itemID": 15926,
+            "name": "Spellbinder Orb",
+            "count": 1
+          },
+          {
+            "itemID": 20752,
+            "name": "Formula: Minor Mana Oil",
+            "count": 1
+          },
+          {
+            "itemID": 247786,
+            "name": "Mote of Magic",
+            "count": 45
+          }
+        ]
+      },
+      "equipment": [
+        {
+          "itemID": 6139,
+          "name": "Novice's Robe",
+          "count": 1,
+          "quality": 0,
+          "itemLevel": 1,
+          "requiredLevel": 1,
+          "slot": 5,
+          "slotName": "chest",
+          "vendorPriceCopper": 1
+        },
+        {
+          "itemID": 6124,
+          "name": "Novice's Pants",
+          "count": 1,
+          "quality": 0,
+          "itemLevel": 1,
+          "requiredLevel": 1,
+          "slot": 7,
+          "slotName": "legs",
+          "vendorPriceCopper": 1
+        },
+        {
+          "itemID": 35,
+          "name": "Bent Staff",
+          "count": 1,
+          "quality": 1,
+          "itemLevel": 2,
+          "requiredLevel": 1,
+          "slot": 16,
+          "slotName": "mainHand",
+          "vendorPriceCopper": 9
+        }
+      ],
+      "professions": [],
+      "quests": [
+        {
+          "questID": 752,
+          "name": "A Humble Task",
+          "level": 2,
+          "complete": true,
+          "failed": false,
+          "group": false,
+          "zone": "Red Cloud Mesa",
+          "objectives": []
+        },
+        {
+          "questID": 747,
+          "name": "The Hunt Begins",
+          "level": 2,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Red Cloud Mesa",
+          "objectives": [
+            {
+              "text": "0/7 Plainstrider Meat",
+              "have": 0,
+              "need": 7,
+              "finished": false
+            },
+            {
+              "text": "0/7 Plainstrider Feather",
+              "have": 0,
+              "need": 7,
+              "finished": false
+            }
+          ]
+        }
+      ],
+      "goals": [
+        {
+          "id": "quest:752",
+          "title": "Turn in: A Humble Task",
+          "category": "Leveling",
+          "status": "Ready to turn in",
+          "why": "The game marks this quest complete.",
+          "action": "Return to the quest giver for the reward.",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 92,
+          "questID": 752,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "training:now",
+          "title": "Review 1 unlearned class skills",
+          "category": "Leveling",
+          "status": "Trainer / quest",
+          "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
+          "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
+          "actionType": "training",
+          "source": "Naowh Training 1.2.30 / TrainingData + live spellbook",
+          "button": "Open training",
+          "priority": 78,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "gear:Quest (Horde)",
+          "title": "Quest (Horde): 3 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 66,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 5316,
+              "name": "Barkshell Tunic",
+              "requiredLevel": 0,
+              "slot": "Chest",
+              "source": "Betrayal from Within · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Novice's Robe"
+            },
+            {
+              "itemID": 16741,
+              "name": "Oilrag Handwraps",
+              "requiredLevel": 0,
+              "slot": "Hands",
+              "source": "The Lost Pages · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 270023,
+              "name": "Tanned Shoulderpads",
+              "requiredLevel": 0,
+              "slot": "Shoulders",
+              "source": "Deathstalkers in Shadowfang · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Razorfen Kraul",
+          "title": "Razorfen Kraul: 4 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Balance Druid level-30 wishlist; 3 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 65,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6691,
+              "name": "Swinetusk Shank",
+              "requiredLevel": 30,
+              "slot": "Main hand",
+              "source": "Agathelos the Raging · Razorfen Kraul",
+              "status": "Requires level 30",
+              "current": "Bent Staff"
+            },
+            {
+              "itemID": 274149,
+              "name": "Thornweaver Drape",
+              "requiredLevel": 25,
+              "slot": "Back",
+              "source": "Roogug · Razorfen Kraul",
+              "status": "Requires level 25",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 274152,
+              "name": "Roogug's Severed Head",
+              "requiredLevel": 25,
+              "slot": "Trinket",
+              "source": "Roogug · Razorfen Kraul",
+              "status": "Requires level 25",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 274155,
+              "name": "Geomancer Headdress",
+              "requiredLevel": 25,
+              "slot": "Head",
+              "source": "Roogug · Razorfen Kraul",
+              "status": "Requires level 25",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "quest:747",
+          "title": "Quest: The Hunt Begins",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+          "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 747,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "gear:Excavation Site: Wetlands",
+          "title": "Excavation Site: Wetlands: 2 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 60,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 273027,
+              "name": "Raptor's Gaze",
+              "requiredLevel": 26,
+              "slot": "Off hand",
+              "source": "Shadetooth · Excavation Site: Wetlands",
+              "status": "Requires level 26",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 273030,
+              "name": "Ring of Power Regulation",
+              "requiredLevel": 28,
+              "slot": "Ring",
+              "source": "Relic Guardian · Excavation Site: Wetlands",
+              "status": "Requires level 28",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Shadowfang Keep",
+          "title": "Shadowfang Keep: 2 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 60,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6319,
+              "name": "Girdle of the Blindwatcher",
+              "requiredLevel": 21,
+              "slot": "Waist",
+              "source": "Odo the Blindwatcher · Shadowfang Keep",
+              "status": "Requires level 21",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 273643,
+              "name": "Worgenbane Talisman",
+              "requiredLevel": 21,
+              "slot": "Trinket",
+              "source": "Commander Springvale · Shadowfang Keep",
+              "status": "Requires level 21",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "level:next",
+          "title": "Reach level 2",
+          "category": "Leveling",
+          "status": "Ongoing",
+          "why": "300 XP remaining (25.0% through level 1).",
+          "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
+          "source": "Live character XP and quest log",
+          "priority": 60,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "gear:Quest",
+          "title": "Quest: 2 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 59,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6750,
+              "name": "Snake Hoop",
+              "requiredLevel": 0,
+              "slot": "Ring",
+              "source": "Willix the Importer · Quest",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 270031,
+              "name": "Dark Ritual Leggings",
+              "requiredLevel": 0,
+              "slot": "Legs",
+              "source": "Blackfathom Villainy · Quest",
+              "status": "Level requirement met",
+              "current": "Novice's Pants"
+            }
+          ]
+        },
+        {
+          "id": "gear:Alterac Mountains",
+          "title": "Alterac Mountains: 1 gear target",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 55,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 286991,
+              "name": "Roused Nature Footwraps",
+              "requiredLevel": 27,
+              "slot": "Feet",
+              "source": "Seeking Remnant · Alterac Mountains",
+              "status": "Requires level 27",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Orgrimmar",
+          "title": "Orgrimmar: 1 gear target",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 55,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 15200,
+              "name": "Senior Sergeant's Insignia",
+              "requiredLevel": 30,
+              "slot": "Neck",
+              "source": "Sergeant Ba'sha · Orgrimmar",
+              "status": "Requires level 30",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "gear:Ruins of Lordaeron",
+          "title": "Ruins of Lordaeron: 1 gear target",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 55,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 271202,
+              "name": "Witherbite Bracers",
+              "requiredLevel": 15,
+              "slot": "Wrist",
+              "source": "Witherfang · Ruins of Lordaeron",
+              "status": "Requires level 15",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
+          "id": "bags:bank",
+          "title": "Capture your bank on your next visit",
+          "category": "Bags",
+          "status": "Missing bank snapshot",
+          "why": "Bank contents are unknown, so shopping lists use only carried items.",
+          "action": "Open the personal bank for a few seconds, then refresh this plan. Cached bank items stay labeled with their capture time.",
+          "source": "Character Ledger coverage",
+          "priority": 28,
+          "materials": [],
+          "targets": []
+        }
+      ],
+      "nextSteps": [
+        "quest:752",
+        "training:now",
+        "gear:Quest (Horde)",
+        "gear:Razorfen Kraul",
+        "quest:747",
+        "bags:bank"
+      ],
+      "fieldPlan": {
+        "materials": [],
+        "crafts": [],
+        "spots": [],
+        "tasks": [
+          "Turn in: A Humble Task"
+        ],
+        "notices": [],
+        "budget": {
+          "available": 631,
+          "rankTotal": 0,
+          "reserve": 0,
+          "shortfall": 0
+        },
+        "dataSource": {
+          "provider": "Everloot",
+          "capturedAt": "2026-11-15T10:32:08Z",
+          "credit": "Data from Everloot (https://everloot.app), CC BY-SA 4.0.",
+          "status": "Community observations; no verified camp coordinates in this pack"
+        }
+      },
+      "sessions": [],
+      "coverage": {
+        "bags": "current",
+        "bank": "personal bank only, last seen",
+        "professions": "current ranks; recipes last scanned",
+        "bankStatus": "not_visited",
+        "sessions": "Snapshot session summaries"
+      }
+    }
+  ]
+}

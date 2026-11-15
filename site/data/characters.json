@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T17:19:51Z",
+  "updatedAt": "2026-11-15T17:39:59Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T17:19:51Z",
+      "exportedAt": "2026-11-15T17:39:59Z",
       "addonVersion": "1.3.3",
       "character": {
         "name": "Scathe",
@@ -16,21 +16,22 @@
         "zone": "Hillsbrad Foothills",
         "powerType": "MANA",
         "level": 23,
-        "xp": 15736,
+        "xp": 16343,
         "xpForNextLevel": 29400,
-        "moneyCopper": 6191,
-        "maxHealth": 564,
-        "maxPower": 1102,
+        "restedXP": 2,
+        "moneyCopper": 5915,
+        "maxHealth": 604,
+        "maxPower": 1162,
         "stats": {
-          "agility": 27,
-          "intellect": 62,
-          "spirit": 68,
-          "stamina": 50,
-          "strength": 30
+          "agility": 31,
+          "intellect": 66,
+          "spirit": 72,
+          "stamina": 54,
+          "strength": 34
         }
       },
       "bags": {
-        "free": 22,
+        "free": 19,
         "capacity": 54,
         "items": [
           {
@@ -69,6 +70,11 @@
             "count": 24
           },
           {
+            "itemID": 2940,
+            "name": "Bloody Bear Paw",
+            "count": 1
+          },
+          {
             "itemID": 2997,
             "name": "Bolt of Woolen Cloth",
             "count": 2
@@ -76,7 +82,7 @@
           {
             "itemID": 3730,
             "name": "Big Bear Meat",
-            "count": 1
+            "count": 4
           },
           {
             "itemID": 4306,
@@ -154,6 +160,11 @@
             "count": 12
           },
           {
+            "itemID": 11407,
+            "name": "Torn Bear Pelt",
+            "count": 1
+          },
+          {
             "itemID": 21071,
             "name": "Raw Sagefish",
             "count": 4
@@ -167,6 +178,11 @@
             "itemID": 216619,
             "name": "Student Fodder",
             "count": 2
+          },
+          {
+            "itemID": 264029,
+            "name": "Craftsman's Writ: Ornate Spyglass",
+            "count": 1
           },
           {
             "itemID": 276720,
@@ -322,7 +338,7 @@
           "skillLineID": 333,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T15:30:02Z"
+          "recipesCapturedAt": "2026-11-15T17:28:38Z"
         },
         {
           "name": "First Aid",
@@ -428,23 +444,6 @@
               "have": 1,
               "need": 1,
               "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 92401,
-          "name": "A Frightened Request",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": true,
-          "zone": "Ruins of Lordaeron",
-          "objectives": [
-            {
-              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
-              "have": 0,
-              "need": 1,
-              "finished": false
             }
           ]
         },
@@ -653,6 +652,46 @@
           ]
         },
         {
+          "questID": 94229,
+          "name": "Craftsman's Writ: Ornate Spyglass",
+          "level": 60,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Crafting",
+          "objectives": [
+            {
+              "text": "1/1 Craftsman's Writ: Ornate Spyglass",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            },
+            {
+              "text": "0/1 Ornate Spyglass",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 92401,
+          "name": "A Frightened Request",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": true,
+          "zone": "Ruins of Lordaeron",
+          "objectives": [
+            {
+              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
           "questID": 8368,
           "name": "Battle of Warsong Gulch",
           "level": 19,
@@ -717,9 +756,9 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 61s 91c. Save another 38s 9c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
           "actionType": "waypoint",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
           "priority": 94,
           "purchaseCost": 10000,
@@ -737,9 +776,9 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 61s 91c. Save another 38s 9c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
           "actionType": "waypoint",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
           "priority": 94,
           "purchaseCost": 10000,
@@ -788,7 +827,7 @@
           "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 3 crafts.",
           "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
           "actionType": "profession",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
           "priority": 70,
           "materials": [
@@ -869,7 +908,7 @@
           "title": "Reach level 24",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "13664 XP remaining (53.5% through level 23).",
+          "why": "13057 XP remaining (55.6% through level 23).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -1058,7 +1097,7 @@
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
           "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T17:18:00Z",
           "actionType": "profession",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
           "priority": 53,
           "materials": [
@@ -1089,9 +1128,9 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Enchant Cloak - Minor Agility. It is learned and below its grey threshold (175). Gather the missing reagents first.",
-          "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T15:30:02Z",
+          "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T17:28:38Z",
           "actionType": "profession",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
           "priority": 53,
           "materials": [
@@ -1176,9 +1215,9 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 61s 91c. Save another 38s 9c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
           "actionType": "waypoint",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
           "priority": 42,
           "purchaseCost": 0,
@@ -1196,9 +1235,9 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 61s 91c.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 59s 15c.",
           "actionType": "waypoint",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
           "priority": 42,
           "purchaseCost": 0,
@@ -1216,9 +1255,9 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 61s 91c.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 59s 15c.",
           "actionType": "waypoint",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
           "priority": 42,
           "purchaseCost": 0,
@@ -1238,7 +1277,7 @@
           "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
           "action": "Requires Enchanting 135; you have 115. Refresh the profession scan before using or selling the recipe.",
           "actionType": "profession",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
           "priority": 40,
           "materials": [],
@@ -1252,7 +1291,7 @@
           "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
           "action": "Requires Tailoring 100; you have 94. Refresh the profession scan before using or selling the recipe.",
           "actionType": "profession",
-          "source": "Naowh Professions 1.2.33 / RecipeData + RecipeReagents",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
           "priority": 40,
           "materials": [],
@@ -1501,12 +1540,12 @@
               "low": 22,
               "high": 22,
               "map": 1424,
-              "x": 0.66543412208557,
-              "y": 0.2636302113533
+              "x": 0.58181267976761,
+              "y": 0.33041280508041
             },
             "score": 57,
             "reasons": [
-              "1 observed kills / 0 inspected corpses",
+              "4 observed kills / 3 inspected corpses",
               "In your current zone"
             ]
           },
@@ -1547,6 +1586,25 @@
               "2 observed kills / 2 inspected corpses",
               "In your current zone"
             ]
+          },
+          {
+            "spot": {
+              "id": "observed:2356",
+              "name": "Elder Gray Bear",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 26,
+              "high": 26,
+              "map": 1424,
+              "x": 0.40023398399353,
+              "y": 0.46434825658798
+            },
+            "score": 51,
+            "reasons": [
+              "1 observed kills / 1 inspected corpses",
+              "In your current zone"
+            ]
           }
         ],
         "tasks": [
@@ -1554,10 +1612,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 6191,
+          "available": 5915,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 13809
+          "shortfall": 14085
         },
         "dataSource": {
           "provider": "Everloot",

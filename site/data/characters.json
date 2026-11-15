@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T17:44:44Z",
+  "updatedAt": "2026-11-15T17:46:30Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T17:44:44Z",
-      "addonVersion": "1.3.3",
+      "exportedAt": "2026-11-15T17:46:30Z",
+      "addonVersion": "1.4.0",
       "character": {
         "name": "Scathe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -463,7 +463,7 @@
               "finished": true
             },
             {
-              "text": "0/1  ",
+              "text": "0/1 Ornate Spyglass",
               "have": 0,
               "need": 1,
               "finished": false
@@ -537,7 +537,7 @@
           "zone": "Stonetalon Mountains",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Super Reaper 6000 Blueprints",
               "have": 0,
               "need": 1,
               "finished": false
@@ -554,25 +554,25 @@
           "zone": "Stonetalon Mountains",
           "objectives": [
             {
-              "text": "0/5  ",
+              "text": "0/5 Stonetalon Sap",
               "have": 0,
               "need": 5,
               "finished": false
             },
             {
-              "text": "0/5  ",
+              "text": "0/5 Twilight Whisker",
               "have": 0,
               "need": 5,
               "finished": false
             },
             {
-              "text": "0/30  ",
+              "text": "0/30 Courser Eye",
               "have": 0,
               "need": 30,
               "finished": false
             },
             {
-              "text": "0/1  ",
+              "text": "0/1 Fey Dragon Scale",
               "have": 0,
               "need": 1,
               "finished": false
@@ -606,7 +606,7 @@
           "zone": "The Barrens",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Cats Eye Emerald",
               "have": 0,
               "need": 1,
               "finished": false
@@ -623,7 +623,7 @@
           "zone": "The Barrens",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Verog's Head",
               "have": 0,
               "need": 1,
               "finished": false
@@ -640,7 +640,7 @@
           "zone": "The Barrens",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Ishamuhale's Fang",
               "have": 0,
               "need": 1,
               "finished": false
@@ -684,7 +684,7 @@
           "zone": "Thunder Bluff",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Steelsnap's Rib",
               "have": 0,
               "need": 1,
               "finished": false
@@ -701,7 +701,7 @@
           "zone": "Warsong Gulch",
           "objectives": [
             {
-              "text": "0/3  ",
+              "text": "0/3 Warsong Gulch Mark of Honor",
               "have": 0,
               "need": 3,
               "finished": false
@@ -718,13 +718,13 @@
           "zone": "Warlock",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Dalin's Heart",
               "have": 0,
               "need": 1,
               "finished": false
             },
             {
-              "text": "0/1  ",
+              "text": "0/1 Corma's Heart",
               "have": 0,
               "need": 1,
               "finished": false
@@ -741,7 +741,7 @@
           "zone": "Warlock",
           "objectives": [
             {
-              "text": "0/1  ",
+              "text": "0/1 Withered Scarf",
               "have": 0,
               "need": 1,
               "finished": false
@@ -756,7 +756,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Item #16072.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -776,7 +776,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Item #16083.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -916,6 +916,30 @@
           "targets": []
         },
         {
+          "id": "gear:Quest",
+          "title": "Quest: 1 gear target",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 57,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6750,
+              "name": "Snake Hoop",
+              "requiredLevel": 0,
+              "slot": "Ring",
+              "source": "Willix the Importer · Quest",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
           "id": "gear:Excavation Site: Wetlands",
           "title": "Excavation Site: Wetlands: 3 gear targets",
           "category": "Gear",
@@ -961,7 +985,7 @@
           "id": "gear:Orgrimmar",
           "title": "Orgrimmar: 1 gear target",
           "category": "Gear",
-          "status": "Refresh for item details",
+          "status": "Future gear targets",
           "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
@@ -972,33 +996,11 @@
           "targets": [
             {
               "itemID": 15200,
-              "name": "Item #15200",
+              "name": "Senior Sergeant's Insignia",
+              "requiredLevel": 30,
               "slot": "Neck",
               "source": "Sergeant Ba'sha · Orgrimmar",
-              "status": "Item details loading",
-              "current": "Empty slot"
-            }
-          ]
-        },
-        {
-          "id": "gear:Quest",
-          "title": "Quest: 1 gear target",
-          "category": "Gear",
-          "status": "Refresh for item details",
-          "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
-          "actionType": "bis",
-          "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
-          "button": "Open Naowh BiS",
-          "priority": 55,
-          "materials": [],
-          "targets": [
-            {
-              "itemID": 6750,
-              "name": "Item #6750",
-              "slot": "Ring",
-              "source": "Willix the Importer · Quest",
-              "status": "Item details loading",
+              "status": "Requires level 30",
               "current": "Empty slot"
             }
           ]
@@ -1055,6 +1057,39 @@
           ]
         },
         {
+          "id": "gear:Quest (Horde)",
+          "title": "Quest (Horde): 2 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 54,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 16975,
+              "name": "Warsong Sash",
+              "requiredLevel": 0,
+              "slot": "Waist",
+              "source": "Warsong Supplies · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Wise Man's Belt"
+            },
+            {
+              "itemID": 271740,
+              "name": "Knife-Polishing Rag",
+              "requiredLevel": 0,
+              "slot": "Wrist",
+              "source": "Open the Maw · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Green Linen Bracers"
+            }
+          ]
+        },
+        {
           "id": "craft:197",
           "title": "Tailoring: 94 toward 100",
           "category": "Professions",
@@ -1076,7 +1111,7 @@
               "itemID": 2604,
               "missing": 1,
               "need": 1,
-              "name": "Item #2604"
+              "name": "Red Dye"
             },
             {
               "itemID": 2321,
@@ -1103,7 +1138,7 @@
               "itemID": 10998,
               "missing": 1,
               "need": 1,
-              "name": "Item #10998"
+              "name": "Lesser Astral Essence"
             }
           ],
           "targets": []
@@ -1175,43 +1210,12 @@
           ]
         },
         {
-          "id": "gear:Quest (Horde)",
-          "title": "Quest (Horde): 2 gear targets",
-          "category": "Gear",
-          "status": "Refresh for item details",
-          "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
-          "actionType": "bis",
-          "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
-          "button": "Open Naowh BiS",
-          "priority": 50,
-          "materials": [],
-          "targets": [
-            {
-              "itemID": 16975,
-              "name": "Item #16975",
-              "slot": "Waist",
-              "source": "Warsong Supplies · Quest (Horde)",
-              "status": "Item details loading",
-              "current": "Wise Man's Belt"
-            },
-            {
-              "itemID": 271740,
-              "name": "Item #271740",
-              "slot": "Wrist",
-              "source": "Open the Maw · Quest (Horde)",
-              "status": "Item details loading",
-              "current": "Green Linen Bracers"
-            }
-          ]
-        },
-        {
           "id": "rank:129",
           "title": "Work toward First Aid's cap to 225",
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Item #16084.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1311,7 +1315,7 @@
             "missing": 0,
             "need": 4,
             "make": 4,
-            "name": "Item #2996",
+            "name": "Bolt of Linen Cloth",
             "usesText": "Barbaric Linen Vest",
             "action": "Craft",
             "done": false,
@@ -1323,7 +1327,7 @@
             "bank": 0,
             "missing": 1,
             "need": 1,
-            "name": "Item #2318",
+            "name": "Light Leather",
             "usesText": "Barbaric Linen Vest",
             "action": "Farm",
             "done": false,
@@ -1399,7 +1403,25 @@
               "In your current zone",
               "Needs Linen Cloth",
               "The Rescue"
-            ]
+            ],
+            "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
+            "comparison": "4 recorded outings: 110 min, 14502 total XP, 86 observed kills. Includes travel, quests and rested XP; compare similar conditions.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 2,
+                "name": "Linen Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 4,
+              "seconds": 6603,
+              "xp": 14502,
+              "kills": 86
+            }
           },
           {
             "spot": {
@@ -1425,7 +1447,25 @@
             "reasons": [
               "In your current zone",
               "Needs Linen Cloth"
-            ]
+            ],
+            "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 2,
+                "name": "Linen Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1445,7 +1485,25 @@
               "54 observed kills / 54 inspected corpses",
               "In your current zone",
               "Observed needed material: Linen Cloth"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 2,
+                "name": "Linen Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1467,7 +1525,25 @@
             "score": 77,
             "reasons": [
               "Needs Linen Cloth"
-            ]
+            ],
+            "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 2,
+                "name": "Linen Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1486,7 +1562,19 @@
             "reasons": [
               "3 observed kills / 2 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1505,7 +1593,19 @@
             "reasons": [
               "15 observed kills / 15 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1524,7 +1624,19 @@
             "reasons": [
               "1 observed kills / 1 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1543,7 +1655,19 @@
             "reasons": [
               "4 observed kills / 3 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1562,7 +1686,19 @@
             "reasons": [
               "15 observed kills / 15 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1581,7 +1717,19 @@
             "reasons": [
               "2 observed kills / 2 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           },
           {
             "spot": {
@@ -1600,7 +1748,19 @@
             "reasons": [
               "1 observed kills / 1 inspected corpses",
               "In your current zone"
-            ]
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
           }
         ],
         "tasks": [
@@ -1618,6 +1778,429 @@
           "capturedAt": "2026-11-15T10:32:08Z",
           "credit": "Data from Everloot (https://everloot.app), CC BY-SA 4.0.",
           "status": "Community observations; no verified camp coordinates in this pack"
+        }
+      },
+      "dailyPlan": {
+        "version": 1,
+        "day": "2026-11-15",
+        "mode": "grind",
+        "minutes": 45,
+        "generatedAt": "2026-11-15T17:46:30Z",
+        "today": [
+          {
+            "id": "project:2395",
+            "kind": "Craft",
+            "title": "Barbaric Linen Vest",
+            "status": "Gather materials",
+            "why": "Your crafting project; materials are allocated in project order.",
+            "action": "Farm 2 Linen Cloth\nCraft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
+            "source": "Learned recipes and shared inventory reservations",
+            "open": "Projects",
+            "have": 0,
+            "need": 1,
+            "recipeID": 2395,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:6541",
+            "kind": "Leveling",
+            "title": "Turn in: Report to Kadrak",
+            "status": "Ready to turn in",
+            "why": "The game marks this quest complete.",
+            "action": "Return to the quest giver for the reward.",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 6541,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "training:now",
+            "kind": "Leveling",
+            "title": "Review 7 unlearned class skills",
+            "status": "Trainer / quest",
+            "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
+            "action": "Searing Pain (level 18, listed 17s 0c)\nCurse of the Elements (level 20, listed 25s 0c)\nImmolate (level 20, listed 25s 0c)\nSummon Incubus (level 20, quest)\nSummon Succubus (level 20, quest)\nCurse of Weakness (level 22, listed 38s 0c)\nEye of Kilrogg (level 22, listed 38s 0c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
+            "source": "Naowh Training 1.2.33 / TrainingData + live spellbook",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          }
+        ],
+        "soon": [
+          {
+            "id": "craft:129",
+            "kind": "Professions",
+            "title": "First Aid: 67 toward 75",
+            "status": "Batch materials ready",
+            "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 3 crafts.",
+            "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "craft:197",
+            "kind": "Professions",
+            "title": "Tailoring: 94 toward 100",
+            "status": "Materials needed",
+            "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
+            "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T17:18:00Z",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "craft:333",
+            "kind": "Professions",
+            "title": "Enchanting: 115 toward 125",
+            "status": "Materials needed",
+            "why": "Try Enchant Cloak - Minor Agility. It is learned and below its grey threshold (175). Gather the missing reagents first.",
+            "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T17:28:38Z",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "learn:13522",
+            "kind": "Professions",
+            "title": "Keep for later: Formula: Enchant Cloak - Lesser Shadow Resistance",
+            "status": "Skill requirement pending",
+            "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
+            "action": "Requires Enchanting 135; you have 115. Refresh the profession scan before using or selling the recipe.",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "learn:3851",
+            "kind": "Professions",
+            "title": "Keep for later: Pattern: Phoenix Pants",
+            "status": "Skill requirement pending",
+            "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
+            "action": "Requires Tailoring 100; you have 94. Refresh the profession scan before using or selling the recipe.",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "level:next",
+            "kind": "Leveling",
+            "title": "Reach level 24",
+            "status": "Ongoing",
+            "why": "13057 XP remaining (55.6% through level 23).",
+            "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
+            "source": "Live character XP and quest log",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:498",
+            "kind": "Leveling",
+            "title": "Quest: The Rescue",
+            "status": "Current quest",
+            "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+            "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 498,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:528",
+            "kind": "Leveling",
+            "title": "Quest: Battle of Hillsbrad",
+            "status": "Current quest",
+            "why": "Level 25 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+            "action": "0/15 Hillsbrad Peasant slain",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 528,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "rank:129",
+            "kind": "Professions",
+            "title": "Work toward First Aid's cap to 225",
+            "status": "Requirements pending",
+            "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
+            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "rank:185",
+            "kind": "Professions",
+            "title": "Raise Cooking's cap to 225",
+            "status": "Save gold",
+            "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
+            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "rank:197",
+            "kind": "Professions",
+            "title": "Work toward Tailoring's cap to 225",
+            "status": "Requirements pending",
+            "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
+            "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 59s 15c.",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "rank:333",
+            "kind": "Professions",
+            "title": "Work toward Enchanting's cap to 225",
+            "status": "Requirements pending",
+            "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
+            "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 59s 15c.",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "rank:356",
+            "kind": "Professions",
+            "title": "Raise Fishing's cap to 225",
+            "status": "Save gold",
+            "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
+            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "stock:2592",
+            "kind": "Farm",
+            "title": "Stock ready: Wool Cloth",
+            "status": "Ready",
+            "why": "Gathering target",
+            "action": "15 / 15 allocated; 0 still acquire; 0 withdraw.",
+            "source": "Your saved material targets",
+            "open": "Checklist",
+            "have": 15,
+            "need": 15,
+            "itemID": 2592,
+            "done": true,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          }
+        ],
+        "someday": [
+          {
+            "id": "gear:Alterac Mountains",
+            "kind": "Gear",
+            "title": "Alterac Mountains: 3 gear targets",
+            "status": "Future gear targets",
+            "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Blackfathom Deeps",
+            "kind": "Gear",
+            "title": "Blackfathom Deeps: 1 gear target",
+            "status": "Gear shortlist",
+            "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Excavation Site: Wetlands",
+            "kind": "Gear",
+            "title": "Excavation Site: Wetlands: 3 gear targets",
+            "status": "Future gear targets",
+            "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Orgrimmar",
+            "kind": "Gear",
+            "title": "Orgrimmar: 1 gear target",
+            "status": "Future gear targets",
+            "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Quest",
+            "kind": "Gear",
+            "title": "Quest: 1 gear target",
+            "status": "Gear shortlist",
+            "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Quest (Horde)",
+            "kind": "Gear",
+            "title": "Quest (Horde): 2 gear targets",
+            "status": "Gear shortlist",
+            "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Razorfen Kraul",
+            "kind": "Gear",
+            "title": "Razorfen Kraul: 4 gear targets",
+            "status": "Future gear targets",
+            "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gear:Shadowfang Keep",
+            "kind": "Gear",
+            "title": "Shadowfang Keep: 2 gear targets",
+            "status": "Gear shortlist",
+            "why": "Affliction Warlock level-30 wishlist; 2 target slots are currently empty.",
+            "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
+            "source": "Naowh BiS 1.2.33 / BiS/Data/Leveling.lua",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          }
+        ],
+        "reviewed": [],
+        "snoozed": [],
+        "projects": [
+          {
+            "recipeID": 2395,
+            "name": "Barbaric Linen Vest",
+            "remaining": 1,
+            "total": 1,
+            "completed": 0,
+            "paused": false,
+            "cancelled": false,
+            "status": "Gather materials",
+            "outputItemID": 2578,
+            "materials": [
+              {
+                "id": 2589,
+                "bag": 6,
+                "bank": 0,
+                "missing": 2,
+                "need": 8,
+                "make": 0,
+                "name": "Linen Cloth",
+                "action": "Farm",
+                "done": false,
+                "vendor": false
+              },
+              {
+                "id": 2996,
+                "bag": 0,
+                "bank": 0,
+                "missing": 0,
+                "need": 4,
+                "make": 4,
+                "name": "Bolt of Linen Cloth",
+                "action": "Craft",
+                "done": false,
+                "vendor": false
+              },
+              {
+                "id": 2318,
+                "bag": 0,
+                "bank": 0,
+                "missing": 1,
+                "need": 1,
+                "make": 0,
+                "name": "Light Leather",
+                "action": "Farm",
+                "done": false,
+                "vendor": false
+              },
+              {
+                "id": 2321,
+                "bag": 1,
+                "bank": 0,
+                "missing": 0,
+                "need": 1,
+                "make": 0,
+                "name": "Fine Thread",
+                "action": "Ready",
+                "done": true,
+                "vendor": true
+              }
+            ]
+          }
+        ],
+        "notices": [
+          "Session length limits the checklist; it is not a completion-time promise.",
+          "Reviewed and Later choices reset each local calendar day. Projects and stock goals carry forward."
+        ],
+        "camp": {
+          "id": "syndicate",
+          "name": "Durnholde Syndicate",
+          "zone": "Hillsbrad Foothills",
+          "chosen": true
         }
       },
       "sessions": [

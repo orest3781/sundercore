@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T14:09:50Z",
+  "updatedAt": "2026-11-15T14:51:27Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T14:09:50Z",
+      "exportedAt": "2026-11-15T14:51:27Z",
       "addonVersion": "1.3.3",
       "character": {
         "name": "Scathe",
@@ -13,32 +13,27 @@
         "classToken": "WARLOCK",
         "race": "Undead",
         "faction": "Horde",
-        "zone": "Hillsbrad Foothills",
+        "zone": "Orgrimmar",
         "powerType": "MANA",
         "level": 23,
         "xp": 1973,
         "xpForNextLevel": 29400,
-        "restedXP": 1470,
-        "moneyCopper": 3736,
-        "maxHealth": 260,
-        "maxPower": 471,
+        "restedXP": 1572,
+        "moneyCopper": 3077,
+        "maxHealth": 614,
+        "maxPower": 1027,
         "stats": {
-          "agility": 9,
-          "intellect": 19,
-          "spirit": 27,
-          "stamina": 16,
-          "strength": 16
+          "agility": 34,
+          "intellect": 57,
+          "spirit": 86,
+          "stamina": 55,
+          "strength": 34
         }
       },
       "bags": {
-        "free": 30,
+        "free": 32,
         "capacity": 54,
         "items": [
-          {
-            "itemID": 878,
-            "name": "Fist-sized Spinneret",
-            "count": 1
-          },
           {
             "itemID": 1288,
             "name": "Large Venom Sac",
@@ -60,9 +55,9 @@
             "count": 1
           },
           {
-            "itemID": 2592,
-            "name": "Wool Cloth",
-            "count": 6
+            "itemID": 2997,
+            "name": "Bolt of Woolen Cloth",
+            "count": 2
           },
           {
             "itemID": 3692,
@@ -72,11 +67,6 @@
           {
             "itemID": 3730,
             "name": "Big Bear Meat",
-            "count": 1
-          },
-          {
-            "itemID": 4428,
-            "name": "Spider Palp",
             "count": 1
           },
           {
@@ -272,7 +262,7 @@
           "skillLineID": 197,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T12:11:21Z"
+          "recipesCapturedAt": "2026-11-15T14:42:20Z"
         },
         {
           "name": "Enchanting",
@@ -292,7 +282,7 @@
           "skillLineID": 129,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-14T22:35:58Z"
+          "recipesCapturedAt": "2026-11-15T14:43:33Z"
         },
         {
           "name": "Fishing",
@@ -312,142 +302,10 @@
           "skillLineID": 185,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T11:28:49Z"
+          "recipesCapturedAt": "2026-11-15T14:43:47Z"
         }
       ],
       "quests": [
-        {
-          "questID": 498,
-          "name": "The Rescue",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "0/1 Rescue Drull",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            },
-            {
-              "text": "0/1 Rescue Tog'thar",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 549,
-          "name": "WANTED: Syndicate Personnel",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "2/10 Syndicate Rogue slain",
-              "have": 2,
-              "need": 10,
-              "finished": false
-            },
-            {
-              "text": "10/10 Syndicate Watchman slain",
-              "have": 10,
-              "need": 10,
-              "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 528,
-          "name": "Battle of Hillsbrad",
-          "level": 25,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "0/15 Hillsbrad Peasant slain",
-              "have": 0,
-              "need": 15,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 546,
-          "name": "Souvenirs of Death",
-          "level": 25,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "9/30 Hillsbrad Human Skull",
-              "have": 9,
-              "need": 30,
-              "finished": false
-            }
-          ]
-        },
-        {
-          "questID": 567,
-          "name": "Dangerous!",
-          "level": 28,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Hillsbrad Foothills",
-          "objectives": [
-            {
-              "text": "0/1 Clerk Horrace Whitesteed slain",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            },
-            {
-              "text": "1/1 Citizen Wilkes slain",
-              "have": 1,
-              "need": 1,
-              "finished": true
-            },
-            {
-              "text": "0/1 Miner Hackett slain",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            },
-            {
-              "text": "1/1 Farmer Kalaba slain",
-              "have": 1,
-              "need": 1,
-              "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 92401,
-          "name": "A Frightened Request",
-          "level": 22,
-          "complete": false,
-          "failed": false,
-          "group": true,
-          "zone": "Ruins of Lordaeron",
-          "objectives": [
-            {
-              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
-              "have": 0,
-              "need": 1,
-              "finished": false
-            }
-          ]
-        },
         {
           "questID": 6548,
           "name": "Avenge My Village",
@@ -653,6 +511,138 @@
           ]
         },
         {
+          "questID": 498,
+          "name": "The Rescue",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/1 Rescue Drull",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "0/1 Rescue Tog'thar",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 549,
+          "name": "WANTED: Syndicate Personnel",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "2/10 Syndicate Rogue slain",
+              "have": 2,
+              "need": 10,
+              "finished": false
+            },
+            {
+              "text": "10/10 Syndicate Watchman slain",
+              "have": 10,
+              "need": 10,
+              "finished": true
+            }
+          ]
+        },
+        {
+          "questID": 528,
+          "name": "Battle of Hillsbrad",
+          "level": 25,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/15 Hillsbrad Peasant slain",
+              "have": 0,
+              "need": 15,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 546,
+          "name": "Souvenirs of Death",
+          "level": 25,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "9/30 Hillsbrad Human Skull",
+              "have": 9,
+              "need": 30,
+              "finished": false
+            }
+          ]
+        },
+        {
+          "questID": 567,
+          "name": "Dangerous!",
+          "level": 28,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Hillsbrad Foothills",
+          "objectives": [
+            {
+              "text": "0/1 Clerk Horrace Whitesteed slain",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "1/1 Citizen Wilkes slain",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            },
+            {
+              "text": "0/1 Miner Hackett slain",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            },
+            {
+              "text": "1/1 Farmer Kalaba slain",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            }
+          ]
+        },
+        {
+          "questID": 92401,
+          "name": "A Frightened Request",
+          "level": 22,
+          "complete": false,
+          "failed": false,
+          "group": true,
+          "zone": "Ruins of Lordaeron",
+          "objectives": [
+            {
+              "text": "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
           "questID": 8368,
           "name": "Battle of Warsong Gulch",
           "level": 19,
@@ -717,7 +707,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 37s 36c. Save another 62s 64c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 30s 77c. Save another 69s 23c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -737,7 +727,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 37s 36c. Save another 62s 64c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 30s 77c. Save another 69s 23c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -781,36 +771,6 @@
           "targets": []
         },
         {
-          "id": "quest:498",
-          "title": "Quest: The Rescue",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
-          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 69,
-          "questID": 498,
-          "materials": [],
-          "targets": []
-        },
-        {
-          "id": "quest:549",
-          "title": "Quest: WANTED: Syndicate Personnel",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
-          "action": "2/10 Syndicate Rogue slain",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 69,
-          "questID": 549,
-          "materials": [],
-          "targets": []
-        },
-        {
           "id": "gear:Shadowfang Keep",
           "title": "Shadowfang Keep: 2 gear targets",
           "category": "Gear",
@@ -841,6 +801,36 @@
               "current": "Empty slot"
             }
           ]
+        },
+        {
+          "id": "quest:498",
+          "title": "Quest: The Rescue",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 498,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:549",
+          "title": "Quest: WANTED: Syndicate Personnel",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+          "action": "2/10 Syndicate Rogue slain",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 549,
+          "materials": [],
+          "targets": []
         },
         {
           "id": "gear:Excavation Site: Wetlands",
@@ -1029,7 +1019,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Lesser Healing Potion. It is learned and below its grey threshold (125). Gather the missing reagents first.",
-          "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-14T22:35:58Z",
+          "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1062,7 +1052,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T12:11:21Z",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:42:20Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1070,7 +1060,7 @@
           "materials": [
             {
               "itemID": 2997,
-              "missing": 5,
+              "missing": 3,
               "need": 5,
               "name": "Bolt of Woolen Cloth"
             },
@@ -1180,7 +1170,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 37s 36c. Save another 62s 64c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 30s 77c. Save another 69s 23c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1200,7 +1190,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 37s 36c. Save another 12s 64c (before travel or other purchases).",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 30s 77c. Save another 19s 23c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1220,7 +1210,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 37s 36c. Save another 12s 64c (before travel or other purchases).",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 30s 77c. Save another 19s 23c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1240,8 +1230,8 @@
         "rank:356",
         "quest:6541",
         "training:now",
-        "quest:498",
-        "gear:Shadowfang Keep"
+        "gear:Shadowfang Keep",
+        "quest:498"
       ],
       "fieldPlan": {
         "materials": [
@@ -1284,9 +1274,9 @@
           },
           {
             "id": 2592,
-            "bag": 6,
+            "bag": 0,
             "bank": 0,
-            "missing": 9,
+            "missing": 15,
             "need": 15,
             "name": "Wool Cloth",
             "usesText": "Gathering target",
@@ -1335,9 +1325,8 @@
                 498
               ]
             },
-            "score": 156,
+            "score": 131,
             "reasons": [
-              "In your current zone",
               "Needs Wool Cloth",
               "Needs Linen Cloth",
               "The Rescue",
@@ -1364,32 +1353,10 @@
                 527
               ]
             },
-            "score": 132,
+            "score": 107,
             "reasons": [
-              "In your current zone",
               "Needs Wool Cloth",
               "Needs Linen Cloth"
-            ]
-          },
-          {
-            "spot": {
-              "id": "observed:2261",
-              "name": "Syndicate Watchman",
-              "zone": "Hillsbrad Foothills",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 21,
-              "high": 21,
-              "map": 1424,
-              "x": 0.79890769720078,
-              "y": 0.45184969902039
-            },
-            "score": 114,
-            "reasons": [
-              "14 observed kills / 14 inspected corpses",
-              "In your current zone",
-              "Observed needed material: Linen Cloth",
-              "Observed needed material: Wool Cloth"
             ]
           },
           {
@@ -1417,6 +1384,26 @@
           },
           {
             "spot": {
+              "id": "observed:2261",
+              "name": "Syndicate Watchman",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 21,
+              "high": 21,
+              "map": 1424,
+              "x": 0.79890769720078,
+              "y": 0.45184969902039
+            },
+            "score": 89,
+            "reasons": [
+              "14 observed kills / 14 inspected corpses",
+              "Observed needed material: Linen Cloth",
+              "Observed needed material: Wool Cloth"
+            ]
+          },
+          {
+            "spot": {
               "id": "observed:2260",
               "name": "Syndicate Rogue",
               "zone": "Hillsbrad Foothills",
@@ -1428,10 +1415,9 @@
               "x": 0.79247999191284,
               "y": 0.45001858472824
             },
-            "score": 84,
+            "score": 59,
             "reasons": [
               "2 observed kills / 2 inspected corpses",
-              "In your current zone",
               "Observed needed material: Wool Cloth"
             ]
           },
@@ -1448,10 +1434,9 @@
               "x": 0.71451687812805,
               "y": 0.35018527507782
             },
-            "score": 60,
+            "score": 35,
             "reasons": [
-              "3 observed kills / 2 inspected corpses",
-              "In your current zone"
+              "3 observed kills / 2 inspected corpses"
             ]
           },
           {
@@ -1467,10 +1452,9 @@
               "x": 0.75545227527618,
               "y": 0.35606610774994
             },
-            "score": 57,
+            "score": 32,
             "reasons": [
-              "1 observed kills / 1 inspected corpses",
-              "In your current zone"
+              "1 observed kills / 1 inspected corpses"
             ]
           },
           {
@@ -1486,10 +1470,9 @@
               "x": 0.66543412208557,
               "y": 0.2636302113533
             },
-            "score": 57,
+            "score": 32,
             "reasons": [
-              "1 observed kills / 0 inspected corpses",
-              "In your current zone"
+              "1 observed kills / 0 inspected corpses"
             ]
           },
           {
@@ -1505,10 +1488,9 @@
               "x": 0.79762226343155,
               "y": 0.46369069814682
             },
-            "score": 54,
+            "score": 29,
             "reasons": [
-              "3 observed kills / 3 inspected corpses",
-              "In your current zone"
+              "3 observed kills / 3 inspected corpses"
             ]
           },
           {
@@ -1524,10 +1506,9 @@
               "x": 0.66662085056305,
               "y": 0.26371210813522
             },
-            "score": 54,
+            "score": 29,
             "reasons": [
-              "2 observed kills / 2 inspected corpses",
-              "In your current zone"
+              "2 observed kills / 2 inspected corpses"
             ]
           }
         ],
@@ -1536,10 +1517,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 3736,
+          "available": 3077,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 16264
+          "shortfall": 16923
         },
         "dataSource": {
           "provider": "Everloot",
@@ -1549,6 +1530,30 @@
         }
       },
       "sessions": [
+        {
+          "label": "Durnholde Syndicate",
+          "spotID": "syndicate",
+          "zone": "Hillsbrad Foothills",
+          "started": 1794751032,
+          "ended": 1794751790,
+          "seconds": 757,
+          "elapsed": 757,
+          "segmentAt": 1794751032,
+          "pausedAt": 1794751789,
+          "lastAt": 1794751789,
+          "kills": 5,
+          "xp": 705,
+          "receivedLoot": {
+            "2251": 1,
+            "2592": 2,
+            "3692": 1
+          },
+          "loot": {
+            "2251": 1,
+            "2592": 2,
+            "3692": 1
+          }
+        },
         {
           "label": "Durnholde Syndicate",
           "spotID": "syndicate",
@@ -1612,28 +1617,6 @@
           }
         }
       ],
-      "activeSession": {
-        "label": "Durnholde Syndicate",
-        "spotID": "syndicate",
-        "zone": "Hillsbrad Foothills",
-        "started": 1794751032,
-        "elapsed": 757,
-        "segmentAt": 1794751032,
-        "pausedAt": 1794751789,
-        "lastAt": 1794751789,
-        "kills": 5,
-        "xp": 705,
-        "receivedLoot": {
-          "2251": 1,
-          "2592": 2,
-          "3692": 1
-        },
-        "loot": {
-          "2251": 1,
-          "2592": 2,
-          "3692": 1
-        }
-      },
       "coverage": {
         "bags": "current",
         "bank": "personal bank only, last seen",

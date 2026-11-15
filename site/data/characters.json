@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T18:59:13Z",
+  "updatedAt": "2026-11-15T19:13:18Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T18:59:13Z",
+      "exportedAt": "2026-11-15T19:13:18Z",
       "addonVersion": "1.6.0",
       "character": {
         "name": "Scathe",
@@ -19,14 +19,14 @@
         "xp": 18174,
         "xpForNextLevel": 29400,
         "moneyCopper": 6483,
-        "maxHealth": 724,
-        "maxPower": 1192,
+        "maxHealth": 664,
+        "maxPower": 1102,
         "stats": {
-          "agility": 29,
-          "intellect": 68,
-          "spirit": 74,
-          "stamina": 66,
-          "strength": 33
+          "agility": 27,
+          "intellect": 62,
+          "spirit": 68,
+          "stamina": 60,
+          "strength": 30
         }
       },
       "bags": {
@@ -1861,7 +1861,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T18:59:13Z",
+        "generatedAt": "2026-11-15T19:13:18Z",
         "today": [
           {
             "id": "upgrade:253885",

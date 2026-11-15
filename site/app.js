@@ -84,8 +84,8 @@ function portraitHTML(c){
   return `<figure class="character-stage ${render?'has-render':''}">
     ${render&&background?`<img class="character-background" src="${e(background)}" alt="" aria-hidden="true">`:''}
     <div class="portrait-halo" aria-hidden="true"></div>
-    <div class="portrait-placeholder"><span class="portrait-monogram" aria-hidden="true">${e(c.character.name[0])}</span><strong>Awaiting a character image</strong><p>An automatic portrait could not be retrieved.<br>Your saved equipment is still shown.</p><span class="pill">${e(c.character.race)} ${e(c.character.class)}</span></div>
-    ${render?`<img class="character-render" src="${e(render)}" alt="${e(c.character.name)} Sundercore wearing equipment from Blizzard’s character image" data-character-render>`:''}
+    <div class="portrait-visual"><div class="portrait-placeholder"><span class="portrait-monogram" aria-hidden="true">${e(c.character.name[0])}</span><strong>Awaiting a character image</strong><p>An automatic portrait could not be retrieved.<br>Your saved equipment is still shown.</p><span class="pill">${e(c.character.race)} ${e(c.character.class)}</span></div>
+    ${render?`<img class="character-render" src="${e(render)}" alt="${e(c.character.name)} Sundercore wearing equipment from Blizzard’s character image" data-character-render>`:''}</div>
     <figcaption><span class="portrait-caption-title">${e(c.character.name)} <span>Sundercore</span></span><span>${e(c.character.race)} · ${e(c.character.class)} · Level ${e(c.character.level)}</span>${render?`<small>Blizzard image · ${e(date(media.renderUpdatedAt))}${media.status==='cached'?' · last available image':''}</small><small>${sameGear?'Equipped item IDs match your snapshot.':'Appearance may differ from your saved gear.'}</small>`:`<small>Image availability is checked with each site update.</small>`}</figcaption>
   </figure>`;
 }

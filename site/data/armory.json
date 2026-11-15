@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-15T15:14:13Z",
+  "characters": {
+    "e29b7f172a19a4e3046c3c4a": {
+      "name": "Scathe",
+      "sourceUrl": "https://worldofwarcraft.blizzard.com/en-us/forever/us/armory/character/scathe-sundercore",
+      "checkedAt": "2026-11-15T15:14:13Z",
+      "render": "https://render.worldofwarcraft.com/forever-us/character/6/3273222-main-sd-raw.png",
+      "avatar": "https://render.worldofwarcraft.com/forever-us/character/6/3273222-avatar-sd.jpg",
+      "background": "https://render.worldofwarcraft.com/profile-backgrounds/v2/armory_bg_race_undead.jpg",
+      "renderUpdatedAt": "2026-11-15T13:41:37Z",
+      "renderEquipment": [
+        2584,
+        4307,
+        4308,
+        4314,
+        4786,
+        5279,
+        5310,
+        6242,
+        6482,
+        11288
+      ],
+      "status": "available"
+    },
+    "59fd50bf5d7dccbf32f62b7a": {
+      "name": "Seethe",
+      "sourceUrl": "https://worldofwarcraft.blizzard.com/en-us/forever/us/armory/character/seethe-sundercore",
+      "checkedAt": "2026-11-15T15:14:13Z",
+      "status": "unavailable",
+      "reason": "http-500"
+    }
+  },
+  "icons": {
+    "2584": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/133762.jpg",
+      "source": "Blizzard"
+    },
+    "6242": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/132664.jpg",
+      "source": "Blizzard"
+    },
+    "6482": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/132539.jpg",
+      "source": "Blizzard"
+    },
+    "4307": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/132939.jpg",
+      "source": "Blizzard"
+    },
+    "5310": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/134582.jpg",
+      "source": "Blizzard"
+    },
+    "11288": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/135144.jpg",
+      "source": "Blizzard"
+    },
+    "4314": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/135037.jpg",
+      "source": "Blizzard"
+    },
+    "4786": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/132491.jpg",
+      "source": "Blizzard"
+    },
+    "5279": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/135650.jpg",
+      "source": "Blizzard"
+    },
+    "4308": {
+      "url": "https://render.worldofwarcraft.com/forever-us/icons/56/132611.jpg",
+      "source": "Blizzard"
+    },
+    "35": {
+      "url": "https://wow.zamimg.com/images/wow/icons/large/inv_staff_08.jpg",
+      "source": "Wowhead"
+    },
+    "6124": {
+      "url": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_01.jpg",
+      "source": "Wowhead"
+    },
+    "6139": {
+      "url": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_13.jpg",
+      "source": "Wowhead"
+    },
+    "14168": {
+      "url": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_16.jpg",
+      "source": "Wowhead"
+    }
+  }
+}

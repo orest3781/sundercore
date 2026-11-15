@@ -2,7 +2,7 @@ name: Publish SunderCore
 on:
   push:
     branches: [main]
-    paths: ['site/**', '.github/workflows/pages.yml']
+    paths: ['site/**', 'tools/**', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,11 +19,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Refresh optional armory artwork
+        run: python3 tools/refresh_armory.py
       - name: Validate data pipeline and dashboard
         run: |
           python3 -m unittest discover -s tools -p 'test_*.py'
           node --check site/app.js
           node tools/test_views.cjs
+          node tools/test_armory.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

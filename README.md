@@ -58,6 +58,16 @@ Open `http://localhost:8000`. Publishing is separate from this local preview. Gi
 
 ## How to read the dashboard
 
+### Character armories
+
+Open **Armory** and choose a character to see all 19 equipment slots, item icons, rarity colors, and saved item details. Each character has a shareable link. Gear comes exclusively from the Character Ledger snapshot. Click **Update SunderCore** in the addon's compact HUD to save and reload; the running tray watcher then publishes the updated snapshot.
+
+Character portraits come from Blizzard's public Forever armory. Every site publication checks for new artwork using `tools/refresh_armory.py`; no Blizzard login or API key is needed. The displayed portrait timestamp is separate from the gear snapshot, and a warning appears if the image's equipment differs. If Blizzard cannot provide an image, the page keeps its last verified portrait or shows a clearly labeled placeholder. Equipment remains usable while artwork is unavailable. Icons come from Blizzard or Wowhead's Forever item data.
+
+The automatic artwork check currently verifies the US character name, Sundercore surname, race, and class before accepting a portrait. It does not generate a portrait or provide a rotatable 3D model. To refresh the optional artwork locally, run `python tools/refresh_armory.py` before previewing the site.
+
+### Snapshot details
+
 - **Snapshot age:** values are accurate to the displayed capture time. The site does not show live online status, live bag changes, or live combat.
 - **Next steps:** suggestions come from the saved addon analysis. Their source, requirements, and status matter. A gear shortlist is not a promise that an item is immediately obtainable.
 - **Bags:** general bag capacity excludes specialized reagent bags and the keyring. Bank contents are separate and may be stale or unrecorded; an unvisited bank is not an empty bank.

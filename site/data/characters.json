@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T18:28:01Z",
+  "updatedAt": "2026-11-15T18:50:53Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T18:28:01Z",
+      "exportedAt": "2026-11-15T18:50:53Z",
       "addonVersion": "1.5.0",
       "character": {
         "name": "Scathe",
@@ -16,26 +16,36 @@
         "zone": "Silverpine Forest",
         "powerType": "MANA",
         "level": 23,
-        "xp": 17182,
+        "xp": 18174,
         "xpForNextLevel": 29400,
-        "moneyCopper": 6120,
-        "maxHealth": 614,
+        "moneyCopper": 6483,
+        "maxHealth": 724,
         "maxPower": 1192,
         "stats": {
           "agility": 29,
           "intellect": 68,
           "spirit": 74,
-          "stamina": 55,
+          "stamina": 66,
           "strength": 33
         }
       },
       "bags": {
-        "free": 18,
+        "free": 14,
         "capacity": 54,
         "items": [
           {
             "itemID": 422,
             "name": "Dwarven Mild",
+            "count": 1
+          },
+          {
+            "itemID": 955,
+            "name": "Scroll of Intellect",
+            "count": 1
+          },
+          {
+            "itemID": 1179,
+            "name": "Ice Cold Milk",
             "count": 1
           },
           {
@@ -61,7 +71,7 @@
           {
             "itemID": 2589,
             "name": "Linen Cloth",
-            "count": 6
+            "count": 9
           },
           {
             "itemID": 2592,
@@ -69,14 +79,19 @@
             "count": 25
           },
           {
-            "itemID": 2940,
-            "name": "Bloody Bear Paw",
-            "count": 1
+            "itemID": 2672,
+            "name": "Stringy Wolf Meat",
+            "count": 2
           },
           {
             "itemID": 2997,
             "name": "Bolt of Woolen Cloth",
             "count": 2
+          },
+          {
+            "itemID": 3301,
+            "name": "Sharp Canine",
+            "count": 1
           },
           {
             "itemID": 3730,
@@ -137,6 +152,11 @@
             "itemID": 6289,
             "name": "Raw Longjaw Mud Snapper",
             "count": 2
+          },
+          {
+            "itemID": 6358,
+            "name": "Oily Blackmouth",
+            "count": 6
           },
           {
             "itemID": 6948,
@@ -755,7 +775,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -775,7 +795,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -823,7 +843,7 @@
           "title": "First Aid: 67 toward 75",
           "category": "Professions",
           "status": "Batch materials ready",
-          "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 3 crafts.",
+          "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 4 crafts.",
           "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
@@ -907,7 +927,7 @@
           "title": "Reach level 24",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "12218 XP remaining (58.4% through level 23).",
+          "why": "11226 XP remaining (61.8% through level 23).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -1214,7 +1234,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1234,7 +1254,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 61s 20c.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 64s 83c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1254,7 +1274,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 61s 20c.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 64s 83c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1333,18 +1353,6 @@
             "vendor": false
           },
           {
-            "id": 2589,
-            "bag": 6,
-            "bank": 0,
-            "missing": 2,
-            "need": 8,
-            "name": "Linen Cloth",
-            "usesText": "Barbaric Linen Vest",
-            "action": "Farm",
-            "done": false,
-            "vendor": false
-          },
-          {
             "id": 2321,
             "bag": 1,
             "bank": 0,
@@ -1355,6 +1363,18 @@
             "action": "Ready",
             "done": true,
             "vendor": true
+          },
+          {
+            "id": 2589,
+            "bag": 8,
+            "bank": 0,
+            "missing": 0,
+            "need": 8,
+            "name": "Linen Cloth",
+            "usesText": "Barbaric Linen Vest",
+            "action": "Ready",
+            "done": true,
+            "vendor": false
           },
           {
             "id": 2592,
@@ -1379,6 +1399,99 @@
         "spots": [
           {
             "spot": {
+              "id": "observed:1889",
+              "name": "Dalaran Wizard",
+              "zone": "Silverpine Forest",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 20,
+              "high": 20,
+              "map": 1421,
+              "x": 0.65161490440369,
+              "y": 0.77896845340729
+            },
+            "score": 51,
+            "reasons": [
+              "2 observed kills / 2 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:2054",
+              "name": "Sickly Refugee",
+              "zone": "Silverpine Forest",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 20,
+              "high": 20,
+              "map": 1421,
+              "x": 0.46991318464279,
+              "y": 0.82064998149872
+            },
+            "score": 51,
+            "reasons": [
+              "4 observed kills / 4 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:2053",
+              "name": "Haggard Refugee",
+              "zone": "Silverpine Forest",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 19,
+              "high": 19,
+              "map": 1421,
+              "x": 0.4607430100441,
+              "y": 0.83888918161392
+            },
+            "score": 48,
+            "reasons": [
+              "1 observed kills / 1 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
               "id": "syndicate",
               "name": "Durnholde Syndicate",
               "zone": "Hillsbrad Foothills",
@@ -1397,23 +1510,16 @@
                 498
               ]
             },
-            "score": 86,
+            "score": 56,
             "reasons": [
-              "Needs Linen Cloth",
               "The Rescue"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "4 recorded outings: 110 min, 14502 total XP, 86 observed kills. Includes travel, quests and rested XP; compare similar conditions.",
             "travel": "Travel required; check the map before leaving",
             "localZone": false,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2589,
-                "missing": 2,
-                "name": "Linen Cloth"
-              }
-            ],
+            "matchCount": 0,
+            "matchedMaterials": [],
             "history": {
               "sessions": 4,
               "seconds": 6603,
@@ -1441,22 +1547,16 @@
                 527
               ]
             },
-            "score": 77,
+            "score": 47,
             "reasons": [
-              "Needs Linen Cloth"
+              "Level-appropriate candidate; compare your session results"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "No comparable personal outing recorded yet.",
             "travel": "Travel required; check the map before leaving",
             "localZone": false,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2589,
-                "missing": 2,
-                "name": "Linen Cloth"
-              }
-            ],
+            "matchCount": 0,
+            "matchedMaterials": [],
             "history": {
               "sessions": 0,
               "seconds": 0,
@@ -1481,88 +1581,14 @@
               ],
               "quests": []
             },
-            "score": 77,
+            "score": 47,
             "reasons": [
-              "Needs Linen Cloth"
+              "Level-appropriate candidate; compare your session results"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "No comparable personal outing recorded yet.",
             "travel": "Travel required; check the map before leaving",
             "localZone": false,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2589,
-                "missing": 2,
-                "name": "Linen Cloth"
-              }
-            ],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:2261",
-              "name": "Syndicate Watchman",
-              "zone": "Hillsbrad Foothills",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 20,
-              "high": 20,
-              "map": 1424,
-              "x": 0.80774408578873,
-              "y": 0.44111502170563
-            },
-            "score": 56,
-            "reasons": [
-              "54 observed kills / 54 inspected corpses",
-              "Observed needed material: Linen Cloth"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Travel required; check the map before leaving",
-            "localZone": false,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2589,
-                "missing": 2,
-                "name": "Linen Cloth"
-              }
-            ],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:1889",
-              "name": "Dalaran Wizard",
-              "zone": "Silverpine Forest",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 20,
-              "high": 20,
-              "map": 1421,
-              "x": 0.65161490440369,
-              "y": 0.77896845340729
-            },
-            "score": 51,
-            "reasons": [
-              "2 observed kills / 2 inspected corpses",
-              "In your current zone"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1754,6 +1780,36 @@
           },
           {
             "spot": {
+              "id": "observed:2261",
+              "name": "Syndicate Watchman",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 20,
+              "high": 20,
+              "map": 1424,
+              "x": 0.80774408578873,
+              "y": 0.44111502170563
+            },
+            "score": 26,
+            "reasons": [
+              "54 observed kills / 54 inspected corpses"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
               "id": "observed:2356",
               "name": "Elder Gray Bear",
               "zone": "Hillsbrad Foothills",
@@ -1788,10 +1844,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 6120,
+          "available": 6483,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 13880
+          "shortfall": 13517
         },
         "dataSource": {
           "provider": "Everloot",
@@ -1805,7 +1861,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T18:28:01Z",
+        "generatedAt": "2026-11-15T18:50:53Z",
         "today": [
           {
             "id": "upgrade:253885",
@@ -1828,7 +1884,7 @@
             "title": "Barbaric Linen Vest",
             "status": "Gather materials",
             "why": "Your crafting project; materials are allocated in project order.",
-            "action": "Farm 2 Linen Cloth\nCraft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
+            "action": "Craft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
             "source": "Learned recipes and shared inventory reservations",
             "open": "Projects",
             "have": 0,
@@ -1859,7 +1915,7 @@
             "kind": "Professions",
             "title": "First Aid: 67 toward 75",
             "status": "Batch materials ready",
-            "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 3 crafts.",
+            "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 4 crafts.",
             "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T14:43:33Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
@@ -1924,7 +1980,7 @@
             "kind": "Leveling",
             "title": "Reach level 24",
             "status": "Ongoing",
-            "why": "12218 XP remaining (58.4% through level 23).",
+            "why": "11226 XP remaining (61.8% through level 23).",
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
@@ -1966,7 +2022,7 @@
             "title": "Work toward First Aid's cap to 225",
             "status": "Requirements pending",
             "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
+            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1979,7 +2035,7 @@
             "title": "Raise Cooking's cap to 225",
             "status": "Save gold",
             "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
+            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1992,7 +2048,7 @@
             "title": "Work toward Tailoring's cap to 225",
             "status": "Requirements pending",
             "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-            "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 61s 20c.",
+            "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 64s 83c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2005,7 +2061,7 @@
             "title": "Work toward Enchanting's cap to 225",
             "status": "Requirements pending",
             "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-            "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 61s 20c.",
+            "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 64s 83c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2018,7 +2074,7 @@
             "title": "Raise Fishing's cap to 225",
             "status": "Save gold",
             "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
+            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -5159,14 +5215,14 @@
             "materials": [
               {
                 "id": 2589,
-                "bag": 6,
+                "bag": 8,
                 "bank": 0,
-                "missing": 2,
+                "missing": 0,
                 "need": 8,
                 "make": 0,
                 "name": "Linen Cloth",
-                "action": "Farm",
-                "done": false,
+                "action": "Ready",
+                "done": true,
                 "vendor": false
               },
               {

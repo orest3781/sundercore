@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T20:36:34Z",
+  "updatedAt": "2026-11-15T20:41:20Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T19:51:02Z",
+      "exportedAt": "2026-11-15T20:41:20Z",
       "addonVersion": "1.8.0",
       "character": {
         "name": "Scathe",
@@ -16,10 +16,9 @@
         "zone": "Silverpine Forest",
         "powerType": "MANA",
         "level": 23,
-        "xp": 18174,
+        "xp": 18313,
         "xpForNextLevel": 29400,
-        "restedXP": 60,
-        "moneyCopper": 6483,
+        "moneyCopper": 6506,
         "maxHealth": 564,
         "maxPower": 1102,
         "stats": {
@@ -130,11 +129,6 @@
             "count": 1
           },
           {
-            "itemID": 5232,
-            "name": "Minor Soulstone",
-            "count": 1
-          },
-          {
             "itemID": 6218,
             "name": "Runed Copper Rod",
             "count": 1
@@ -147,7 +141,7 @@
           {
             "itemID": 6265,
             "name": "Soul Shard",
-            "count": 10
+            "count": 11
           },
           {
             "itemID": 6289,
@@ -393,6 +387,29 @@
       ],
       "quests": [
         {
+          "questID": 94229,
+          "name": "Craftsman's Writ: Ornate Spyglass",
+          "level": 60,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Crafting",
+          "objectives": [
+            {
+              "text": "1/1 Craftsman's Writ: Ornate Spyglass",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            },
+            {
+              "text": "0/1 Ornate Spyglass",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
           "questID": 498,
           "name": "The Rescue",
           "level": 22,
@@ -464,29 +481,6 @@
               "have": 1,
               "need": 1,
               "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 94229,
-          "name": "Craftsman's Writ: Ornate Spyglass",
-          "level": 60,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Crafting",
-          "objectives": [
-            {
-              "text": "1/1 Craftsman's Writ: Ornate Spyglass",
-              "have": 1,
-              "need": 1,
-              "finished": true
-            },
-            {
-              "text": "0/1 Ornate Spyglass",
-              "have": 0,
-              "need": 1,
-              "finished": false
             }
           ]
         },
@@ -776,7 +770,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 65s 6c. Save another 34s 94c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -796,7 +790,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 65s 6c. Save another 34s 94c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -928,7 +922,7 @@
           "title": "Reach level 24",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "11226 XP remaining (61.8% through level 23).",
+          "why": "11087 XP remaining (62.3% through level 23).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -1235,7 +1229,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 65s 6c. Save another 34s 94c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1255,7 +1249,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 64s 83c.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 65s 6c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1275,7 +1269,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 64s 83c.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 65s 6c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1431,20 +1425,20 @@
           },
           {
             "spot": {
-              "id": "observed:2054",
-              "name": "Sickly Refugee",
+              "id": "observed:2053",
+              "name": "Haggard Refugee",
               "zone": "Silverpine Forest",
               "note": "Your recorded position near this mob; not a complete spawn map.",
               "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 20,
-              "high": 20,
+              "low": 19,
+              "high": 19,
               "map": 1421,
-              "x": 0.46991318464279,
-              "y": 0.82064998149872
+              "x": 0.4607430100441,
+              "y": 0.83888918161392
             },
-            "score": 51,
+            "score": 48,
             "reasons": [
-              "4 observed kills / 4 inspected corpses",
+              "1 observed kills / 1 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -1462,20 +1456,20 @@
           },
           {
             "spot": {
-              "id": "observed:2053",
-              "name": "Haggard Refugee",
+              "id": "observed:2054",
+              "name": "Sickly Refugee",
               "zone": "Silverpine Forest",
               "note": "Your recorded position near this mob; not a complete spawn map.",
               "source": "Personal observations. Sample may be small; use session history to compare results.",
               "low": 19,
               "high": 19,
               "map": 1421,
-              "x": 0.4607430100441,
-              "y": 0.83888918161392
+              "x": 0.44128954410553,
+              "y": 0.80684542655945
             },
             "score": 48,
             "reasons": [
-              "1 observed kills / 1 inspected corpses",
+              "5 observed kills / 5 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -1845,10 +1839,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 6483,
+          "available": 6506,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 13517
+          "shortfall": 13494
         },
         "dataSource": {
           "provider": "Everloot",
@@ -1862,7 +1856,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 90,
-        "generatedAt": "2026-11-15T19:51:02Z",
+        "generatedAt": "2026-11-15T20:41:20Z",
         "today": [
           {
             "id": "upgrade:253885",
@@ -1969,7 +1963,7 @@
             "kind": "Leveling",
             "title": "Reach level 24",
             "status": "Ongoing",
-            "why": "11226 XP remaining (61.8% through level 23).",
+            "why": "11087 XP remaining (62.3% through level 23).",
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
@@ -2013,7 +2007,7 @@
             "title": "Work toward First Aid's cap to 225",
             "status": "Requirements pending",
             "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
+            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 65s 6c. Save another 34s 94c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2026,7 +2020,7 @@
             "title": "Raise Cooking's cap to 225",
             "status": "Save gold",
             "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
+            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 65s 6c. Save another 34s 94c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2039,7 +2033,7 @@
             "title": "Raise Fishing's cap to 225",
             "status": "Save gold",
             "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 64s 83c. Save another 35s 17c (before travel or other purchases).",
+            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 65s 6c. Save another 34s 94c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,

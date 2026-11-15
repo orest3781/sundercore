@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T17:46:30Z",
+  "updatedAt": "2026-11-15T18:12:00Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T17:46:30Z",
+      "exportedAt": "2026-11-15T18:12:00Z",
       "addonVersion": "1.4.0",
       "character": {
         "name": "Scathe",
@@ -13,25 +13,24 @@
         "classToken": "WARLOCK",
         "race": "Undead",
         "faction": "Horde",
-        "zone": "Hillsbrad Foothills",
+        "zone": "Silverpine Forest",
         "powerType": "MANA",
         "level": 23,
-        "xp": 16343,
+        "xp": 17182,
         "xpForNextLevel": 29400,
-        "restedXP": 10,
-        "moneyCopper": 5915,
-        "maxHealth": 604,
-        "maxPower": 1162,
+        "moneyCopper": 6120,
+        "maxHealth": 654,
+        "maxPower": 1252,
         "stats": {
-          "agility": 31,
-          "intellect": 66,
-          "spirit": 72,
-          "stamina": 54,
-          "strength": 34
+          "agility": 34,
+          "intellect": 72,
+          "spirit": 79,
+          "stamina": 59,
+          "strength": 37
         }
       },
       "bags": {
-        "free": 19,
+        "free": 18,
         "capacity": 54,
         "items": [
           {
@@ -67,7 +66,7 @@
           {
             "itemID": 2592,
             "name": "Wool Cloth",
-            "count": 24
+            "count": 25
           },
           {
             "itemID": 2940,
@@ -132,7 +131,7 @@
           {
             "itemID": 6265,
             "name": "Soul Shard",
-            "count": 9
+            "count": 10
           },
           {
             "itemID": 6289,
@@ -756,7 +755,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -776,7 +775,7 @@
           "category": "Professions",
           "status": "Save gold",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -841,36 +840,6 @@
           "targets": []
         },
         {
-          "id": "quest:498",
-          "title": "Quest: The Rescue",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
-          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 69,
-          "questID": 498,
-          "materials": [],
-          "targets": []
-        },
-        {
-          "id": "quest:528",
-          "title": "Quest: Battle of Hillsbrad",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 25 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
-          "action": "0/15 Hillsbrad Peasant slain",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 67,
-          "questID": 528,
-          "materials": [],
-          "targets": []
-        },
-        {
           "id": "gear:Shadowfang Keep",
           "title": "Shadowfang Keep: 2 gear targets",
           "category": "Gear",
@@ -904,11 +873,41 @@
           ]
         },
         {
+          "id": "quest:498",
+          "title": "Quest: The Rescue",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 498,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:528",
+          "title": "Quest: Battle of Hillsbrad",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 25 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+          "action": "0/15 Hillsbrad Peasant slain",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 61,
+          "questID": 528,
+          "materials": [],
+          "targets": []
+        },
+        {
           "id": "level:next",
           "title": "Reach level 24",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "13057 XP remaining (55.6% through level 23).",
+          "why": "12218 XP remaining (58.4% through level 23).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -1215,7 +1214,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1235,7 +1234,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 59s 15c.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 61s 20c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1255,7 +1254,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 59s 15c.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 61s 20c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1398,16 +1397,15 @@
                 498
               ]
             },
-            "score": 111,
+            "score": 86,
             "reasons": [
-              "In your current zone",
               "Needs Linen Cloth",
               "The Rescue"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "4 recorded outings: 110 min, 14502 total XP, 86 observed kills. Includes travel, quests and rested XP; compare similar conditions.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 1,
             "matchedMaterials": [
               {
@@ -1443,53 +1441,14 @@
                 527
               ]
             },
-            "score": 102,
+            "score": 77,
             "reasons": [
-              "In your current zone",
               "Needs Linen Cloth"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2589,
-                "missing": 2,
-                "name": "Linen Cloth"
-              }
-            ],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:2261",
-              "name": "Syndicate Watchman",
-              "zone": "Hillsbrad Foothills",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 20,
-              "high": 20,
-              "map": 1424,
-              "x": 0.80774408578873,
-              "y": 0.44111502170563
-            },
-            "score": 81,
-            "reasons": [
-              "54 observed kills / 54 inspected corpses",
-              "In your current zone",
-              "Observed needed material: Linen Cloth"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 1,
             "matchedMaterials": [
               {
@@ -1547,6 +1506,74 @@
           },
           {
             "spot": {
+              "id": "observed:2261",
+              "name": "Syndicate Watchman",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 20,
+              "high": 20,
+              "map": 1424,
+              "x": 0.80774408578873,
+              "y": 0.44111502170563
+            },
+            "score": 56,
+            "reasons": [
+              "54 observed kills / 54 inspected corpses",
+              "Observed needed material: Linen Cloth"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 2,
+                "name": "Linen Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1889",
+              "name": "Dalaran Wizard",
+              "zone": "Silverpine Forest",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 20,
+              "high": 20,
+              "map": 1421,
+              "x": 0.65161490440369,
+              "y": 0.77896845340729
+            },
+            "score": 51,
+            "reasons": [
+              "2 observed kills / 2 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
               "id": "observed:2354",
               "name": "Vicious Gray Bear",
               "zone": "Hillsbrad Foothills",
@@ -1558,15 +1585,14 @@
               "x": 0.71451687812805,
               "y": 0.35018527507782
             },
-            "score": 60,
+            "score": 35,
             "reasons": [
-              "3 observed kills / 2 inspected corpses",
-              "In your current zone"
+              "3 observed kills / 2 inspected corpses"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1589,15 +1615,14 @@
               "x": 0.80845129489899,
               "y": 0.44499862194061
             },
-            "score": 57,
+            "score": 32,
             "reasons": [
-              "15 observed kills / 15 inspected corpses",
-              "In your current zone"
+              "15 observed kills / 15 inspected corpses"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1620,46 +1645,14 @@
               "x": 0.75545227527618,
               "y": 0.35606610774994
             },
-            "score": 57,
+            "score": 32,
             "reasons": [
-              "1 observed kills / 1 inspected corpses",
-              "In your current zone"
+              "1 observed kills / 1 inspected corpses"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
-            "matchCount": 0,
-            "matchedMaterials": [],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:2351",
-              "name": "Gray Bear",
-              "zone": "Hillsbrad Foothills",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 22,
-              "high": 22,
-              "map": 1424,
-              "x": 0.58181267976761,
-              "y": 0.33041280508041
-            },
-            "score": 57,
-            "reasons": [
-              "4 observed kills / 3 inspected corpses",
-              "In your current zone"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1682,15 +1675,14 @@
               "x": 0.81527227163315,
               "y": 0.43998110294342
             },
-            "score": 54,
+            "score": 29,
             "reasons": [
-              "15 observed kills / 15 inspected corpses",
-              "In your current zone"
+              "15 observed kills / 15 inspected corpses"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1713,15 +1705,44 @@
               "x": 0.66662085056305,
               "y": 0.26371210813522
             },
-            "score": 54,
+            "score": 29,
             "reasons": [
-              "2 observed kills / 2 inspected corpses",
-              "In your current zone"
+              "2 observed kills / 2 inspected corpses"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:2351",
+              "name": "Gray Bear",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 21,
+              "high": 21,
+              "map": 1424,
+              "x": 0.23852628469467,
+              "y": 0.47095853090286
+            },
+            "score": 29,
+            "reasons": [
+              "5 observed kills / 3 inspected corpses"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1744,15 +1765,14 @@
               "x": 0.40023398399353,
               "y": 0.46434825658798
             },
-            "score": 51,
+            "score": 26,
             "reasons": [
-              "1 observed kills / 1 inspected corpses",
-              "In your current zone"
+              "1 observed kills / 1 inspected corpses"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
             "matchCount": 0,
             "matchedMaterials": [],
             "history": {
@@ -1768,10 +1788,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 5915,
+          "available": 6120,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 14085
+          "shortfall": 13880
         },
         "dataSource": {
           "provider": "Everloot",
@@ -1785,7 +1805,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T17:46:30Z",
+        "generatedAt": "2026-11-15T18:12:00Z",
         "today": [
           {
             "id": "project:2395",
@@ -1902,7 +1922,7 @@
             "kind": "Leveling",
             "title": "Reach level 24",
             "status": "Ongoing",
-            "why": "13057 XP remaining (55.6% through level 23).",
+            "why": "12218 XP remaining (58.4% through level 23).",
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
@@ -1944,7 +1964,7 @@
             "title": "Work toward First Aid's cap to 225",
             "status": "Requirements pending",
             "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1957,7 +1977,7 @@
             "title": "Raise Cooking's cap to 225",
             "status": "Save gold",
             "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1970,7 +1990,7 @@
             "title": "Work toward Tailoring's cap to 225",
             "status": "Requirements pending",
             "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-            "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 59s 15c.",
+            "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 61s 20c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1983,7 +2003,7 @@
             "title": "Work toward Enchanting's cap to 225",
             "status": "Requirements pending",
             "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-            "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 59s 15c.",
+            "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 61s 20c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -1996,7 +2016,7 @@
             "title": "Raise Fishing's cap to 225",
             "status": "Save gold",
             "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 59s 15c. Save another 40s 85c (before travel or other purchases).",
+            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 61s 20c. Save another 38s 80c (before travel or other purchases).",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,

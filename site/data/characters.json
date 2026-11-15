@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T20:22:57Z",
+  "updatedAt": "2026-11-15T20:36:34Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -19604,7 +19604,7 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-15T20:22:57Z",
+      "exportedAt": "2026-11-15T20:36:34Z",
       "addonVersion": "1.8.0",
       "character": {
         "name": "Seethe",
@@ -19619,7 +19619,7 @@
         "xp": 100,
         "xpForNextLevel": 400,
         "restedXP": 572,
-        "moneyCopper": 2755,
+        "moneyCopper": 18,
         "maxHealth": 78,
         "maxPower": 67,
         "stats": {
@@ -19631,7 +19631,7 @@
         }
       },
       "bags": {
-        "free": 2,
+        "free": 28,
         "capacity": 38,
         "items": [
           {
@@ -19640,59 +19640,9 @@
             "count": 4
           },
           {
-            "itemID": 1206,
-            "name": "Moss Agate",
-            "count": 1
-          },
-          {
             "itemID": 1288,
             "name": "Large Venom Sac",
             "count": 1
-          },
-          {
-            "itemID": 2079,
-            "name": "Sergeant's Warhammer of Spirit",
-            "count": 1
-          },
-          {
-            "itemID": 2251,
-            "name": "Gooey Spider Leg",
-            "count": 4
-          },
-          {
-            "itemID": 2319,
-            "name": "Medium Leather",
-            "count": 2
-          },
-          {
-            "itemID": 2592,
-            "name": "Wool Cloth",
-            "count": 1
-          },
-          {
-            "itemID": 2996,
-            "name": "Bolt of Linen Cloth",
-            "count": 6
-          },
-          {
-            "itemID": 3182,
-            "name": "Spider's Silk",
-            "count": 3
-          },
-          {
-            "itemID": 3305,
-            "name": "Brackwater Leggings",
-            "count": 1
-          },
-          {
-            "itemID": 3335,
-            "name": "Farmer's Broom",
-            "count": 1
-          },
-          {
-            "itemID": 3730,
-            "name": "Big Bear Meat",
-            "count": 11
           },
           {
             "itemID": 3820,
@@ -19700,29 +19650,9 @@
             "count": 6
           },
           {
-            "itemID": 4234,
-            "name": "Heavy Leather",
-            "count": 1
-          },
-          {
-            "itemID": 4305,
-            "name": "Bolt of Silk Cloth",
-            "count": 1
-          },
-          {
-            "itemID": 4306,
-            "name": "Silk Cloth",
-            "count": 2
-          },
-          {
             "itemID": 6308,
             "name": "Raw Bristle Whisker Catfish",
-            "count": 53
-          },
-          {
-            "itemID": 6377,
-            "name": "Formula: Enchant Boots - Minor Agility",
-            "count": 1
+            "count": 33
           },
           {
             "itemID": 6948,
@@ -19730,58 +19660,13 @@
             "count": 1
           },
           {
-            "itemID": 10940,
-            "name": "Strange Dust",
-            "count": 3
-          },
-          {
             "itemID": 10978,
             "name": "Small Glimmering Shard",
             "count": 3
           },
           {
-            "itemID": 11083,
-            "name": "Soul Dust",
-            "count": 2
-          },
-          {
-            "itemID": 11101,
-            "name": "Formula: Enchant Bracer - Lesser Strength",
-            "count": 1
-          },
-          {
-            "itemID": 11407,
-            "name": "Torn Bear Pelt",
-            "count": 4
-          },
-          {
-            "itemID": 14096,
-            "name": "Native Vest of Intellect",
-            "count": 1
-          },
-          {
-            "itemID": 14723,
-            "name": "War Paint Bindings",
-            "count": 1
-          },
-          {
-            "itemID": 15926,
-            "name": "Spellbinder Orb",
-            "count": 1
-          },
-          {
-            "itemID": 21071,
-            "name": "Raw Sagefish",
-            "count": 4
-          },
-          {
-            "itemID": 247786,
-            "name": "Mote of Magic",
-            "count": 45
-          },
-          {
-            "itemID": 248682,
-            "name": "Waylaid Crate: Apprentice Herbs",
+            "itemID": 20752,
+            "name": "Formula: Minor Mana Oil",
             "count": 1
           },
           {
@@ -19868,20 +19753,6 @@
         }
       ],
       "goals": [
-        {
-          "id": "bags:room",
-          "title": "Make room before your next outing",
-          "category": "Bags",
-          "status": "2 general slots free",
-          "why": "2 of 38 general bag slots are free. Keyring and reagent-only slots are excluded.",
-          "action": "Bank materials you are saving for later; keep the reagents needed for your chosen craft.\nSmallest equipped bag: Linen Bag (6 slots). Compare a larger replacement.\nMote of Magic: 3 occupied slots\nRaw Bristle Whisker Catfish: 3 occupied slots",
-          "actionType": "bags",
-          "source": "Live bag containers",
-          "button": "Open bags",
-          "priority": 97,
-          "materials": [],
-          "targets": []
-        },
         {
           "id": "quest:752",
           "title": "Turn in: A Humble Task",
@@ -20208,12 +20079,12 @@
         }
       ],
       "nextSteps": [
-        "bags:room",
         "quest:752",
         "training:now",
         "gear:Quest (Horde)",
         "gear:Razorfen Kraul",
-        "quest:747"
+        "quest:747",
+        "bags:bank"
       ],
       "fieldPlan": {
         "materials": [],
@@ -20224,7 +20095,7 @@
         ],
         "notices": [],
         "budget": {
-          "available": 2755,
+          "available": 18,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -20241,21 +20112,8 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T20:22:57Z",
+        "generatedAt": "2026-11-15T20:36:34Z",
         "today": [
-          {
-            "id": "bags:room",
-            "kind": "Bags",
-            "title": "Make room before your next outing",
-            "status": "2 general slots free",
-            "why": "2 of 38 general bag slots are free. Keyring and reagent-only slots are excluded.",
-            "action": "Bank materials you are saving for later; keep the reagents needed for your chosen craft.\nSmallest equipped bag: Linen Bag (6 slots). Compare a larger replacement.\nMote of Magic: 3 occupied slots\nRaw Bristle Whisker Catfish: 3 occupied slots",
-            "source": "Live bag containers",
-            "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
           {
             "id": "quest:752",
             "kind": "Leveling",
@@ -20279,6 +20137,20 @@
             "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
             "source": "Naowh Training 1.2.34 / TrainingData + live spellbook",
             "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:747",
+            "kind": "Leveling",
+            "title": "Quest: The Hunt Begins",
+            "status": "Current quest",
+            "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+            "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 747,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -20307,20 +20179,6 @@
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "quest:747",
-            "kind": "Leveling",
-            "title": "Quest: The Hunt Begins",
-            "status": "Current quest",
-            "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
-            "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
-            "source": "Live Forever quest log",
-            "open": "Progression",
-            "questID": 747,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -20747,20 +20605,6 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 13106,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:14096",
-            "kind": "Gear",
-            "title": "Equip: Native Vest",
-            "status": "Level 11 required",
-            "why": "Replaces Novice's Robe; estimated +1.3 stat points. Your current bags",
-            "action": "Compare the tooltip and equip manually when ready.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 14096,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -22533,7 +22377,7 @@
         "source": "Installed NaowhForever 1.2.33",
         "auto": true,
         "pending": 6,
-        "checked": 196,
+        "checked": 192,
         "merchantFavor": {
           "currencyID": 3402,
           "name": "Merchant's Favor",
@@ -29378,42 +29222,6 @@
             ]
           },
           {
-            "name": "Native Vest",
-            "slotName": "Chest",
-            "current": "Novice's Robe",
-            "status": "Level 11 required",
-            "kind": "Owned",
-            "source": "Your current bags",
-            "action": "Compare the tooltip and equip manually when ready.",
-            "itemID": 14096,
-            "slot": 5,
-            "requiredLevel": 11,
-            "currentItemID": 6139,
-            "currentScore": 0.015,
-            "candidateScore": 1.265,
-            "gain": 1.25,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 3,
-                "after": 29,
-                "delta": 26
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              }
-            ]
-          },
-          {
             "name": "Fleshhide Shoulders",
             "slotName": "Shoulders",
             "current": "Empty slot",
@@ -30075,34 +29883,6 @@
                 "before": 1.3793103694916,
                 "after": 20.909090042114,
                 "delta": 19.529779672623
-              }
-            ]
-          },
-          {
-            "name": "Spellbinder Orb",
-            "slotName": "Off hand",
-            "current": "Empty slot",
-            "status": "Needs weapon set",
-            "kind": "Owned",
-            "source": "Your current bags",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
-            "itemID": 15926,
-            "slot": 17,
-            "requiredLevel": 12,
-            "currentScore": 0,
-            "candidateScore": 0.84,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 3,
-                "delta": 3
               }
             ]
           },

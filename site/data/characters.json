@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T13:23:22Z",
+  "updatedAt": "2026-11-15T13:37:19Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T13:23:22Z",
+      "exportedAt": "2026-11-15T13:37:19Z",
       "addonVersion": "1.3.3",
       "character": {
         "name": "Scathe",
@@ -16,7 +16,7 @@
         "zone": "Hillsbrad Foothills",
         "powerType": "MANA",
         "level": 23,
-        "xp": 996,
+        "xp": 1268,
         "xpForNextLevel": 29400,
         "moneyCopper": 3915,
         "maxHealth": 664,
@@ -30,9 +30,14 @@
         }
       },
       "bags": {
-        "free": 33,
+        "free": 29,
         "capacity": 54,
         "items": [
+          {
+            "itemID": 878,
+            "name": "Fist-sized Spinneret",
+            "count": 1
+          },
           {
             "itemID": 1288,
             "name": "Large Venom Sac",
@@ -64,6 +69,11 @@
             "count": 1
           },
           {
+            "itemID": 4428,
+            "name": "Spider Palp",
+            "count": 1
+          },
+          {
             "itemID": 4471,
             "name": "Flint and Tinder",
             "count": 1
@@ -86,7 +96,7 @@
           {
             "itemID": 6265,
             "name": "Soul Shard",
-            "count": 8
+            "count": 10
           },
           {
             "itemID": 6289,
@@ -872,7 +882,7 @@
           "title": "Reach level 24",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "28404 XP remaining (3.4% through level 23).",
+          "why": "28132 XP remaining (4.3% through level 23).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -1440,6 +1450,25 @@
           },
           {
             "spot": {
+              "id": "observed:2351",
+              "name": "Gray Bear",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 22,
+              "high": 22,
+              "map": 1424,
+              "x": 0.66543412208557,
+              "y": 0.2636302113533
+            },
+            "score": 57,
+            "reasons": [
+              "1 observed kills / 0 inspected corpses",
+              "In your current zone"
+            ]
+          },
+          {
+            "spot": {
               "id": "observed:2244",
               "name": "Syndicate Shadow Mage",
               "zone": "Hillsbrad Foothills",
@@ -1464,15 +1493,15 @@
               "zone": "Hillsbrad Foothills",
               "note": "Your recorded position near this mob; not a complete spawn map.",
               "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 20,
-              "high": 20,
+              "low": 21,
+              "high": 21,
               "map": 1424,
-              "x": 0.71004581451416,
-              "y": 0.34364140033722
+              "x": 0.66662085056305,
+              "y": 0.26371210813522
             },
-            "score": 51,
+            "score": 54,
             "reasons": [
-              "1 observed kills / 1 inspected corpses",
+              "2 observed kills / 2 inspected corpses",
               "In your current zone"
             ]
           }
@@ -1537,6 +1566,25 @@
           }
         }
       ],
+      "activeSession": {
+        "label": "Durnholde Syndicate",
+        "spotID": "syndicate",
+        "zone": "Hillsbrad Foothills",
+        "started": 1794749483,
+        "elapsed": 0,
+        "segmentAt": 1794749483,
+        "lastAt": 1794749621,
+        "kills": 2,
+        "xp": 272,
+        "receivedLoot": {
+          "4428": 1,
+          "878": 1
+        },
+        "loot": {
+          "4428": 1,
+          "878": 1
+        }
+      },
       "coverage": {
         "bags": "current",
         "bank": "personal bank only, last seen",

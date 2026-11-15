@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T19:38:19Z",
+  "updatedAt": "2026-11-15T19:51:02Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T19:38:19Z",
-      "addonVersion": "1.7.0",
+      "exportedAt": "2026-11-15T19:51:02Z",
+      "addonVersion": "1.8.0",
       "character": {
         "name": "Scathe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -18,7 +18,7 @@
         "level": 23,
         "xp": 18174,
         "xpForNextLevel": 29400,
-        "restedXP": 24,
+        "restedXP": 60,
         "moneyCopper": 6483,
         "maxHealth": 564,
         "maxPower": 1102,
@@ -368,7 +368,7 @@
           "skillLineID": 129,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T19:25:57Z"
+          "recipesCapturedAt": "2026-11-15T19:50:34Z"
         },
         {
           "name": "Fishing",
@@ -388,7 +388,7 @@
           "skillLineID": 185,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-15T15:15:29Z"
+          "recipesCapturedAt": "2026-11-15T19:50:41Z"
         }
       ],
       "quests": [
@@ -845,7 +845,7 @@
           "category": "Professions",
           "status": "Batch materials ready",
           "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 4 crafts.",
-          "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:57Z",
+          "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:50:34Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1858,11 +1858,11 @@
         }
       },
       "dailyPlan": {
-        "version": 1,
+        "version": 2,
         "day": "2026-11-15",
         "mode": "grind",
-        "minutes": 45,
-        "generatedAt": "2026-11-15T19:38:19Z",
+        "minutes": 90,
+        "generatedAt": "2026-11-15T19:51:02Z",
         "today": [
           {
             "id": "upgrade:253885",
@@ -1880,17 +1880,15 @@
             "snoozed": false
           },
           {
-            "id": "project:2395",
-            "kind": "Craft",
-            "title": "Barbaric Linen Vest",
+            "id": "craft:333",
+            "kind": "Professions",
+            "title": "Enchanting: prepare Enchant Cloak - Minor Agility",
             "status": "Gather materials",
-            "why": "Your crafting project; materials are allocated in project order.",
-            "action": "Craft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
-            "source": "Learned recipes and shared inventory reservations",
-            "open": "Projects",
-            "have": 0,
-            "need": 1,
-            "recipeID": 2395,
+            "why": "Enchanting 115/150. One learned, non-grey craft; skill gains vary.",
+            "action": "Acquire 1 Lesser Astral Essence\n\nReview one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T19:29:28Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.\nDisenchanting destroys the chosen item. Keep equipped gear, upgrades and project items; review any unwanted equipment manually.",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Professions",
+            "recipeID": 13419,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -1908,6 +1906,33 @@
             "pinned": false,
             "reviewed": false,
             "snoozed": false
+          },
+          {
+            "id": "training:now",
+            "kind": "Leveling",
+            "title": "Review 7 unlearned class skills",
+            "status": "Trainer / quest",
+            "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
+            "action": "Searing Pain (level 18, listed 17s 0c)\nCurse of the Elements (level 20, listed 25s 0c)\nImmolate (level 20, listed 25s 0c)\nSummon Incubus (level 20, quest)\nSummon Succubus (level 20, quest)\nCurse of Weakness (level 22, listed 38s 0c)\nEye of Kilrogg (level 22, listed 38s 0c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
+            "source": "Naowh Training 1.2.34 / TrainingData + live spellbook",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:498",
+            "kind": "Leveling",
+            "title": "Quest: The Rescue",
+            "status": "Current quest",
+            "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
+            "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 498,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
           }
         ],
         "soon": [
@@ -1917,9 +1942,10 @@
             "title": "First Aid: 67 toward 75",
             "status": "Batch materials ready",
             "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 4 crafts.",
-            "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:57Z",
+            "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:50:34Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
+            "recipeID": 3276,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -1927,51 +1953,13 @@
           {
             "id": "craft:197",
             "kind": "Professions",
-            "title": "Tailoring: 94 toward 100",
-            "status": "Materials needed",
-            "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-            "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:51Z",
+            "title": "Tailoring: prepare Red Woolen Bag",
+            "status": "Gather materials",
+            "why": "Tailoring 94/150. One learned, non-grey craft; skill gains vary.",
+            "action": "Craft 3 Bolt of Woolen Cloth batch(es); Buy 1 Red Dye; Buy 1 Fine Thread\n\nReview one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T19:25:51Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-            "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "craft:333",
-            "kind": "Professions",
-            "title": "Enchanting: 115 toward 125",
-            "status": "Materials needed",
-            "why": "Try Enchant Cloak - Minor Agility. It is learned and below its grey threshold (175). Gather the missing reagents first.",
-            "action": "Review one craft of Enchant Cloak - Minor Agility.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. Applying an enchant replaces the current enchant on the chosen item. \nRecipe scan: 2026-11-15T19:29:28Z",
-            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-            "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "learn:13522",
-            "kind": "Professions",
-            "title": "Keep for later: Formula: Enchant Cloak - Lesser Shadow Resistance",
-            "status": "Skill requirement pending",
-            "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
-            "action": "Requires Enchanting 135; you have 115. Refresh the profession scan before using or selling the recipe.",
-            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-            "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "learn:3851",
-            "kind": "Professions",
-            "title": "Keep for later: Pattern: Phoenix Pants",
-            "status": "Skill requirement pending",
-            "why": "This recipe item is in your bags but is absent from the last learned-recipe scan.",
-            "action": "Requires Tailoring 100; you have 94. Refresh the profession scan before using or selling the recipe.",
-            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-            "open": "Progression",
+            "open": "Professions",
+            "recipeID": 6688,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -1990,15 +1978,17 @@
             "snoozed": false
           },
           {
-            "id": "quest:498",
-            "kind": "Leveling",
-            "title": "Quest: The Rescue",
-            "status": "Current quest",
-            "why": "Level 22 quest in Hillsbrad Foothills fits your current level 23. No group flag is reported.",
-            "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
-            "source": "Live Forever quest log",
-            "open": "Progression",
-            "questID": 498,
+            "id": "project:2395",
+            "kind": "Craft",
+            "title": "Barbaric Linen Vest",
+            "status": "Gather materials",
+            "why": "Your crafting project; materials are allocated in project order.",
+            "action": "Craft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
+            "source": "Learned recipes and shared inventory reservations",
+            "open": "Projects",
+            "have": 0,
+            "need": 1,
+            "recipeID": 2395,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2044,32 +2034,6 @@
             "snoozed": false
           },
           {
-            "id": "rank:197",
-            "kind": "Professions",
-            "title": "Work toward Tailoring's cap to 225",
-            "status": "Requirements pending",
-            "why": "Tailoring is 94/150. This rank requires 125 skill and level 20.",
-            "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 64s 83c.",
-            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-            "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "rank:333",
-            "kind": "Professions",
-            "title": "Work toward Enchanting's cap to 225",
-            "status": "Requirements pending",
-            "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-            "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 64s 83c.",
-            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-            "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "rank:356",
             "kind": "Professions",
             "title": "Raise Fishing's cap to 225",
@@ -2095,19 +2059,6 @@
             "need": 15,
             "itemID": 2592,
             "done": true,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "training:now",
-            "kind": "Leveling",
-            "title": "Review 7 unlearned class skills",
-            "status": "Trainer / quest",
-            "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
-            "action": "Searing Pain (level 18, listed 17s 0c)\nCurse of the Elements (level 20, listed 25s 0c)\nImmolate (level 20, listed 25s 0c)\nSummon Incubus (level 20, quest)\nSummon Succubus (level 20, quest)\nCurse of Weakness (level 22, listed 38s 0c)\nEye of Kilrogg (level 22, listed 38s 0c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
-            "source": "Naowh Training 1.2.34 / TrainingData + live spellbook",
-            "open": "Progression",
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -5267,6 +5218,7 @@
         ],
         "notices": [
           "Session length limits the checklist; it is not a completion-time promise.",
+          "Both primary professions get a useful step when space permits; pins and urgent bag space come first.",
           "Reviewed and Later choices reset each local calendar day. Projects and stock goals carry forward."
         ],
         "camp": {

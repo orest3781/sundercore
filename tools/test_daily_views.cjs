@@ -1,0 +1,16 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../site/app.js'),'utf8');
+const context={URL,localStorage:{getItem:()=>null},document:{querySelector:()=>null}};
+vm.runInNewContext(source.slice(0,source.indexOf('function render('))+'\nglobalThis.api={dailyFor,today,projects,dailyCheckKey,dailyTasksHTML,setBucket:x=>dailyBucket=x};',context);
+const {dailyFor,today,projects,dailyCheckKey,dailyTasksHTML,setBucket}=context.api;
+const c={id:'test',exportedAt:'2026-11-15T16:00:00Z',character:{name:'Test',level:1},goals:[{id:'gear:raid',category:'Gear',title:'Raid',status:'Gear shortlist'},{id:'quest:1',title:'Turn in',status:'Ready to turn in'}],fieldPlan:{spots:[]}};
+assert.equal(dailyFor(c).today.length,1);assert.equal(dailyFor(c).someday.length,1);assert.match(today(c),/older snapshot/);
+c.dailyPlan={version:1,day:'2026-11-15',mode:'grind',minutes:45,today:[{id:'wool',title:'<script>bad</script>',need:15,have:2}],projects:[{recipeID:1,name:'Bag',status:'Gather materials',total:2,completed:1,remaining:1,materials:[{id:2592,name:'Wool',need:6,bag:1,bank:2,missing:3}]}]};
+assert.match(today(c),/&lt;script&gt;bad&lt;\/script&gt;/);assert.doesNotMatch(today(c),/<script>/);
+assert.match(projects(c),/Acquire 3 \+ withdraw 2/);assert.match(projects(c),/1 \/ 2/);
+c.dailyPlan.projects[0].materials[0].make=4;assert.match(projects(c),/Acquire 3 \+ withdraw 2 \+ Craft 4/);
+assert.notEqual(dailyCheckKey(c,c.dailyPlan),dailyCheckKey({...c,id:'other'},c.dailyPlan));
+assert.notEqual(dailyCheckKey(c,c.dailyPlan),dailyCheckKey(c,{day:'2026-11-16'}));
+c.dailyPlan.camp={id:'outdated',name:'Chosen camp',zone:'Zone',chosen:true};assert.match(today(c),/outside the current recommendation list/);
+setBucket('reviewed');assert.match(dailyTasksHTML(c,c.dailyPlan),/Nothing here/);
+console.log('PASS: older snapshots, daily horizons, project quantities, missing artwork/camps, escaped text and isolated day/character checkmarks');

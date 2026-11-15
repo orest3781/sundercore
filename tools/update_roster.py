@@ -76,6 +76,14 @@ MATERIAL = {k:integer for k in ('id','itemID','bag','bank','missing','need','mak
 MATERIAL.update({k:text for k in ('name','usesText','action','kind')})
 MATERIAL.update({k:boolean for k in ('done','vendor','collect')})
 WAYPOINT = dict(mapID=integer,map=integer,x=number,y=number,title=text)
+PROJECT = dict(recipeID=integer,name=text,remaining=integer,total=integer,completed=integer,paused=boolean,cancelled=boolean,
+    status=text,outputItemID=integer,materials=[MATERIAL])
+DAILY_TASK = {k:text for k in ('id','kind','title','status','why','action','source','open')}
+DAILY_TASK.update({k:integer for k in ('have','need','itemID','recipeID','questID')})
+DAILY_TASK.update({k:boolean for k in ('done','pinned','reviewed','snoozed')})
+DAILY = dict(version=integer,day=text,mode=text,minutes=integer,generatedAt=text,
+    today=[DAILY_TASK],soon=[DAILY_TASK],someday=[DAILY_TASK],reviewed=[DAILY_TASK],snoozed=[DAILY_TASK],projects=[PROJECT],notices=[text],
+    camp=dict(id=text,name=text,zone=text,chosen=boolean))
 TARGET = dict(itemID=integer,name=text,requiredLevel=integer,slot=text,source=text,status=text,current=text)
 GOAL = {k:text for k in ('id','title','category','status','why','action','actionType','source','button')}
 GOAL.update(priority=number,questID=integer,purchaseCost=integer,materials=[MATERIAL],targets=[TARGET],waypoint=WAYPOINT)
@@ -83,7 +91,8 @@ SPOT = {k:text for k in ('id','name','zone','note','source','evidence','faction'
 SPOT.update({k:integer for k in ('low','high','map','npcID','sampleSize','windows','reporters','installs')})
 SPOT.update(x=number,y=number,items=[integer],quests=[integer])
 FIELD = dict(materials=[MATERIAL],crafts=[dict(recipeID=integer,name=text,remaining=integer)],
-    spots=[dict(spot=SPOT,score=number,reasons=[text],evidence=text,comparison=text)],tasks=[text],notices=[text],
+    spots=[dict(spot=SPOT,score=number,reasons=[text],evidence=text,comparison=text,travel=text,localZone=boolean,matchCount=integer,
+        matchedMaterials=[MATERIAL],history=dict(sessions=integer,seconds=number,xp=integer,kills=integer))],tasks=[text],notices=[text],
     budget={k:integer for k in ('available','rankTotal','reserve','shortfall')},
     dataSource={k:text for k in ('provider','capturedAt','credit','status')})
 PROFESSION = dict(name=text,skill=integer,maxSkill=integer,bonusSkill=integer,skillLineID=integer,isPrimary=boolean,recipeScanStatus=text,recipesCapturedAt=text)
@@ -98,7 +107,7 @@ def item_counts(value):
 SESSION.update(receivedLoot=item_counts,loot=item_counts)
 PUBLIC = dict(id=text,exportedAt=text,addonVersion=text,character=CHARACTER,
     bags=dict(free=integer,capacity=integer,items=[ITEM]),equipment=[ITEM],professions=[PROFESSION],quests=[QUEST],
-    goals=[GOAL],nextSteps=[text],fieldPlan=FIELD,sessions=[SESSION],activeSession=SESSION,
+    goals=[GOAL],nextSteps=[text],fieldPlan=FIELD,dailyPlan=DAILY,sessions=[SESSION],activeSession=SESSION,
     coverage={k:text for k in ('bags','bank','professions','bankCapturedAt','bankStatus','sessions')})
 
 def identity(character):
@@ -154,6 +163,7 @@ def public_snapshot(source):
     if bank.get('status'):result['coverage']['bankStatus']=bank['status']
     result['coverage']['sessions']='Snapshot session summaries' if 'farmSessions' in source else 'Not exported by this addon version'
     if source.get('activeFarmSession'): result['activeSession']=source['activeFarmSession']
+    if isinstance(source.get('dailyPlan'),dict): result['dailyPlan']=source['dailyPlan']
     clean=normalize_public(result)
     for m in clean['fieldPlan'].get('materials',[]):
         if not m.get('action'):

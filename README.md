@@ -58,6 +58,16 @@ Open `http://localhost:8000`. Publishing is separate from this local preview. Gi
 
 ## How to read the dashboard
 
+### Today and crafting projects
+
+Character Ledger 1.4 opens **Today** on login (also `/chartoday`). Choose Grind mobs, Balanced, or Crafting and a 15, 45, or 90 minute session budget. The initial display limits are 2, 3, and 5 main tasks to keep the board readable; these are planning limits, not completion-time estimates. Bag space, active projects, ready quest turn-ins, training, and current quests feed the board. Prerequisites stay in Soon and gear wishlists in Someday. Pin, review, or put a reminder aside for the local calendar day. Reviews reset on a new day; unfinished projects and inventory targets persist.
+
+Queue a known recipe under **Crafts**, then manage it under **Projects**. Projects allocate shared materials in priority order and distinguish bag stock, bank withdrawals, intermediate crafts, and missing materials. Pause releases reservations; resume restores them. Completion counts successful crafting casts, not purchased items, guaranteed skill-ups, or recipe output quantities.
+
+The compact HUD shows up to three Today tasks alongside the chosen camp, material progress, and Update SunderCore. Camps consider level suitability, matching materials, current-zone travel, and existing quest relevance. Recorded outings provide context, not a controlled XP/hour ranking. Source labels distinguish Classic-derived camps, community observations, and personal evidence.
+
+**Today** and **Crafting projects** on the website reflect the last saved plan. Website checkmarks are local to this browser, character, and saved-plan day; they do not change in-game progress. Focus, pins, pauses, and project order are managed in the addon. Older character snapshots show a clearly labeled basic plan until that character is saved with version 1.4. The 1.1 tray watcher preserves these new fields; use Update SunderCore to capture, reload, and publish through the running watcher.
+
 ### Character armories
 
 Open **Armory** and choose a character to see all 19 equipment slots, item icons, rarity colors, and saved item details. Each character has a shareable link. Gear comes exclusively from the Character Ledger snapshot. Click **Update SunderCore** in the addon's compact HUD to save and reload; the running tray watcher then publishes the updated snapshot.

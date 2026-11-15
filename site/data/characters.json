@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T10:43:15Z",
+  "updatedAt": "2026-11-15T10:46:31Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -1456,7 +1456,7 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-15T10:43:15Z",
+      "exportedAt": "2026-11-15T10:46:31Z",
       "addonVersion": "1.3.0",
       "character": {
         "name": "Seethe",
@@ -1466,125 +1466,33 @@
         "race": "Tauren",
         "faction": "Horde",
         "zone": "Thunder Bluff",
-        "powerType": "MANA",
         "level": 1,
-        "xp": 100,
-        "xpForNextLevel": 400,
-        "restedXP": 550,
-        "moneyCopper": 631,
-        "maxHealth": 78,
-        "maxPower": 67,
+        "xp": 0,
+        "xpForNextLevel": 0,
+        "moneyCopper": 0,
+        "maxHealth": 0,
+        "maxPower": 0,
         "stats": {
-          "agility": 15,
-          "intellect": 17,
-          "spirit": 24,
-          "stamina": 22,
-          "strength": 26
+          "agility": 0,
+          "intellect": 0,
+          "spirit": 0,
+          "stamina": 0,
+          "strength": 0
         }
       },
       "bags": {
-        "free": 25,
-        "capacity": 38,
-        "items": [
-          {
-            "itemID": 2079,
-            "name": "Sergeant's Warhammer of Spirit",
-            "count": 1
-          },
-          {
-            "itemID": 3305,
-            "name": "Brackwater Leggings",
-            "count": 1
-          },
-          {
-            "itemID": 3335,
-            "name": "Farmer's Broom",
-            "count": 1
-          },
-          {
-            "itemID": 6657,
-            "name": "Savory Deviate Delight",
-            "count": 9
-          },
-          {
-            "itemID": 6948,
-            "name": "Hearthstone",
-            "count": 1
-          },
-          {
-            "itemID": 11101,
-            "name": "Formula: Enchant Bracer - Lesser Strength",
-            "count": 1
-          },
-          {
-            "itemID": 14096,
-            "name": "Native Vest of Intellect",
-            "count": 1
-          },
-          {
-            "itemID": 14723,
-            "name": "War Paint Bindings",
-            "count": 1
-          },
-          {
-            "itemID": 15926,
-            "name": "Spellbinder Orb",
-            "count": 1
-          },
-          {
-            "itemID": 20752,
-            "name": "Formula: Minor Mana Oil",
-            "count": 1
-          },
-          {
-            "itemID": 247786,
-            "name": "Mote of Magic",
-            "count": 45
-          }
-        ]
+        "free": 0,
+        "capacity": 0,
+        "items": []
       },
-      "equipment": [
-        {
-          "itemID": 6139,
-          "name": "Novice's Robe",
-          "count": 1,
-          "quality": 0,
-          "itemLevel": 1,
-          "requiredLevel": 1,
-          "slot": 5,
-          "slotName": "chest",
-          "vendorPriceCopper": 1
-        },
-        {
-          "itemID": 6124,
-          "name": "Novice's Pants",
-          "count": 1,
-          "quality": 0,
-          "itemLevel": 1,
-          "requiredLevel": 1,
-          "slot": 7,
-          "slotName": "legs",
-          "vendorPriceCopper": 1
-        },
-        {
-          "itemID": 35,
-          "name": "Bent Staff",
-          "count": 1,
-          "quality": 1,
-          "itemLevel": 2,
-          "requiredLevel": 1,
-          "slot": 16,
-          "slotName": "mainHand",
-          "vendorPriceCopper": 9
-        }
-      ],
+      "equipment": [],
       "professions": [],
       "quests": [
         {
           "questID": 752,
           "name": "A Humble Task",
-          "level": 2,
-          "complete": true,
+          "level": 0,
+          "complete": false,
           "failed": false,
           "group": false,
           "zone": "Red Cloud Mesa",
@@ -1593,40 +1501,26 @@
         {
           "questID": 747,
           "name": "The Hunt Begins",
-          "level": 2,
+          "level": 0,
           "complete": false,
           "failed": false,
           "group": false,
           "zone": "Red Cloud Mesa",
-          "objectives": [
-            {
-              "text": "0/7 Plainstrider Meat",
-              "have": 0,
-              "need": 7,
-              "finished": false
-            },
-            {
-              "text": "0/7 Plainstrider Feather",
-              "have": 0,
-              "need": 7,
-              "finished": false
-            }
-          ]
+          "objectives": []
         }
       ],
       "goals": [
         {
-          "id": "quest:752",
-          "title": "Turn in: A Humble Task",
-          "category": "Leveling",
-          "status": "Ready to turn in",
-          "why": "The game marks this quest complete.",
-          "action": "Return to the quest giver for the reward.",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 92,
-          "questID": 752,
+          "id": "bags:room",
+          "title": "Make room before your next outing",
+          "category": "Bags",
+          "status": "0 general slots free",
+          "why": "0 of 0 general bag slots are free. Keyring and reagent-only slots are excluded.",
+          "action": "Bank materials you are saving for later; keep the reagents needed for your chosen craft.",
+          "actionType": "bags",
+          "source": "Live bag containers",
+          "button": "Open bags",
+          "priority": 97,
           "materials": [],
           "targets": []
         },
@@ -1649,11 +1543,11 @@
           "title": "Quest (Horde): 3 gear targets",
           "category": "Gear",
           "status": "Gear shortlist",
-          "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
+          "why": "Balance Druid level-30 wishlist; 3 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
           "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
-          "priority": 66,
+          "priority": 71,
           "materials": [],
           "targets": [
             {
@@ -1663,7 +1557,7 @@
               "slot": "Chest",
               "source": "Betrayal from Within · Quest (Horde)",
               "status": "Level requirement met",
-              "current": "Novice's Robe"
+              "current": "Empty slot"
             },
             {
               "itemID": 16741,
@@ -1690,11 +1584,11 @@
           "title": "Razorfen Kraul: 4 gear targets",
           "category": "Gear",
           "status": "Future gear targets",
-          "why": "Balance Druid level-30 wishlist; 3 target slots are currently empty.",
+          "why": "Balance Druid level-30 wishlist; 4 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
           "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
-          "priority": 65,
+          "priority": 70,
           "materials": [],
           "targets": [
             {
@@ -1704,7 +1598,7 @@
               "slot": "Main hand",
               "source": "Agathelos the Raging · Razorfen Kraul",
               "status": "Requires level 30",
-              "current": "Bent Staff"
+              "current": "Empty slot"
             },
             {
               "itemID": 274149,
@@ -1736,17 +1630,64 @@
           ]
         },
         {
+          "id": "gear:Quest",
+          "title": "Quest: 2 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
+          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 64,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6750,
+              "name": "Snake Hoop",
+              "requiredLevel": 0,
+              "slot": "Ring",
+              "source": "Willix the Importer · Quest",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            },
+            {
+              "itemID": 270031,
+              "name": "Dark Ritual Leggings",
+              "requiredLevel": 0,
+              "slot": "Legs",
+              "source": "Blackfathom Villainy · Quest",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
           "id": "quest:747",
           "title": "Quest: The Hunt Begins",
           "category": "Leveling",
           "status": "Current quest",
-          "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
-          "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
+          "why": "Level 0 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+          "action": "",
           "actionType": "quest",
           "source": "Live Forever quest log",
           "button": "Open quest",
           "priority": 63,
           "questID": 747,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:752",
+          "title": "Quest: A Humble Task",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 0 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+          "action": "",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 752,
           "materials": [],
           "targets": []
         },
@@ -1811,50 +1752,6 @@
               "source": "Commander Springvale · Shadowfang Keep",
               "status": "Requires level 21",
               "current": "Empty slot"
-            }
-          ]
-        },
-        {
-          "id": "level:next",
-          "title": "Reach level 2",
-          "category": "Leveling",
-          "status": "Ongoing",
-          "why": "300 XP remaining (25.0% through level 1).",
-          "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
-          "source": "Live character XP and quest log",
-          "priority": 60,
-          "materials": [],
-          "targets": []
-        },
-        {
-          "id": "gear:Quest",
-          "title": "Quest: 2 gear targets",
-          "category": "Gear",
-          "status": "Gear shortlist",
-          "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
-          "button": "Open Naowh BiS",
-          "priority": 59,
-          "materials": [],
-          "targets": [
-            {
-              "itemID": 6750,
-              "name": "Snake Hoop",
-              "requiredLevel": 0,
-              "slot": "Ring",
-              "source": "Willix the Importer · Quest",
-              "status": "Level requirement met",
-              "current": "Empty slot"
-            },
-            {
-              "itemID": 270031,
-              "name": "Dark Ritual Leggings",
-              "requiredLevel": 0,
-              "slot": "Legs",
-              "source": "Blackfathom Villainy · Quest",
-              "status": "Level requirement met",
-              "current": "Novice's Pants"
             }
           ]
         },
@@ -1941,23 +1838,21 @@
         }
       ],
       "nextSteps": [
-        "quest:752",
+        "bags:room",
         "training:now",
         "gear:Quest (Horde)",
         "gear:Razorfen Kraul",
-        "quest:747",
-        "bags:bank"
+        "gear:Quest",
+        "quest:747"
       ],
       "fieldPlan": {
         "materials": [],
         "crafts": [],
         "spots": [],
-        "tasks": [
-          "Turn in: A Humble Task"
-        ],
+        "tasks": [],
         "notices": [],
         "budget": {
-          "available": 631,
+          "available": 0,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0

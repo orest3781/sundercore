@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T10:43:15Z",
+  "updatedAt": "2026-11-15T11:51:35Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T00:30:03Z",
-      "addonVersion": "1.2.0",
+      "exportedAt": "2026-11-15T11:51:35Z",
+      "addonVersion": "1.3.0",
       "character": {
         "name": "Scathe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -13,21 +13,21 @@
         "classToken": "WARLOCK",
         "race": "Undead",
         "faction": "Horde",
-        "zone": "Undercity",
+        "zone": "Hillsbrad Foothills",
         "powerType": "MANA",
         "level": 22,
         "xp": 24638,
         "xpForNextLevel": 27300,
-        "restedXP": 302,
+        "restedXP": 2168,
         "moneyCopper": 3247,
-        "maxHealth": 473,
-        "maxPower": 923,
+        "maxHealth": 783,
+        "maxPower": 983,
         "stats": {
-          "agility": 29,
-          "intellect": 52,
-          "spirit": 66,
-          "stamina": 42,
-          "strength": 30
+          "agility": 31,
+          "intellect": 56,
+          "spirit": 71,
+          "stamina": 73,
+          "strength": 32
         }
       },
       "bags": {
@@ -120,6 +120,11 @@
             "count": 1
           },
           {
+            "itemID": 4593,
+            "name": "Bristle Whisker Catfish",
+            "count": 11
+          },
+          {
             "itemID": 5088,
             "name": "Control Console Operating Manual",
             "count": 1
@@ -147,7 +152,7 @@
           {
             "itemID": 6308,
             "name": "Raw Bristle Whisker Catfish",
-            "count": 64
+            "count": 53
           },
           {
             "itemID": 6377,
@@ -347,7 +352,7 @@
           "skillLineID": 197,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-14T23:05:26Z"
+          "recipesCapturedAt": "2026-11-15T11:48:27Z"
         },
         {
           "name": "Enchanting",
@@ -381,13 +386,13 @@
         },
         {
           "name": "Cooking",
-          "skill": 140,
+          "skill": 150,
           "maxSkill": 150,
           "bonusSkill": 0,
           "skillLineID": 185,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-14T22:51:56Z"
+          "recipesCapturedAt": "2026-11-15T11:28:49Z"
         }
       ],
       "quests": [
@@ -787,6 +792,26 @@
       ],
       "goals": [
         {
+          "id": "rank:185",
+          "title": "Raise Cooking's cap to 225",
+          "category": "Professions",
+          "status": "Save gold",
+          "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 32s 47c. Save another 67s 53c (before travel or other purchases).",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 94,
+          "purchaseCost": 10000,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1443,
+            "x": 0.262,
+            "y": 0.698
+          }
+        },
+        {
           "id": "rank:356",
           "title": "Raise Fishing's cap to 225",
           "category": "Professions",
@@ -822,26 +847,6 @@
           "targets": []
         },
         {
-          "id": "rank:185",
-          "title": "Raise Cooking's cap to 225",
-          "category": "Professions",
-          "status": "Save gold",
-          "why": "Cooking is 140/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 32s 47c. Save another 67s 53c (before travel or other purchases).",
-          "actionType": "waypoint",
-          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-          "button": "Show vendor / trainer",
-          "priority": 79,
-          "purchaseCost": 10000,
-          "materials": [],
-          "targets": [],
-          "waypoint": {
-            "mapID": 1443,
-            "x": 0.262,
-            "y": 0.698
-          }
-        },
-        {
           "id": "training:now",
           "title": "Review 7 unlearned class skills",
           "category": "Leveling",
@@ -852,6 +857,36 @@
           "source": "Naowh Training 1.2.30 / TrainingData + live spellbook",
           "button": "Open training",
           "priority": 78,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:498",
+          "title": "Quest: The Rescue",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 22. No group flag is reported.",
+          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 71,
+          "questID": 498,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:549",
+          "title": "Quest: WANTED: Syndicate Personnel",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 22. No group flag is reported.",
+          "action": "0/10 Syndicate Rogue slain\n0/10 Syndicate Watchman slain",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 71,
+          "questID": 549,
           "materials": [],
           "targets": []
         },
@@ -872,27 +907,6 @@
               "missing": 0,
               "need": 2,
               "name": "Linen Cloth"
-            }
-          ],
-          "targets": []
-        },
-        {
-          "id": "craft:185",
-          "title": "Cooking: 140 toward 150",
-          "category": "Professions",
-          "status": "Batch materials ready",
-          "why": "Try Bristle Whisker Catfish. It is learned and below its grey threshold (180). Your bags cover 64 crafts.",
-          "action": "Review one craft of Bristle Whisker Catfish.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-14T22:51:56Z",
-          "actionType": "profession",
-          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-          "button": "Open profession",
-          "priority": 70,
-          "materials": [
-            {
-              "itemID": 6308,
-              "missing": 0,
-              "need": 1,
-              "name": "Raw Bristle Whisker Catfish"
             }
           ],
           "targets": []
@@ -919,36 +933,6 @@
           "targets": []
         },
         {
-          "id": "quest:498",
-          "title": "Quest: The Rescue",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 22. No group flag is reported.",
-          "action": "0/1 Rescue Drull\n0/1 Rescue Tog'thar",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 65,
-          "questID": 498,
-          "materials": [],
-          "targets": []
-        },
-        {
-          "id": "quest:549",
-          "title": "Quest: WANTED: Syndicate Personnel",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 22 quest in Hillsbrad Foothills fits your current level 22. No group flag is reported.",
-          "action": "0/10 Syndicate Rogue slain\n0/10 Syndicate Watchman slain",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 65,
-          "questID": 549,
-          "materials": [],
-          "targets": []
-        },
-        {
           "id": "gear:Shadowfang Keep",
           "title": "Shadowfang Keep: 2 gear targets",
           "category": "Gear",
@@ -965,7 +949,7 @@
               "name": "Worgenbane Talisman",
               "requiredLevel": 21,
               "slot": "Trinket",
-              "source": "Commander Springvale Â· Shadowfang Keep",
+              "source": "Commander Springvale · Shadowfang Keep",
               "status": "Level requirement met",
               "current": "Empty slot"
             },
@@ -974,7 +958,7 @@
               "name": "Blindwatcher's Sight",
               "requiredLevel": 21,
               "slot": "Head",
-              "source": "Odo the Blindwatcher Â· Shadowfang Keep",
+              "source": "Odo the Blindwatcher · Shadowfang Keep",
               "status": "Level requirement met",
               "current": "Empty slot"
             }
@@ -997,7 +981,7 @@
               "name": "Glinteye Slippers",
               "requiredLevel": 26,
               "slot": "Feet",
-              "source": "Saltspine Â· Excavation Site: Wetlands",
+              "source": "Saltspine · Excavation Site: Wetlands",
               "status": "Requires level 26",
               "current": "Firewalker Boots"
             },
@@ -1006,7 +990,7 @@
               "name": "Raptor's Gaze",
               "requiredLevel": 26,
               "slot": "Off hand",
-              "source": "Shadetooth Â· Excavation Site: Wetlands",
+              "source": "Shadetooth · Excavation Site: Wetlands",
               "status": "Requires level 26",
               "current": "Empty slot"
             },
@@ -1015,7 +999,7 @@
               "name": "Ring of Power Regulation",
               "requiredLevel": 28,
               "slot": "Ring",
-              "source": "Relic Guardian Â· Excavation Site: Wetlands",
+              "source": "Relic Guardian · Excavation Site: Wetlands",
               "status": "Requires level 28",
               "current": "Empty slot"
             }
@@ -1050,7 +1034,7 @@
               "name": "Snake Hoop",
               "requiredLevel": 0,
               "slot": "Ring",
-              "source": "Willix the Importer Â· Quest",
+              "source": "Willix the Importer · Quest",
               "status": "Level requirement met",
               "current": "Empty slot"
             }
@@ -1073,7 +1057,7 @@
               "name": "Senior Sergeant's Insignia",
               "requiredLevel": 30,
               "slot": "Neck",
-              "source": "Sergeant Ba'sha Â· Orgrimmar",
+              "source": "Sergeant Ba'sha · Orgrimmar",
               "status": "Requires level 30",
               "current": "Empty slot"
             }
@@ -1096,7 +1080,7 @@
               "name": "Death Speaker Mantle",
               "requiredLevel": 27,
               "slot": "Shoulders",
-              "source": "Death Speaker Jargba Â· Razorfen Kraul",
+              "source": "Death Speaker Jargba · Razorfen Kraul",
               "status": "Requires level 27",
               "current": "Double-Stitched Woolen Shoulders"
             },
@@ -1105,7 +1089,7 @@
               "name": "Swinetusk Shank",
               "requiredLevel": 30,
               "slot": "Main hand",
-              "source": "Agathelos the Raging Â· Razorfen Kraul",
+              "source": "Agathelos the Raging · Razorfen Kraul",
               "status": "Requires level 30",
               "current": "Harpy Skinner"
             },
@@ -1114,7 +1098,7 @@
               "name": "Thornweaver Drape",
               "requiredLevel": 25,
               "slot": "Back",
-              "source": "Roogug Â· Razorfen Kraul",
+              "source": "Roogug · Razorfen Kraul",
               "status": "Requires level 25",
               "current": "Woolen Cape"
             },
@@ -1123,7 +1107,7 @@
               "name": "Roogug's Severed Head",
               "requiredLevel": 25,
               "slot": "Trinket",
-              "source": "Roogug Â· Razorfen Kraul",
+              "source": "Roogug · Razorfen Kraul",
               "status": "Requires level 25",
               "current": "Empty slot"
             }
@@ -1146,7 +1130,7 @@
               "name": "Warsong Sash",
               "requiredLevel": 0,
               "slot": "Waist",
-              "source": "Warsong Supplies Â· Quest (Horde)",
+              "source": "Warsong Supplies · Quest (Horde)",
               "status": "Level requirement met",
               "current": "Wise Man's Belt"
             },
@@ -1155,7 +1139,7 @@
               "name": "Knife-Polishing Rag",
               "requiredLevel": 0,
               "slot": "Wrist",
-              "source": "Open the Maw Â· Quest (Horde)",
+              "source": "Open the Maw · Quest (Horde)",
               "status": "Level requirement met",
               "current": "Green Linen Bracers"
             }
@@ -1167,7 +1151,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-14T23:05:26Z",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-15T11:48:27Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1211,7 +1195,7 @@
               "name": "Ephemeral Grips",
               "requiredLevel": 27,
               "slot": "Hands",
-              "source": "Arcane Anomaly Â· Alterac Mountains",
+              "source": "Arcane Anomaly · Alterac Mountains",
               "status": "Requires level 27",
               "current": "Heavy Linen Gloves"
             },
@@ -1220,7 +1204,7 @@
               "name": "Wand of Mana Concentration",
               "requiredLevel": 27,
               "slot": "Wand / ranged",
-              "source": "Arcanic Enigma Â· Alterac Mountains",
+              "source": "Arcanic Enigma · Alterac Mountains",
               "status": "Requires level 27",
               "current": "Greater Magic Wand"
             },
@@ -1229,7 +1213,7 @@
               "name": "Violet Sorcerer's Robes",
               "requiredLevel": 27,
               "slot": "Chest",
-              "source": "Arcanic Enigma Â· Alterac Mountains",
+              "source": "Arcanic Enigma · Alterac Mountains",
               "status": "Requires level 27",
               "current": "Blue Linen Robe"
             }
@@ -1252,7 +1236,7 @@
               "name": "Gaze Dreamer Pants",
               "requiredLevel": 23,
               "slot": "Legs",
-              "source": "Twilight Lord Kelris Â· Blackfathom Deeps",
+              "source": "Twilight Lord Kelris · Blackfathom Deeps",
               "status": "Requires level 23",
               "current": "Sea Dog Britches"
             }
@@ -1334,15 +1318,27 @@
         }
       ],
       "nextSteps": [
+        "rank:185",
         "rank:356",
         "quest:6541",
-        "rank:185",
         "training:now",
-        "craft:129",
+        "quest:498",
         "gear:Shadowfang Keep"
       ],
       "fieldPlan": {
         "materials": [
+          {
+            "id": 2318,
+            "bag": 0,
+            "bank": 0,
+            "missing": 1,
+            "need": 1,
+            "name": "Light Leather",
+            "usesText": "Barbaric Linen Vest",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
           {
             "id": 2592,
             "bag": 1,
@@ -1354,9 +1350,39 @@
             "action": "Farm",
             "done": false,
             "vendor": false
+          },
+          {
+            "id": 2321,
+            "bag": 1,
+            "bank": 0,
+            "missing": 0,
+            "need": 1,
+            "name": "Fine Thread",
+            "usesText": "Barbaric Linen Vest",
+            "action": "Ready",
+            "done": true,
+            "vendor": true
+          },
+          {
+            "id": 2996,
+            "bag": 4,
+            "bank": 0,
+            "missing": 0,
+            "need": 4,
+            "name": "Bolt of Linen Cloth",
+            "usesText": "Barbaric Linen Vest",
+            "action": "Ready",
+            "done": true,
+            "vendor": false
           }
         ],
-        "crafts": [],
+        "crafts": [
+          {
+            "recipeID": 2395,
+            "name": "Barbaric Linen Vest",
+            "remaining": 1
+          }
+        ],
         "spots": [
           {
             "spot": {
@@ -1378,8 +1404,9 @@
                 498
               ]
             },
-            "score": 104,
+            "score": 129,
             "reasons": [
+              "In your current zone",
               "Needs Wool Cloth",
               "The Rescue",
               "WANTED: Syndicate Personnel"
@@ -1405,8 +1432,9 @@
                 527
               ]
             },
-            "score": 80,
+            "score": 105,
             "reasons": [
+              "In your current zone",
               "Needs Wool Cloth"
             ]
           },
@@ -1442,6 +1470,12 @@
           "rankTotal": 20000,
           "reserve": 0,
           "shortfall": 16753
+        },
+        "dataSource": {
+          "provider": "Everloot",
+          "capturedAt": "2026-11-15T10:32:08Z",
+          "credit": "Data from Everloot (https://everloot.app), CC BY-SA 4.0.",
+          "status": "Community observations; no verified camp coordinates in this pack"
         }
       },
       "sessions": [],
@@ -1449,12 +1483,13 @@
         "bags": "current",
         "bank": "personal bank only, last seen",
         "professions": "current ranks; recipes last scanned",
-        "bankCapturedAt": "2026-11-14T23:28:16Z",
+        "bankCapturedAt": "2026-11-15T10:49:51Z",
         "bankStatus": "last_seen",
-        "sessions": "Not exported by this addon version"
+        "sessions": "Snapshot session summaries"
       }
     },
     {
+      "id": "59fd50bf5d7dccbf32f62b7a",
       "exportedAt": "2026-11-15T10:43:15Z",
       "addonVersion": "1.3.0",
       "character": {
@@ -1975,8 +2010,7 @@
         "professions": "current ranks; recipes last scanned",
         "bankStatus": "not_visited",
         "sessions": "Snapshot session summaries"
-      },
-      "id": "59fd50bf5d7dccbf32f62b7a"
+      }
     }
   ]
 }

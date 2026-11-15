@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T18:26:46Z",
+  "updatedAt": "2026-11-15T18:28:01Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T18:26:46Z",
+      "exportedAt": "2026-11-15T18:28:01Z",
       "addonVersion": "1.5.0",
       "character": {
         "name": "Scathe",
@@ -19,14 +19,14 @@
         "xp": 17182,
         "xpForNextLevel": 29400,
         "moneyCopper": 6120,
-        "maxHealth": 654,
-        "maxPower": 1252,
+        "maxHealth": 614,
+        "maxPower": 1192,
         "stats": {
-          "agility": 34,
-          "intellect": 72,
-          "spirit": 79,
-          "stamina": 59,
-          "strength": 37
+          "agility": 29,
+          "intellect": 68,
+          "spirit": 74,
+          "stamina": 55,
+          "strength": 33
         }
       },
       "bags": {
@@ -1805,7 +1805,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T18:26:46Z",
+        "generatedAt": "2026-11-15T18:28:01Z",
         "today": [
           {
             "id": "upgrade:253885",
@@ -2274,6 +2274,20 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:2292",
+            "kind": "Gear",
+            "title": "Upgrade: Necrology Robes",
+            "status": "Group upgrade",
+            "why": "Replaces Blue Linen Robe; estimated +12.3 stat points. Trash - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 2292,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:251486",
             "kind": "Gear",
             "title": "Upgrade: Tabitha's Cuffs",
@@ -2314,6 +2328,21 @@
             "open": "Gear",
             "itemID": 253889,
             "recipeID": 1257370,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:253895",
+            "kind": "Gear",
+            "title": "Upgrade: Shadow Boots",
+            "status": "Merchant's Favor unlock",
+            "why": "Replaces Firewalker Boots; estimated +3.2 stat points. Trade-camp recipe: Pattern: Shadow Boots - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 60 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 253895,
+            "recipeID": 1257373,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2368,7 +2397,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shadow Gloves",
             "status": "Merchant's Favor unlock",
-            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +0.4 stat points. Trade-camp recipe: Pattern: Shadow Gloves - Jim'bek / The Barrens",
+            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +7.4 stat points. Trade-camp recipe: Pattern: Shadow Gloves - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 75 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -2458,7 +2487,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shadow Sash",
             "status": "Merchant's Favor unlock",
-            "why": "Replaces Wise Man's Belt; estimated +0.3 stat points. Trade-camp recipe: Pattern: Shadow Sash - Jim'bek / The Barrens",
+            "why": "Replaces Wise Man's Belt; estimated +7.3 stat points. Trade-camp recipe: Pattern: Shadow Sash - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 85 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -2517,11 +2546,25 @@
             "kind": "Gear",
             "title": "Upgrade: Filigreed Shadow Leggings",
             "status": "Review source",
-            "why": "Replaces Sea Dog Britches; estimated +1.6 stat points. Tailoring · Crafted",
+            "why": "Replaces Sea Dog Britches; estimated +12.6 stat points. Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 253943,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:2549",
+            "kind": "Gear",
+            "title": "Upgrade: Staff of the Shade",
+            "status": "Group upgrade",
+            "why": "Replaces Medicine Staff of Magic; estimated +25.5 stat points. Trash - Razorfen Kraul",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 2549,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -3020,6 +3063,35 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:7001",
+            "kind": "Gear",
+            "title": "Upgrade: Gravestone Scepter",
+            "status": "Group upgrade",
+            "why": "Replaces Greater Magic Wand; estimated +4.9 stat points. Blackfathom Villainy - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires Blackfathom Deeps.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7001,
+            "questID": 6561,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:7027",
+            "kind": "Gear",
+            "title": "Upgrade: Boots of Darkness",
+            "status": "Review source",
+            "why": "Replaces Firewalker Boots; estimated +3.8 stat points. Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7027,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:9536",
             "kind": "Gear",
             "title": "Upgrade: Fairywing Mantle",
@@ -3051,6 +3123,20 @@
           }
         ],
         "someday": [
+          {
+            "id": "upgrade:10762",
+            "kind": "Gear",
+            "title": "Upgrade: Robes of the Lich",
+            "status": "Level 38 required",
+            "why": "Replaces Blue Linen Robe; estimated +13.3 stat points. Amnennar the Coldbringer - Razorfen Downs",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 10762,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
           {
             "id": "upgrade:10771",
             "kind": "Gear",
@@ -3435,7 +3521,7 @@
             "kind": "Gear",
             "title": "Upgrade: Necromancer Leggings",
             "status": "Level 30 required",
-            "why": "Replaces Sea Dog Britches; estimated +2.0 stat points. World drop",
+            "why": "Replaces Sea Dog Britches; estimated +11.9 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -3583,7 +3669,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shadow Circlet",
             "status": "Profession skill required",
-            "why": "Replaces Empty slot; estimated +1.2 stat points. Trade-camp recipe: Pattern: Shadow Circlet - Jim'bek / The Barrens",
+            "why": "Replaces Empty slot; estimated +12.2 stat points. Trade-camp recipe: Pattern: Shadow Circlet - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 100 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -3673,7 +3759,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shadow Gown",
             "status": "Profession skill required",
-            "why": "Replaces Blue Linen Robe; estimated +0.2 stat points. Trade-camp recipe: Pattern: Shadow Gown - Jim'bek / The Barrens",
+            "why": "Replaces Blue Linen Robe; estimated +13.2 stat points. Trade-camp recipe: Pattern: Shadow Gown - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 110 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -3732,7 +3818,7 @@
             "kind": "Gear",
             "title": "Upgrade: Filigreed Shadow Circlet",
             "status": "Level 25 required",
-            "why": "Replaces Empty slot; estimated +1.4 stat points. Tailoring · Crafted",
+            "why": "Replaces Empty slot; estimated +15.4 stat points. Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -3791,7 +3877,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shadow Leggings",
             "status": "Level 25 required",
-            "why": "Replaces Sea Dog Britches; estimated +2.3 stat points. Trade-camp recipe: Pattern: Shadow Leggings - Jim'bek / The Barrens",
+            "why": "Replaces Sea Dog Britches; estimated +16.2 stat points. Trade-camp recipe: Pattern: Shadow Leggings - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 125 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -3846,6 +3932,20 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:254007",
+            "kind": "Gear",
+            "title": "Upgrade: Black Slippers",
+            "status": "Level 30 required",
+            "why": "Replaces Firewalker Boots; estimated +12.4 stat points. Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 254007,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:254023",
             "kind": "Gear",
             "title": "Upgrade: Frothing Handwraps",
@@ -3880,7 +3980,7 @@
             "kind": "Gear",
             "title": "Upgrade: Black Handwraps",
             "status": "Level 35 required",
-            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +1.7 stat points. Trade-camp recipe: Pattern: Black Handwraps - Jim'bek / The Barrens",
+            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +15.7 stat points. Trade-camp recipe: Pattern: Black Handwraps - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 165 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -3936,6 +4036,21 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:254055",
+            "kind": "Gear",
+            "title": "Upgrade: Netherpearl Shoulders",
+            "status": "Level 42 required",
+            "why": "Replaces Double-Stitched Woolen Shoulders; estimated +16.7 stat points. Trade-camp recipe: Pattern: Netherpearl Shoulders - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 195 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 254055,
+            "recipeID": 1257453,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:254061",
             "kind": "Gear",
             "title": "Upgrade: Nethergeld Cuffs",
@@ -3985,7 +4100,7 @@
             "kind": "Gear",
             "title": "Upgrade: Netherpearl Cuffs",
             "status": "Level 45 required",
-            "why": "Replaces Green Linen Bracers; estimated +3.2 stat points. Trade-camp recipe: Pattern: Netherpearl Cuffs - Jim'bek / The Barrens",
+            "why": "Replaces Green Linen Bracers; estimated +16.2 stat points. Trade-camp recipe: Pattern: Netherpearl Cuffs - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 205 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -4075,7 +4190,7 @@
             "kind": "Gear",
             "title": "Upgrade: Black Waistcord",
             "status": "Level 47 required",
-            "why": "Replaces Wise Man's Belt; estimated +2.0 stat points. Trade-camp recipe: Pattern: Black Waistcord - Jim'bek / The Barrens",
+            "why": "Replaces Wise Man's Belt; estimated +21.0 stat points. Trade-camp recipe: Pattern: Black Waistcord - Jim'bek / The Barrens",
             "action": "Unlock this recipe before crafting. Tailoring 94 / 215 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -4126,6 +4241,21 @@
             "open": "Gear",
             "itemID": 254107,
             "recipeID": 1257479,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:254113",
+            "kind": "Gear",
+            "title": "Upgrade: Black Sandals",
+            "status": "Level 50 required",
+            "why": "Replaces Firewalker Boots; estimated +19.3 stat points. Trade-camp recipe: Pattern: Black Sandals - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 235 required. Last-observed price: 90 Merchant's Favor; you have 60. Earn 30 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 254113,
+            "recipeID": 1257482,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -4275,7 +4405,7 @@
             "kind": "Gear",
             "title": "Upgrade: Ephemeral Grips",
             "status": "Level 27 required",
-            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +1.4 stat points. Arcane Anomaly - City of Dalaran",
+            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +10.4 stat points. Arcane Anomaly - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -4411,6 +4541,20 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:274919",
+            "kind": "Gear",
+            "title": "Upgrade: Neophyte's Wand",
+            "status": "Unavailable reward",
+            "why": "Replaces Greater Magic Wand; estimated +5.0 stat points. Source not recorded",
+            "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 274919,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:274941",
             "kind": "Gear",
             "title": "Upgrade: Bristle Hills Mystic Robe",
@@ -4443,7 +4587,7 @@
             "kind": "Gear",
             "title": "Upgrade: Fel Cape",
             "status": "Level 60 required",
-            "why": "Replaces Woolen Cape; estimated +10.2 stat points. Tailoring · Crafted",
+            "why": "Replaces Woolen Cape; estimated +25.2 stat points. Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -4583,7 +4727,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shadow Hood",
             "status": "Level 29 required",
-            "why": "Replaces Empty slot; estimated +2.1 stat points. Tailoring · Crafted",
+            "why": "Replaces Empty slot; estimated +9.1 stat points. Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -4737,7 +4881,7 @@
             "kind": "Gear",
             "title": "Upgrade: Hands of Darkness",
             "status": "Level 24 required",
-            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +1.0 stat points. Tailoring · Crafted",
+            "why": "Replaces Buccaneer's Gloves of Stamina; estimated +10.0 stat points. Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -4849,7 +4993,7 @@
             "kind": "Gear",
             "title": "Upgrade: Blighted Leggings",
             "status": "Level 30 required",
-            "why": "Replaces Sea Dog Britches; estimated +3.1 stat points. Azshir the Sleepless - Scarlet Monastery - Graveyard",
+            "why": "Replaces Sea Dog Britches; estimated +22.1 stat points. Azshir the Sleepless - Scarlet Monastery - Graveyard",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -5090,8 +5234,8 @@
           "known": true,
           "source": "Live currency API; recipe prices are last observed at vendors, not assumed from gold prices."
         },
-        "model": "Weighted stat points, not a DPS simulation. Level-60 profile weights are only an estimate while leveling. Procs, set bonuses, school-specific effects and caps can change the result.",
-        "coverage": "Selected class/spec catalogue, leveling picks, learned crafts and carried gear. Missing data is unknown. Solo first; dungeon goals stay in Soon.",
+        "model": "Weighted stat points, not a DPS simulation. Level-60 profile weights are only an estimate while leveling. Procs, set bonuses, caps and unscored stats can change the result.",
+        "coverage": "Selected class/spec catalogue, leveling picks, learned crafts, trade-camp unlocks and carried gear. Missing data is unknown. Solo first; dungeon goals stay in Soon.",
         "upgrades": [
           {
             "name": "Novice Arcanist's Sash",
@@ -5666,6 +5810,65 @@
             ]
           },
           {
+            "name": "Staff of the Shade",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Trash - Razorfen Kraul",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 2549,
+            "slot": 16,
+            "requiredLevel": 22,
+            "currentItemID": 4575,
+            "currentScore": 13.02,
+            "candidateScore": 38.5,
+            "gain": 25.48,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.422,
+              "y": 0.898
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 0,
+                "delta": -6
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 37,
+                "delta": 37
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 0,
+                "delta": -12
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 16.538461685181,
+                "delta": 7.3384618759155
+              }
+            ]
+          },
+          {
             "name": "Spellpower Goggles Xtreme",
             "slotName": "Head",
             "current": "Empty slot",
@@ -5864,6 +6067,137 @@
                 "before": 0,
                 "after": 6,
                 "delta": 6
+              }
+            ]
+          },
+          {
+            "name": "Filigreed Shadow Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Review source",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 253943,
+            "slot": 7,
+            "requiredLevel": 20,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 13.905,
+            "gain": 12.56,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 37,
+                "delta": 8
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 11,
+                "delta": 11
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Necrology Robes",
+            "slotName": "Chest",
+            "current": "Blue Linen Robe",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Trash - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 2292,
+            "slot": 5,
+            "requiredLevel": 20,
+            "currentItemID": 6242,
+            "currentScore": 3.03,
+            "candidateScore": 15.365,
+            "gain": 12.335,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1421,
+              "x": 0.455,
+              "y": 0.677
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 43,
+                "delta": 17
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Shadow Resistance",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 3,
+                "after": 0,
+                "delta": -3
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "shadow resistance",
+                "before": 0,
+                "after": 5,
+                "delta": 5
               }
             ]
           },
@@ -6365,6 +6699,166 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
+              }
+            ]
+          },
+          {
+            "name": "Shadow Gloves",
+            "slotName": "Hands",
+            "current": "Buccaneer's Gloves of Stamina",
+            "status": "Merchant's Favor unlock",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Shadow Gloves - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 75 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 253919,
+            "slot": 10,
+            "requiredLevel": 15,
+            "currentItemID": 14168,
+            "recipeID": 1257385,
+            "recipeItemID": 253920,
+            "requiredSkill": 75,
+            "favorCost": 30,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 0.605,
+            "candidateScore": 8.025,
+            "gain": 7.42,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 6,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 4,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 249409,
+                "count": 3,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 1210,
+                "count": 2,
+                "name": "Shadowgem"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 21,
+                "after": 23,
+                "delta": 2
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Stamina",
+                "before": 5,
+                "after": 4,
+                "delta": -1
+              }
+            ]
+          },
+          {
+            "name": "Shadow Sash",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Merchant's Favor unlock",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Shadow Sash - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 85 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 253931,
+            "slot": 6,
+            "requiredLevel": 17,
+            "currentItemID": 4786,
+            "recipeID": 1257391,
+            "recipeItemID": 253932,
+            "requiredSkill": 85,
+            "favorCost": 30,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 0.945,
+            "candidateScore": 8.29,
+            "gain": 7.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4305,
+                "count": 8,
+                "name": "Bolt of Silk Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 4,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 249409,
+                "count": 3,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 1210,
+                "count": 3,
+                "name": "Shadowgem"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 22,
+                "delta": 3
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 4,
+                "delta": -1
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 5,
+                "delta": 5
               }
             ]
           },
@@ -7079,6 +7573,55 @@
             ]
           },
           {
+            "name": "Gravestone Scepter",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Group upgrade",
+            "kind": "Quest",
+            "source": "Blackfathom Villainy - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires Blackfathom Deeps.",
+            "itemID": 7001,
+            "slot": 18,
+            "requiredLevel": 0,
+            "currentItemID": 11288,
+            "questID": 6561,
+            "currentScore": 2,
+            "candidateScore": 6.9,
+            "gain": 4.9,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "damage per second",
+                "before": 17.5,
+                "after": 29,
+                "delta": 11.5
+              }
+            ]
+          },
+          {
             "name": "Berylline Pads",
             "slotName": "Shoulders",
             "current": "Double-Stitched Woolen Shoulders",
@@ -7437,6 +7980,66 @@
             ]
           },
           {
+            "name": "Boots of Darkness",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Review source",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 7027,
+            "slot": 8,
+            "requiredLevel": 23,
+            "currentItemID": 6482,
+            "currentScore": 3.8,
+            "candidateScore": 7.645,
+            "gain": 3.845,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 29,
+                "delta": 3
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 0,
+                "delta": -5
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              }
+            ]
+          },
+          {
             "name": "Rune of the Guard Captain",
             "slotName": "Trinket 1",
             "current": "Empty slot",
@@ -7474,6 +8077,98 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
+              }
+            ]
+          },
+          {
+            "name": "Shadow Boots",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Merchant's Favor unlock",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Shadow Boots - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 60 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 253895,
+            "slot": 8,
+            "requiredLevel": 12,
+            "currentItemID": 6482,
+            "recipeID": 1257373,
+            "recipeItemID": 253896,
+            "requiredSkill": 60,
+            "favorCost": 30,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 3.8,
+            "candidateScore": 7.025,
+            "gain": 3.225,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 8,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 249409,
+                "count": 2,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 1210,
+                "count": 1,
+                "name": "Shadowgem"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 23,
+                "delta": -3
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 3,
+                "delta": 2
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 0,
+                "delta": -5
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 4,
+                "delta": 4
               }
             ]
           },
@@ -7723,60 +8418,6 @@
               },
               {
                 "stat": "Stamina",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Filigreed Shadow Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Review source",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 253943,
-            "slot": 7,
-            "requiredLevel": 20,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "candidateScore": 2.905,
-            "gain": 1.56,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 29,
-                "after": 37,
-                "delta": 8
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              },
-              {
-                "stat": "Strength",
                 "before": 4,
                 "after": 0,
                 "delta": -4
@@ -8183,86 +8824,6 @@
             ]
           },
           {
-            "name": "Shadow Gloves",
-            "slotName": "Hands",
-            "current": "Buccaneer's Gloves of Stamina",
-            "status": "Merchant's Favor unlock",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Shadow Gloves - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 75 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 253919,
-            "slot": 10,
-            "requiredLevel": 15,
-            "currentItemID": 14168,
-            "recipeID": 1257385,
-            "recipeItemID": 253920,
-            "requiredSkill": 75,
-            "favorCost": 30,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 0.605,
-            "candidateScore": 1.025,
-            "gain": 0.42,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 2997,
-                "count": 6,
-                "name": "Bolt of Woolen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 4,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 249409,
-                "count": 3,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 1210,
-                "count": 2,
-                "name": "Shadowgem"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 21,
-                "after": 23,
-                "delta": 2
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Stamina",
-                "before": 5,
-                "after": 4,
-                "delta": -1
-              }
-            ]
-          },
-          {
             "name": "Pearly Gloves",
             "slotName": "Hands",
             "current": "Buccaneer's Gloves of Stamina",
@@ -8573,86 +9134,6 @@
                 "before": 5,
                 "after": 4,
                 "delta": -1
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              }
-            ]
-          },
-          {
-            "name": "Shadow Sash",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Merchant's Favor unlock",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Shadow Sash - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 85 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 253931,
-            "slot": 6,
-            "requiredLevel": 17,
-            "currentItemID": 4786,
-            "recipeID": 1257391,
-            "recipeItemID": 253932,
-            "requiredSkill": 85,
-            "favorCost": 30,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 0.945,
-            "candidateScore": 1.29,
-            "gain": 0.345,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 4305,
-                "count": 8,
-                "name": "Bolt of Silk Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 4,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 249409,
-                "count": 3,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 1210,
-                "count": 3,
-                "name": "Shadowgem"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 19,
-                "after": 22,
-                "delta": 3
-              },
-              {
-                "stat": "Intellect",
-                "before": 5,
-                "after": 4,
-                "delta": -1
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 7,
-                "delta": 7
               },
               {
                 "stat": "Stamina",
@@ -9041,6 +9522,46 @@
             ]
           },
           {
+            "name": "Orb of Soran'ruk",
+            "slotName": "Off hand",
+            "current": "Empty slot",
+            "status": "Needs weapon set",
+            "kind": "Quest",
+            "source": "The Orb of Soran'ruk - The Barrens - Doan Karhan (49.3, 57.2)",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "itemID": 6898,
+            "slot": 17,
+            "requiredLevel": 0,
+            "questID": 1740,
+            "currentScore": 0,
+            "candidateScore": 9,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.493,
+              "y": 0.572
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Fire Damage",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              }
+            ]
+          },
+          {
             "name": "Orb of Mistmantle",
             "slotName": "Off hand",
             "current": "Empty slot",
@@ -9052,7 +9573,7 @@
             "slot": 17,
             "requiredLevel": 23,
             "currentScore": 0,
-            "candidateScore": 1.2,
+            "candidateScore": 7.2,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -9720,6 +10241,66 @@
             ]
           },
           {
+            "name": "Fel Cape",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Level 60 required",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 279269,
+            "slot": 15,
+            "requiredLevel": 60,
+            "currentItemID": 2584,
+            "currentScore": 1.375,
+            "candidateScore": 26.55,
+            "gain": 25.175,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 15,
+                "after": 50,
+                "delta": 35
+              },
+              {
+                "stat": "Critical Strike",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              },
+              {
+                "stat": "Spell Power",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 16,
+                "delta": 16
+              }
+            ]
+          },
+          {
             "name": "Spine of the Devourer",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
@@ -9986,6 +10567,59 @@
             ]
           },
           {
+            "name": "Blighted Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 30 required",
+            "kind": "Dungeon",
+            "source": "Azshir the Sleepless - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 7709,
+            "slot": 7,
+            "requiredLevel": 30,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 23.425,
+            "gain": 22.08,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 45,
+                "delta": 16
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 19,
+                "delta": 19
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 14,
+                "delta": 10
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
             "name": "Death Prophet Spine",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
@@ -10041,6 +10675,91 @@
                 "before": 9.1999998092651,
                 "after": 18.92857170105,
                 "delta": 9.7285718917847
+              }
+            ]
+          },
+          {
+            "name": "Black Waistcord",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Level 47 required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Black Waistcord - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 215 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 254087,
+            "slot": 6,
+            "requiredLevel": 47,
+            "currentItemID": 4786,
+            "recipeID": 1257469,
+            "recipeItemID": 254088,
+            "requiredSkill": 215,
+            "favorCost": 60,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 0.945,
+            "candidateScore": 21.94,
+            "gain": 20.995,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 14048,
+                "count": 8,
+                "name": "Bolt of Runecloth"
+              },
+              {
+                "itemID": 8343,
+                "count": 4,
+                "name": "Heavy Silken Thread"
+              },
+              {
+                "itemID": 249430,
+                "count": 8,
+                "name": "Magenta Dye"
+              },
+              {
+                "itemID": 249409,
+                "count": 5,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 7971,
+                "count": 12,
+                "name": "Black Pearl"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 42,
+                "delta": 23
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 9,
+                "delta": 4
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 19,
+                "delta": 19
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 12,
+                "delta": 12
               }
             ]
           },
@@ -10116,6 +10835,108 @@
             ]
           },
           {
+            "name": "Black Sandals",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Level 50 required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Black Sandals - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 235 required. Last-observed price: 90 Merchant's Favor; you have 60. Earn 30 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 254113,
+            "slot": 8,
+            "requiredLevel": 50,
+            "currentItemID": 6482,
+            "recipeID": 1257482,
+            "recipeItemID": 254114,
+            "requiredSkill": 235,
+            "favorCost": 90,
+            "favorHave": 60,
+            "favorMissing": 30,
+            "currentScore": 3.8,
+            "candidateScore": 23.1,
+            "gain": 19.3,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 14048,
+                "count": 10,
+                "name": "Bolt of Runecloth"
+              },
+              {
+                "itemID": 8343,
+                "count": 4,
+                "name": "Heavy Silken Thread"
+              },
+              {
+                "itemID": 249430,
+                "count": 10,
+                "name": "Magenta Dye"
+              },
+              {
+                "itemID": 249409,
+                "count": 6,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 7971,
+                "count": 14,
+                "name": "Black Pearl"
+              },
+              {
+                "itemID": 249427,
+                "count": 4,
+                "name": "Pristine Leather"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 54,
+                "delta": 28
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 9,
+                "delta": 8
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 20,
+                "delta": 20
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 0,
+                "delta": -5
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              }
+            ]
+          },
+          {
             "name": "Magister's Robes",
             "slotName": "Chest",
             "current": "Blue Linen Robe",
@@ -10171,6 +10992,432 @@
                 "before": 0,
                 "after": 9,
                 "delta": 9
+              }
+            ]
+          },
+          {
+            "name": "Netherpearl Shoulders",
+            "slotName": "Shoulders",
+            "current": "Double-Stitched Woolen Shoulders",
+            "status": "Level 42 required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Netherpearl Shoulders - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 195 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 254055,
+            "slot": 3,
+            "requiredLevel": 42,
+            "currentItemID": 4314,
+            "recipeID": 1257453,
+            "recipeItemID": 254056,
+            "requiredSkill": 195,
+            "favorCost": 60,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 4.535,
+            "candidateScore": 21.215,
+            "gain": 16.68,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4339,
+                "count": 16,
+                "name": "Bolt of Mageweave"
+              },
+              {
+                "itemID": 8343,
+                "count": 3,
+                "name": "Heavy Silken Thread"
+              },
+              {
+                "itemID": 249430,
+                "count": 4,
+                "name": "Magenta Dye"
+              },
+              {
+                "itemID": 249409,
+                "count": 3,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 7971,
+                "count": 8,
+                "name": "Black Pearl"
+              },
+              {
+                "itemID": 11175,
+                "count": 2,
+                "name": "Greater Nether Essence"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 27,
+                "after": 51,
+                "delta": 24
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 17,
+                "delta": 17
+              },
+              {
+                "stat": "Spell Power",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 8,
+                "delta": 4
+              }
+            ]
+          },
+          {
+            "name": "Shadow Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 25 required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Shadow Leggings - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 125 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 253993,
+            "slot": 7,
+            "requiredLevel": 25,
+            "currentItemID": 5310,
+            "recipeID": 1257422,
+            "recipeItemID": 253994,
+            "requiredSkill": 125,
+            "favorCost": 30,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 1.345,
+            "candidateScore": 17.595,
+            "gain": 16.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4305,
+                "count": 14,
+                "name": "Bolt of Silk Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 3,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 249409,
+                "count": 8,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 1210,
+                "count": 8,
+                "name": "Shadowgem"
+              },
+              {
+                "itemID": 2842,
+                "count": 2,
+                "name": "Silver Bar"
+              },
+              {
+                "itemID": 11082,
+                "count": 3,
+                "name": "Greater Astral Essence"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 41,
+                "delta": 12
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 5,
+                "delta": 1
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Netherpearl Cuffs",
+            "slotName": "Wrists",
+            "current": "Green Linen Bracers",
+            "status": "Level 45 required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Netherpearl Cuffs - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 205 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 254067,
+            "slot": 9,
+            "requiredLevel": 45,
+            "currentItemID": 4308,
+            "recipeID": 1257459,
+            "recipeItemID": 254068,
+            "requiredSkill": 205,
+            "favorCost": 60,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 0.35,
+            "candidateScore": 16.545,
+            "gain": 16.195,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4339,
+                "count": 18,
+                "name": "Bolt of Mageweave"
+              },
+              {
+                "itemID": 8343,
+                "count": 3,
+                "name": "Heavy Silken Thread"
+              },
+              {
+                "itemID": 249430,
+                "count": 6,
+                "name": "Magenta Dye"
+              },
+              {
+                "itemID": 249409,
+                "count": 4,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 7971,
+                "count": 10,
+                "name": "Black Pearl"
+              },
+              {
+                "itemID": 11175,
+                "count": 4,
+                "name": "Greater Nether Essence"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 10,
+                "after": 31,
+                "delta": 21
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 5,
+                "delta": 4
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              }
+            ]
+          },
+          {
+            "name": "Black Handwraps",
+            "slotName": "Hands",
+            "current": "Buccaneer's Gloves of Stamina",
+            "status": "Level 35 required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Black Handwraps - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 165 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 254027,
+            "slot": 10,
+            "requiredLevel": 35,
+            "currentItemID": 14168,
+            "recipeID": 1257439,
+            "recipeItemID": 254028,
+            "requiredSkill": 165,
+            "favorCost": 60,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 0.605,
+            "candidateScore": 16.27,
+            "gain": 15.665,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4339,
+                "count": 12,
+                "name": "Bolt of Mageweave"
+              },
+              {
+                "itemID": 8343,
+                "count": 4,
+                "name": "Heavy Silken Thread"
+              },
+              {
+                "itemID": 249430,
+                "count": 2,
+                "name": "Magenta Dye"
+              },
+              {
+                "itemID": 249409,
+                "count": 1,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 7971,
+                "count": 4,
+                "name": "Black Pearl"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 21,
+                "after": 36,
+                "delta": 15
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Stamina",
+                "before": 5,
+                "after": 9,
+                "delta": 4
+              }
+            ]
+          },
+          {
+            "name": "Filigreed Shadow Circlet",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Level 25 required",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 253981,
+            "slot": 1,
+            "requiredLevel": 25,
+            "currentScore": 0,
+            "candidateScore": 15.39,
+            "gain": 15.39,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 38,
+                "delta": 38
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 12,
+                "delta": 12
               }
             ]
           },
@@ -10298,6 +11545,173 @@
             ]
           },
           {
+            "name": "Robes of the Lich",
+            "slotName": "Chest",
+            "current": "Blue Linen Robe",
+            "status": "Level 38 required",
+            "kind": "Dungeon",
+            "source": "Amnennar the Coldbringer - Razorfen Downs",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 10762,
+            "slot": 5,
+            "requiredLevel": 38,
+            "currentItemID": 6242,
+            "currentScore": 3.03,
+            "candidateScore": 16.31,
+            "gain": 13.28,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.509,
+              "y": 0.929
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 62,
+                "delta": 36
+              },
+              {
+                "stat": "Frost Damage",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 3,
+                "after": 0,
+                "delta": -3
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 20,
+                "delta": 20
+              }
+            ]
+          },
+          {
+            "name": "Shadow Gown",
+            "slotName": "Chest",
+            "current": "Blue Linen Robe",
+            "status": "Profession skill required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Shadow Gown - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 110 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 253967,
+            "slot": 5,
+            "requiredLevel": 22,
+            "currentItemID": 6242,
+            "recipeID": 1257409,
+            "recipeItemID": 253968,
+            "requiredSkill": 110,
+            "favorCost": 30,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 3.03,
+            "candidateScore": 16.215,
+            "gain": 13.185,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4305,
+                "count": 12,
+                "name": "Bolt of Silk Cloth"
+              },
+              {
+                "itemID": 4291,
+                "count": 2,
+                "name": "Silken Thread"
+              },
+              {
+                "itemID": 249409,
+                "count": 6,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 1210,
+                "count": 6,
+                "name": "Shadowgem"
+              },
+              {
+                "itemID": 2842,
+                "count": 2,
+                "name": "Silver Bar"
+              },
+              {
+                "itemID": 11082,
+                "count": 2,
+                "name": "Greater Astral Essence"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 45,
+                "delta": 19
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 3,
+                "after": 4,
+                "delta": 1
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              }
+            ]
+          },
+          {
             "name": "Holy Shroud",
             "slotName": "Head",
             "current": "Empty slot",
@@ -10403,6 +11817,66 @@
             ]
           },
           {
+            "name": "Black Slippers",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 254007,
+            "slot": 8,
+            "requiredLevel": 30,
+            "currentItemID": 6482,
+            "currentScore": 3.8,
+            "candidateScore": 16.165,
+            "gain": 12.365,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 35,
+                "delta": 9
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 7,
+                "delta": 6
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 4,
+                "delta": -1
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              }
+            ]
+          },
+          {
             "name": "Devout Gloves",
             "slotName": "Hands",
             "current": "Buccaneer's Gloves of Stamina",
@@ -10464,6 +11938,89 @@
                 "before": 5,
                 "after": 8,
                 "delta": 3
+              }
+            ]
+          },
+          {
+            "name": "Shadow Circlet",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Profession skill required",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Pattern: Shadow Circlet - Jim'bek / The Barrens",
+            "action": "Unlock this recipe before crafting. Tailoring 94 / 100 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
+            "itemID": 253955,
+            "slot": 1,
+            "requiredLevel": 20,
+            "recipeID": 1257403,
+            "recipeItemID": 253956,
+            "requiredSkill": 100,
+            "favorCost": 30,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 0,
+            "candidateScore": 12.175,
+            "gain": 12.175,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.294
+            },
+            "materials": [
+              {
+                "itemID": 4305,
+                "count": 10,
+                "name": "Bolt of Silk Cloth"
+              },
+              {
+                "itemID": 4291,
+                "count": 2,
+                "name": "Silken Thread"
+              },
+              {
+                "itemID": 249409,
+                "count": 4,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 1210,
+                "count": 4,
+                "name": "Shadowgem"
+              },
+              {
+                "itemID": 2842,
+                "count": 1,
+                "name": "Silver Bar"
+              },
+              {
+                "itemID": 11082,
+                "count": 2,
+                "name": "Greater Astral Essence"
+              }
+            ],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 35,
+                "delta": 35
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 11,
+                "delta": 11
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 10,
+                "delta": 10
               }
             ]
           },
@@ -10555,6 +12112,66 @@
                 "before": 0,
                 "after": 12,
                 "delta": 12
+              }
+            ]
+          },
+          {
+            "name": "Necromancer Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "itemID": 2277,
+            "slot": 7,
+            "requiredLevel": 30,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 13.295,
+            "gain": 11.95,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 45,
+                "delta": 16
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 11,
+                "delta": 11
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 10,
+                "delta": 10
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
               }
             ]
           },
@@ -10914,6 +12531,65 @@
             ]
           },
           {
+            "name": "Ephemeral Grips",
+            "slotName": "Hands",
+            "current": "Buccaneer's Gloves of Stamina",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Arcane Anomaly - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273034,
+            "slot": 10,
+            "requiredLevel": 27,
+            "currentItemID": 14168,
+            "currentScore": 0.605,
+            "candidateScore": 11.045,
+            "gain": 10.44,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Arcane Damage",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Armor",
+                "before": 21,
+                "after": 31,
+                "delta": 10
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Stamina",
+                "before": 5,
+                "after": 7,
+                "delta": 2
+              }
+            ]
+          },
+          {
             "name": "Gilded Sandals",
             "slotName": "Feet",
             "current": "Firewalker Boots",
@@ -11124,20 +12800,20 @@
             ]
           },
           {
-            "name": "Fel Cape",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Level 60 required",
+            "name": "Hands of Darkness",
+            "slotName": "Hands",
+            "current": "Buccaneer's Gloves of Stamina",
+            "status": "Level 24 required",
             "kind": "Review",
             "source": "Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
-            "itemID": 279269,
-            "slot": 15,
-            "requiredLevel": 60,
-            "currentItemID": 2584,
-            "currentScore": 1.375,
-            "candidateScore": 11.55,
-            "gain": 10.175,
+            "itemID": 7047,
+            "slot": 10,
+            "requiredLevel": 24,
+            "currentItemID": 14168,
+            "currentScore": 0.605,
+            "candidateScore": 10.63,
+            "gain": 10.025,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -11147,39 +12823,27 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 15,
-                "after": 50,
-                "delta": 35
-              },
-              {
-                "stat": "Critical Strike",
-                "before": 0,
-                "after": 14,
-                "delta": 14
+                "before": 21,
+                "after": 26,
+                "delta": 5
               },
               {
                 "stat": "Shadow Damage",
                 "before": 0,
-                "after": 15,
-                "delta": 15
-              },
-              {
-                "stat": "Spell Power",
-                "before": 1,
-                "after": 0,
-                "delta": -1
+                "after": 9,
+                "delta": 9
               },
               {
                 "stat": "Spirit",
-                "before": 1,
-                "after": 0,
-                "delta": -1
+                "before": 0,
+                "after": 5,
+                "delta": 5
               },
               {
                 "stat": "Stamina",
-                "before": 0,
-                "after": 16,
-                "delta": 16
+                "before": 5,
+                "after": 0,
+                "delta": -5
               }
             ]
           },
@@ -11436,6 +13100,47 @@
                 "before": 4,
                 "after": 0,
                 "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Shadow Hood",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Level 29 required",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 4323,
+            "slot": 1,
+            "requiredLevel": 29,
+            "currentScore": 0,
+            "candidateScore": 9.055,
+            "gain": 9.055,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 37,
+                "delta": 37
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 11,
+                "delta": 11
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 7,
+                "delta": 7
               }
             ]
           },
@@ -13167,6 +14872,48 @@
             ]
           },
           {
+            "name": "Neophyte's Wand",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Unavailable reward",
+            "kind": "Review",
+            "source": "Source not recorded",
+            "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
+            "itemID": 274919,
+            "slot": 18,
+            "requiredLevel": 0,
+            "currentItemID": 11288,
+            "currentScore": 2,
+            "candidateScore": 7,
+            "gain": 5,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "damage per second",
+                "before": 17.5,
+                "after": 32.75,
+                "delta": 15.25
+              }
+            ]
+          },
+          {
             "name": "Graveweave Bindings",
             "slotName": "Wrists",
             "current": "Green Linen Bracers",
@@ -14184,102 +15931,6 @@
             ]
           },
           {
-            "name": "Netherpearl Cuffs",
-            "slotName": "Wrists",
-            "current": "Green Linen Bracers",
-            "status": "Level 45 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Netherpearl Cuffs - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 205 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 254067,
-            "slot": 9,
-            "requiredLevel": 45,
-            "currentItemID": 4308,
-            "recipeID": 1257459,
-            "recipeItemID": 254068,
-            "requiredSkill": 205,
-            "favorCost": 60,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 0.35,
-            "candidateScore": 3.545,
-            "gain": 3.195,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 4339,
-                "count": 18,
-                "name": "Bolt of Mageweave"
-              },
-              {
-                "itemID": 8343,
-                "count": 3,
-                "name": "Heavy Silken Thread"
-              },
-              {
-                "itemID": 249430,
-                "count": 6,
-                "name": "Magenta Dye"
-              },
-              {
-                "itemID": 249409,
-                "count": 4,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 7971,
-                "count": 10,
-                "name": "Black Pearl"
-              },
-              {
-                "itemID": 11175,
-                "count": 4,
-                "name": "Greater Nether Essence"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 10,
-                "after": 31,
-                "delta": 21
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 13,
-                "delta": 13
-              },
-              {
-                "stat": "Spirit",
-                "before": 1,
-                "after": 5,
-                "delta": 4
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Nethershine Cuffs",
             "slotName": "Wrists",
             "current": "Green Linen Bracers",
@@ -14468,59 +16119,6 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
-              }
-            ]
-          },
-          {
-            "name": "Blighted Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Level 30 required",
-            "kind": "Dungeon",
-            "source": "Azshir the Sleepless - Scarlet Monastery - Graveyard",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 7709,
-            "slot": 7,
-            "requiredLevel": 30,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "candidateScore": 4.425,
-            "gain": 3.08,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 29,
-                "after": 45,
-                "delta": 16
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 19,
-                "delta": 19
-              },
-              {
-                "stat": "Spirit",
-                "before": 4,
-                "after": 14,
-                "delta": 10
-              },
-              {
-                "stat": "Strength",
-                "before": 4,
-                "after": 0,
-                "delta": -4
               }
             ]
           },
@@ -15002,108 +16600,6 @@
             ]
           },
           {
-            "name": "Shadow Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Level 25 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Shadow Leggings - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 125 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 253993,
-            "slot": 7,
-            "requiredLevel": 25,
-            "currentItemID": 5310,
-            "recipeID": 1257422,
-            "recipeItemID": 253994,
-            "requiredSkill": 125,
-            "favorCost": 30,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 1.345,
-            "candidateScore": 3.595,
-            "gain": 2.25,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 4305,
-                "count": 14,
-                "name": "Bolt of Silk Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 3,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 249409,
-                "count": 8,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 1210,
-                "count": 8,
-                "name": "Shadowgem"
-              },
-              {
-                "itemID": 2842,
-                "count": 2,
-                "name": "Silver Bar"
-              },
-              {
-                "itemID": 11082,
-                "count": 3,
-                "name": "Greater Astral Essence"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 29,
-                "after": 41,
-                "delta": 12
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 14,
-                "delta": 14
-              },
-              {
-                "stat": "Spirit",
-                "before": 4,
-                "after": 5,
-                "delta": 1
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Strength",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
             "name": "Pearly Leggings",
             "slotName": "Legs",
             "current": "Sea Dog Britches",
@@ -15343,47 +16839,6 @@
             ]
           },
           {
-            "name": "Shadow Hood",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Level 29 required",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 4323,
-            "slot": 1,
-            "requiredLevel": 29,
-            "currentScore": 0,
-            "candidateScore": 2.055,
-            "gain": 2.055,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 37,
-                "delta": 37
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Frothing Waistcord",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -15544,91 +16999,6 @@
                 "before": 5,
                 "after": 9,
                 "delta": 4
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 12,
-                "delta": 12
-              }
-            ]
-          },
-          {
-            "name": "Black Waistcord",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Level 47 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Black Waistcord - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 215 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 254087,
-            "slot": 6,
-            "requiredLevel": 47,
-            "currentItemID": 4786,
-            "recipeID": 1257469,
-            "recipeItemID": 254088,
-            "requiredSkill": 215,
-            "favorCost": 60,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 0.945,
-            "candidateScore": 2.94,
-            "gain": 1.995,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 14048,
-                "count": 8,
-                "name": "Bolt of Runecloth"
-              },
-              {
-                "itemID": 8343,
-                "count": 4,
-                "name": "Heavy Silken Thread"
-              },
-              {
-                "itemID": 249430,
-                "count": 8,
-                "name": "Magenta Dye"
-              },
-              {
-                "itemID": 249409,
-                "count": 5,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 7971,
-                "count": 12,
-                "name": "Black Pearl"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 19,
-                "after": 42,
-                "delta": 23
-              },
-              {
-                "stat": "Intellect",
-                "before": 5,
-                "after": 9,
-                "delta": 4
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 19,
-                "delta": 19
               },
               {
                 "stat": "Stamina",
@@ -15846,66 +17216,6 @@
                 "before": 0,
                 "after": 4,
                 "delta": 4
-              }
-            ]
-          },
-          {
-            "name": "Necromancer Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "itemID": 2277,
-            "slot": 7,
-            "requiredLevel": 30,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "candidateScore": 3.295,
-            "gain": 1.95,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 29,
-                "after": 45,
-                "delta": 16
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 10,
-                "delta": 10
-              },
-              {
-                "stat": "Spirit",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 12,
-                "delta": 12
-              },
-              {
-                "stat": "Strength",
-                "before": 4,
-                "after": 0,
-                "delta": -4
               }
             ]
           },
@@ -16151,91 +17461,6 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
-              },
-              {
-                "stat": "Stamina",
-                "before": 5,
-                "after": 9,
-                "delta": 4
-              }
-            ]
-          },
-          {
-            "name": "Black Handwraps",
-            "slotName": "Hands",
-            "current": "Buccaneer's Gloves of Stamina",
-            "status": "Level 35 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Black Handwraps - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 165 required. Last-observed price: 60 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 254027,
-            "slot": 10,
-            "requiredLevel": 35,
-            "currentItemID": 14168,
-            "recipeID": 1257439,
-            "recipeItemID": 254028,
-            "requiredSkill": 165,
-            "favorCost": 60,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 0.605,
-            "candidateScore": 2.27,
-            "gain": 1.665,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 4339,
-                "count": 12,
-                "name": "Bolt of Mageweave"
-              },
-              {
-                "itemID": 8343,
-                "count": 4,
-                "name": "Heavy Silken Thread"
-              },
-              {
-                "itemID": 249430,
-                "count": 2,
-                "name": "Magenta Dye"
-              },
-              {
-                "itemID": 249409,
-                "count": 1,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 7971,
-                "count": 4,
-                "name": "Black Pearl"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 21,
-                "after": 36,
-                "delta": 15
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 14,
-                "delta": 14
               },
               {
                 "stat": "Stamina",
@@ -16534,106 +17759,6 @@
             ]
           },
           {
-            "name": "Ephemeral Grips",
-            "slotName": "Hands",
-            "current": "Buccaneer's Gloves of Stamina",
-            "status": "Level 27 required",
-            "kind": "Dungeon",
-            "source": "Arcane Anomaly - City of Dalaran",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 273034,
-            "slot": 10,
-            "requiredLevel": 27,
-            "currentItemID": 14168,
-            "currentScore": 0.605,
-            "candidateScore": 2.045,
-            "gain": 1.44,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Arcane Damage",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Armor",
-                "before": 21,
-                "after": 31,
-                "delta": 10
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Stamina",
-                "before": 5,
-                "after": 7,
-                "delta": 2
-              }
-            ]
-          },
-          {
-            "name": "Filigreed Shadow Circlet",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Level 25 required",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 253981,
-            "slot": 1,
-            "requiredLevel": 25,
-            "currentScore": 0,
-            "candidateScore": 1.39,
-            "gain": 1.39,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 38,
-                "delta": 38
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 14,
-                "delta": 14
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 12,
-                "delta": 12
-              }
-            ]
-          },
-          {
             "name": "Silky Circlet",
             "slotName": "Head",
             "current": "Empty slot",
@@ -16787,89 +17912,6 @@
               },
               {
                 "stat": "Fire Damage",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 10,
-                "delta": 10
-              }
-            ]
-          },
-          {
-            "name": "Shadow Circlet",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Profession skill required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Shadow Circlet - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 100 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 253955,
-            "slot": 1,
-            "requiredLevel": 20,
-            "recipeID": 1257403,
-            "recipeItemID": 253956,
-            "requiredSkill": 100,
-            "favorCost": 30,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 0,
-            "candidateScore": 1.175,
-            "gain": 1.175,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 4305,
-                "count": 10,
-                "name": "Bolt of Silk Cloth"
-              },
-              {
-                "itemID": 4291,
-                "count": 2,
-                "name": "Silken Thread"
-              },
-              {
-                "itemID": 249409,
-                "count": 4,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 1210,
-                "count": 4,
-                "name": "Shadowgem"
-              },
-              {
-                "itemID": 2842,
-                "count": 1,
-                "name": "Silver Bar"
-              },
-              {
-                "itemID": 11082,
-                "count": 2,
-                "name": "Greater Astral Essence"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 35,
-                "delta": 35
-              },
-              {
-                "stat": "Shadow Damage",
                 "before": 0,
                 "after": 11,
                 "delta": 11
@@ -17093,54 +18135,6 @@
                 "before": 0,
                 "after": 3,
                 "delta": 3
-              }
-            ]
-          },
-          {
-            "name": "Hands of Darkness",
-            "slotName": "Hands",
-            "current": "Buccaneer's Gloves of Stamina",
-            "status": "Level 24 required",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 7047,
-            "slot": 10,
-            "requiredLevel": 24,
-            "currentItemID": 14168,
-            "currentScore": 0.605,
-            "candidateScore": 1.63,
-            "gain": 1.025,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 21,
-                "after": 26,
-                "delta": 5
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              },
-              {
-                "stat": "Stamina",
-                "before": 5,
-                "after": 0,
-                "delta": -5
               }
             ]
           },
@@ -17541,108 +18535,6 @@
             ]
           },
           {
-            "name": "Shadow Gown",
-            "slotName": "Chest",
-            "current": "Blue Linen Robe",
-            "status": "Profession skill required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Pattern: Shadow Gown - Jim'bek / The Barrens",
-            "action": "Unlock this recipe before crafting. Tailoring 94 / 110 required. Last-observed price: 30 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 253967,
-            "slot": 5,
-            "requiredLevel": 22,
-            "currentItemID": 6242,
-            "recipeID": 1257409,
-            "recipeItemID": 253968,
-            "requiredSkill": 110,
-            "favorCost": 30,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 3.03,
-            "candidateScore": 3.215,
-            "gain": 0.185,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.294
-            },
-            "materials": [
-              {
-                "itemID": 4305,
-                "count": 12,
-                "name": "Bolt of Silk Cloth"
-              },
-              {
-                "itemID": 4291,
-                "count": 2,
-                "name": "Silken Thread"
-              },
-              {
-                "itemID": 249409,
-                "count": 6,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 1210,
-                "count": 6,
-                "name": "Shadowgem"
-              },
-              {
-                "itemID": 2842,
-                "count": 2,
-                "name": "Silver Bar"
-              },
-              {
-                "itemID": 11082,
-                "count": 2,
-                "name": "Greater Astral Essence"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 26,
-                "after": 45,
-                "delta": 19
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 13,
-                "delta": 13
-              },
-              {
-                "stat": "Spell Power",
-                "before": 2,
-                "after": 0,
-                "delta": -2
-              },
-              {
-                "stat": "Spirit",
-                "before": 3,
-                "after": 4,
-                "delta": 1
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              }
-            ]
-          },
-          {
             "name": "Pearly Gown",
             "slotName": "Chest",
             "current": "Blue Linen Robe",
@@ -17847,6 +18739,40 @@
             ]
           },
           {
+            "name": "Cursed Eye of Paleth",
+            "slotName": "Off hand",
+            "current": "Empty slot",
+            "status": "Needs weapon set",
+            "kind": "Review",
+            "source": "Source not recorded",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "itemID": 2944,
+            "slot": 17,
+            "requiredLevel": 26,
+            "currentScore": 0,
+            "candidateScore": 9.7,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 10,
+                "delta": 10
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": -3,
+                "delta": -3
+              }
+            ]
+          },
+          {
             "name": "Swinetusk Shank",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
@@ -18002,7 +18928,7 @@
             "slot": 17,
             "requiredLevel": 36,
             "currentScore": 0,
-            "candidateScore": 1.5,
+            "candidateScore": 17.5,
             "group": true,
             "tracked": false,
             "ignored": false,

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T18:53:10Z",
+  "updatedAt": "2026-11-15T18:59:13Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-15T18:53:10Z",
+      "exportedAt": "2026-11-15T18:59:13Z",
       "addonVersion": "1.6.0",
       "character": {
         "name": "Scathe",
@@ -1861,7 +1861,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T18:53:10Z",
+        "generatedAt": "2026-11-15T18:59:13Z",
         "today": [
           {
             "id": "upgrade:253885",

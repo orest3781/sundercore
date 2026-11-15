@@ -105,9 +105,17 @@ def item_counts(value):
     if not isinstance(value, dict): raise ValueError('Expected item count map')
     return {str(k):integer(v) for k,v in value.items() if re.fullmatch(r'[1-9][0-9]*', str(k))}
 SESSION.update(receivedLoot=item_counts,loot=item_counts)
+GEAR_UPGRADE = {k:text for k in ('name','slotName','current','status','kind','source','action')}
+GEAR_UPGRADE.update({k:integer for k in ('itemID','slot','requiredLevel','currentItemID','recipeID','questID','recipeItemID','requiredSkill','favorCost','favorHave','favorMissing')})
+GEAR_UPGRADE.update({k:number for k in ('currentScore','candidateScore','gain')})
+GEAR_UPGRADE.update({k:boolean for k in ('group','tracked','ignored','eligible','later','queued','recommended')})
+GEAR_UPGRADE.update(waypoint=WAYPOINT,materials=[MATERIAL],statChanges=[dict(stat=text,before=number,after=number,delta=number)])
+FAVOR = dict(currencyID=integer,name=text,quantity=integer,known=boolean,source=text)
+GEAR = dict(version=integer,profile=text,profileOrigin=text,source=text,auto=boolean,pending=integer,checked=integer,merchantFavor=FAVOR,
+    model=text,coverage=text,upgrades=[GEAR_UPGRADE])
 PUBLIC = dict(id=text,exportedAt=text,addonVersion=text,character=CHARACTER,
     bags=dict(free=integer,capacity=integer,items=[ITEM]),equipment=[ITEM],professions=[PROFESSION],quests=[QUEST],
-    goals=[GOAL],nextSteps=[text],fieldPlan=FIELD,dailyPlan=DAILY,sessions=[SESSION],activeSession=SESSION,
+    goals=[GOAL],nextSteps=[text],fieldPlan=FIELD,dailyPlan=DAILY,gearPlan=GEAR,sessions=[SESSION],activeSession=SESSION,
     coverage={k:text for k in ('bags','bank','professions','bankCapturedAt','bankStatus','sessions')})
 
 def identity(character):
@@ -164,6 +172,7 @@ def public_snapshot(source):
     result['coverage']['sessions']='Snapshot session summaries' if 'farmSessions' in source else 'Not exported by this addon version'
     if source.get('activeFarmSession'): result['activeSession']=source['activeFarmSession']
     if isinstance(source.get('dailyPlan'),dict): result['dailyPlan']=source['dailyPlan']
+    if isinstance(source.get('gearPlan'),dict): result['gearPlan']=source['gearPlan']
     clean=normalize_public(result)
     for m in clean['fieldPlan'].get('materials',[]):
         if not m.get('action'):

@@ -1,0 +1,11 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../site/app.js'),'utf8');
+const context={URL,localStorage:{getItem:()=>null},document:{querySelector:()=>null}};
+vm.runInNewContext(source.slice(0,source.indexOf('function render('))+'\nglobalThis.api={upgrades,upgradeCard,dailyTasksHTML};',context);
+const c={id:'test',exportedAt:'2026-11-15T16:00:00Z',character:{name:'Test'}};
+assert.match(context.api.upgrades(c),/Save a fresh gear plan/);
+c.gearPlan={profile:'Affliction',upgrades:[{itemID:1,name:'<script>bad</script>',current:'Old belt',slotName:'Waist',status:'Craft upgrade',eligible:true,gain:3.9,statChanges:[{stat:'Intellect',before:5,after:3,delta:-2}],materials:[{name:'Wool',count:4}]}]};
+const html=context.api.upgrades(c);assert.match(html,/&lt;script&gt;bad/);assert.doesNotMatch(html,/<script>/);assert.match(html,/>-2</);assert.match(html,/Old belt/);assert.match(html,/4 Wool/);
+assert.match(context.api.upgradeCard(c,{itemID:2}),/>—</);assert.doesNotMatch(context.api.upgradeCard(c,{itemID:2}),/\+0\.0/);
+assert.match(context.api.dailyTasksHTML(c,{today:[{id:'upgrade:1',itemID:1,open:'Gear',title:'Upgrade'}]}),/#upgrades\/test/);
+console.log('PASS gear views: legacy/unknown states, stat losses, materials, escaped input and daily navigation');

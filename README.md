@@ -86,7 +86,7 @@ The automatic artwork check currently verifies the US character name, Sundercore
 - **Grinding:** camp scores reflect level, material, and quest relevance. They do not prove a camp has the highest XP/hour. Community sightings are not guaranteed spawn coordinates.
 - **Activity:** recorded sessions are optional. Older exports may not support them. No sessions means no recorded sessions, not no playtime. Total session XP includes quests and rested XP; time includes travel and downtime, excluding explicit pauses.
 - **Loot:** observed drops are distinct from received items. Normal corpse loot, skinning, pickpocketing, unknown, and legacy samples must remain separate. Missing data means unknown, not a zero drop chance.
-- **Gear:** exported item levels, quality, requirements, and durability are shown where present. The snapshot does not include full item stat bonuses, weapon DPS, talent builds, or auction prices. A default advice profile is not a confirmed specialization.
+- **Gear:** exported item levels, quality, requirements, and durability are shown where present. Version 1.5 adds candidate stat comparisons and estimated weighted scores. The public armory item details still omit raw item strings, talent builds, and auction prices. A default advice profile is not a confirmed specialization.
 
 ## Data sources and credit
 
@@ -95,3 +95,14 @@ Character data comes from local Character Ledger snapshots. Progression suggesti
 Community observations used by Character Ledger come from [Everloot](https://everloot.app). **Data from Everloot (https://everloot.app), CC BY-SA 4.0.** Any included derived community-data pack retains its source date, attribution, and [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/). Its reported frequencies describe inspected loot windows and sample coverage, not complete server loot tables or guaranteed outcomes. See [Everloot's addon-author documentation](https://everloot.app/docs/addon-authors).
 
 The source snapshots can differ in addon version even when both use `schemaVersion: 1`. Optional features are rendered only when captured; the site does not fill gaps with invented character statistics.
+
+
+### Gear upgrade planner (Character Ledger 1.5 / Watcher 1.2)
+
+The addon compares equipped items with its installed Naowh catalogue, learned crafts, trade-camp recipe unlocks, and carried gear. `/chargear` shows gains and losses, source locations, requirements, and materials. Paired slots and two-hand displacement are handled explicitly; unknown stats remain unknown. Scores use the selected profile and are estimates, not simulated DPS.
+
+One eligible solo gear target joins Today. Dungeon goals stay in Soon. Queue a craft to use the existing material reservations and farm recommendations. Track, skip, profile selection and automatic-goal preferences are managed in game. The website's **Gear upgrades** tab displays the saved comparison and links from Today and Armory.
+
+Merchant's Favor balance is read from the client. Recipe costs come from Naowh's observed vendor prices; unknown costs require a vendor visit. The planner shows profession gates, costs and deficits, while current reputation/access/stock must be checked at the vendor. It does not infer fixed crate payouts or purchase anything.
+
+The export allowlist includes computed comparisons and currency balance, never raw saved variables, private account settings, item strings or the complete private catalogue. Existing characters without `gearPlan` remain supported and prompt for a fresh snapshot.

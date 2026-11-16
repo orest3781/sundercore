@@ -58,15 +58,19 @@ Open `http://localhost:8000`. Publishing is separate from this local preview. Gi
 
 ## How to read the dashboard
 
-### Today and crafting projects
+### Today, My Goals and Browse
 
-Character Ledger 1.4 opens **Today** on login (also `/chartoday`). Choose Grind mobs, Balanced, or Crafting and a 15, 45, or 90 minute session budget. The initial display limits are 2, 3, and 5 main tasks to keep the board readable; these are planning limits, not completion-time estimates. Bag space, active projects, ready quest turn-ins, training, and current quests feed the board. Prerequisites stay in Soon and gear wishlists in Someday. Pin, review, or put a reminder aside for the local calendar day. Reviews reset on a new day; unfinished projects and inventory targets persist.
+The website follows Character Ledger's simpler journal layout:
 
-Queue a known recipe under **Crafts**, then manage it under **Projects**. Projects allocate shared materials in priority order and distinguish bag stock, bank withdrawals, intermediate crafts, and missing materials. Pause releases reservations; resume restores them. Completion counts successful crafting casts, not purchased items, guaranteed skill-ups, or recipe output quantities.
+- **Today** emphasizes one next action and shows up to three saved tasks initially. Additional saved Today tasks remain available in an expandable section. The saved focus, tracked objective and both primary professions provide context without a wall of tools.
+- **My Goals** brings both professions, saved crafting projects, tracked gear and shared material targets together. It shows the next saved profession step where available.
+- **Browse** groups the detailed tools into Adventure, Professions & gold, and Journal & reference. Armory, gear upgrades, camps, recipes, bags, activity and source details remain accessible here. Existing character links continue to work.
 
-The compact HUD shows up to three Today tasks alongside the chosen camp, material progress, and Update SunderCore. Camps consider level suitability, matching materials, current-zone travel, and existing quest relevance. Recorded outings provide context, not a controlled XP/hour ranking. Source labels distinguish Classic-derived camps, community observations, and personal evidence.
+Each task has a primary action to review its next step. **More** contains the explanation, a local review checkmark and a related tool link. **More ideas** exposes Soon, Someday, and reminders dismissed or set aside in game. Gold opportunities come from the saved addon analysis; any price estimates retain the snapshot's limitations.
 
-**Today** and **Crafting projects** on the website reflect the last saved plan. Website checkmarks are local to this browser, character, and saved-plan day; they do not change in-game progress. Focus, pins, pauses, and project order are managed in the addon. Older character snapshots show a clearly labeled basic plan until that character is saved with version 1.4. The 1.1 tray watcher preserves these new fields; use Update SunderCore to capture, reload, and publish through the running watcher.
+Website checkmarks mean **Reviewed on this device**, scoped to this browser, character and saved-plan day. They do not complete tasks in game. Focus, checklist size, pins, pauses and project order are managed in Character Ledger. The site accepts daily-plan versions 1, 2 and 3; snapshots without a supported plan show a labeled basic fallback. It does not present old session budgets as task-duration estimates.
+
+Queue learned recipes in the addon. Projects reserve shared materials and distinguish bag stock, bank withdrawals, intermediate crafts and missing materials. Completion counts successful crafting casts recorded in game. Click **Update SunderCore** in the planner or compact HUD to save and reload; the running watcher publishes the snapshot. The website does not require a watcher update for this layout change.
 
 ### Character armories
 

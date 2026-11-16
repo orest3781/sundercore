@@ -19,21 +19,15 @@
     <div class="section-label nav-label">CHARACTER JOURNAL</div>
     <nav aria-label="Character journal" id="navigation">
       <a href="#today" data-view="today"><span aria-hidden="true">☑</span> Today</a>
-      <a href="#upgrades" data-view="upgrades"><span aria-hidden="true">↟</span> Gear upgrades</a>
-      <a href="#projects" data-view="projects"><span aria-hidden="true">⚒</span> Crafting projects</a>
-      <a href="#overview" data-view="overview"><span aria-hidden="true">◈</span> Overview</a>
-      <a href="#field" data-view="field"><span aria-hidden="true">⌖</span> Field guide <span class="nav-count" id="farm-count"></span></a>
-      <a href="#inventory" data-view="inventory"><span aria-hidden="true">▦</span> Inventory</a>
-      <a href="#professions" data-view="professions"><span aria-hidden="true">⚒</span> Professions</a>
-      <a href="#equipment" data-view="equipment"><span aria-hidden="true">◇</span> Armory</a>
-      <a href="#activity" data-view="activity"><span aria-hidden="true">↗</span> Outings</a>
+      <a href="#goals" data-view="goals"><span aria-hidden="true">⚒</span> My Goals</a>
+      <a href="#browse" data-view="browse"><span aria-hidden="true">◈</span> Browse</a>
     </nav>
     <div class="sidebar-bottom"><span class="tiny-dot"></span> WORLD OF WARCRAFT FOREVER<p>One family. Many adventures.</p><button class="text-button" id="manage-button">Manage updates <span aria-hidden="true">↗</span></button></div>
   </aside>
   <div class="workspace">
-    <header class="topbar"><span>THE SUNDERCORE JOURNAL <span class="separator">/</span> <span id="breadcrumb">Overview</span></span><span class="public-label"><span class="tiny-dot"></span> PUBLIC CHRONICLE</span></header>
+    <header class="topbar"><span>THE SUNDERCORE JOURNAL <span class="separator">/</span> <span id="breadcrumb">Today</span></span><span class="public-label"><span class="tiny-dot"></span> PUBLIC CHRONICLE</span></header>
     <main id="main" tabindex="-1"><div class="loading-state">Opening the chronicle…</div></main>
-    <footer><span>Character Ledger <span id="addon-version"></span> <span class="separator">·</span> Captured in game, shared here.</span><button class="text-button" id="about-button">About the data</button></footer>
+    <footer><span>Character Ledger <span id="addon-version"></span> <span class="separator">·</span> Captured in game, shared here.</span><div class="footer-actions"><button class="text-button" data-manage>Manage updates</button><button class="text-button" id="about-button">About the data</button></div></footer>
   </div>
   <dialog id="info-dialog"><button class="dialog-close" aria-label="Close dialog">×</button><div id="dialog-content"></div></dialog>
   <div id="toast" role="status"></div>

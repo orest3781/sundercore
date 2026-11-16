@@ -28,6 +28,8 @@ jobs:
           node tools/test_views.cjs
           node tools/test_armory.cjs
           node tools/test_daily_views.cjs
+          node tools/test_gear_views.cjs
+          node tools/test_journal.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T03:13:13Z",
+  "updatedAt": "2026-11-16T03:23:53Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-16T03:13:13Z",
+      "exportedAt": "2026-11-16T03:23:53Z",
       "addonVersion": "1.8.0",
       "character": {
         "name": "Scathe",
@@ -18,7 +18,7 @@
         "level": 23,
         "xp": 18313,
         "xpForNextLevel": 29400,
-        "restedXP": 298,
+        "restedXP": 300,
         "moneyCopper": 6506,
         "maxHealth": 564,
         "maxPower": 1102,
@@ -388,6 +388,29 @@
       ],
       "quests": [
         {
+          "questID": 94229,
+          "name": "Craftsman's Writ: Ornate Spyglass",
+          "level": 60,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Crafting",
+          "objectives": [
+            {
+              "text": "1/1 Craftsman's Writ: Ornate Spyglass",
+              "have": 1,
+              "need": 1,
+              "finished": true
+            },
+            {
+              "text": "0/1 Ornate Spyglass",
+              "have": 0,
+              "need": 1,
+              "finished": false
+            }
+          ]
+        },
+        {
           "questID": 498,
           "name": "The Rescue",
           "level": 22,
@@ -459,29 +482,6 @@
               "have": 1,
               "need": 1,
               "finished": true
-            }
-          ]
-        },
-        {
-          "questID": 94229,
-          "name": "Craftsman's Writ: Ornate Spyglass",
-          "level": 60,
-          "complete": false,
-          "failed": false,
-          "group": false,
-          "zone": "Crafting",
-          "objectives": [
-            {
-              "text": "1/1 Craftsman's Writ: Ornate Spyglass",
-              "have": 1,
-              "need": 1,
-              "finished": true
-            },
-            {
-              "text": "0/1 Ornate Spyglass",
-              "have": 0,
-              "need": 1,
-              "finished": false
             }
           ]
         },
@@ -1857,7 +1857,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 90,
-        "generatedAt": "2026-11-16T03:13:13Z",
+        "generatedAt": "2026-11-16T03:23:53Z",
         "today": [
           {
             "id": "upgrade:253885",

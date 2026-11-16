@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T04:25:51Z",
+  "updatedAt": "2026-11-16T04:27:24Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -18553,8 +18553,8 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-16T03:11:41Z",
-      "addonVersion": "1.8.0",
+      "exportedAt": "2026-11-16T04:27:24Z",
+      "addonVersion": "1.8.1",
       "character": {
         "name": "Seethe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -18567,7 +18567,7 @@
         "level": 1,
         "xp": 100,
         "xpForNextLevel": 400,
-        "restedXP": 588,
+        "restedXP": 590,
         "moneyCopper": 12903,
         "maxHealth": 78,
         "maxPower": 67,
@@ -18580,7 +18580,7 @@
         }
       },
       "bags": {
-        "free": 28,
+        "free": 27,
         "capacity": 38,
         "items": [
           {
@@ -18612,6 +18612,11 @@
             "itemID": 10978,
             "name": "Small Glimmering Shard",
             "count": 3
+          },
+          {
+            "itemID": 11101,
+            "name": "Formula: Enchant Bracer - Lesser Strength",
+            "count": 1
           },
           {
             "itemID": 20752,
@@ -19061,7 +19066,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-16T03:11:41Z",
+        "generatedAt": "2026-11-16T04:27:24Z",
         "today": [
           {
             "id": "quest:752",
@@ -20502,7 +20507,7 @@
             "kind": "Gear",
             "title": "Upgrade: Cloak of Earth and Sky",
             "status": "Level 60 required",
-            "why": "Replaces Empty slot; estimated +16.1 stat points. Tailoring · Crafted",
+            "why": "Replaces Empty slot; estimated +16.0 stat points. Tailoring · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -21258,7 +21263,7 @@
             "kind": "Gear",
             "title": "Upgrade: Repairman's Cape",
             "status": "Unavailable reward",
-            "why": "Replaces Empty slot; estimated +2.9 stat points. Data Rescue · Quest (Alliance)",
+            "why": "Replaces Empty slot; estimated +3.0 stat points. Data Rescue · Quest (Alliance)",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",

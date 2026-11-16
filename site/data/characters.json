@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T20:41:20Z",
+  "updatedAt": "2026-11-16T03:11:41Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -19598,7 +19598,7 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-15T20:36:34Z",
+      "exportedAt": "2026-11-16T03:11:41Z",
       "addonVersion": "1.8.0",
       "character": {
         "name": "Seethe",
@@ -19612,8 +19612,8 @@
         "level": 1,
         "xp": 100,
         "xpForNextLevel": 400,
-        "restedXP": 572,
-        "moneyCopper": 18,
+        "restedXP": 588,
+        "moneyCopper": 12903,
         "maxHealth": 78,
         "maxPower": 67,
         "stats": {
@@ -20089,7 +20089,7 @@
         ],
         "notices": [],
         "budget": {
-          "available": 18,
+          "available": 12903,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -20106,7 +20106,7 @@
         "day": "2026-11-15",
         "mode": "grind",
         "minutes": 45,
-        "generatedAt": "2026-11-15T20:36:34Z",
+        "generatedAt": "2026-11-16T03:11:41Z",
         "today": [
           {
             "id": "quest:752",

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T00:49:51Z",
+  "updatedAt": "2026-11-17T01:02:06Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-17T00:46:04Z",
+      "exportedAt": "2026-11-17T01:02:06Z",
       "addonVersion": "1.10.0",
       "character": {
         "name": "Scathe",
@@ -18,7 +18,8 @@
         "level": 23,
         "xp": 29189,
         "xpForNextLevel": 29400,
-        "moneyCopper": 5381,
+        "restedXP": 12,
+        "moneyCopper": 14862,
         "maxHealth": 604,
         "maxPower": 1207,
         "stats": {
@@ -30,7 +31,7 @@
         }
       },
       "bags": {
-        "free": 24,
+        "free": 37,
         "capacity": 66,
         "items": [
           {
@@ -39,34 +40,14 @@
             "count": 2
           },
           {
-            "itemID": 814,
-            "name": "Flask of Oil",
-            "count": 4
-          },
-          {
-            "itemID": 1288,
-            "name": "Large Venom Sac",
-            "count": 1
-          },
-          {
-            "itemID": 2251,
-            "name": "Gooey Spider Leg",
-            "count": 1
+            "itemID": 2320,
+            "name": "Coarse Thread",
+            "count": 5
           },
           {
             "itemID": 2321,
             "name": "Fine Thread",
             "count": 7
-          },
-          {
-            "itemID": 2449,
-            "name": "Earthroot",
-            "count": 2
-          },
-          {
-            "itemID": 2589,
-            "name": "Linen Cloth",
-            "count": 12
           },
           {
             "itemID": 2592,
@@ -79,33 +60,8 @@
             "count": 20
           },
           {
-            "itemID": 2672,
-            "name": "Stringy Wolf Meat",
-            "count": 2
-          },
-          {
             "itemID": 2997,
             "name": "Bolt of Woolen Cloth",
-            "count": 1
-          },
-          {
-            "itemID": 3730,
-            "name": "Big Bear Meat",
-            "count": 7
-          },
-          {
-            "itemID": 3731,
-            "name": "Lion Meat",
-            "count": 1
-          },
-          {
-            "itemID": 3820,
-            "name": "Stranglekelp",
-            "count": 3
-          },
-          {
-            "itemID": 4240,
-            "name": "Woolen Bag",
             "count": 1
           },
           {
@@ -134,11 +90,6 @@
             "count": 2
           },
           {
-            "itemID": 4611,
-            "name": "Blue Pearl",
-            "count": 1
-          },
-          {
             "itemID": 5088,
             "name": "Control Console Operating Manual",
             "count": 1
@@ -157,16 +108,6 @@
             "itemID": 6265,
             "name": "Soul Shard",
             "count": 9
-          },
-          {
-            "itemID": 6289,
-            "name": "Raw Longjaw Mud Snapper",
-            "count": 4
-          },
-          {
-            "itemID": 6358,
-            "name": "Oily Blackmouth",
-            "count": 6
           },
           {
             "itemID": 6377,
@@ -194,16 +135,6 @@
             "count": 12
           },
           {
-            "itemID": 11407,
-            "name": "Torn Bear Pelt",
-            "count": 1
-          },
-          {
-            "itemID": 21071,
-            "name": "Raw Sagefish",
-            "count": 17
-          },
-          {
             "itemID": 21114,
             "name": "Rumsey Rum Dark",
             "count": 2
@@ -222,6 +153,11 @@
             "itemID": 277332,
             "name": "Scuffed Shipping Crate",
             "count": 1
+          },
+          {
+            "itemID": 279972,
+            "name": "Faction Banner",
+            "count": 6
           },
           {
             "itemID": 279976,
@@ -367,7 +303,7 @@
           "skillLineID": 197,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-17T00:45:36Z"
+          "recipesCapturedAt": "2026-11-17T01:00:30Z"
         },
         {
           "name": "Enchanting",
@@ -397,7 +333,7 @@
           "skillLineID": 356,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-16T23:21:42Z"
+          "recipesCapturedAt": "2026-11-17T01:01:12Z"
         },
         {
           "name": "Cooking",
@@ -747,9 +683,9 @@
           "id": "rank:185",
           "title": "Raise Cooking's cap to 225",
           "category": "Professions",
-          "status": "Save gold",
+          "status": "Rank available",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 53s 81c. Save another 46s 19c (before travel or other purchases).",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -767,9 +703,9 @@
           "id": "rank:356",
           "title": "Raise Fishing's cap to 225",
           "category": "Professions",
-          "status": "Save gold",
+          "status": "Rank available",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 53s 81c. Save another 46s 19c (before travel or other purchases).",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -810,27 +746,6 @@
           "button": "Open training",
           "priority": 78,
           "materials": [],
-          "targets": []
-        },
-        {
-          "id": "craft:129",
-          "title": "First Aid: 67 toward 75",
-          "category": "Professions",
-          "status": "Batch materials ready",
-          "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 6 crafts.",
-          "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-16T23:22:41Z",
-          "actionType": "profession",
-          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
-          "button": "Open profession",
-          "priority": 70,
-          "materials": [
-            {
-              "itemID": 2589,
-              "missing": 0,
-              "need": 2,
-              "name": "Linen Cloth"
-            }
-          ],
           "targets": []
         },
         {
@@ -1104,12 +1019,45 @@
           ]
         },
         {
+          "id": "craft:129",
+          "title": "First Aid: 67 toward 75",
+          "category": "Professions",
+          "status": "Materials needed",
+          "why": "Try Lesser Healing Potion. It is learned and below its grey threshold (125). Gather the missing reagents first.",
+          "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-16T23:22:41Z",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 53,
+          "materials": [
+            {
+              "itemID": 3371,
+              "missing": 1,
+              "need": 1,
+              "name": "Empty Vial"
+            },
+            {
+              "itemID": 2678,
+              "missing": 2,
+              "need": 2,
+              "name": "Mild Spices"
+            },
+            {
+              "itemID": 2450,
+              "missing": 1,
+              "need": 1,
+              "name": "Briarthorn"
+            }
+          ],
+          "targets": []
+        },
+        {
           "id": "craft:197",
           "title": "Tailoring: 96 toward 100",
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T00:45:36Z",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:00:30Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1208,7 +1156,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 53s 81c. Save another 46s 19c (before travel or other purchases).",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1228,7 +1176,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 96/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 53s 81c.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 1g 48s 62c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1248,7 +1196,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 53s 81c.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 1g 48s 62c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1310,7 +1258,7 @@
         "rank:356",
         "quest:6541",
         "training:now",
-        "craft:129",
+        "craft:333",
         "gear:Shadowfang Keep"
       ],
       "fieldPlan": {
@@ -1341,6 +1289,18 @@
             "vendor": false
           },
           {
+            "id": 2589,
+            "bag": 0,
+            "bank": 0,
+            "missing": 8,
+            "need": 8,
+            "name": "Linen Cloth",
+            "usesText": "Barbaric Linen Vest",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
             "id": 2592,
             "bag": 2,
             "bank": 0,
@@ -1363,18 +1323,6 @@
             "action": "Ready",
             "done": true,
             "vendor": true
-          },
-          {
-            "id": 2589,
-            "bag": 8,
-            "bank": 0,
-            "missing": 0,
-            "need": 8,
-            "name": "Linen Cloth",
-            "usesText": "Barbaric Linen Vest",
-            "action": "Ready",
-            "done": true,
-            "vendor": false
           }
         ],
         "crafts": [
@@ -1405,18 +1353,24 @@
                 498
               ]
             },
-            "score": 111,
+            "score": 141,
             "reasons": [
               "In your current zone",
               "Needs Wool Cloth",
+              "Needs Linen Cloth",
               "The Rescue"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "4 recorded outings: 110 min, 14502 total XP, 86 observed kills. Includes travel, quests and rested XP; compare similar conditions.",
             "travel": "Current zone; travel time not measured",
             "localZone": true,
-            "matchCount": 1,
+            "matchCount": 2,
             "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 8,
+                "name": "Linen Cloth"
+              },
               {
                 "id": 2592,
                 "missing": 13,
@@ -1450,17 +1404,113 @@
                 527
               ]
             },
-            "score": 102,
+            "score": 132,
             "reasons": [
               "In your current zone",
-              "Needs Wool Cloth"
+              "Needs Wool Cloth",
+              "Needs Linen Cloth"
             ],
             "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "No comparable personal outing recorded yet.",
             "travel": "Current zone; travel time not measured",
             "localZone": true,
-            "matchCount": 1,
+            "matchCount": 2,
             "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 8,
+                "name": "Linen Cloth"
+              },
+              {
+                "id": 2592,
+                "missing": 13,
+                "name": "Wool Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:2261",
+              "name": "Syndicate Watchman",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 21,
+              "high": 21,
+              "map": 1424,
+              "x": 0.78252017498016,
+              "y": 0.44702196121216
+            },
+            "score": 114,
+            "reasons": [
+              "61 observed kills / 61 inspected corpses",
+              "In your current zone",
+              "Observed needed material: Linen Cloth",
+              "Observed needed material: Wool Cloth"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 2,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 8,
+                "name": "Linen Cloth"
+              },
+              {
+                "id": 2592,
+                "missing": 13,
+                "name": "Wool Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "mosshide",
+              "name": "Sundown Marsh gnolls",
+              "zone": "Wetlands",
+              "note": "Mosshide camps. Travel can outweigh the benefit for Horde.",
+              "low": 22,
+              "high": 26,
+              "map": 1437,
+              "x": 0.38,
+              "y": 0.32,
+              "items": [
+                2592,
+                2589
+              ],
+              "quests": []
+            },
+            "score": 107,
+            "reasons": [
+              "Needs Wool Cloth",
+              "Needs Linen Cloth"
+            ],
+            "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
+            "matchCount": 2,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 8,
+                "name": "Linen Cloth"
+              },
               {
                 "id": 2592,
                 "missing": 13,
@@ -1552,73 +1602,32 @@
           },
           {
             "spot": {
-              "id": "observed:2261",
-              "name": "Syndicate Watchman",
-              "zone": "Hillsbrad Foothills",
+              "id": "observed:1012",
+              "name": "Mosshide Brute",
+              "zone": "Wetlands",
               "note": "Your recorded position near this mob; not a complete spawn map.",
               "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 21,
-              "high": 21,
-              "map": 1424,
-              "x": 0.78252017498016,
-              "y": 0.44702196121216
+              "low": 24,
+              "high": 24,
+              "map": 1437,
+              "x": 0.3927286863327,
+              "y": 0.29242539405823
             },
-            "score": 84,
+            "score": 62,
             "reasons": [
-              "61 observed kills / 61 inspected corpses",
-              "In your current zone",
-              "Observed needed material: Wool Cloth"
+              "3 observed kills / 3 inspected corpses",
+              "Observed needed material: Linen Cloth"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2592,
-                "missing": 13,
-                "name": "Wool Cloth"
-              }
-            ],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "mosshide",
-              "name": "Sundown Marsh gnolls",
-              "zone": "Wetlands",
-              "note": "Mosshide camps. Travel can outweigh the benefit for Horde.",
-              "low": 22,
-              "high": 26,
-              "map": 1437,
-              "x": 0.38,
-              "y": 0.32,
-              "items": [
-                2592,
-                2589
-              ],
-              "quests": []
-            },
-            "score": 77,
-            "reasons": [
-              "Needs Wool Cloth"
-            ],
-            "evidence": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.",
             "comparison": "No comparable personal outing recorded yet.",
             "travel": "Travel required; check the map before leaving",
             "localZone": false,
             "matchCount": 1,
             "matchedMaterials": [
               {
-                "id": 2592,
-                "missing": 13,
-                "name": "Wool Cloth"
+                "id": 2589,
+                "missing": 8,
+                "name": "Linen Cloth"
               }
             ],
             "history": {
@@ -1656,6 +1665,43 @@
                 "id": 2592,
                 "missing": 13,
                 "name": "Wool Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:2054",
+              "name": "Sickly Refugee",
+              "zone": "Silverpine Forest",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 19,
+              "high": 19,
+              "map": 1421,
+              "x": 0.44128954410553,
+              "y": 0.80684542655945
+            },
+            "score": 53,
+            "reasons": [
+              "5 observed kills / 5 inspected corpses",
+              "Observed needed material: Linen Cloth"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Travel required; check the map before leaving",
+            "localZone": false,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 2589,
+                "missing": 8,
+                "name": "Linen Cloth"
               }
             ],
             "history": {
@@ -1913,36 +1959,6 @@
           },
           {
             "spot": {
-              "id": "observed:1012",
-              "name": "Mosshide Brute",
-              "zone": "Wetlands",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 24,
-              "high": 24,
-              "map": 1437,
-              "x": 0.3927286863327,
-              "y": 0.29242539405823
-            },
-            "score": 32,
-            "reasons": [
-              "3 observed kills / 3 inspected corpses"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Travel required; check the map before leaving",
-            "localZone": false,
-            "matchCount": 0,
-            "matchedMaterials": [],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
               "id": "observed:5683",
               "name": "Corma Villard",
               "zone": "Wetlands",
@@ -2060,36 +2076,6 @@
               "xp": 0,
               "kills": 0
             }
-          },
-          {
-            "spot": {
-              "id": "observed:2054",
-              "name": "Sickly Refugee",
-              "zone": "Silverpine Forest",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 19,
-              "high": 19,
-              "map": 1421,
-              "x": 0.44128954410553,
-              "y": 0.80684542655945
-            },
-            "score": 23,
-            "reasons": [
-              "5 observed kills / 5 inspected corpses"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Travel required; check the map before leaving",
-            "localZone": false,
-            "matchCount": 0,
-            "matchedMaterials": [],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
           }
         ],
         "tasks": [
@@ -2097,10 +2083,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 5381,
+          "available": 14862,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 14619
+          "shortfall": 5138
         },
         "dataSource": {
           "provider": "Everloot",
@@ -2114,7 +2100,7 @@
         "day": "2026-11-16",
         "mode": "gold",
         "minutes": 90,
-        "generatedAt": "2026-11-17T00:46:04Z",
+        "generatedAt": "2026-11-17T01:02:06Z",
         "today": [
           {
             "id": "upgrade:2582",
@@ -2138,7 +2124,7 @@
             "status": "Unreserved stock",
             "why": "1s 42c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 2.6 hours old",
+            "source": "Naowh: your realm/faction observations / 2.9 hours old",
             "open": "Gold",
             "itemID": 279976,
             "pinned": false,
@@ -2152,7 +2138,7 @@
             "status": "Test nearby camp",
             "why": "0s 80c estimated net per material; quantity/hour is unknown.",
             "action": "Map Vicious Gray Bear in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 2.6 hours old",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 2.9 hours old",
             "open": "Gold",
             "itemID": 3730,
             "pinned": false,
@@ -2165,12 +2151,12 @@
             "id": "craft:129",
             "kind": "Professions",
             "title": "First Aid: 67 toward 75",
-            "status": "Batch materials ready",
-            "why": "Try Heavy Linen Bandage. It is learned and below its grey threshold (100). Your bags cover 6 crafts.",
-            "action": "Review one craft of Heavy Linen Bandage.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-16T23:22:41Z",
+            "status": "Materials needed",
+            "why": "Try Lesser Healing Potion. It is learned and below its grey threshold (125). Gather the missing reagents first.",
+            "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-16T23:22:41Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
-            "recipeID": 3276,
+            "recipeID": 1244432,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2181,7 +2167,7 @@
             "title": "Tailoring: prepare Red Woolen Bag",
             "status": "Gather materials",
             "why": "Tailoring 96/150. One learned, non-grey craft; skill gains vary.",
-            "action": "Acquire 12 Wool Cloth; Craft 4 Bolt of Woolen Cloth batch(es)\n\nReview one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T00:45:36Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.",
+            "action": "Acquire 12 Wool Cloth; Craft 4 Bolt of Woolen Cloth batch(es)\n\nReview one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:00:30Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Professions",
             "recipeID": 6688,
@@ -2210,7 +2196,7 @@
             "status": "Ready for one craft",
             "why": "Estimated 0s 18c above 0s 38c of materials, after a 5% AH cut; before deposits.",
             "action": "Review one Basic Campfire craft in Cooking. Check tools, output and the current selling price before making it. List a small test batch.",
-            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (2.6 hours old)",
+            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (2.9 hours old)",
             "open": "Gold",
             "itemID": 279981,
             "recipeID": 1229737,
@@ -2223,9 +2209,9 @@
             "kind": "Farm",
             "title": "Farm Wool Cloth: Hillsbrad Fields",
             "status": "Test nearby camp",
-            "why": "1s 71c estimated net per material; quantity/hour is unknown.",
+            "why": "1s 53c estimated net per material; quantity/hour is unknown.",
             "action": "Map Hillsbrad Fields in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nFarmers and footmen. Avoid the higher-level enemies until kills are comfortable.",
-            "source": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.\nNaowh: your realm/faction observations / 2.6 hours old",
+            "source": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.\nNaowh: your realm/faction observations / 0.2 hours old",
             "open": "Gold",
             "itemID": 2592,
             "pinned": false,
@@ -2233,57 +2219,43 @@
             "snoozed": false
           },
           {
-            "id": "gold:sell:21071",
+            "id": "gold:sell:279972",
             "kind": "Sell",
-            "title": "List up to 17 Raw Sagefish",
+            "title": "List up to 6 Faction Banner",
             "status": "Unreserved stock",
-            "why": "0s 32c estimated net each versus 0s 25c at a vendor; before deposits.",
-            "action": "Search Raw Sagefish, compare unit prices and the posting deposit, then list up to 17. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 2.6 hours old",
+            "why": "0s 42c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "action": "Search Faction Banner, compare unit prices and the posting deposit, then list up to 6. Start small; unsold goods are not earnings.",
+            "source": "Naowh: your realm/faction observations / 2.9 hours old",
             "open": "Gold",
-            "itemID": 21071,
+            "itemID": 279972,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
           },
           {
-            "id": "gold:sell:3730",
+            "id": "gold:sell:279981",
             "kind": "Sell",
-            "title": "List up to 7 Big Bear Meat",
+            "title": "List up to 8 Basic Campfire Kit",
             "status": "Unreserved stock",
-            "why": "0s 80c estimated net each versus 0s 45c at a vendor; before deposits.",
-            "action": "Search Big Bear Meat, compare unit prices and the posting deposit, then list up to 7. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 2.6 hours old",
+            "why": "0s 56c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "action": "Search Basic Campfire Kit, compare unit prices and the posting deposit, then list up to 8. Start small; unsold goods are not earnings.",
+            "source": "Naowh: your realm/faction observations / 2.9 hours old",
             "open": "Gold",
-            "itemID": 3730,
+            "itemID": 279981,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
           },
           {
-            "id": "gold:sell:3820",
+            "id": "gold:sell:4471",
             "kind": "Sell",
-            "title": "List up to 3 Stranglekelp",
+            "title": "List up to 1 Flint and Tinder",
             "status": "Unreserved stock",
-            "why": "1s 91c estimated net each versus 1s 0c at a vendor; before deposits.",
-            "action": "Search Stranglekelp, compare unit prices and the posting deposit, then list up to 3. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 2.6 hours old",
+            "why": "0s 95c estimated net each versus 0s 33c at a vendor; before deposits.",
+            "action": "Search Flint and Tinder, compare unit prices and the posting deposit, then list up to 1. Start small; unsold goods are not earnings.",
+            "source": "Naowh: your realm/faction observations / 2.9 hours old",
             "open": "Gold",
-            "itemID": 3820,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "gold:sell:4611",
-            "kind": "Sell",
-            "title": "List up to 1 Blue Pearl",
-            "status": "Unreserved stock",
-            "why": "12s 39c estimated net each versus 0s 50c at a vendor; before deposits.",
-            "action": "Search Blue Pearl, compare unit prices and the posting deposit, then list up to 1. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 2.6 hours old",
-            "open": "Gold",
-            "itemID": 4611,
+            "itemID": 4471,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2307,7 +2279,7 @@
             "title": "Barbaric Linen Vest",
             "status": "Gather materials",
             "why": "Your crafting project; materials are allocated in project order.",
-            "action": "Craft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
+            "action": "Farm 8 Linen Cloth\nCraft 4 Bolt of Linen Cloth\nFarm 1 Light Leather",
             "source": "Learned recipes and shared inventory reservations",
             "open": "Projects",
             "have": 0,
@@ -2365,7 +2337,7 @@
             "title": "Work toward First Aid's cap to 225",
             "status": "Requirements pending",
             "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 53s 81c. Save another 46s 19c (before travel or other purchases).",
+            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2376,9 +2348,9 @@
             "id": "rank:185",
             "kind": "Professions",
             "title": "Raise Cooking's cap to 225",
-            "status": "Save gold",
+            "status": "Rank available",
             "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 53s 81c. Save another 46s 19c (before travel or other purchases).",
+            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2389,9 +2361,9 @@
             "id": "rank:356",
             "kind": "Professions",
             "title": "Raise Fishing's cap to 225",
-            "status": "Save gold",
+            "status": "Rank available",
             "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 53s 81c. Save another 46s 19c (before travel or other purchases).",
+            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2453,6 +2425,21 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 1486,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:19120",
+            "kind": "Gear",
+            "title": "Upgrade: Rune of the Guard Captain",
+            "status": "Review source",
+            "why": "Replaces Empty slot; estimated +3.6 stat points. Job Opening: Guard Captain of Revantusk Village - The Hinterlands - Call to Arms! (79.1, 79)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 19120,
+            "questID": 7862,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -3044,21 +3031,6 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:6750",
-            "kind": "Gear",
-            "title": "Upgrade: Snake Hoop",
-            "status": "Group upgrade",
-            "why": "Replaces Empty slot; estimated +6.8 stat points. Willix the Importer - Where it starts is not known yet",
-            "action": "Check the quest chain and reward choice. Requires Razorfen Kraul.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 6750,
-            "questID": 1144,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "upgrade:6903",
             "kind": "Gear",
             "title": "Upgrade: Gaze Dreamer Pants",
@@ -3117,20 +3089,6 @@
           }
         ],
         "someday": [
-          {
-            "id": "upgrade:10771",
-            "kind": "Gear",
-            "title": "Upgrade: Deathmage Sash",
-            "status": "Level 36 required",
-            "why": "Replaces Wise Man's Belt; estimated +8.8 stat points. Mordresh Fire Eye - Razorfen Downs",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 10771,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
           {
             "id": "upgrade:18405",
             "kind": "Gear",
@@ -3253,109 +3211,6 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 215366,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:217287",
-            "kind": "Gear",
-            "title": "Upgrade: Greater Mystic Wand",
-            "status": "Level 30 required",
-            "why": "Replaces Greater Magic Wand; estimated +3.0 stat points. Enchanting · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 217287,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:249385",
-            "kind": "Gear",
-            "title": "Upgrade: Brilliant Wand",
-            "status": "Level 55 required",
-            "why": "Replaces Greater Magic Wand; estimated +8.2 stat points. Trade-camp recipe: Formula: Brilliant Wand - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 275 required. Last-observed price: 180 Merchant's Favor; you have 60. Earn 120 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 249385,
-            "recipeID": 1248650,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:249392",
-            "kind": "Gear",
-            "title": "Upgrade: Glimmering Staff",
-            "status": "Level 25 required",
-            "why": "Replaces Medicine Staff of Magic; estimated +23.9 stat points. Trade-camp recipe: Formula: Glimmering Staff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 140 required. Last-observed price: 45 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 249392,
-            "recipeID": 1248703,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:249393",
-            "kind": "Gear",
-            "title": "Upgrade: Soulstaff",
-            "status": "Level 25 required",
-            "why": "Replaces Medicine Staff of Magic; estimated +25.4 stat points. Trade-camp recipe: Formula: Soulstaff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 140 required. Last-observed price: 45 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 249393,
-            "recipeID": 1248739,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:249453",
-            "kind": "Gear",
-            "title": "Upgrade: Radiant Staff",
-            "status": "Level 45 required",
-            "why": "Replaces Medicine Staff of Magic; estimated +48.1 stat points. Trade-camp recipe: Formula: Radiant Staff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 220 required. Last-observed price: 120 Merchant's Favor; you have 60. Earn 60 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 249453,
-            "recipeID": 1249061,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:249454",
-            "kind": "Gear",
-            "title": "Upgrade: Dreamstaff",
-            "status": "Level 45 required",
-            "why": "Replaces Medicine Staff of Magic; estimated +29.6 stat points. Trade-camp recipe: Formula: Dreamstaff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 220 required. Last-observed price: 120 Merchant's Favor; you have 60. Earn 60 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 249454,
-            "recipeID": 1249064,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:249469",
-            "kind": "Gear",
-            "title": "Upgrade: Frozen Heart of the Mountain",
-            "status": "Level 50 required",
-            "why": "Replaces Empty slot; estimated +4.7 stat points. Enchanting · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 249469,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -4198,20 +4053,6 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:279246",
-            "kind": "Gear",
-            "title": "Upgrade: Torch of Light",
-            "status": "Level 60 required",
-            "why": "Replaces Greater Magic Wand; estimated +7.3 stat points. Enchanting · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 279246,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "upgrade:279269",
             "kind": "Gear",
             "title": "Upgrade: Fel Cape",
@@ -4506,20 +4347,6 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:7722",
-            "kind": "Gear",
-            "title": "Upgrade: Triune Amulet",
-            "status": "Level 39 required",
-            "why": "Replaces Empty slot; estimated +10.8 stat points. High Inquisitor Whitemane - Scarlet Monastery - Cathedral",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 7722,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "upgrade:7728",
             "kind": "Gear",
             "title": "Upgrade: Beguiler Robes",
@@ -4606,14 +4433,14 @@
             "materials": [
               {
                 "id": 2589,
-                "bag": 8,
+                "bag": 0,
                 "bank": 0,
-                "missing": 0,
+                "missing": 8,
                 "need": 8,
                 "make": 0,
                 "name": "Linen Cloth",
-                "action": "Ready",
-                "done": true,
+                "action": "Farm",
+                "done": false,
                 "vendor": false
               },
               {
@@ -4673,7 +4500,7 @@
         "profileOrigin": "your selected plan profile",
         "source": "Installed NaowhForever 1.2.33",
         "auto": true,
-        "pending": 97,
+        "pending": 113,
         "checked": 293,
         "merchantFavor": {
           "currencyID": 3402,
@@ -6177,42 +6004,6 @@
             ]
           },
           {
-            "name": "Snake Hoop",
-            "slotName": "Ring 2",
-            "current": "Empty slot",
-            "status": "Group upgrade",
-            "kind": "Quest",
-            "source": "Willix the Importer - Where it starts is not known yet",
-            "action": "Check the quest chain and reward choice. Requires Razorfen Kraul.",
-            "itemID": 6750,
-            "slot": 12,
-            "requiredLevel": 0,
-            "questID": 1144,
-            "currentScore": 0,
-            "candidateScore": 6.85,
-            "gain": 6.85,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              }
-            ]
-          },
-          {
             "name": "Tuskwrap Belt",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -6780,6 +6571,47 @@
                 "before": 0,
                 "after": 5,
                 "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Rune of the Guard Captain",
+            "slotName": "Trinket 1",
+            "current": "Empty slot",
+            "status": "Review source",
+            "kind": "Quest",
+            "source": "Job Opening: Guard Captain of Revantusk Village - The Hinterlands - Call to Arms! (79.1, 79)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "itemID": 19120,
+            "slot": 13,
+            "requiredLevel": 0,
+            "questID": 7862,
+            "currentScore": 0,
+            "candidateScore": 3.64,
+            "gain": 3.64,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1425,
+              "x": 0.791,
+              "y": 0.79
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Hit",
+                "before": 0,
+                "after": 7,
+                "delta": 7
               }
             ]
           },
@@ -7996,6 +7828,27 @@
             "statChanges": []
           },
           {
+            "name": "Snake Hoop",
+            "slotName": "Ring 2",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Quest",
+            "source": "Willix the Importer - Where it starts is not known yet",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6750,
+            "slot": 12,
+            "requiredLevel": 0,
+            "questID": 1144,
+            "currentScore": 0,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": []
+          },
+          {
             "name": "Dancing Flame",
             "slotName": "Ranged / relic",
             "current": "Greater Magic Wand",
@@ -8380,32 +8233,6 @@
             "ignored": false,
             "eligible": false,
             "later": false,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Rune of the Guard Captain",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "Job Opening: Guard Captain of Revantusk Village - The Hinterlands - Call to Arms! (79.1, 79)",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 19120,
-            "slot": 13,
-            "requiredLevel": 0,
-            "questID": 7862,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1425,
-              "x": 0.791,
-              "y": 0.79
-            },
             "materials": [],
             "statChanges": []
           },
@@ -8826,101 +8653,6 @@
             "statChanges": []
           },
           {
-            "name": "Radiant Staff",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Level 45 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Formula: Radiant Staff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 220 required. Last-observed price: 120 Merchant's Favor; you have 60. Earn 60 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 249453,
-            "slot": 16,
-            "requiredLevel": 45,
-            "currentItemID": 4575,
-            "recipeID": 1249061,
-            "recipeItemID": 249506,
-            "requiredSkill": 220,
-            "favorCost": 120,
-            "favorHave": 60,
-            "favorMissing": 60,
-            "currentScore": 13.02,
-            "candidateScore": 61.13,
-            "gain": 48.11,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.298
-            },
-            "materials": [
-              {
-                "itemID": 11178,
-                "count": 6,
-                "name": "Large Radiant Shard"
-              },
-              {
-                "itemID": 11177,
-                "count": 2,
-                "name": "Small Radiant Shard"
-              },
-              {
-                "itemID": 11291,
-                "count": 4,
-                "name": "Star Wood"
-              },
-              {
-                "itemID": 11175,
-                "count": 4,
-                "name": "Greater Nether Essence"
-              },
-              {
-                "itemID": 11176,
-                "count": 6,
-                "name": "Dream Dust"
-              },
-              {
-                "itemID": 249409,
-                "count": 2,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 249430,
-                "count": 4,
-                "name": "Magenta Dye"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 6,
-                "after": 19,
-                "delta": 13
-              },
-              {
-                "stat": "Spell Power",
-                "before": 12,
-                "after": 56,
-                "delta": 44
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 19,
-                "delta": 19
-              },
-              {
-                "stat": "damage per second",
-                "before": 9.1999998092651,
-                "after": 32.291667938232,
-                "delta": 23.091668128967
-              }
-            ]
-          },
-          {
             "name": "Belt of the Archmage",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -8971,215 +8703,6 @@
                 "before": 0,
                 "after": 10,
                 "delta": 10
-              }
-            ]
-          },
-          {
-            "name": "Dreamstaff",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Level 45 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Formula: Dreamstaff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 220 required. Last-observed price: 120 Merchant's Favor; you have 60. Earn 60 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 249454,
-            "slot": 16,
-            "requiredLevel": 45,
-            "currentItemID": 4575,
-            "recipeID": 1249064,
-            "recipeItemID": 249507,
-            "requiredSkill": 220,
-            "favorCost": 120,
-            "favorHave": 60,
-            "favorMissing": 60,
-            "currentScore": 13.02,
-            "candidateScore": 42.6,
-            "gain": 29.58,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.298
-            },
-            "materials": [
-              {
-                "itemID": 11178,
-                "count": 4,
-                "name": "Large Radiant Shard"
-              },
-              {
-                "itemID": 11177,
-                "count": 4,
-                "name": "Small Radiant Shard"
-              },
-              {
-                "itemID": 11291,
-                "count": 4,
-                "name": "Star Wood"
-              },
-              {
-                "itemID": 11175,
-                "count": 6,
-                "name": "Greater Nether Essence"
-              },
-              {
-                "itemID": 11176,
-                "count": 8,
-                "name": "Dream Dust"
-              },
-              {
-                "itemID": 249409,
-                "count": 2,
-                "name": "Cerulean Dye"
-              },
-              {
-                "itemID": 249430,
-                "count": 4,
-                "name": "Magenta Dye"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 6,
-                "after": 0,
-                "delta": -6
-              },
-              {
-                "stat": "Spell Damage",
-                "before": 0,
-                "after": 35,
-                "delta": 35
-              },
-              {
-                "stat": "Spell Healing",
-                "before": 0,
-                "after": 105,
-                "delta": 105
-              },
-              {
-                "stat": "Spell Power",
-                "before": 12,
-                "after": 0,
-                "delta": -12
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 19,
-                "delta": 19
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 19,
-                "delta": 19
-              },
-              {
-                "stat": "damage per second",
-                "before": 9.1999998092651,
-                "after": 32.291667938232,
-                "delta": 23.091668128967
-              }
-            ]
-          },
-          {
-            "name": "Soulstaff",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Level 25 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Formula: Soulstaff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 140 required. Last-observed price: 45 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 249393,
-            "slot": 16,
-            "requiredLevel": 25,
-            "currentItemID": 4575,
-            "recipeID": 1248739,
-            "recipeItemID": 249483,
-            "requiredSkill": 140,
-            "favorCost": 45,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 13.02,
-            "candidateScore": 38.4,
-            "gain": 25.38,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.298
-            },
-            "materials": [
-              {
-                "itemID": 11084,
-                "count": 2,
-                "name": "Large Glimmering Shard"
-              },
-              {
-                "itemID": 10978,
-                "count": 1,
-                "name": "Small Glimmering Shard"
-              },
-              {
-                "itemID": 11291,
-                "count": 4,
-                "name": "Star Wood"
-              },
-              {
-                "itemID": 11082,
-                "count": 1,
-                "name": "Greater Astral Essence"
-              },
-              {
-                "itemID": 11083,
-                "count": 6,
-                "name": "Soul Dust"
-              },
-              {
-                "itemID": 1210,
-                "count": 2,
-                "name": "Shadowgem"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 6,
-                "after": 0,
-                "delta": -6
-              },
-              {
-                "stat": "Spell Power",
-                "before": 12,
-                "after": 34,
-                "delta": 22
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "damage per second",
-                "before": 9.1999998092651,
-                "after": 18.333333969116,
-                "delta": 9.1333341598511
               }
             ]
           },
@@ -9299,96 +8822,6 @@
                 "before": 9.1999998092651,
                 "after": 20.694444656372,
                 "delta": 11.494444847107
-              }
-            ]
-          },
-          {
-            "name": "Glimmering Staff",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Level 25 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Formula: Glimmering Staff - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 140 required. Last-observed price: 45 Merchant's Favor; you have 60. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 249392,
-            "slot": 16,
-            "requiredLevel": 25,
-            "currentItemID": 4575,
-            "recipeID": 1248703,
-            "recipeItemID": 249482,
-            "requiredSkill": 140,
-            "favorCost": 45,
-            "favorHave": 60,
-            "favorMissing": 0,
-            "currentScore": 13.02,
-            "candidateScore": 36.97,
-            "gain": 23.95,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.298
-            },
-            "materials": [
-              {
-                "itemID": 11084,
-                "count": 4,
-                "name": "Large Glimmering Shard"
-              },
-              {
-                "itemID": 10978,
-                "count": 2,
-                "name": "Small Glimmering Shard"
-              },
-              {
-                "itemID": 11291,
-                "count": 4,
-                "name": "Star Wood"
-              },
-              {
-                "itemID": 11082,
-                "count": 1,
-                "name": "Greater Astral Essence"
-              },
-              {
-                "itemID": 10940,
-                "count": 5,
-                "name": "Strange Dust"
-              },
-              {
-                "itemID": 249391,
-                "count": 3,
-                "name": "Pyrite"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 6,
-                "after": 11,
-                "delta": 5
-              },
-              {
-                "stat": "Spell Power",
-                "before": 12,
-                "after": 34,
-                "delta": 22
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "damage per second",
-                "before": 9.1999998092651,
-                "after": 18.409090042114,
-                "delta": 9.2090902328491
               }
             ]
           },
@@ -10820,52 +10253,6 @@
             ]
           },
           {
-            "name": "Triune Amulet",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Level 39 required",
-            "kind": "Dungeon",
-            "source": "High Inquisitor Whitemane - Scarlet Monastery - Cathedral",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 7722,
-            "slot": 2,
-            "requiredLevel": 39,
-            "currentScore": 0,
-            "candidateScore": 10.8,
-            "gain": 10.8,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 8,
-                "delta": 8
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Green Silk Armor",
             "slotName": "Chest",
             "current": "Native Vest of Intellect",
@@ -11629,53 +11016,6 @@
             ]
           },
           {
-            "name": "Deathmage Sash",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Level 36 required",
-            "kind": "Dungeon",
-            "source": "Mordresh Fire Eye - Razorfen Downs",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 10771,
-            "slot": 6,
-            "requiredLevel": 36,
-            "currentItemID": 4786,
-            "currentScore": 0.945,
-            "candidateScore": 9.715,
-            "gain": 8.77,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.509,
-              "y": 0.929
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 19,
-                "after": 33,
-                "delta": 14
-              },
-              {
-                "stat": "Intellect",
-                "before": 5,
-                "after": 15,
-                "delta": 10
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Spidertank Oilrag",
             "slotName": "Wrists",
             "current": "Green Linen Bracers",
@@ -11837,80 +11177,6 @@
             ]
           },
           {
-            "name": "Brilliant Wand",
-            "slotName": "Ranged / relic",
-            "current": "Greater Magic Wand",
-            "status": "Level 55 required",
-            "kind": "Unlock",
-            "source": "Trade-camp recipe: Formula: Brilliant Wand - Beneris / The Barrens",
-            "action": "Unlock this recipe before crafting. Enchanting 115 / 275 required. Last-observed price: 180 Merchant's Favor; you have 60. Earn 120 more Favor by filling and turning in suitable Waylaid Crates. Check the actual crate reward; no fixed crate count is assumed. Confirm current price, reputation and purchase requirements at the vendor.",
-            "itemID": 249385,
-            "slot": 18,
-            "requiredLevel": 55,
-            "currentItemID": 11288,
-            "recipeID": 1248650,
-            "recipeItemID": 249537,
-            "requiredSkill": 275,
-            "favorCost": 180,
-            "favorHave": 60,
-            "favorMissing": 120,
-            "currentScore": 2,
-            "candidateScore": 10.19,
-            "gain": 8.19,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.496,
-              "y": 0.298
-            },
-            "materials": [
-              {
-                "itemID": 16203,
-                "count": 1,
-                "name": "Greater Eternal Essence"
-              },
-              {
-                "itemID": 16204,
-                "count": 3,
-                "name": "Illusion Dust"
-              },
-              {
-                "itemID": 14344,
-                "count": 2,
-                "name": "Large Brilliant Shard"
-              },
-              {
-                "itemID": 11291,
-                "count": 1,
-                "name": "Star Wood"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Spell Power",
-                "before": 2,
-                "after": 9,
-                "delta": 7
-              },
-              {
-                "stat": "damage per second",
-                "before": 17.5,
-                "after": 59.583332061768,
-                "delta": 42.083332061768
-              }
-            ]
-          },
-          {
             "name": "Blightleaf Rope",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -12048,60 +11314,6 @@
                 "before": 1,
                 "after": 6,
                 "delta": 5
-              }
-            ]
-          },
-          {
-            "name": "Torch of Light",
-            "slotName": "Ranged / relic",
-            "current": "Greater Magic Wand",
-            "status": "Level 60 required",
-            "kind": "Review",
-            "source": "Enchanting · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 279246,
-            "slot": 18,
-            "requiredLevel": 60,
-            "currentItemID": 11288,
-            "currentScore": 2,
-            "candidateScore": 9.3,
-            "gain": 7.3,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Spell Damage",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Spell Healing",
-                "before": 0,
-                "after": 17,
-                "delta": 17
-              },
-              {
-                "stat": "Spell Power",
-                "before": 2,
-                "after": 0,
-                "delta": -2
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "damage per second",
-                "before": 17.5,
-                "after": 76.764709472656,
-                "delta": 59.264709472656
               }
             ]
           },
@@ -12780,83 +11992,6 @@
                 "before": 0,
                 "after": 6,
                 "delta": 6
-              }
-            ]
-          },
-          {
-            "name": "Frozen Heart of the Mountain",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Level 50 required",
-            "kind": "Review",
-            "source": "Enchanting · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 249469,
-            "slot": 13,
-            "requiredLevel": 50,
-            "currentScore": 0,
-            "candidateScore": 4.68,
-            "gain": 4.68,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Fire Resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Frost Resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Hit",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Nature Resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Shadow Resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "fire resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "frost resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "nature resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "shadow resistance",
-                "before": 0,
-                "after": 7,
-                "delta": 7
               }
             ]
           },
@@ -13633,42 +12768,6 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
-              }
-            ]
-          },
-          {
-            "name": "Greater Mystic Wand",
-            "slotName": "Ranged / relic",
-            "current": "Greater Magic Wand",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "Enchanting · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 217287,
-            "slot": 18,
-            "requiredLevel": 30,
-            "currentItemID": 11288,
-            "currentScore": 2,
-            "candidateScore": 5,
-            "gain": 3,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Spell Power",
-                "before": 2,
-                "after": 5,
-                "delta": 3
-              },
-              {
-                "stat": "damage per second",
-                "before": 17.5,
-                "after": 29,
-                "delta": 11.5
               }
             ]
           },
@@ -16239,16 +15338,15 @@
             "name": "Hypnotic Blade",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Dungeon",
             "source": "Arcanist Doan - Scarlet Monastery - Library",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 7714,
             "slot": 16,
             "requiredLevel": 34,
             "currentItemID": 4575,
             "currentScore": 13.02,
-            "candidateScore": 46.26,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -16260,32 +15358,7 @@
               "y": 0.316
             },
             "materials": [],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 6,
-                "after": 8,
-                "delta": 2
-              },
-              {
-                "stat": "Spell Power",
-                "before": 12,
-                "after": 44,
-                "delta": 32
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              },
-              {
-                "stat": "damage per second",
-                "before": 9.1999998092651,
-                "after": 17.5,
-                "delta": 8.3000001907349
-              }
-            ]
+            "statChanges": []
           },
           {
             "name": "Whitemane's Chapeau",
@@ -16297,6 +15370,31 @@
             "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 7720,
             "slot": 1,
+            "requiredLevel": 39,
+            "currentScore": 0,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Triune Amulet",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Dungeon",
+            "source": "High Inquisitor Whitemane - Scarlet Monastery - Cathedral",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 7722,
+            "slot": 2,
             "requiredLevel": 39,
             "currentScore": 0,
             "group": true,
@@ -16466,15 +15564,14 @@
             "name": "Mordresh's Lifeless Skull",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Dungeon",
             "source": "Mordresh Fire Eye - Razorfen Downs",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 10770,
             "slot": 17,
             "requiredLevel": 36,
             "currentScore": 0,
-            "candidateScore": 17.5,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -16486,20 +15583,33 @@
               "y": 0.929
             },
             "materials": [],
-            "statChanges": [
-              {
-                "stat": "Shadow Damage",
-                "before": 0,
-                "after": 16,
-                "delta": 16
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              }
-            ]
+            "statChanges": []
+          },
+          {
+            "name": "Deathmage Sash",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Loading item data",
+            "kind": "Dungeon",
+            "source": "Mordresh Fire Eye - Razorfen Downs",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 10771,
+            "slot": 6,
+            "requiredLevel": 36,
+            "currentItemID": 4786,
+            "currentScore": 0.945,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.509,
+              "y": 0.929
+            },
+            "materials": [],
+            "statChanges": []
           },
           {
             "name": "Moonlit Amice",
@@ -16951,13 +16061,213 @@
             "statChanges": []
           },
           {
+            "name": "Greater Mystic Wand",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Enchanting · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 217287,
+            "slot": 18,
+            "requiredLevel": 30,
+            "currentItemID": 11288,
+            "currentScore": 2,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Brilliant Wand",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Loading item data",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Formula: Brilliant Wand - Beneris / The Barrens",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 249385,
+            "slot": 18,
+            "requiredLevel": 55,
+            "currentItemID": 11288,
+            "recipeID": 1248650,
+            "recipeItemID": 249537,
+            "requiredSkill": 275,
+            "favorCost": 180,
+            "favorHave": 60,
+            "favorMissing": 120,
+            "currentScore": 2,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.298
+            },
+            "materials": [
+              {
+                "itemID": 16203,
+                "count": 1,
+                "name": "Greater Eternal Essence"
+              },
+              {
+                "itemID": 16204,
+                "count": 3,
+                "name": "Illusion Dust"
+              },
+              {
+                "itemID": 14344,
+                "count": 2,
+                "name": "Large Brilliant Shard"
+              },
+              {
+                "itemID": 11291,
+                "count": 1,
+                "name": "Star Wood"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Glimmering Staff",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Loading item data",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Formula: Glimmering Staff - Beneris / The Barrens",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 249392,
+            "slot": 16,
+            "requiredLevel": 25,
+            "currentItemID": 4575,
+            "recipeID": 1248703,
+            "recipeItemID": 249482,
+            "requiredSkill": 140,
+            "favorCost": 45,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 13.02,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.298
+            },
+            "materials": [
+              {
+                "itemID": 11084,
+                "count": 4,
+                "name": "Large Glimmering Shard"
+              },
+              {
+                "itemID": 10978,
+                "count": 2,
+                "name": "Small Glimmering Shard"
+              },
+              {
+                "itemID": 11291,
+                "count": 4,
+                "name": "Star Wood"
+              },
+              {
+                "itemID": 11082,
+                "count": 1,
+                "name": "Greater Astral Essence"
+              },
+              {
+                "itemID": 10940,
+                "count": 5,
+                "name": "Strange Dust"
+              },
+              {
+                "itemID": 249391,
+                "count": 3,
+                "name": "Pyrite"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Soulstaff",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Loading item data",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Formula: Soulstaff - Beneris / The Barrens",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 249393,
+            "slot": 16,
+            "requiredLevel": 25,
+            "currentItemID": 4575,
+            "recipeID": 1248739,
+            "recipeItemID": 249483,
+            "requiredSkill": 140,
+            "favorCost": 45,
+            "favorHave": 60,
+            "favorMissing": 0,
+            "currentScore": 13.02,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.298
+            },
+            "materials": [
+              {
+                "itemID": 11084,
+                "count": 2,
+                "name": "Large Glimmering Shard"
+              },
+              {
+                "itemID": 10978,
+                "count": 1,
+                "name": "Small Glimmering Shard"
+              },
+              {
+                "itemID": 11291,
+                "count": 4,
+                "name": "Star Wood"
+              },
+              {
+                "itemID": 11082,
+                "count": 1,
+                "name": "Greater Astral Essence"
+              },
+              {
+                "itemID": 11083,
+                "count": 6,
+                "name": "Soul Dust"
+              },
+              {
+                "itemID": 1210,
+                "count": 2,
+                "name": "Shadowgem"
+              }
+            ],
+            "statChanges": []
+          },
+          {
             "name": "Orb of Mystic Insight",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Unlock",
             "source": "Trade-camp recipe: Formula: Orb of Mystic Insight - Beneris / The Barrens",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 249394,
             "slot": 17,
             "requiredLevel": 25,
@@ -16968,7 +16278,6 @@
             "favorHave": 60,
             "favorMissing": 0,
             "currentScore": 0,
-            "candidateScore": 8.02,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -16996,29 +16305,16 @@
                 "name": "Strange Dust"
               }
             ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
+            "statChanges": []
           },
           {
             "name": "Orb of Souls",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Unlock",
             "source": "Trade-camp recipe: Formula: Orb of Souls - Beneris / The Barrens",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 249395,
             "slot": 17,
             "requiredLevel": 25,
@@ -17029,7 +16325,6 @@
             "favorHave": 60,
             "favorMissing": 0,
             "currentScore": 0,
-            "candidateScore": 5.8,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -17057,35 +16352,152 @@
                 "name": "Soul Dust"
               }
             ],
-            "statChanges": [
+            "statChanges": []
+          },
+          {
+            "name": "Radiant Staff",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Loading item data",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Formula: Radiant Staff - Beneris / The Barrens",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 249453,
+            "slot": 16,
+            "requiredLevel": 45,
+            "currentItemID": 4575,
+            "recipeID": 1249061,
+            "recipeItemID": 249506,
+            "requiredSkill": 220,
+            "favorCost": 120,
+            "favorHave": 60,
+            "favorMissing": 60,
+            "currentScore": 13.02,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.298
+            },
+            "materials": [
               {
-                "stat": "Spell Damage",
-                "before": 0,
-                "after": 4,
-                "delta": 4
+                "itemID": 11178,
+                "count": 6,
+                "name": "Large Radiant Shard"
               },
               {
-                "stat": "Spell Healing",
-                "before": 0,
-                "after": 13,
-                "delta": 13
+                "itemID": 11177,
+                "count": 2,
+                "name": "Small Radiant Shard"
               },
               {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 6,
-                "delta": 6
+                "itemID": 11291,
+                "count": 4,
+                "name": "Star Wood"
+              },
+              {
+                "itemID": 11175,
+                "count": 4,
+                "name": "Greater Nether Essence"
+              },
+              {
+                "itemID": 11176,
+                "count": 6,
+                "name": "Dream Dust"
+              },
+              {
+                "itemID": 249409,
+                "count": 2,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 249430,
+                "count": 4,
+                "name": "Magenta Dye"
               }
-            ]
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Dreamstaff",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Loading item data",
+            "kind": "Unlock",
+            "source": "Trade-camp recipe: Formula: Dreamstaff - Beneris / The Barrens",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 249454,
+            "slot": 16,
+            "requiredLevel": 45,
+            "currentItemID": 4575,
+            "recipeID": 1249064,
+            "recipeItemID": 249507,
+            "requiredSkill": 220,
+            "favorCost": 120,
+            "favorHave": 60,
+            "favorMissing": 60,
+            "currentScore": 13.02,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.496,
+              "y": 0.298
+            },
+            "materials": [
+              {
+                "itemID": 11178,
+                "count": 4,
+                "name": "Large Radiant Shard"
+              },
+              {
+                "itemID": 11177,
+                "count": 4,
+                "name": "Small Radiant Shard"
+              },
+              {
+                "itemID": 11291,
+                "count": 4,
+                "name": "Star Wood"
+              },
+              {
+                "itemID": 11175,
+                "count": 6,
+                "name": "Greater Nether Essence"
+              },
+              {
+                "itemID": 11176,
+                "count": 8,
+                "name": "Dream Dust"
+              },
+              {
+                "itemID": 249409,
+                "count": 2,
+                "name": "Cerulean Dye"
+              },
+              {
+                "itemID": 249430,
+                "count": 4,
+                "name": "Magenta Dye"
+              }
+            ],
+            "statChanges": []
           },
           {
             "name": "Truesilver Conduit",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Unlock",
             "source": "Trade-camp recipe: Formula: Truesilver Conduit - Beneris / The Barrens",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 249455,
             "slot": 17,
             "requiredLevel": 45,
@@ -17096,7 +16508,6 @@
             "favorHave": 60,
             "favorMissing": 60,
             "currentScore": 0,
-            "candidateScore": 12.16,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -17144,35 +16555,16 @@
                 "name": "Magenta Dye"
               }
             ],
-            "statChanges": [
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 8,
-                "delta": 8
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 10,
-                "delta": 10
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 8,
-                "delta": 8
-              }
-            ]
+            "statChanges": []
           },
           {
             "name": "Twisting Essence Jar",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Unlock",
             "source": "Trade-camp recipe: Formula: Twisting Essence Jar - Beneris / The Barrens",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 249456,
             "slot": 17,
             "requiredLevel": 45,
@@ -17183,7 +16575,6 @@
             "favorHave": 60,
             "favorMissing": 60,
             "currentScore": 0,
-            "candidateScore": 9.2,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -17221,32 +16612,27 @@
                 "name": "Magenta Dye"
               }
             ],
-            "statChanges": [
-              {
-                "stat": "Spell Damage",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Spell Healing",
-                "before": 0,
-                "after": 19,
-                "delta": 19
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 8,
-                "delta": 8
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 8,
-                "delta": 8
-              }
-            ]
+            "statChanges": []
+          },
+          {
+            "name": "Frozen Heart of the Mountain",
+            "slotName": "Trinket 1",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Enchanting · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 249469,
+            "slot": 13,
+            "requiredLevel": 50,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
           },
           {
             "name": "Town Clerk's Mittens",
@@ -17528,6 +16914,27 @@
             "itemID": 277256,
             "slot": 18,
             "requiredLevel": 40,
+            "currentItemID": 11288,
+            "currentScore": 2,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Torch of Light",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Enchanting · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 279246,
+            "slot": 18,
+            "requiredLevel": 60,
             "currentItemID": 11288,
             "currentScore": 2,
             "group": false,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T01:40:48Z",
+  "updatedAt": "2026-11-17T01:56:33Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -17177,7 +17177,7 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-17T01:40:48Z",
+      "exportedAt": "2026-11-17T01:56:33Z",
       "addonVersion": "1.10.0",
       "character": {
         "name": "Seethe",
@@ -17192,7 +17192,7 @@
         "xp": 100,
         "xpForNextLevel": 400,
         "restedXP": 600,
-        "moneyCopper": 1463,
+        "moneyCopper": 3108,
         "maxHealth": 78,
         "maxPower": 67,
         "stats": {
@@ -17269,7 +17269,28 @@
           "vendorPriceCopper": 9
         }
       ],
-      "professions": [],
+      "professions": [
+        {
+          "name": "Alchemy",
+          "skill": 1,
+          "maxSkill": 75,
+          "bonusSkill": 0,
+          "skillLineID": 171,
+          "isPrimary": true,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-17T01:56:29Z"
+        },
+        {
+          "name": "Herbalism",
+          "skill": 1,
+          "maxSkill": 75,
+          "bonusSkill": 0,
+          "skillLineID": 182,
+          "isPrimary": true,
+          "recipeScanStatus": "last_scanned",
+          "recipesCapturedAt": "2026-11-17T01:54:39Z"
+        }
+      ],
       "quests": [
         {
           "questID": 752,
@@ -17619,6 +17640,59 @@
           ]
         },
         {
+          "id": "craft:171",
+          "title": "Alchemy: 1 toward 25",
+          "category": "Professions",
+          "status": "Materials needed",
+          "why": "Try Elixir of Minor Defense. It is learned and below its grey threshold (95). Gather the missing reagents first.",
+          "action": "Review one craft of Elixir of Minor Defense.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:56:29Z",
+          "actionType": "profession",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Open profession",
+          "priority": 53,
+          "materials": [
+            {
+              "itemID": 765,
+              "missing": 1,
+              "need": 1,
+              "name": "Silverleaf"
+            },
+            {
+              "itemID": 2447,
+              "missing": 1,
+              "need": 1,
+              "name": "Peacebloom"
+            },
+            {
+              "itemID": 3371,
+              "missing": 1,
+              "need": 1,
+              "name": "Empty Vial"
+            }
+          ],
+          "targets": []
+        },
+        {
+          "id": "rank:171",
+          "title": "Work toward Alchemy's cap to 150",
+          "category": "Professions",
+          "status": "Requirements pending",
+          "why": "Alchemy is 1/75. This rank requires 50 skill and level 10.",
+          "action": "Learn Journeyman Alchemy.\nBena Winterhoof, Thunder Bluff (46.8, 33.4)\nListed cost: 5s 0c. Your money: 31s 8c.",
+          "actionType": "waypoint",
+          "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+          "button": "Show vendor / trainer",
+          "priority": 42,
+          "purchaseCost": 0,
+          "materials": [],
+          "targets": [],
+          "waypoint": {
+            "mapID": 1456,
+            "x": 0.468,
+            "y": 0.334
+          }
+        },
+        {
           "id": "bags:bank",
           "title": "Capture your bank on your next visit",
           "category": "Bags",
@@ -17636,7 +17710,7 @@
         "training:now",
         "gear:Quest (Horde)",
         "gear:Razorfen Kraul",
-        "quest:747",
+        "craft:171",
         "bags:bank"
       ],
       "fieldPlan": {
@@ -17648,7 +17722,7 @@
         ],
         "notices": [],
         "budget": {
-          "available": 1463,
+          "available": 3108,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -17665,7 +17739,7 @@
         "day": "2026-11-16",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-17T01:40:48Z",
+        "generatedAt": "2026-11-17T01:56:33Z",
         "today": [
           {
             "id": "quest:752",
@@ -17724,6 +17798,20 @@
             "snoozed": false
           },
           {
+            "id": "craft:171",
+            "kind": "Professions",
+            "title": "Alchemy: prepare Elixir of Minor Defense",
+            "status": "Gather materials",
+            "why": "Alchemy 1/75. One learned, non-grey craft; skill gains vary.",
+            "action": "Acquire 1 Silverleaf; Acquire 1 Peacebloom; Acquire 1 Empty Vial\n\nReview one craft of Elixir of Minor Defense.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:56:29Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.",
+            "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
+            "open": "Professions",
+            "recipeID": 7183,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "level:next",
             "kind": "Leveling",
             "title": "Reach level 2",
@@ -17732,6 +17820,19 @@
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "profession:182",
+            "kind": "Professions",
+            "title": "Herbalism: review next step",
+            "status": "Review profession",
+            "why": "Herbalism 1/75.",
+            "action": "Gather nodes or skin creatures that your current skill allows. No verified route is available in this plan.",
+            "source": "Current profession rank and installed recipe coverage",
+            "open": "Professions",
             "pinned": false,
             "reviewed": false,
             "snoozed": false

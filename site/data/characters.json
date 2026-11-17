@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T00:46:04Z",
+  "updatedAt": "2026-11-17T00:49:51Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -17746,8 +17746,8 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-16T04:27:24Z",
-      "addonVersion": "1.8.1",
+      "exportedAt": "2026-11-17T00:49:51Z",
+      "addonVersion": "1.10.0",
       "character": {
         "name": "Seethe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -17760,8 +17760,8 @@
         "level": 1,
         "xp": 100,
         "xpForNextLevel": 400,
-        "restedXP": 590,
-        "moneyCopper": 12903,
+        "restedXP": 600,
+        "moneyCopper": 2463,
         "maxHealth": 78,
         "maxPower": 67,
         "stats": {
@@ -17773,57 +17773,12 @@
         }
       },
       "bags": {
-        "free": 27,
+        "free": 37,
         "capacity": 38,
         "items": [
           {
-            "itemID": 1081,
-            "name": "Crisp Spider Meat",
-            "count": 4
-          },
-          {
-            "itemID": 1288,
-            "name": "Large Venom Sac",
-            "count": 1
-          },
-          {
-            "itemID": 3820,
-            "name": "Stranglekelp",
-            "count": 6
-          },
-          {
-            "itemID": 6308,
-            "name": "Raw Bristle Whisker Catfish",
-            "count": 33
-          },
-          {
             "itemID": 6948,
             "name": "Hearthstone",
-            "count": 1
-          },
-          {
-            "itemID": 10978,
-            "name": "Small Glimmering Shard",
-            "count": 3
-          },
-          {
-            "itemID": 11101,
-            "name": "Formula: Enchant Bracer - Lesser Strength",
-            "count": 1
-          },
-          {
-            "itemID": 20752,
-            "name": "Formula: Minor Mana Oil",
-            "count": 1
-          },
-          {
-            "itemID": 248685,
-            "name": "Waylaid Crate: Apprentice Curiosities",
-            "count": 1
-          },
-          {
-            "itemID": 248705,
-            "name": "Waylaid Crate: Journeyman Fabrics",
             "count": 1
           }
         ]
@@ -18242,7 +18197,7 @@
         ],
         "notices": [],
         "budget": {
-          "available": 12903,
+          "available": 2463,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -18255,12 +18210,25 @@
         }
       },
       "dailyPlan": {
-        "version": 2,
-        "day": "2026-11-15",
-        "mode": "grind",
+        "version": 3,
+        "day": "2026-11-16",
+        "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-16T04:27:24Z",
+        "generatedAt": "2026-11-17T00:49:51Z",
         "today": [
+          {
+            "id": "gold:prices",
+            "kind": "Review",
+            "title": "Refresh auction prices",
+            "status": "No fresh local prices",
+            "why": "Unknown, stale and other-market values are not treated as profit. 0 fresh / 0 missing or stale checked prices.",
+            "action": "Visit your auction house and run Naowh Scan Prices or Auctionator Full Scan. Wait for completion, close the auction house, then refresh Ledger. Check exact item variants before selling gear.",
+            "source": "Local market price coverage",
+            "open": "Gold",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
           {
             "id": "quest:752",
             "kind": "Leveling",
@@ -18284,20 +18252,6 @@
             "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
             "source": "Naowh Training 1.2.34 / TrainingData + live spellbook",
             "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "quest:747",
-            "kind": "Leveling",
-            "title": "Quest: The Hunt Begins",
-            "status": "Current quest",
-            "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
-            "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
-            "source": "Live Forever quest log",
-            "open": "Progression",
-            "questID": 747,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -18326,6 +18280,20 @@
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:747",
+            "kind": "Leveling",
+            "title": "Quest: The Hunt Begins",
+            "status": "Current quest",
+            "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+            "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 747,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -20512,9 +20480,9 @@
         "snoozed": [],
         "projects": [],
         "notices": [
-          "Session length limits the checklist; it is not a completion-time promise.",
-          "Both primary professions get a useful step when space permits; pins and urgent bag space come first.",
-          "Reviewed and Later choices reset each local calendar day. Projects and stock goals carry forward."
+          "Checklist size limits suggestions, not expected play time.",
+          "Gold routine prioritizes priced opportunities. Professions, gear and projects remain available in Soon; pins and urgent bag space come first.",
+          "Dismissed and Set aside choices reset each local calendar day. Projects and stock goals carry forward."
         ]
       },
       "gearPlan": {

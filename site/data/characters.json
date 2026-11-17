@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T01:02:06Z",
+  "updatedAt": "2026-11-17T01:06:08Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-17T01:02:06Z",
+      "exportedAt": "2026-11-17T01:06:08Z",
       "addonVersion": "1.10.0",
       "character": {
         "name": "Scathe",
@@ -19,7 +19,7 @@
         "xp": 29189,
         "xpForNextLevel": 29400,
         "restedXP": 12,
-        "moneyCopper": 14862,
+        "moneyCopper": 14793,
         "maxHealth": 604,
         "maxPower": 1207,
         "stats": {
@@ -31,9 +31,14 @@
         }
       },
       "bags": {
-        "free": 37,
+        "free": 36,
         "capacity": 66,
         "items": [
+          {
+            "itemID": 159,
+            "name": "Refreshing Spring Water",
+            "count": 15
+          },
           {
             "itemID": 422,
             "name": "Dwarven Mild",
@@ -303,7 +308,7 @@
           "skillLineID": 197,
           "isPrimary": true,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-17T01:00:30Z"
+          "recipesCapturedAt": "2026-11-17T01:04:26Z"
         },
         {
           "name": "Enchanting",
@@ -323,7 +328,7 @@
           "skillLineID": 129,
           "isPrimary": false,
           "recipeScanStatus": "last_scanned",
-          "recipesCapturedAt": "2026-11-16T23:22:41Z"
+          "recipesCapturedAt": "2026-11-17T01:06:00Z"
         },
         {
           "name": "Fishing",
@@ -685,7 +690,7 @@
           "category": "Professions",
           "status": "Rank available",
           "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
+          "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 1g 47s 93c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -705,7 +710,7 @@
           "category": "Professions",
           "status": "Rank available",
           "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
+          "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 1g 47s 93c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -742,7 +747,7 @@
           "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
           "action": "Searing Pain (level 18, listed 17s 0c)\nCurse of the Elements (level 20, listed 25s 0c)\nImmolate (level 20, listed 25s 0c)\nSummon Incubus (level 20, quest)\nCurse of Weakness (level 22, listed 38s 0c)\nEye of Kilrogg (level 22, listed 38s 0c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
           "actionType": "training",
-          "source": "Naowh Training 1.2.34 / TrainingData + live spellbook",
+          "source": "Naowh Training 1.3.1 / TrainingData + live spellbook",
           "button": "Open training",
           "priority": 78,
           "materials": [],
@@ -807,7 +812,7 @@
           "why": "Affliction Warlock level-30 wishlist; 2 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 64,
           "materials": [],
@@ -852,7 +857,7 @@
           "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 57,
           "materials": [],
@@ -876,7 +881,7 @@
           "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -918,7 +923,7 @@
           "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -942,7 +947,7 @@
           "why": "Affliction Warlock level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -993,7 +998,7 @@
           "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 54,
           "materials": [],
@@ -1024,7 +1029,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Lesser Healing Potion. It is learned and below its grey threshold (125). Gather the missing reagents first.",
-          "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-16T23:22:41Z",
+          "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:06:00Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1057,7 +1062,7 @@
           "category": "Professions",
           "status": "Materials needed",
           "why": "Try Red Woolen Bag. It is learned and below its grey threshold (150). Gather the missing reagents first.",
-          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:00:30Z",
+          "action": "Review one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:04:26Z",
           "actionType": "profession",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Open profession",
@@ -1092,7 +1097,7 @@
           "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 52,
           "materials": [],
@@ -1116,7 +1121,7 @@
           "why": "Affliction Warlock level-30 wishlist; 0 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Affliction Warlock (your selected plan profile).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.2.34 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.1 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 50,
           "materials": [],
@@ -1156,7 +1161,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
+          "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 1g 47s 93c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1176,7 +1181,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Tailoring is 96/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 1g 48s 62c.",
+          "action": "Learn Expert Tailoring.\nJosef Gregorian, Undercity (70.4, 30.4)\nListed cost: 50s 0c. Your money: 1g 47s 93c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1196,7 +1201,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Enchanting is 115/150. This rank requires 125 skill and level 20.",
-          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 1g 48s 62c.",
+          "action": "Learn Expert Enchanting.\nHgarth, Stonetalon Mountains (49.2, 57.2)\nListed cost: 50s 0c. Your money: 1g 47s 93c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -1451,8 +1456,8 @@
             "reasons": [
               "61 observed kills / 61 inspected corpses",
               "In your current zone",
-              "Observed needed material: Linen Cloth",
-              "Observed needed material: Wool Cloth"
+              "Observed needed material: Wool Cloth",
+              "Observed needed material: Linen Cloth"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
             "comparison": "No comparable personal outing recorded yet.",
@@ -2083,10 +2088,10 @@
         ],
         "notices": [],
         "budget": {
-          "available": 14862,
+          "available": 14793,
           "rankTotal": 20000,
           "reserve": 0,
-          "shortfall": 5138
+          "shortfall": 5207
         },
         "dataSource": {
           "provider": "Everloot",
@@ -2100,7 +2105,7 @@
         "day": "2026-11-16",
         "mode": "gold",
         "minutes": 90,
-        "generatedAt": "2026-11-17T01:02:06Z",
+        "generatedAt": "2026-11-17T01:06:08Z",
         "today": [
           {
             "id": "upgrade:2582",
@@ -2153,7 +2158,7 @@
             "title": "First Aid: 67 toward 75",
             "status": "Materials needed",
             "why": "Try Lesser Healing Potion. It is learned and below its grey threshold (125). Gather the missing reagents first.",
-            "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-16T23:22:41Z",
+            "action": "Review one craft of Lesser Healing Potion.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:06:00Z",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "recipeID": 1244432,
@@ -2167,7 +2172,7 @@
             "title": "Tailoring: prepare Red Woolen Bag",
             "status": "Gather materials",
             "why": "Tailoring 96/150. One learned, non-grey craft; skill gains vary.",
-            "action": "Acquire 12 Wool Cloth; Craft 4 Bolt of Woolen Cloth batch(es)\n\nReview one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:00:30Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.",
+            "action": "Acquire 12 Wool Cloth; Craft 4 Bolt of Woolen Cloth batch(es)\n\nReview one craft of Red Woolen Bag.\nThis is a material-use suggestion, not a cheapest-craft calculation. Skill gains vary; recheck after crafting.\nTools, cooldowns, and the crafting location are checked by the profession window. \nRecipe scan: 2026-11-17T01:04:26Z\n\nCounts use supplies left after saved projects, stock targets and a tracked crate. Suggested profession crafts are allocated in the order shown; they are not automatically queued.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Professions",
             "recipeID": 6688,
@@ -2211,7 +2216,7 @@
             "status": "Test nearby camp",
             "why": "1s 53c estimated net per material; quantity/hour is unknown.",
             "action": "Map Hillsbrad Fields in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nFarmers and footmen. Avoid the higher-level enemies until kills are comfortable.",
-            "source": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.\nNaowh: your realm/faction observations / 0.2 hours old",
+            "source": "Candidate camps: bytetavern.com/wow-forever-wool-cloth-farming/ (14 Nov 2026). Locations and loot derived from Classic; verify in Forever. No guaranteed drop rates.\nNaowh: your realm/faction observations / 0.3 hours old",
             "open": "Gold",
             "itemID": 2592,
             "pinned": false,
@@ -2242,6 +2247,20 @@
             "source": "Naowh: your realm/faction observations / 2.9 hours old",
             "open": "Gold",
             "itemID": 279981,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gold:sell:4306",
+            "kind": "Sell",
+            "title": "List up to 4 Silk Cloth",
+            "status": "Unreserved stock",
+            "why": "1s 83c estimated net each versus 1s 50c at a vendor; before deposits.",
+            "action": "Search Silk Cloth, compare unit prices and the posting deposit, then list up to 4. Start small; unsold goods are not earnings.",
+            "source": "Naowh: your realm/faction observations / 2.9 hours old",
+            "open": "Gold",
+            "itemID": 4306,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2337,7 +2356,7 @@
             "title": "Work toward First Aid's cap to 225",
             "status": "Requirements pending",
             "why": "First Aid is 67/150. This rank requires 125 skill and level 20.",
-            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
+            "action": "Buy and read Expert First Aid - Under Wraps.\nBalai Lok'Wein, Dustwallow Marsh (36.4, 30.4)\nListed cost: 1g 0s 0c. Your money: 1g 47s 93c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2350,7 +2369,7 @@
             "title": "Raise Cooking's cap to 225",
             "status": "Rank available",
             "why": "Cooking is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
+            "action": "Buy and read Expert Cookbook.\nWulan, Desolace (26.2, 69.8)\nListed cost: 1g 0s 0c. Your money: 1g 47s 93c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2363,7 +2382,7 @@
             "title": "Raise Fishing's cap to 225",
             "status": "Rank available",
             "why": "Fishing is 150/150. This rank requires 125 skill and level 20; you are at the current cap.",
-            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 1g 48s 62c.",
+            "action": "Buy and read Expert Fishing - The Bass and You.\nOld Man Heming, Stranglethorn Vale (27.4, 77.0)\nListed cost: 1g 0s 0c. Your money: 1g 47s 93c.",
             "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
             "open": "Progression",
             "pinned": false,
@@ -2394,7 +2413,7 @@
             "status": "Trainer / quest",
             "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
             "action": "Searing Pain (level 18, listed 17s 0c)\nCurse of the Elements (level 20, listed 25s 0c)\nImmolate (level 20, listed 25s 0c)\nSummon Incubus (level 20, quest)\nCurse of Weakness (level 22, listed 38s 0c)\nEye of Kilrogg (level 22, listed 38s 0c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
-            "source": "Naowh Training 1.2.34 / TrainingData + live spellbook",
+            "source": "Naowh Training 1.3.1 / TrainingData + live spellbook",
             "open": "Progression",
             "pinned": false,
             "reviewed": false,
@@ -2425,21 +2444,6 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 1486,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:19120",
-            "kind": "Gear",
-            "title": "Upgrade: Rune of the Guard Captain",
-            "status": "Review source",
-            "why": "Replaces Empty slot; estimated +3.6 stat points. Job Opening: Guard Captain of Revantusk Village - The Hinterlands - Call to Arms! (79.1, 79)",
-            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 19120,
-            "questID": 7862,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -4146,6 +4150,20 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 4323,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:5003",
+            "kind": "Gear",
+            "title": "Upgrade: Crystal Starfire Medallion",
+            "status": "Level 26 required",
+            "why": "Replaces Empty slot; estimated +2.0 stat points. World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 5003,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -6575,47 +6593,6 @@
             ]
           },
           {
-            "name": "Rune of the Guard Captain",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Review source",
-            "kind": "Quest",
-            "source": "Job Opening: Guard Captain of Revantusk Village - The Hinterlands - Call to Arms! (79.1, 79)",
-            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
-            "itemID": 19120,
-            "slot": 13,
-            "requiredLevel": 0,
-            "questID": 7862,
-            "currentScore": 0,
-            "candidateScore": 3.64,
-            "gain": 3.64,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1425,
-              "x": 0.791,
-              "y": 0.79
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Attack Power",
-                "before": 0,
-                "after": 14,
-                "delta": 14
-              },
-              {
-                "stat": "Hit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Shadow Boots",
             "slotName": "Feet",
             "current": "Firewalker Boots",
@@ -8233,6 +8210,32 @@
             "ignored": false,
             "eligible": false,
             "later": false,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Rune of the Guard Captain",
+            "slotName": "Trinket 1",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Quest",
+            "source": "Job Opening: Guard Captain of Revantusk Village - The Hinterlands - Call to Arms! (79.1, 79)",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 19120,
+            "slot": 13,
+            "requiredLevel": 0,
+            "questID": 7862,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1425,
+              "x": 0.791,
+              "y": 0.79
+            },
             "materials": [],
             "statChanges": []
           },
@@ -13963,6 +13966,47 @@
             ]
           },
           {
+            "name": "Crystal Starfire Medallion",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Level 26 required",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "itemID": 5003,
+            "slot": 2,
+            "requiredLevel": 26,
+            "currentScore": 0,
+            "candidateScore": 1.98,
+            "gain": 1.98,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              }
+            ]
+          },
+          {
             "name": "Roogug's Severed Head",
             "slotName": "Trinket 1",
             "current": "Empty slot",
@@ -15123,26 +15167,6 @@
             "requiredLevel": 0,
             "currentItemID": 4308,
             "currentScore": 0.35,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Crystal Starfire Medallion",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 5003,
-            "slot": 2,
-            "requiredLevel": 26,
-            "currentScore": 0,
             "group": false,
             "tracked": false,
             "ignored": false,

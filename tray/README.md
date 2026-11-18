@@ -15,6 +15,12 @@ explicitly opens status. The optional `start_minimized` setting also hides the
 initial window. Automatic startup is configured per user through the Windows
 Run key, pointing to the installed EXE with `--tray`; no scheduled task is used.
 
+Version 1.4 adds **Analyze now with local AI**, analysis status, and a separate
+pause control for the Ollama advisor. The model runs on this PC. Its validated
+priorities feed Character Ledger 1.12 and the website's Local advisor view.
+See [LOCAL_AI.md](LOCAL_AI.md) for the save/analyze/reload workflow, public
+Forever data attribution, performance limits, and failure behavior.
+
 The worker waits for a stable file, validates the capture before publishing,
 merges remote characters with SHA conflict handling, and skips unchanged/stale
 snapshots. Transient failures retry with backoff. Settings, the sanitized cache,

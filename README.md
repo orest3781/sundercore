@@ -4,6 +4,8 @@ A public, snapshot-based dashboard for the Sundercore roster: character progress
 
 Repository: [orest3781/sundercore](https://github.com/orest3781/sundercore). GitHub Pages address after deployment: [orest3781.github.io/sundercore](https://orest3781.github.io/sundercore/). The published site is built from `site/`; a custom domain can be configured later.
 
+Character Ledger 1.12 and Watcher 1.4 add a **local Ollama advisor**. Click Update SunderCore in game; the tray watcher analyzes the saved character and publishes selected priorities to Today and Browse > Local advisor. Reload the game after analysis is ready to load those priorities into the addon. See [local advisor setup, data coverage and limits](tray/LOCAL_AI.md) and the [Windows tray watcher](tray/README.md).
+
 ## What is public
 
 The website and its published character data can be read by anyone. A hidden screen or unlisted link does not make a JSON file private. Character Ledger exports are sanitized before publication: raw item strings, player GUIDs, account identifiers, and local file paths should never be committed. The surname **Sundercore** is a display convention; the exported in-game character names remain unchanged.
@@ -46,7 +48,7 @@ Explicit continuous watch and publication:
 python tools/update_roster.py --source $snapshotPath --watch --publish --repo orest3781/sundercore
 ```
 
-Watch mode only runs while that command remains running; stop it with Ctrl+C. No scheduled task, Windows startup entry, or automatic startup behavior is enabled by default. Use `python tools/update_roster.py --help` for source-location and other supported options. Publication updates the repository's `site/data/characters.json`; newer snapshots win, and equal timestamps are left unchanged. Site deployment follows the repository's Pages configuration.
+Watch mode only runs while that command remains running; stop it with Ctrl+C. No scheduled task, Windows startup entry, or automatic startup behavior is enabled by default. Use `python tools/update_roster.py --help` for source-location and other supported options. Publication updates the repository's `site/data/characters.json`; newer snapshots win. At an equal snapshot timestamp, only a newer local analysis may be attached; character facts remain unchanged. Site deployment follows the repository's Pages configuration.
 
 ## Preview the site locally
 

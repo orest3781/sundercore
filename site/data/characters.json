@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T03:08:55Z",
+  "updatedAt": "2026-11-18T03:09:45Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -26107,7 +26107,7 @@
     },
     {
       "id": "d187aa611059994a1c69ee92",
-      "exportedAt": "2026-11-18T03:08:55Z",
+      "exportedAt": "2026-11-18T03:09:45Z",
       "addonVersion": "1.11.0",
       "character": {
         "name": "Writhe",
@@ -26119,7 +26119,7 @@
         "zone": "Tirisfal Glades",
         "powerType": "ENERGY",
         "level": 5,
-        "xp": 130,
+        "xp": 152,
         "xpForNextLevel": 2800,
         "moneyCopper": 82,
         "maxHealth": 133,
@@ -26189,7 +26189,7 @@
           {
             "itemID": 7100,
             "name": "Sticky Ichor",
-            "count": 9
+            "count": 10
           },
           {
             "itemID": 7101,
@@ -26495,7 +26495,7 @@
           "title": "Reach level 6",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "2670 XP remaining (4.6% through level 5).",
+          "why": "2648 XP remaining (5.4% through level 5).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -26837,12 +26837,12 @@
               "low": 2,
               "high": 2,
               "map": 1420,
-              "x": 0.28225862979889,
-              "y": 0.59334075450897
+              "x": 0.28367465734482,
+              "y": 0.59093654155731
             },
             "score": 51,
             "reasons": [
-              "23 observed kills / 23 inspected corpses",
+              "24 observed kills / 24 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -27003,7 +27003,7 @@
         "day": "2026-11-17",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-18T03:08:55Z",
+        "generatedAt": "2026-11-18T03:09:45Z",
         "today": [
           {
             "id": "bags:room",
@@ -27080,7 +27080,7 @@
             "kind": "Leveling",
             "title": "Reach level 6",
             "status": "Ongoing",
-            "why": "2670 XP remaining (4.6% through level 5).",
+            "why": "2648 XP remaining (5.4% through level 5).",
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",

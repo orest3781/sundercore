@@ -15457,11 +15457,11 @@
       },
       "localAI": {
         "schemaVersion": 1,
-        "generatedAt": 1795042948,
-        "expiresAt": 1795129215,
-        "snapshotAt": "2026-11-18T23:00:15Z",
+        "generatedAt": 1795043652,
+        "expiresAt": 1795129924,
+        "snapshotAt": "2026-11-18T23:12:04Z",
         "model": "qwen3.5:9b",
-        "summary": "Suggested priorities: Craft: Green Woolen Vest; List up to 10 Enchanted Lute; List up to 6 Faction Banner.",
+        "summary": "Suggested priorities: Craft: Green Woolen Vest; List up to 10 Enchanted Lute; Turn in: Goblin Invaders.",
         "recommendations": [
           {
             "taskID": "upgrade:2582",
@@ -15479,10 +15479,10 @@
           {
             "taskID": "gold:sell:279976",
             "title": "List up to 10 Enchanted Lute",
-            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 3s 70c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "reason": "This is an eligible step from your saved character plan. 3s 70c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
             "status": "Unreserved stock",
-            "source": "Naowh: your realm/faction observations / 0.4 hours old",
+            "source": "Naowh: your realm/faction observations / 0.6 hours old",
             "kind": "Sell",
             "itemID": 279976,
             "evidenceIDs": [
@@ -15490,16 +15490,16 @@
             ]
           },
           {
-            "taskID": "gold:sell:279972",
-            "title": "List up to 6 Faction Banner",
-            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 1s 17c estimated net each versus 0s 0c at a vendor; before deposits.",
-            "action": "Search Faction Banner, compare unit prices and the posting deposit, then list up to 6. Start small; unsold goods are not earnings.",
-            "status": "Unreserved stock",
-            "source": "Naowh: your realm/faction observations / 0.4 hours old",
-            "kind": "Sell",
-            "itemID": 279972,
+            "taskID": "quest:1062",
+            "title": "Turn in: Goblin Invaders",
+            "reason": "This is an eligible step from your saved character plan. The game marks this quest complete.",
+            "action": "Return to the quest giver for the reward.",
+            "status": "Ready to turn in",
+            "source": "Live Forever quest log",
+            "kind": "Leveling",
+            "itemID": 0,
             "evidenceIDs": [
-              "item:279972"
+              "quest:1062"
             ]
           }
         ],

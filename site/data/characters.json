@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T02:47:03Z",
+  "updatedAt": "2026-11-18T02:48:01Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -18439,8 +18439,8 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-17T01:56:33Z",
-      "addonVersion": "1.10.0",
+      "exportedAt": "2026-11-18T02:48:01Z",
+      "addonVersion": "1.11.0",
       "character": {
         "name": "Seethe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -18454,7 +18454,7 @@
         "xp": 100,
         "xpForNextLevel": 400,
         "restedXP": 600,
-        "moneyCopper": 3108,
+        "moneyCopper": 4542,
         "maxHealth": 78,
         "maxPower": 67,
         "stats": {
@@ -18466,7 +18466,7 @@
         }
       },
       "bags": {
-        "free": 33,
+        "free": 31,
         "capacity": 38,
         "items": [
           {
@@ -18490,8 +18490,18 @@
             "count": 1
           },
           {
+            "itemID": 11101,
+            "name": "Formula: Enchant Bracer - Lesser Strength",
+            "count": 1
+          },
+          {
             "itemID": 11407,
             "name": "Torn Bear Pelt",
+            "count": 1
+          },
+          {
+            "itemID": 20752,
+            "name": "Formula: Minor Mana Oil",
             "count": 1
           }
         ]
@@ -18612,7 +18622,7 @@
           "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
           "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
           "actionType": "training",
-          "source": "Naowh Training 1.3.1 / TrainingData + live spellbook",
+          "source": "Naowh Training 1.3.2 / TrainingData + live spellbook",
           "button": "Open training",
           "priority": 78,
           "materials": [],
@@ -18940,7 +18950,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Alchemy is 1/75. This rank requires 50 skill and level 10.",
-          "action": "Learn Journeyman Alchemy.\nBena Winterhoof, Thunder Bluff (46.8, 33.4)\nListed cost: 5s 0c. Your money: 31s 8c.",
+          "action": "Learn Journeyman Alchemy.\nBena Winterhoof, Thunder Bluff (46.8, 33.4)\nListed cost: 5s 0c. Your money: 45s 42c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -18984,7 +18994,7 @@
         ],
         "notices": [],
         "budget": {
-          "available": 3108,
+          "available": 4542,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -18998,11 +19008,24 @@
       },
       "dailyPlan": {
         "version": 3,
-        "day": "2026-11-16",
+        "day": "2026-11-17",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-17T01:56:33Z",
+        "generatedAt": "2026-11-18T02:48:01Z",
         "today": [
+          {
+            "id": "gold:prices",
+            "kind": "Review",
+            "title": "Refresh auction prices",
+            "status": "No fresh local prices",
+            "why": "Unknown, stale and other-market values are not treated as profit. 0 fresh / 5 missing or stale checked prices.",
+            "action": "Visit your auction house and run Naowh Scan Prices or Auctionator Full Scan. Wait for completion, close the auction house, then refresh Ledger. Check exact item variants before selling gear.",
+            "source": "Local market price coverage",
+            "open": "Gold",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
           {
             "id": "quest:752",
             "kind": "Leveling",
@@ -19024,22 +19047,8 @@
             "status": "Trainer / quest",
             "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
             "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
-            "source": "Naowh Training 1.3.1 / TrainingData + live spellbook",
+            "source": "Naowh Training 1.3.2 / TrainingData + live spellbook",
             "open": "Progression",
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "quest:747",
-            "kind": "Leveling",
-            "title": "Quest: The Hunt Begins",
-            "status": "Current quest",
-            "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
-            "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
-            "source": "Live Forever quest log",
-            "open": "Progression",
-            "questID": 747,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19095,6 +19104,20 @@
             "action": "Gather nodes or skin creatures that your current skill allows. No verified route is available in this plan.",
             "source": "Current profession rank and installed recipe coverage",
             "open": "Professions",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:747",
+            "kind": "Leveling",
+            "title": "Quest: The Hunt Begins",
+            "status": "Current quest",
+            "why": "Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+            "action": "0/7 Plainstrider Meat\n0/7 Plainstrider Feather",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 747,
             "pinned": false,
             "reviewed": false,
             "snoozed": false

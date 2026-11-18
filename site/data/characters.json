@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T02:58:23Z",
+  "updatedAt": "2026-11-18T03:01:20Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -26107,7 +26107,7 @@
     },
     {
       "id": "d187aa611059994a1c69ee92",
-      "exportedAt": "2026-11-18T02:58:23Z",
+      "exportedAt": "2026-11-18T03:01:20Z",
       "addonVersion": "1.11.0",
       "character": {
         "name": "Writhe",
@@ -26154,7 +26154,7 @@
           {
             "itemID": 1476,
             "name": "Snapped Spider Limb",
-            "count": 7
+            "count": 8
           },
           {
             "itemID": 2589,
@@ -26777,7 +26777,7 @@
             },
             "score": 54,
             "reasons": [
-              "14 observed kills / 14 inspected corpses",
+              "15 observed kills / 15 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -26938,7 +26938,7 @@
         "day": "2026-11-17",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-18T02:58:23Z",
+        "generatedAt": "2026-11-18T03:01:20Z",
         "today": [
           {
             "id": "upgrade:1368",
@@ -26961,7 +26961,7 @@
             "status": "Unreserved stock",
             "why": "0s 19c estimated net each versus 0s 13c at a vendor; before deposits.",
             "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 9. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 0.1 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Naowh: your realm/faction observations / 0.2 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,
@@ -26975,7 +26975,7 @@
             "status": "Test nearby camp",
             "why": "0s 19c estimated net per material; quantity/hour is unknown.",
             "action": "Map Rattlecage Skeleton in Tirisfal Glades. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.1 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.2 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,
@@ -27004,7 +27004,7 @@
             "status": "Test nearby camp",
             "why": "0s 19c estimated net per material; quantity/hour is unknown.",
             "action": "Map Mindless Zombie in Tirisfal Glades. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.1 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.2 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,

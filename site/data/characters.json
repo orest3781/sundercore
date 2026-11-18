@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T02:57:14Z",
+  "updatedAt": "2026-11-18T02:58:23Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -26107,8 +26107,8 @@
     },
     {
       "id": "d187aa611059994a1c69ee92",
-      "exportedAt": "2026-11-17T02:00:37Z",
-      "addonVersion": "1.10.0",
+      "exportedAt": "2026-11-18T02:58:23Z",
+      "addonVersion": "1.11.0",
       "character": {
         "name": "Writhe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -26118,34 +26118,63 @@
         "faction": "Horde",
         "zone": "Tirisfal Glades",
         "powerType": "ENERGY",
-        "level": 1,
-        "xp": 0,
-        "xpForNextLevel": 400,
-        "restedXP": 104,
-        "moneyCopper": 0,
-        "maxHealth": 65,
+        "level": 4,
+        "xp": 1724,
+        "xpForNextLevel": 2100,
+        "moneyCopper": 64,
+        "maxHealth": 116,
         "maxPower": 100,
         "stats": {
-          "agility": 21,
-          "intellect": 18,
-          "spirit": 25,
-          "stamina": 22,
-          "strength": 20
+          "agility": 25,
+          "intellect": 19,
+          "spirit": 26,
+          "stamina": 24,
+          "strength": 22
         }
       },
       "bags": {
-        "free": 18,
+        "free": 10,
         "capacity": 20,
         "items": [
           {
-            "itemID": 4604,
-            "name": "Forest Mushroom Cap",
-            "count": 4
+            "itemID": 1368,
+            "name": "Ragged Leather Gloves",
+            "count": 1
+          },
+          {
+            "itemID": 1377,
+            "name": "Frayed Gloves",
+            "count": 1
+          },
+          {
+            "itemID": 1378,
+            "name": "Frayed Pants",
+            "count": 1
+          },
+          {
+            "itemID": 1476,
+            "name": "Snapped Spider Limb",
+            "count": 7
+          },
+          {
+            "itemID": 2589,
+            "name": "Linen Cloth",
+            "count": 9
           },
           {
             "itemID": 6948,
             "name": "Hearthstone",
             "count": 1
+          },
+          {
+            "itemID": 7100,
+            "name": "Sticky Ichor",
+            "count": 3
+          },
+          {
+            "itemID": 7101,
+            "name": "Bug Eye",
+            "count": 7
           }
         ]
       },
@@ -26162,15 +26191,37 @@
           "vendorPriceCopper": 1
         },
         {
-          "itemID": 120,
-          "name": "Thug Pants",
+          "itemID": 11851,
+          "name": "Scavenger Tunic",
+          "count": 1,
+          "quality": 1,
+          "itemLevel": 5,
+          "requiredLevel": 0,
+          "slot": 5,
+          "slotName": "chest",
+          "vendorPriceCopper": 12
+        },
+        {
+          "itemID": 2173,
+          "name": "Old Leather Belt",
+          "count": 1,
+          "quality": 1,
+          "itemLevel": 5,
+          "requiredLevel": 0,
+          "slot": 6,
+          "slotName": "waist",
+          "vendorPriceCopper": 6
+        },
+        {
+          "itemID": 1366,
+          "name": "Ragged Leather Pants",
           "count": 1,
           "quality": 0,
-          "itemLevel": 1,
+          "itemLevel": 2,
           "requiredLevel": 1,
           "slot": 7,
           "slotName": "legs",
-          "vendorPriceCopper": 1
+          "vendorPriceCopper": 2
         },
         {
           "itemID": 121,
@@ -26182,6 +26233,28 @@
           "slot": 8,
           "slotName": "feet",
           "vendorPriceCopper": 1
+        },
+        {
+          "itemID": 3275,
+          "name": "Flax Gloves",
+          "count": 1,
+          "quality": 1,
+          "itemLevel": 5,
+          "requiredLevel": 0,
+          "slot": 10,
+          "slotName": "hands",
+          "vendorPriceCopper": 5
+        },
+        {
+          "itemID": 11850,
+          "name": "Short Duskbat Cape",
+          "count": 1,
+          "quality": 1,
+          "itemLevel": 5,
+          "requiredLevel": 0,
+          "slot": 15,
+          "slotName": "back",
+          "vendorPriceCopper": 7
         },
         {
           "itemID": 2092,
@@ -26206,67 +26279,69 @@
           "vendorPriceCopper": 8
         }
       ],
-      "professions": [],
-      "quests": [],
-      "goals": [
+      "professions": [
         {
-          "id": "gear:Quest (Horde)",
-          "title": "Quest (Horde): 4 gear targets",
-          "category": "Gear",
-          "status": "Gear shortlist",
-          "why": "Assassination Rogue level-30 wishlist; 3 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
-          "button": "Open Naowh BiS",
-          "priority": 73,
-          "materials": [],
-          "targets": [
+          "name": "Herbalism",
+          "skill": 3,
+          "maxSkill": 75,
+          "bonusSkill": 0,
+          "skillLineID": 182,
+          "isPrimary": true,
+          "recipeScanStatus": "not_scanned"
+        }
+      ],
+      "quests": [
+        {
+          "questID": 98389,
+          "name": "A Light in the Darkness",
+          "level": 4,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Deathknell",
+          "objectives": [
             {
-              "itemID": 6670,
-              "name": "Panther Armor",
-              "requiredLevel": 0,
-              "slot": "Chest",
-              "source": "The Den · Quest (Horde)",
-              "status": "Level requirement met",
-              "current": "Empty slot"
-            },
-            {
-              "itemID": 16659,
-              "name": "Deftkin Belt",
-              "requiredLevel": 0,
-              "slot": "Waist",
-              "source": "Je'neu of the Earthen Ring · Quest (Horde)",
-              "status": "Level requirement met",
-              "current": "Empty slot"
-            },
-            {
-              "itemID": 16977,
-              "name": "Warsong Boots",
-              "requiredLevel": 0,
-              "slot": "Feet",
-              "source": "Warsong Supplies · Quest (Horde)",
-              "status": "Level requirement met",
-              "current": "Thug Boots"
-            },
-            {
-              "itemID": 17694,
-              "name": "Band of the Fist",
-              "requiredLevel": 0,
-              "slot": "Ring",
-              "source": "Allegiance to the Old Gods · Quest (Horde)",
-              "status": "Level requirement met",
-              "current": "Empty slot"
+              "text": "0/6 Webbed Forsaken freed",
+              "have": 0,
+              "need": 6,
+              "finished": false
             }
           ]
         },
+        {
+          "questID": 380,
+          "name": "Night Web's Hollow",
+          "level": 4,
+          "complete": false,
+          "failed": false,
+          "group": false,
+          "zone": "Deathknell",
+          "objectives": [
+            {
+              "text": "10/10 Young Night Web Spider slain",
+              "have": 10,
+              "need": 10,
+              "finished": true
+            },
+            {
+              "text": "0/8 Night Web Spider slain",
+              "have": 0,
+              "need": 8,
+              "finished": false
+            }
+          ]
+        }
+      ],
+      "goals": [
         {
           "id": "gear:Quest",
           "title": "Quest: 3 gear targets",
           "category": "Gear",
           "status": "Gear shortlist",
           "why": "Assassination Rogue level-30 wishlist; 3 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 71,
           "materials": [],
@@ -26301,11 +26376,92 @@
           ]
         },
         {
+          "id": "quest:380",
+          "title": "Quest: Night Web's Hollow",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
+          "action": "0/8 Night Web Spider slain",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 65,
+          "questID": 380,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:98389",
+          "title": "Quest: A Light in the Darkness",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
+          "action": "0/6 Webbed Forsaken freed",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 65,
+          "questID": 98389,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "gear:Quest (Horde)",
+          "title": "Quest (Horde): 4 gear targets",
+          "category": "Gear",
+          "status": "Gear shortlist",
+          "why": "Assassination Rogue level-30 wishlist; 1 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 63,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6670,
+              "name": "Panther Armor",
+              "requiredLevel": 0,
+              "slot": "Chest",
+              "source": "The Den · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Scavenger Tunic"
+            },
+            {
+              "itemID": 16659,
+              "name": "Deftkin Belt",
+              "requiredLevel": 0,
+              "slot": "Waist",
+              "source": "Je'neu of the Earthen Ring · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Old Leather Belt"
+            },
+            {
+              "itemID": 16977,
+              "name": "Warsong Boots",
+              "requiredLevel": 0,
+              "slot": "Feet",
+              "source": "Warsong Supplies · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Thug Boots"
+            },
+            {
+              "itemID": 17694,
+              "name": "Band of the Fist",
+              "requiredLevel": 0,
+              "slot": "Ring",
+              "source": "Allegiance to the Old Gods · Quest (Horde)",
+              "status": "Level requirement met",
+              "current": "Empty slot"
+            }
+          ]
+        },
+        {
           "id": "level:next",
-          "title": "Reach level 2",
+          "title": "Reach level 5",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "400 XP remaining (0.0% through level 1).",
+          "why": "376 XP remaining (82.1% through level 4).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -26313,36 +26469,14 @@
           "targets": []
         },
         {
-          "id": "gear:Alterac Mountains",
-          "title": "Alterac Mountains: 1 gear target",
-          "category": "Gear",
-          "status": "Future gear targets",
-          "why": "Assassination Rogue level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
-          "button": "Open Naowh BiS",
-          "priority": 55,
-          "materials": [],
-          "targets": [
-            {
-              "itemID": 273045,
-              "name": "Drape of Shifting Energy",
-              "requiredLevel": 27,
-              "slot": "Back",
-              "source": "Arcanic Enigma · Alterac Mountains",
-              "status": "Requires level 27",
-              "current": "Empty slot"
-            }
-          ]
-        },
-        {
           "id": "gear:Hillsbrad Foothills",
           "title": "Hillsbrad Foothills: 1 gear target",
           "category": "Gear",
           "status": "Future gear targets",
           "why": "Assassination Rogue level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -26359,54 +26493,14 @@
           ]
         },
         {
-          "id": "gear:Razorfen Kraul",
-          "title": "Razorfen Kraul: 3 gear targets",
-          "category": "Gear",
-          "status": "Future gear targets",
-          "why": "Assassination Rogue level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
-          "button": "Open Naowh BiS",
-          "priority": 55,
-          "materials": [],
-          "targets": [
-            {
-              "itemID": 6681,
-              "name": "Thornspike",
-              "requiredLevel": 27,
-              "slot": "Main hand",
-              "source": "Aggem Thorncurse · Razorfen Kraul",
-              "status": "Requires level 27",
-              "current": "Worn Dagger"
-            },
-            {
-              "itemID": 6690,
-              "name": "Ferine Leggings",
-              "requiredLevel": 29,
-              "slot": "Legs",
-              "source": "Agathelos the Raging · Razorfen Kraul",
-              "status": "Requires level 29",
-              "current": "Thug Pants"
-            },
-            {
-              "itemID": 274159,
-              "name": "Thorncursed Grips",
-              "requiredLevel": 27,
-              "slot": "Hands",
-              "source": "Aggem Thorncurse · Razorfen Kraul",
-              "status": "Requires level 27",
-              "current": "Empty slot"
-            }
-          ]
-        },
-        {
           "id": "gear:Scarlet Monastery",
           "title": "Scarlet Monastery: 1 gear target",
           "category": "Gear",
           "status": "Future gear targets",
           "why": "Assassination Rogue level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -26428,8 +26522,9 @@
           "category": "Gear",
           "status": "Future gear targets",
           "why": "Assassination Rogue level-30 wishlist; 1 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -26446,13 +26541,38 @@
           ]
         },
         {
+          "id": "gear:Alterac Mountains",
+          "title": "Alterac Mountains: 1 gear target",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Assassination Rogue level-30 wishlist; 0 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 50,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 273045,
+              "name": "Drape of Shifting Energy",
+              "requiredLevel": 27,
+              "slot": "Back",
+              "source": "Arcanic Enigma · Alterac Mountains",
+              "status": "Requires level 27",
+              "current": "Short Duskbat Cape"
+            }
+          ]
+        },
+        {
           "id": "gear:Excavation Site: Wetlands",
           "title": "Excavation Site: Wetlands: 1 gear target",
           "category": "Gear",
           "status": "Future gear targets",
           "why": "Assassination Rogue level-30 wishlist; 0 target slots are currently empty.",
-          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (default class profile).",
-          "source": "Naowh BiS 1.2.30 / BiS/Data/Leveling.lua",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 50,
           "materials": [],
@@ -26469,14 +26589,58 @@
           ]
         },
         {
-          "id": "coverage:providers",
-          "title": "Complete the Forever data sources",
-          "category": "Bags",
-          "status": "Data unavailable",
-          "why": "Some recommendation categories have incomplete data.",
-          "action": "Class-training analysis is unavailable; enable NaowhForever_Training.",
-          "source": "Loaded addon checks",
-          "priority": 30,
+          "id": "gear:Razorfen Kraul",
+          "title": "Razorfen Kraul: 3 gear targets",
+          "category": "Gear",
+          "status": "Future gear targets",
+          "why": "Assassination Rogue level-30 wishlist; 0 target slots are currently empty.",
+          "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Assassination Rogue (Naowh selected list).",
+          "actionType": "bis",
+          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "button": "Open Naowh BiS",
+          "priority": 50,
+          "materials": [],
+          "targets": [
+            {
+              "itemID": 6681,
+              "name": "Thornspike",
+              "requiredLevel": 27,
+              "slot": "Main hand",
+              "source": "Aggem Thorncurse · Razorfen Kraul",
+              "status": "Requires level 27",
+              "current": "Worn Dagger"
+            },
+            {
+              "itemID": 6690,
+              "name": "Ferine Leggings",
+              "requiredLevel": 29,
+              "slot": "Legs",
+              "source": "Agathelos the Raging · Razorfen Kraul",
+              "status": "Requires level 29",
+              "current": "Ragged Leather Pants"
+            },
+            {
+              "itemID": 274159,
+              "name": "Thorncursed Grips",
+              "requiredLevel": 27,
+              "slot": "Hands",
+              "source": "Aggem Thorncurse · Razorfen Kraul",
+              "status": "Requires level 27",
+              "current": "Flax Gloves"
+            }
+          ]
+        },
+        {
+          "id": "training:soon",
+          "title": "Plan your next class training",
+          "category": "Leveling",
+          "status": "Upcoming",
+          "why": "These unlearned skills are within the next two levels.",
+          "action": "Gouge (level 6, listed 1s 0c)\nSinister Strike (level 6, listed 1s 0c)",
+          "actionType": "training",
+          "source": "Naowh Training 1.3.2 / TrainingData + live spellbook",
+          "button": "Open training",
+          "priority": 48,
           "materials": [],
           "targets": []
         },
@@ -26494,21 +26658,270 @@
         }
       ],
       "nextSteps": [
-        "gear:Quest (Horde)",
         "gear:Quest",
+        "quest:380",
+        "quest:98389",
+        "gear:Quest (Horde)",
         "level:next",
-        "gear:Alterac Mountains",
-        "gear:Hillsbrad Foothills",
-        "coverage:providers"
+        "bags:bank"
       ],
       "fieldPlan": {
         "materials": [],
         "crafts": [],
-        "spots": [],
+        "spots": [
+          {
+            "spot": {
+              "id": "observed:1509",
+              "name": "Ragged Scavenger",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 3,
+              "high": 3,
+              "map": 1420,
+              "x": 0.34604460000992,
+              "y": 0.65300798416138
+            },
+            "score": 57,
+            "reasons": [
+              "1 observed kills / 0 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1890",
+              "name": "Rattlecage Skeleton",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 3,
+              "high": 3,
+              "map": 1420,
+              "x": 0.32090723514557,
+              "y": 0.61029171943665
+            },
+            "score": 57,
+            "reasons": [
+              "13 observed kills / 13 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1919",
+              "name": "Samuel Fipps",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 5,
+              "high": 5,
+              "map": 1420,
+              "x": 0.36622565984726,
+              "y": 0.61546754837036
+            },
+            "score": 57,
+            "reasons": [
+              "1 observed kills / 1 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1504",
+              "name": "Young Night Web Spider",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 2,
+              "high": 2,
+              "map": 1420,
+              "x": 0.30466508865356,
+              "y": 0.56532716751099
+            },
+            "score": 54,
+            "reasons": [
+              "14 observed kills / 14 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1501",
+              "name": "Mindless Zombie",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 1,
+              "high": 1,
+              "map": 1420,
+              "x": 0.31670516729355,
+              "y": 0.63967227935791
+            },
+            "score": 51,
+            "reasons": [
+              "8 observed kills / 8 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1502",
+              "name": "Wretched Zombie",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 1,
+              "high": 1,
+              "map": 1420,
+              "x": 0.32789319753647,
+              "y": 0.62159222364426
+            },
+            "score": 51,
+            "reasons": [
+              "11 observed kills / 11 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1508",
+              "name": "Young Scavenger",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 1,
+              "high": 1,
+              "map": 1420,
+              "x": 0.29300582408905,
+              "y": 0.65386927127838
+            },
+            "score": 51,
+            "reasons": [
+              "10 observed kills / 10 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1512",
+              "name": "Duskbat",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 1,
+              "high": 1,
+              "map": 1420,
+              "x": 0.2944393157959,
+              "y": 0.64330965280533
+            },
+            "score": 51,
+            "reasons": [
+              "8 observed kills / 8 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          }
+        ],
         "tasks": [],
         "notices": [],
         "budget": {
-          "available": 0,
+          "available": 64,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -26522,20 +26935,49 @@
       },
       "dailyPlan": {
         "version": 3,
-        "day": "2026-11-16",
+        "day": "2026-11-17",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-17T02:00:37Z",
+        "generatedAt": "2026-11-18T02:58:23Z",
         "today": [
           {
-            "id": "gold:prices",
-            "kind": "Review",
-            "title": "Refresh auction prices",
-            "status": "No fresh local prices",
-            "why": "Unknown, stale and other-market values are not treated as profit. 0 fresh / 0 missing or stale checked prices.",
-            "action": "Visit your auction house and run Naowh Scan Prices or Auctionator Full Scan. Wait for completion, close the auction house, then refresh Ledger. Check exact item variants before selling gear.",
-            "source": "Local market price coverage",
+            "id": "upgrade:1368",
+            "kind": "Gear",
+            "title": "Equip: Ragged Leather Gloves",
+            "status": "In your bags",
+            "why": "Replaces Flax Gloves; estimated +0.1 stat points. Your current bags",
+            "action": "Compare the tooltip and equip manually when ready.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 1368,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gold:sell:2589",
+            "kind": "Sell",
+            "title": "List up to 9 Linen Cloth",
+            "status": "Unreserved stock",
+            "why": "0s 19c estimated net each versus 0s 13c at a vendor; before deposits.",
+            "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 9. Start small; unsold goods are not earnings.",
+            "source": "Naowh: your realm/faction observations / 0.1 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
+            "itemID": 2589,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gold:farm:observed:1890:2589",
+            "kind": "Farm",
+            "title": "Farm Linen Cloth: Rattlecage Skeleton",
+            "status": "Test nearby camp",
+            "why": "0s 19c estimated net per material; quantity/hour is unknown.",
+            "action": "Map Rattlecage Skeleton in Tirisfal Glades. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.1 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "open": "Gold",
+            "itemID": 2589,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -26556,14 +26998,15 @@
             "snoozed": false
           },
           {
-            "id": "coverage:providers",
-            "kind": "Bags",
-            "title": "Complete the Forever data sources",
-            "status": "Data unavailable",
-            "why": "Some recommendation categories have incomplete data.",
-            "action": "Class-training analysis is unavailable; enable NaowhForever_Training.",
-            "source": "Loaded addon checks",
-            "open": "Progression",
+            "id": "gold:farm:observed:1501:2589",
+            "kind": "Farm",
+            "title": "Farm Linen Cloth: Mindless Zombie",
+            "status": "Test nearby camp",
+            "why": "0s 19c estimated net per material; quantity/hour is unknown.",
+            "action": "Map Mindless Zombie in Tirisfal Glades. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.1 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "open": "Gold",
+            "itemID": 2589,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -26571,11 +27014,65 @@
           {
             "id": "level:next",
             "kind": "Leveling",
-            "title": "Reach level 2",
+            "title": "Reach level 5",
             "status": "Ongoing",
-            "why": "400 XP remaining (0.0% through level 1).",
+            "why": "376 XP remaining (82.1% through level 4).",
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
+            "open": "Progression",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "profession:182",
+            "kind": "Professions",
+            "title": "Herbalism: review next step",
+            "status": "Review profession",
+            "why": "Herbalism 3/75.",
+            "action": "Gather nodes or skin creatures that your current skill allows. No verified route is available in this plan.",
+            "source": "Current profession rank and installed recipe coverage",
+            "open": "Professions",
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:380",
+            "kind": "Leveling",
+            "title": "Quest: Night Web's Hollow",
+            "status": "Current quest",
+            "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
+            "action": "0/8 Night Web Spider slain",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 380,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "quest:98389",
+            "kind": "Leveling",
+            "title": "Quest: A Light in the Darkness",
+            "status": "Current quest",
+            "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
+            "action": "0/6 Webbed Forsaken freed",
+            "source": "Live Forever quest log",
+            "open": "Progression",
+            "questID": 98389,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "training:soon",
+            "kind": "Leveling",
+            "title": "Plan your next class training",
+            "status": "Upcoming",
+            "why": "These unlearned skills are within the next two levels.",
+            "action": "Gouge (level 6, listed 1s 0c)\nSinister Strike (level 6, listed 1s 0c)",
+            "source": "Naowh Training 1.3.2 / TrainingData + live spellbook",
             "open": "Progression",
             "pinned": false,
             "reviewed": false,
@@ -26586,7 +27083,7 @@
             "kind": "Gear",
             "title": "Upgrade: Parachute Cloak",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +8.2 stat points. Engineering · Crafted",
+            "why": "Replaces Short Duskbat Cape; estimated +8.1 stat points. Engineering · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -26642,7 +27139,7 @@
             "kind": "Gear",
             "title": "Upgrade: Blazewind Breastplate",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +25.9 stat points. Quest",
+            "why": "Replaces Scavenger Tunic; estimated +25.7 stat points. Quest",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -26671,7 +27168,7 @@
             "kind": "Gear",
             "title": "Upgrade: Deftkin Belt",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +10.4 stat points. Je'neu of the Earthen Ring - Ashenvale - Mastok Wrilehiss (73.7, 60)",
+            "why": "Replaces Old Leather Belt; estimated +10.3 stat points. Je'neu of the Earthen Ring - Ashenvale - Mastok Wrilehiss (73.7, 60)",
             "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -26861,7 +27358,7 @@
             "kind": "Gear",
             "title": "Upgrade: Blooded Pants",
             "status": "Review source",
-            "why": "Replaces Thug Pants; estimated +14.4 stat points. Source not recorded",
+            "why": "Replaces Ragged Leather Pants; estimated +14.3 stat points. Source not recorded",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -26890,7 +27387,7 @@
             "kind": "Gear",
             "title": "Upgrade: Bristlepelt Vest",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +9.8 stat points. Snargl's Snout - Where it starts is not known yet",
+            "why": "Replaces Scavenger Tunic; estimated +9.6 stat points. Snargl's Snout - Where it starts is not known yet",
             "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -26964,7 +27461,7 @@
             "kind": "Gear",
             "title": "Upgrade: Old Leather Jacket",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +10.8 stat points. Ground to Keep · Quest",
+            "why": "Replaces Scavenger Tunic; estimated +10.7 stat points. Ground to Keep · Quest",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -26993,7 +27490,7 @@
             "kind": "Gear",
             "title": "Upgrade: Tiger Hunter Gloves",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +12.1 stat points. Tiger Mastery - Stranglethorn Vale - Ajeck Rouack (35.6, 10.6)",
+            "why": "Replaces Flax Gloves; estimated +12.1 stat points. Tiger Mastery - Stranglethorn Vale - Ajeck Rouack (35.6, 10.6)",
             "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27008,7 +27505,7 @@
             "kind": "Gear",
             "title": "Upgrade: Panther Armor",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +10.5 stat points. The Den - Stonetalon Mountains - Braelyn Firehand (45.9, 60.4)",
+            "why": "Replaces Scavenger Tunic; estimated +10.4 stat points. The Den - Stonetalon Mountains - Braelyn Firehand (45.9, 60.4)",
             "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27038,7 +27535,7 @@
             "kind": "Gear",
             "title": "Upgrade: Razzeric's Racing Grips",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +9.2 stat points. Safety First - Tanaris - Shreev (51, 27.2)",
+            "why": "Replaces Flax Gloves; estimated +9.2 stat points. Safety First - Tanaris - Shreev (51, 27.2)",
             "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27053,7 +27550,7 @@
             "kind": "Gear",
             "title": "Upgrade: Swiftrunner Cape",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +6.3 stat points. Alliance Relations - Desolace - Takata Steelblade (52.6, 54.4)",
+            "why": "Replaces Short Duskbat Cape; estimated +6.3 stat points. Alliance Relations - Desolace - Takata Steelblade (52.6, 54.4)",
             "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27083,7 +27580,7 @@
             "kind": "Gear",
             "title": "Upgrade: Triprunner Dungarees",
             "status": "Group upgrade",
-            "why": "Replaces Thug Pants; estimated +20.7 stat points. Rig Wars - Orgrimmar - Nogg (76, 25.4)",
+            "why": "Replaces Ragged Leather Pants; estimated +20.6 stat points. Rig Wars - Orgrimmar - Nogg (76, 25.4)",
             "action": "Check the quest chain and reward choice. Requires Gnomeregan.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27098,7 +27595,7 @@
             "kind": "Gear",
             "title": "Upgrade: Jangdor's Handcrafted Gloves",
             "status": "Review source",
-            "why": "Replaces Empty slot; estimated +14.8 stat points. The Mark of Quality · Quest (Horde)",
+            "why": "Replaces Flax Gloves; estimated +14.8 stat points. The Mark of Quality · Quest (Horde)",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27128,7 +27625,7 @@
             "kind": "Gear",
             "title": "Upgrade: Blackened Defias Belt",
             "status": "Level 17 required",
-            "why": "Replaces Empty slot; estimated +9.1 stat points. Captain Greenskin - The Deadmines",
+            "why": "Replaces Old Leather Belt; estimated +9.0 stat points. Captain Greenskin - The Deadmines",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27226,7 +27723,7 @@
             "kind": "Gear",
             "title": "Upgrade: Tigerstrike Mantle",
             "status": "Level 29 required",
-            "why": "Replaces Empty slot; estimated +8.8 stat points. World drop",
+            "why": "Replaces Short Duskbat Cape; estimated +8.8 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27240,7 +27737,7 @@
             "kind": "Gear",
             "title": "Upgrade: Troll's Bane Leggings",
             "status": "Level 25 required",
-            "why": "Replaces Thug Pants; estimated +14.8 stat points. World drop",
+            "why": "Replaces Ragged Leather Pants; estimated +14.8 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27296,7 +27793,7 @@
             "kind": "Gear",
             "title": "Upgrade: Hawkeye's Cloak",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +8.7 stat points. World drop",
+            "why": "Replaces Short Duskbat Cape; estimated +8.7 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27324,7 +27821,7 @@
             "kind": "Gear",
             "title": "Upgrade: Devilsaur Leggings",
             "status": "Level 55 required",
-            "why": "Replaces Thug Pants; estimated +37.0 stat points. Leatherworking · Crafted",
+            "why": "Replaces Ragged Leather Pants; estimated +36.9 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27338,7 +27835,7 @@
             "kind": "Gear",
             "title": "Upgrade: Devilsaur Gauntlets",
             "status": "Level 53 required",
-            "why": "Replaces Empty slot; estimated +27.6 stat points. Leatherworking · Crafted",
+            "why": "Replaces Flax Gloves; estimated +27.6 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27380,7 +27877,7 @@
             "kind": "Gear",
             "title": "Upgrade: Headhunter's Woolies",
             "status": "Level 30 required",
-            "why": "Replaces Thug Pants; estimated +0.4 stat points. World drop",
+            "why": "Replaces Ragged Leather Pants; estimated +0.4 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27394,7 +27891,7 @@
             "kind": "Gear",
             "title": "Upgrade: Lightstep Leggings",
             "status": "Unavailable reward",
-            "why": "Replaces Thug Pants; estimated +14.0 stat points. Hints of a New Plague? · Quest (Alliance)",
+            "why": "Replaces Ragged Leather Pants; estimated +13.9 stat points. Hints of a New Plague? · Quest (Alliance)",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27408,7 +27905,7 @@
             "kind": "Gear",
             "title": "Upgrade: Sergeant Major's Cape",
             "status": "Level 25 required",
-            "why": "Replaces Empty slot; estimated +6.7 stat points. Rank 9 · PvP Rank",
+            "why": "Replaces Short Duskbat Cape; estimated +6.7 stat points. Rank 9 · PvP Rank",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27464,7 +27961,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shifting Cloak",
             "status": "Level 57 required",
-            "why": "Replaces Empty slot; estimated +18.0 stat points. Leatherworking · Crafted",
+            "why": "Replaces Short Duskbat Cape; estimated +18.0 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27492,7 +27989,7 @@
             "kind": "Gear",
             "title": "Upgrade: Might of the Timbermaw",
             "status": "Level 53 required",
-            "why": "Replaces Empty slot; estimated +26.7 stat points. Leatherworking · Crafted",
+            "why": "Replaces Old Leather Belt; estimated +26.6 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27534,7 +28031,7 @@
             "kind": "Gear",
             "title": "Upgrade: Wolfclaw Gloves",
             "status": "Level 22 required",
-            "why": "Replaces Empty slot; estimated +9.6 stat points. Trash - Razorfen Kraul",
+            "why": "Replaces Flax Gloves; estimated +9.6 stat points. Trash - Razorfen Kraul",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27548,7 +28045,7 @@
             "kind": "Gear",
             "title": "Upgrade: Highlander's Chain Girdle",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +12.6 stat points. The League of Arathor - Honored · Reputation",
+            "why": "Replaces Old Leather Belt; estimated +12.5 stat points. The League of Arathor - Honored · Reputation",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27590,7 +28087,7 @@
             "kind": "Gear",
             "title": "Upgrade: Highlander's Leather Girdle",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +12.6 stat points. The League of Arathor - Honored · Reputation",
+            "why": "Replaces Old Leather Belt; estimated +12.5 stat points. The League of Arathor - Honored · Reputation",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27618,7 +28115,7 @@
             "kind": "Gear",
             "title": "Upgrade: Defiler's Chain Girdle",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +12.6 stat points. The Defilers - Honored · Reputation",
+            "why": "Replaces Old Leather Belt; estimated +12.5 stat points. The Defilers - Honored · Reputation",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27660,7 +28157,7 @@
             "kind": "Gear",
             "title": "Upgrade: Defiler's Leather Girdle",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +12.6 stat points. The Defilers - Honored · Reputation",
+            "why": "Replaces Old Leather Belt; estimated +12.5 stat points. The Defilers - Honored · Reputation",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27688,7 +28185,7 @@
             "kind": "Gear",
             "title": "Upgrade: Tunic of Westfall",
             "status": "Unavailable reward",
-            "why": "Replaces Empty slot; estimated +12.0 stat points. The Defias Brotherhood · Quest (Alliance)",
+            "why": "Replaces Scavenger Tunic; estimated +11.8 stat points. The Defias Brotherhood · Quest (Alliance)",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27800,7 +28297,7 @@
             "kind": "Gear",
             "title": "Upgrade: Defender's Leather Tunic",
             "status": "Level 22 required",
-            "why": "Replaces Empty slot; estimated +10.8 stat points. Leatherworking · Crafted",
+            "why": "Replaces Scavenger Tunic; estimated +10.6 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27828,7 +28325,7 @@
             "kind": "Gear",
             "title": "Upgrade: Prowler's Leather Belt",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +11.8 stat points. Leatherworking · Crafted",
+            "why": "Replaces Old Leather Belt; estimated +11.7 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27842,7 +28339,7 @@
             "kind": "Gear",
             "title": "Upgrade: Warden's Leather Belt",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +10.6 stat points. Leatherworking · Crafted",
+            "why": "Replaces Old Leather Belt; estimated +10.5 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27856,7 +28353,7 @@
             "kind": "Gear",
             "title": "Upgrade: Dawn Armor",
             "status": "Level 56 required",
-            "why": "Replaces Empty slot; estimated +59.7 stat points. Leatherworking · Crafted",
+            "why": "Replaces Scavenger Tunic; estimated +59.6 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27870,7 +28367,7 @@
             "kind": "Gear",
             "title": "Upgrade: Brawler's Leather Armor",
             "status": "Level 15 required",
-            "why": "Replaces Empty slot; estimated +10.4 stat points. Leatherworking · Crafted",
+            "why": "Replaces Scavenger Tunic; estimated +10.3 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27898,7 +28395,7 @@
             "kind": "Gear",
             "title": "Upgrade: Brawler's Leather Tunic",
             "status": "Level 22 required",
-            "why": "Replaces Empty slot; estimated +12.3 stat points. Leatherworking · Crafted",
+            "why": "Replaces Scavenger Tunic; estimated +12.2 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27926,7 +28423,7 @@
             "kind": "Gear",
             "title": "Upgrade: Brawler's Leather Legguards",
             "status": "Level 25 required",
-            "why": "Replaces Thug Pants; estimated +13.9 stat points. Leatherworking · Crafted",
+            "why": "Replaces Ragged Leather Pants; estimated +13.8 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27940,7 +28437,7 @@
             "kind": "Gear",
             "title": "Upgrade: Skulker's Leather Belt",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +13.2 stat points. Leatherworking · Crafted",
+            "why": "Replaces Old Leather Belt; estimated +13.1 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -27954,7 +28451,7 @@
             "kind": "Gear",
             "title": "Upgrade: Stalker's Leather Belt",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +9.9 stat points. Leatherworking · Crafted",
+            "why": "Replaces Old Leather Belt; estimated +9.8 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28010,7 +28507,7 @@
             "kind": "Gear",
             "title": "Upgrade: Stromgarde Operative Pants",
             "status": "Unavailable reward",
-            "why": "Replaces Thug Pants; estimated +14.4 stat points. Stromgarde Badges · Quest (Alliance)",
+            "why": "Replaces Ragged Leather Pants; estimated +14.3 stat points. Stromgarde Badges · Quest (Alliance)",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28024,7 +28521,7 @@
             "kind": "Gear",
             "title": "Upgrade: Alterac Assassin's Gloves",
             "status": "Unavailable reward",
-            "why": "Replaces Empty slot; estimated +12.3 stat points. Crushridge Warmongers · Quest (Alliance)",
+            "why": "Replaces Flax Gloves; estimated +12.3 stat points. Crushridge Warmongers · Quest (Alliance)",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28052,7 +28549,7 @@
             "kind": "Gear",
             "title": "Upgrade: Crocolisk Skin Gaiter",
             "status": "Level 25 required",
-            "why": "Replaces Empty slot; estimated +7.3 stat points. Source not recorded",
+            "why": "Replaces Short Duskbat Cape; estimated +7.3 stat points. Source not recorded",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28066,7 +28563,7 @@
             "kind": "Gear",
             "title": "Upgrade: Garb of Florid Feathers",
             "status": "Level 26 required",
-            "why": "Replaces Empty slot; estimated +9.5 stat points. Shadetooth - Excavation Site: Wetlands",
+            "why": "Replaces Scavenger Tunic; estimated +9.4 stat points. Shadetooth - Excavation Site: Wetlands",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28108,7 +28605,7 @@
             "kind": "Gear",
             "title": "Upgrade: Garb of Fallen Felbark",
             "status": "Level 29 required",
-            "why": "Replaces Empty slot; estimated +10.2 stat points. Fel Ancient - City of Dalaran",
+            "why": "Replaces Scavenger Tunic; estimated +10.1 stat points. Fel Ancient - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28122,7 +28619,7 @@
             "kind": "Gear",
             "title": "Upgrade: Slitherwrap Girdle",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +9.9 stat points. Mana Devourer - City of Dalaran",
+            "why": "Replaces Old Leather Belt; estimated +9.8 stat points. Mana Devourer - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28136,7 +28633,7 @@
             "kind": "Gear",
             "title": "Upgrade: Drape of Shifting Energy",
             "status": "Level 27 required",
-            "why": "Replaces Empty slot; estimated +6.0 stat points. Arcanic Enigma - City of Dalaran",
+            "why": "Replaces Short Duskbat Cape; estimated +6.0 stat points. Arcanic Enigma - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28178,7 +28675,7 @@
             "kind": "Gear",
             "title": "Upgrade: Cartilage Shapers",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +9.3 stat points. Lyn the Ignored - City of Dalaran",
+            "why": "Replaces Flax Gloves; estimated +9.3 stat points. Lyn the Ignored - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28192,7 +28689,7 @@
             "kind": "Gear",
             "title": "Upgrade: Worgpelt Leggings",
             "status": "Level 21 required",
-            "why": "Replaces Thug Pants; estimated +13.1 stat points. Wolf Master Nandos - Shadowfang Keep",
+            "why": "Replaces Ragged Leather Pants; estimated +13.0 stat points. Wolf Master Nandos - Shadowfang Keep",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28206,7 +28703,7 @@
             "kind": "Gear",
             "title": "Upgrade: Skullduggery Belt",
             "status": "Level 29 required",
-            "why": "Replaces Empty slot; estimated +8.2 stat points. Grubbis - Gnomeregan",
+            "why": "Replaces Old Leather Belt; estimated +8.1 stat points. Grubbis - Gnomeregan",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28234,7 +28731,7 @@
             "kind": "Gear",
             "title": "Upgrade: Thorncursed Grips",
             "status": "Level 27 required",
-            "why": "Replaces Empty slot; estimated +9.2 stat points. Aggem Thorncurse - Razorfen Kraul",
+            "why": "Replaces Flax Gloves; estimated +9.1 stat points. Aggem Thorncurse - Razorfen Kraul",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28262,7 +28759,7 @@
             "kind": "Gear",
             "title": "Upgrade: Gnollhide Tunic",
             "status": "Unavailable reward",
-            "why": "Replaces Empty slot; estimated +11.6 stat points. Source not recorded",
+            "why": "Replaces Scavenger Tunic; estimated +11.4 stat points. Source not recorded",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28374,7 +28871,7 @@
             "kind": "Gear",
             "title": "Upgrade: Gizmo Girdle",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +0.3 stat points. Engineering · Crafted",
+            "why": "Replaces Old Leather Belt; estimated +0.2 stat points. Engineering · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28388,7 +28885,7 @@
             "kind": "Gear",
             "title": "Upgrade: Yeti Fur Cloak",
             "status": "Unavailable reward",
-            "why": "Replaces Empty slot; estimated +7.7 stat points. Bartolo's Yeti Fur Cloak · Quest (Alliance)",
+            "why": "Replaces Short Duskbat Cape; estimated +7.7 stat points. Bartolo's Yeti Fur Cloak · Quest (Alliance)",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28542,7 +29039,7 @@
             "kind": "Gear",
             "title": "Upgrade: Violet Sorcerer's Wraps",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +9.5 stat points. Trash - City of Dalaran",
+            "why": "Replaces Flax Gloves; estimated +9.4 stat points. Trash - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28556,7 +29053,7 @@
             "kind": "Gear",
             "title": "Upgrade: Tattered Kirin Tor Cloak",
             "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +4.8 stat points. Trash - City of Dalaran",
+            "why": "Replaces Short Duskbat Cape; estimated +4.8 stat points. Trash - City of Dalaran",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28640,7 +29137,7 @@
             "kind": "Gear",
             "title": "Upgrade: Shepherd's Gloves",
             "status": "Unavailable reward",
-            "why": "Replaces Empty slot; estimated +10.1 stat points. Costly Menace · Quest",
+            "why": "Replaces Flax Gloves; estimated +10.1 stat points. Costly Menace · Quest",
             "action": "Quest restricted to another faction, class, or race (or race data is unavailable).",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28682,7 +29179,7 @@
             "kind": "Gear",
             "title": "Upgrade: Toughened Leather Gloves",
             "status": "Level 22 required",
-            "why": "Replaces Empty slot; estimated +9.8 stat points. Leatherworking · Crafted",
+            "why": "Replaces Flax Gloves; estimated +9.8 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28696,7 +29193,7 @@
             "kind": "Gear",
             "title": "Upgrade: Cloak of Night",
             "status": "Level 23 required",
-            "why": "Replaces Empty slot; estimated +6.1 stat points. Rohh the Silent · Redridge Mountains",
+            "why": "Replaces Short Duskbat Cape; estimated +6.1 stat points. Rohh the Silent · Redridge Mountains",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28752,7 +29249,7 @@
             "kind": "Gear",
             "title": "Upgrade: Cape of the Brotherhood",
             "status": "Level 19 required",
-            "why": "Replaces Empty slot; estimated +5.4 stat points. Edwin VanCleef - The Deadmines",
+            "why": "Replaces Short Duskbat Cape; estimated +5.4 stat points. Edwin VanCleef - The Deadmines",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28836,7 +29333,7 @@
             "kind": "Gear",
             "title": "Upgrade: Wolfmaster Cape",
             "status": "Level 22 required",
-            "why": "Replaces Empty slot; estimated +5.3 stat points. Wolf Master Nandos - Shadowfang Keep",
+            "why": "Replaces Short Duskbat Cape; estimated +5.3 stat points. Wolf Master Nandos - Shadowfang Keep",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28850,7 +29347,7 @@
             "kind": "Gear",
             "title": "Upgrade: Insignia Gloves",
             "status": "Level 29 required",
-            "why": "Replaces Empty slot; estimated +10.1 stat points. World drop",
+            "why": "Replaces Flax Gloves; estimated +10.1 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28878,7 +29375,7 @@
             "kind": "Gear",
             "title": "Upgrade: Glowing Lizardscale Cloak",
             "status": "Level 18 required",
-            "why": "Replaces Empty slot; estimated +6.1 stat points. Skum - Wailing Caverns",
+            "why": "Replaces Short Duskbat Cape; estimated +6.1 stat points. Skum - Wailing Caverns",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28906,7 +29403,7 @@
             "kind": "Gear",
             "title": "Upgrade: Ferine Leggings",
             "status": "Level 29 required",
-            "why": "Replaces Thug Pants; estimated +13.2 stat points. Agathelos the Raging - Razorfen Kraul",
+            "why": "Replaces Ragged Leather Pants; estimated +13.1 stat points. Agathelos the Raging - Razorfen Kraul",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28920,7 +29417,7 @@
             "kind": "Gear",
             "title": "Upgrade: Dusky Leather Leggings",
             "status": "Level 28 required",
-            "why": "Replaces Thug Pants; estimated +13.4 stat points. Leatherworking · Crafted",
+            "why": "Replaces Ragged Leather Pants; estimated +13.3 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28934,7 +29431,7 @@
             "kind": "Gear",
             "title": "Upgrade: Dusky Leather Armor",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +14.5 stat points. Leatherworking · Crafted",
+            "why": "Replaces Scavenger Tunic; estimated +14.3 stat points. Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28948,7 +29445,7 @@
             "kind": "Gear",
             "title": "Upgrade: Infiltrator Armor",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +0.5 stat points. World drop",
+            "why": "Replaces Scavenger Tunic; estimated +0.3 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -28976,7 +29473,7 @@
             "kind": "Gear",
             "title": "Upgrade: Twilight Cape",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +0.1 stat points. World drop",
+            "why": "Replaces Short Duskbat Cape; estimated +0.1 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -29046,7 +29543,7 @@
             "kind": "Gear",
             "title": "Upgrade: Dog Training Gloves",
             "status": "Level 31 required",
-            "why": "Replaces Empty slot; estimated +12.1 stat points. Houndmaster Loksey - Scarlet Monastery - Library",
+            "why": "Replaces Flax Gloves; estimated +12.1 stat points. Houndmaster Loksey - Scarlet Monastery - Library",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -29144,7 +29641,7 @@
             "kind": "Gear",
             "title": "Upgrade: Petrolspill Leggings",
             "status": "Level 25 required",
-            "why": "Replaces Thug Pants; estimated +15.0 stat points. Trash - Gnomeregan",
+            "why": "Replaces Ragged Leather Pants; estimated +15.0 stat points. Trash - Gnomeregan",
             "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -29158,7 +29655,7 @@
             "kind": "Gear",
             "title": "Upgrade: Archer's Gloves",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +0.3 stat points. World drop",
+            "why": "Replaces Flax Gloves; estimated +0.3 stat points. World drop",
             "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
@@ -29175,16 +29672,22 @@
           "Checklist size limits suggestions, not expected play time.",
           "Gold routine prioritizes priced opportunities. Professions, gear and projects remain available in Soon; pins and urgent bag space come first.",
           "Dismissed and Set aside choices reset each local calendar day. Projects and stock goals carry forward."
-        ]
+        ],
+        "camp": {
+          "id": "observed:1890",
+          "name": "Rattlecage Skeleton",
+          "zone": "Tirisfal Glades",
+          "chosen": false
+        }
       },
       "gearPlan": {
         "version": 1,
         "profile": "Assassination Rogue",
-        "profileOrigin": "default class profile",
+        "profileOrigin": "Naowh selected list",
         "source": "Installed NaowhForever 1.2.33",
         "auto": true,
         "pending": 0,
-        "checked": 195,
+        "checked": 198,
         "merchantFavor": {
           "currencyID": 3402,
           "name": "Merchant's Favor",
@@ -29195,6 +29698,37 @@
         "model": "Weighted stat points, not a DPS simulation. Level-60 profile weights are only an estimate while leveling. Procs, set bonuses, caps and unscored stats can change the result.",
         "coverage": "Selected class/spec catalogue, leveling picks, learned crafts, trade-camp unlocks and carried gear. Missing data is unknown. Solo first; dungeon goals stay in Soon.",
         "upgrades": [
+          {
+            "name": "Ragged Leather Gloves",
+            "slotName": "Hands",
+            "current": "Flax Gloves",
+            "status": "In your bags",
+            "kind": "Owned",
+            "source": "Your current bags",
+            "action": "Compare the tooltip and equip manually when ready.",
+            "itemID": 1368,
+            "slot": 10,
+            "requiredLevel": 1,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
+            "candidateScore": 0.085,
+            "gain": 0.055,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": true,
+            "later": false,
+            "recommended": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 6,
+                "after": 17,
+                "delta": 11
+              }
+            ]
+          },
           {
             "name": "Thrash Blade",
             "slotName": "Main hand",
@@ -29342,7 +29876,7 @@
           {
             "name": "Blazewind Breastplate",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Review source",
             "kind": "Review",
             "source": "Quest",
@@ -29350,9 +29884,10 @@
             "itemID": 11193,
             "slot": 5,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 25.86,
-            "gain": 25.86,
+            "gain": 25.695,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -29368,9 +29903,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 148,
-                "delta": 148
+                "delta": 115
               },
               {
                 "stat": "Stamina",
@@ -29431,7 +29966,7 @@
           {
             "name": "Triprunner Dungarees",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Group upgrade",
             "kind": "Quest",
             "source": "Rig Wars - Orgrimmar - Nogg (76, 25.4)",
@@ -29439,11 +29974,11 @@
             "itemID": 9624,
             "slot": 7,
             "requiredLevel": 0,
-            "currentItemID": 120,
+            "currentItemID": 1366,
             "questID": 2841,
-            "currentScore": 0.01,
+            "currentScore": 0.085,
             "candidateScore": 20.725,
-            "gain": 20.715,
+            "gain": 20.64,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -29464,9 +29999,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 101,
-                "delta": 99
+                "delta": 84
               },
               {
                 "stat": "Stamina",
@@ -29573,7 +30108,7 @@
           {
             "name": "Jangdor's Handcrafted Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Review source",
             "kind": "Review",
             "source": "The Mark of Quality · Quest (Horde)",
@@ -29581,9 +30116,10 @@
             "itemID": 9632,
             "slot": 10,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 14.78,
-            "gain": 14.78,
+            "gain": 14.75,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -29599,9 +30135,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 76,
-                "delta": 76
+                "delta": 70
               },
               {
                 "stat": "Strength",
@@ -29614,7 +30150,7 @@
           {
             "name": "Blooded Pants",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Review source",
             "kind": "Review",
             "source": "Source not recorded",
@@ -29622,10 +30158,10 @@
             "itemID": 270083,
             "slot": 7,
             "requiredLevel": 0,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 14.405,
-            "gain": 14.395,
+            "gain": 14.32,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -29641,9 +30177,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 101,
-                "delta": 99
+                "delta": 84
               },
               {
                 "stat": "Stamina",
@@ -29738,7 +30274,7 @@
           {
             "name": "Tiger Hunter Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Review source",
             "kind": "Quest",
             "source": "Tiger Mastery - Stranglethorn Vale - Ajeck Rouack (35.6, 10.6)",
@@ -29746,10 +30282,11 @@
             "itemID": 4107,
             "slot": 10,
             "requiredLevel": 0,
+            "currentItemID": 3275,
             "questID": 188,
-            "currentScore": 0,
+            "currentScore": 0.03,
             "candidateScore": 12.105,
-            "gain": 12.105,
+            "gain": 12.075,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -29770,9 +30307,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 65,
-                "delta": 65
+                "delta": 59
               },
               {
                 "stat": "Strength",
@@ -29820,7 +30357,7 @@
           {
             "name": "Old Leather Jacket",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Review source",
             "kind": "Review",
             "source": "Ground to Keep · Quest",
@@ -29828,9 +30365,10 @@
             "itemID": 280505,
             "slot": 5,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 10.845,
-            "gain": 10.845,
+            "gain": 10.68,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -29846,9 +30384,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 109,
-                "delta": 109
+                "delta": 76
               },
               {
                 "stat": "Stamina",
@@ -29861,106 +30399,6 @@
                 "before": 0,
                 "after": 15,
                 "delta": 15
-              }
-            ]
-          },
-          {
-            "name": "Panther Armor",
-            "slotName": "Chest",
-            "current": "Empty slot",
-            "status": "Review source",
-            "kind": "Quest",
-            "source": "The Den - Stonetalon Mountains - Braelyn Firehand (45.9, 60.4)",
-            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
-            "itemID": 6670,
-            "slot": 5,
-            "requiredLevel": 0,
-            "questID": 1089,
-            "currentScore": 0,
-            "candidateScore": 10.525,
-            "gain": 10.525,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1442,
-              "x": 0.459,
-              "y": 0.604
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 89,
-                "delta": 89
-              },
-              {
-                "stat": "Strength",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              }
-            ]
-          },
-          {
-            "name": "Deftkin Belt",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Review source",
-            "kind": "Quest",
-            "source": "Je'neu of the Earthen Ring - Ashenvale - Mastok Wrilehiss (73.7, 60)",
-            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
-            "itemID": 16659,
-            "slot": 6,
-            "requiredLevel": 0,
-            "questID": 824,
-            "currentScore": 0,
-            "candidateScore": 10.43,
-            "gain": 10.43,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.737,
-              "y": 0.6
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 50,
-                "delta": 50
-              },
-              {
-                "stat": "Attack Power",
-                "before": 0,
-                "after": 12,
-                "delta": 12
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 3,
-                "delta": 3
               }
             ]
           },
@@ -30008,6 +30446,108 @@
                 "before": 0,
                 "after": 9,
                 "delta": 9
+              }
+            ]
+          },
+          {
+            "name": "Panther Armor",
+            "slotName": "Chest",
+            "current": "Scavenger Tunic",
+            "status": "Review source",
+            "kind": "Quest",
+            "source": "The Den - Stonetalon Mountains - Braelyn Firehand (45.9, 60.4)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "itemID": 6670,
+            "slot": 5,
+            "requiredLevel": 0,
+            "currentItemID": 11851,
+            "questID": 1089,
+            "currentScore": 0.165,
+            "candidateScore": 10.525,
+            "gain": 10.36,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1442,
+              "x": 0.459,
+              "y": 0.604
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Armor",
+                "before": 33,
+                "after": 89,
+                "delta": 56
+              },
+              {
+                "stat": "Strength",
+                "before": 0,
+                "after": 2,
+                "delta": 2
+              }
+            ]
+          },
+          {
+            "name": "Deftkin Belt",
+            "slotName": "Waist",
+            "current": "Old Leather Belt",
+            "status": "Review source",
+            "kind": "Quest",
+            "source": "Je'neu of the Earthen Ring - Ashenvale - Mastok Wrilehiss (73.7, 60)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "itemID": 16659,
+            "slot": 6,
+            "requiredLevel": 0,
+            "currentItemID": 2173,
+            "questID": 824,
+            "currentScore": 0.095,
+            "candidateScore": 10.43,
+            "gain": 10.335,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.737,
+              "y": 0.6
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 50,
+                "delta": 31
+              },
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 3,
+                "delta": 3
               }
             ]
           },
@@ -30061,7 +30601,7 @@
           {
             "name": "Bristlepelt Vest",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Review source",
             "kind": "Quest",
             "source": "Snargl's Snout - Where it starts is not known yet",
@@ -30069,10 +30609,11 @@
             "itemID": 274942,
             "slot": 5,
             "requiredLevel": 0,
+            "currentItemID": 11851,
             "questID": 94533,
-            "currentScore": 0,
+            "currentScore": 0.165,
             "candidateScore": 9.75,
-            "gain": 9.75,
+            "gain": 9.585,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -30088,9 +30629,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 110,
-                "delta": 110
+                "delta": 77
               },
               {
                 "stat": "Stamina",
@@ -30144,7 +30685,7 @@
           {
             "name": "Razzeric's Racing Grips",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Review source",
             "kind": "Quest",
             "source": "Safety First - Tanaris - Shreev (51, 27.2)",
@@ -30152,10 +30693,11 @@
             "itemID": 6727,
             "slot": 10,
             "requiredLevel": 0,
+            "currentItemID": 3275,
             "questID": 1189,
-            "currentScore": 0,
+            "currentScore": 0.03,
             "candidateScore": 9.25,
-            "gain": 9.25,
+            "gain": 9.22,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -30176,9 +30718,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 70,
-                "delta": 70
+                "delta": 64
               },
               {
                 "stat": "Stamina",
@@ -30368,7 +30910,7 @@
           {
             "name": "Parachute Cloak",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Review source",
             "kind": "Review",
             "source": "Engineering · Crafted",
@@ -30376,9 +30918,10 @@
             "itemID": 10518,
             "slot": 15,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 8.15,
-            "gain": 8.15,
+            "gain": 8.125,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -30394,9 +30937,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 30,
-                "delta": 30
+                "delta": 25
               }
             ]
           },
@@ -30481,7 +31024,7 @@
           {
             "name": "Swiftrunner Cape",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Review source",
             "kind": "Quest",
             "source": "Alliance Relations - Desolace - Takata Steelblade (52.6, 54.4)",
@@ -30489,10 +31032,11 @@
             "itemID": 6745,
             "slot": 15,
             "requiredLevel": 0,
+            "currentItemID": 11850,
             "questID": 1436,
-            "currentScore": 0,
+            "currentScore": 0.025,
             "candidateScore": 6.315,
-            "gain": 6.315,
+            "gain": 6.29,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -30513,9 +31057,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 23,
-                "delta": 23
+                "delta": 18
               },
               {
                 "stat": "Stamina",
@@ -31247,7 +31791,7 @@
           {
             "name": "Dawn Armor",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Level 56 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -31255,9 +31799,10 @@
             "itemID": 252483,
             "slot": 5,
             "requiredLevel": 56,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 59.735,
-            "gain": 59.735,
+            "gain": 59.57,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31273,9 +31818,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 187,
-                "delta": 187
+                "delta": 154
               },
               {
                 "stat": "Critical Strike",
@@ -31341,7 +31886,7 @@
           {
             "name": "Devilsaur Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 55 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -31349,10 +31894,10 @@
             "itemID": 15062,
             "slot": 7,
             "requiredLevel": 55,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 36.98,
-            "gain": 36.97,
+            "gain": 36.895,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31362,9 +31907,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 148,
-                "delta": 146
+                "delta": 131
               },
               {
                 "stat": "Attack Power",
@@ -31389,7 +31934,7 @@
           {
             "name": "Devilsaur Gauntlets",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 53 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -31397,9 +31942,10 @@
             "itemID": 15063,
             "slot": 10,
             "requiredLevel": 53,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 27.635,
-            "gain": 27.635,
+            "gain": 27.605,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31409,9 +31955,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 103,
-                "delta": 103
+                "delta": 97
               },
               {
                 "stat": "Attack Power",
@@ -31436,7 +31982,7 @@
           {
             "name": "Might of the Timbermaw",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 53 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -31444,9 +31990,10 @@
             "itemID": 19044,
             "slot": 6,
             "requiredLevel": 53,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 26.705,
-            "gain": 26.705,
+            "gain": 26.61,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31462,9 +32009,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 93,
-                "delta": 93
+                "delta": 74
               },
               {
                 "stat": "Stamina",
@@ -31588,7 +32135,7 @@
           {
             "name": "Shifting Cloak",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 57 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -31596,9 +32143,10 @@
             "itemID": 18511,
             "slot": 15,
             "requiredLevel": 57,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 18.04,
-            "gain": 18.04,
+            "gain": 18.015,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31614,9 +32162,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 48,
-                "delta": 48
+                "delta": 43
               },
               {
                 "stat": "Dodge",
@@ -31677,7 +32225,7 @@
           {
             "name": "Petrolspill Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 25 required",
             "kind": "Dungeon",
             "source": "Trash - Gnomeregan",
@@ -31685,10 +32233,10 @@
             "itemID": 9509,
             "slot": 7,
             "requiredLevel": 25,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 15.05,
-            "gain": 15.04,
+            "gain": 14.965,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -31709,9 +32257,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 90,
-                "delta": 88
+                "delta": 73
               },
               {
                 "stat": "Stamina",
@@ -31724,7 +32272,7 @@
           {
             "name": "Troll's Bane Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 25 required",
             "kind": "Review",
             "source": "World drop",
@@ -31732,10 +32280,10 @@
             "itemID": 13114,
             "slot": 7,
             "requiredLevel": 25,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 14.85,
-            "gain": 14.84,
+            "gain": 14.765,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31751,9 +32299,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 90,
-                "delta": 88
+                "delta": 73
               },
               {
                 "stat": "Spirit",
@@ -31766,41 +32314,6 @@
                 "before": 0,
                 "after": 4,
                 "delta": 4
-              }
-            ]
-          },
-          {
-            "name": "Dusky Leather Armor",
-            "slotName": "Chest",
-            "current": "Empty slot",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 7374,
-            "slot": 5,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 14.51,
-            "gain": 14.51,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 14,
-                "delta": 14
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 102,
-                "delta": 102
               }
             ]
           },
@@ -31852,9 +32365,45 @@
             ]
           },
           {
+            "name": "Dusky Leather Armor",
+            "slotName": "Chest",
+            "current": "Scavenger Tunic",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 7374,
+            "slot": 5,
+            "requiredLevel": 30,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
+            "candidateScore": 14.51,
+            "gain": 14.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Armor",
+                "before": 33,
+                "after": 102,
+                "delta": 69
+              }
+            ]
+          },
+          {
             "name": "Stromgarde Operative Pants",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "Stromgarde Badges · Quest (Alliance)",
@@ -31862,10 +32411,10 @@
             "itemID": 270057,
             "slot": 7,
             "requiredLevel": 0,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 14.38,
-            "gain": 14.37,
+            "gain": 14.295,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31881,9 +32430,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 92,
-                "delta": 90
+                "delta": 75
               },
               {
                 "stat": "Stamina",
@@ -31943,7 +32492,7 @@
           {
             "name": "Lightstep Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "Hints of a New Plague? · Quest (Alliance)",
@@ -31951,10 +32500,10 @@
             "itemID": 15456,
             "slot": 7,
             "requiredLevel": 0,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 13.96,
-            "gain": 13.95,
+            "gain": 13.875,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -31970,9 +32519,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 92,
-                "delta": 90
+                "delta": 75
               },
               {
                 "stat": "Stamina",
@@ -31985,7 +32534,7 @@
           {
             "name": "Brawler's Leather Legguards",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 25 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -31993,10 +32542,10 @@
             "itemID": 252516,
             "slot": 7,
             "requiredLevel": 25,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 13.93,
-            "gain": 13.92,
+            "gain": 13.845,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32012,9 +32561,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 90,
-                "delta": 88
+                "delta": 73
               },
               {
                 "stat": "Spirit",
@@ -32092,7 +32641,7 @@
           {
             "name": "Dusky Leather Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 28 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -32100,10 +32649,10 @@
             "itemID": 7373,
             "slot": 7,
             "requiredLevel": 28,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 13.43,
-            "gain": 13.42,
+            "gain": 13.345,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32119,16 +32668,16 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 86,
-                "delta": 84
+                "delta": 69
               }
             ]
           },
           {
             "name": "Ferine Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 29 required",
             "kind": "Dungeon",
             "source": "Agathelos the Raging - Razorfen Kraul",
@@ -32136,10 +32685,10 @@
             "itemID": 6690,
             "slot": 7,
             "requiredLevel": 29,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 13.22,
-            "gain": 13.21,
+            "gain": 13.135,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -32154,9 +32703,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 96,
-                "delta": 94
+                "delta": 79
               },
               {
                 "stat": "Attack Power",
@@ -32175,7 +32724,7 @@
           {
             "name": "Skulker's Leather Belt",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 30 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -32183,9 +32732,10 @@
             "itemID": 252520,
             "slot": 6,
             "requiredLevel": 30,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 13.155,
-            "gain": 13.155,
+            "gain": 13.06,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32201,9 +32751,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 63,
-                "delta": 63
+                "delta": 44
               },
               {
                 "stat": "Spirit",
@@ -32228,7 +32778,7 @@
           {
             "name": "Worgpelt Leggings",
             "slotName": "Legs",
-            "current": "Thug Pants",
+            "current": "Ragged Leather Pants",
             "status": "Level 21 required",
             "kind": "Dungeon",
             "source": "Wolf Master Nandos - Shadowfang Keep",
@@ -32236,10 +32786,10 @@
             "itemID": 273647,
             "slot": 7,
             "requiredLevel": 21,
-            "currentItemID": 120,
-            "currentScore": 0.01,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
             "candidateScore": 13.12,
-            "gain": 13.11,
+            "gain": 13.035,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -32260,9 +32810,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 2,
+                "before": 17,
                 "after": 84,
-                "delta": 82
+                "delta": 67
               },
               {
                 "stat": "Fire Resistance",
@@ -32328,7 +32878,7 @@
           {
             "name": "Highlander's Leather Girdle",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 28 required",
             "kind": "Review",
             "source": "The League of Arathor - Honored · Reputation",
@@ -32336,9 +32886,10 @@
             "itemID": 20117,
             "slot": 6,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 12.615,
-            "gain": 12.615,
+            "gain": 12.52,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32348,9 +32899,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 91,
-                "delta": 91
+                "delta": 72
               },
               {
                 "stat": "Attack Power",
@@ -32369,7 +32920,7 @@
           {
             "name": "Defiler's Leather Girdle",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 28 required",
             "kind": "Review",
             "source": "The Defilers - Honored · Reputation",
@@ -32377,9 +32928,10 @@
             "itemID": 20191,
             "slot": 6,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 12.615,
-            "gain": 12.615,
+            "gain": 12.52,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32389,9 +32941,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 91,
-                "delta": 91
+                "delta": 72
               },
               {
                 "stat": "Attack Power",
@@ -32410,7 +32962,7 @@
           {
             "name": "Highlander's Chain Girdle",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 28 required",
             "kind": "Review",
             "source": "The League of Arathor - Honored · Reputation",
@@ -32418,9 +32970,10 @@
             "itemID": 20090,
             "slot": 6,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 12.565,
-            "gain": 12.565,
+            "gain": 12.47,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32430,9 +32983,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 61,
-                "delta": 61
+                "delta": 42
               },
               {
                 "stat": "Attack Power",
@@ -32451,7 +33004,7 @@
           {
             "name": "Defiler's Chain Girdle",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 28 required",
             "kind": "Review",
             "source": "The Defilers - Honored · Reputation",
@@ -32459,9 +33012,10 @@
             "itemID": 20152,
             "slot": 6,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 12.565,
-            "gain": 12.565,
+            "gain": 12.47,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32471,9 +33025,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 61,
-                "delta": 61
+                "delta": 42
               },
               {
                 "stat": "Attack Power",
@@ -32492,7 +33046,7 @@
           {
             "name": "Alterac Assassin's Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "Crushridge Warmongers · Quest (Alliance)",
@@ -32500,9 +33054,10 @@
             "itemID": 270072,
             "slot": 10,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 12.345,
-            "gain": 12.345,
+            "gain": 12.315,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32518,16 +33073,16 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 69,
-                "delta": 69
+                "delta": 63
               }
             ]
           },
           {
             "name": "Brawler's Leather Tunic",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Level 22 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -32535,9 +33090,10 @@
             "itemID": 252508,
             "slot": 5,
             "requiredLevel": 22,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 12.33,
-            "gain": 12.33,
+            "gain": 12.165,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32553,9 +33109,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 98,
-                "delta": 98
+                "delta": 65
               },
               {
                 "stat": "Spirit",
@@ -32580,7 +33136,7 @@
           {
             "name": "Dog Training Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 31 required",
             "kind": "Dungeon",
             "source": "Houndmaster Loksey - Scarlet Monastery - Library",
@@ -32588,9 +33144,10 @@
             "itemID": 7756,
             "slot": 10,
             "requiredLevel": 31,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 12.115,
-            "gain": 12.115,
+            "gain": 12.085,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -32605,9 +33162,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 71,
-                "delta": 71
+                "delta": 65
               },
               {
                 "stat": "Attack Power",
@@ -32626,7 +33183,7 @@
           {
             "name": "Tunic of Westfall",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "The Defias Brotherhood · Quest (Alliance)",
@@ -32634,9 +33191,10 @@
             "itemID": 2041,
             "slot": 5,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 11.96,
-            "gain": 11.96,
+            "gain": 11.795,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32652,68 +33210,15 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 92,
-                "delta": 92
+                "delta": 59
               },
               {
                 "stat": "Stamina",
                 "before": 0,
                 "after": 5,
                 "delta": 5
-              }
-            ]
-          },
-          {
-            "name": "Prowler's Leather Belt",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 252459,
-            "slot": 6,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 11.775,
-            "gain": 11.775,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 63,
-                "delta": 63
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Strength",
-                "before": 0,
-                "after": 9,
-                "delta": 9
               }
             ]
           },
@@ -32764,9 +33269,63 @@
             ]
           },
           {
+            "name": "Prowler's Leather Belt",
+            "slotName": "Waist",
+            "current": "Old Leather Belt",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 252459,
+            "slot": 6,
+            "requiredLevel": 30,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
+            "candidateScore": 11.775,
+            "gain": 11.68,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 63,
+                "delta": 44
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Strength",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              }
+            ]
+          },
+          {
             "name": "Gnollhide Tunic",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "Source not recorded",
@@ -32774,9 +33333,10 @@
             "itemID": 274938,
             "slot": 5,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 11.55,
-            "gain": 11.55,
+            "gain": 11.385,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -32792,9 +33352,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 110,
-                "delta": 110
+                "delta": 77
               },
               {
                 "stat": "Spirit",
@@ -32893,53 +33453,6 @@
                 "before": 0,
                 "after": 4,
                 "delta": 4
-              }
-            ]
-          },
-          {
-            "name": "Defender's Leather Tunic",
-            "slotName": "Chest",
-            "current": "Empty slot",
-            "status": "Level 22 required",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 252450,
-            "slot": 5,
-            "requiredLevel": 22,
-            "currentScore": 0,
-            "candidateScore": 10.785,
-            "gain": 10.785,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 149,
-                "delta": 149
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 8,
-                "delta": 8
-              },
-              {
-                "stat": "Strength",
-                "before": 0,
-                "after": 6,
-                "delta": 6
               }
             ]
           },
@@ -33082,19 +33595,20 @@
             ]
           },
           {
-            "name": "Warden's Leather Belt",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Level 30 required",
+            "name": "Defender's Leather Tunic",
+            "slotName": "Chest",
+            "current": "Scavenger Tunic",
+            "status": "Level 22 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
             "action": "Check the source and requirements before planning a farm.",
-            "itemID": 252460,
-            "slot": 6,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 10.645,
-            "gain": 10.645,
+            "itemID": 252450,
+            "slot": 5,
+            "requiredLevel": 22,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
+            "candidateScore": 10.785,
+            "gain": 10.62,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -33110,9 +33624,57 @@
               },
               {
                 "stat": "Armor",
+                "before": 33,
+                "after": 149,
+                "delta": 116
+              },
+              {
+                "stat": "Stamina",
                 "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Strength",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              }
+            ]
+          },
+          {
+            "name": "Warden's Leather Belt",
+            "slotName": "Waist",
+            "current": "Old Leather Belt",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 252460,
+            "slot": 6,
+            "requiredLevel": 30,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
+            "candidateScore": 10.645,
+            "gain": 10.55,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Armor",
+                "before": 19,
                 "after": 101,
-                "delta": 101
+                "delta": 82
               },
               {
                 "stat": "Stamina",
@@ -33131,7 +33693,7 @@
           {
             "name": "Brawler's Leather Armor",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Level 15 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -33139,9 +33701,10 @@
             "itemID": 252490,
             "slot": 5,
             "requiredLevel": 15,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 10.425,
-            "gain": 10.425,
+            "gain": 10.26,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -33157,9 +33720,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 85,
-                "delta": 85
+                "delta": 52
               },
               {
                 "stat": "Spirit",
@@ -33184,7 +33747,7 @@
           {
             "name": "Garb of Fallen Felbark",
             "slotName": "Chest",
-            "current": "Empty slot",
+            "current": "Scavenger Tunic",
             "status": "Level 29 required",
             "kind": "Dungeon",
             "source": "Fel Ancient - City of Dalaran",
@@ -33192,9 +33755,10 @@
             "itemID": 273038,
             "slot": 5,
             "requiredLevel": 29,
-            "currentScore": 0,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
             "candidateScore": 10.25,
-            "gain": 10.25,
+            "gain": 10.085,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -33215,9 +33779,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 33,
                 "after": 110,
-                "delta": 110
+                "delta": 77
               },
               {
                 "stat": "Intellect",
@@ -33236,7 +33800,7 @@
           {
             "name": "Insignia Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 29 required",
             "kind": "Review",
             "source": "World drop",
@@ -33244,9 +33808,10 @@
             "itemID": 6408,
             "slot": 10,
             "requiredLevel": 29,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 10.09,
-            "gain": 10.09,
+            "gain": 10.06,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -33262,9 +33827,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 62,
-                "delta": 62
+                "delta": 56
               },
               {
                 "stat": "Strength",
@@ -33277,7 +33842,7 @@
           {
             "name": "Shepherd's Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "Costly Menace · Quest",
@@ -33285,9 +33850,10 @@
             "itemID": 3754,
             "slot": 10,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 10.085,
-            "gain": 10.085,
+            "gain": 10.055,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -33303,9 +33869,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 61,
-                "delta": 61
+                "delta": 55
               },
               {
                 "stat": "Strength",
@@ -33412,7 +33978,7 @@
           {
             "name": "Stalker's Leather Belt",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 30 required",
             "kind": "Review",
             "source": "Leatherworking · Crafted",
@@ -33420,9 +33986,10 @@
             "itemID": 252521,
             "slot": 6,
             "requiredLevel": 30,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 9.915,
-            "gain": 9.915,
+            "gain": 9.82,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -33438,9 +34005,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 63,
-                "delta": 63
+                "delta": 44
               },
               {
                 "stat": "Intellect",
@@ -33463,9 +34030,57 @@
             ]
           },
           {
+            "name": "Toughened Leather Gloves",
+            "slotName": "Hands",
+            "current": "Flax Gloves",
+            "status": "Level 22 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 4253,
+            "slot": 10,
+            "requiredLevel": 22,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
+            "candidateScore": 9.845,
+            "gain": 9.815,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Armor",
+                "before": 6,
+                "after": 61,
+                "delta": 55
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Strength",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              }
+            ]
+          },
+          {
             "name": "Slitherwrap Girdle",
             "slotName": "Waist",
-            "current": "Empty slot",
+            "current": "Old Leather Belt",
             "status": "Level 28 required",
             "kind": "Dungeon",
             "source": "Mana Devourer - City of Dalaran",
@@ -33473,9 +34088,10 @@
             "itemID": 273041,
             "slot": 6,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
             "candidateScore": 9.905,
-            "gain": 9.905,
+            "gain": 9.81,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -33496,59 +34112,12 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
                 "after": 61,
-                "delta": 61
+                "delta": 42
               },
               {
                 "stat": "Stamina",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              }
-            ]
-          },
-          {
-            "name": "Toughened Leather Gloves",
-            "slotName": "Hands",
-            "current": "Empty slot",
-            "status": "Level 22 required",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 4253,
-            "slot": 10,
-            "requiredLevel": 22,
-            "currentScore": 0,
-            "candidateScore": 9.845,
-            "gain": 9.845,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 61,
-                "delta": 61
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              },
-              {
-                "stat": "Strength",
                 "before": 0,
                 "after": 6,
                 "delta": 6
@@ -33558,7 +34127,7 @@
           {
             "name": "Wolfclaw Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 22 required",
             "kind": "Dungeon",
             "source": "Trash - Razorfen Kraul",
@@ -33566,9 +34135,10 @@
             "itemID": 1978,
             "slot": 10,
             "requiredLevel": 22,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 9.605,
-            "gain": 9.605,
+            "gain": 9.575,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -33589,9 +34159,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 61,
-                "delta": 61
+                "delta": 55
               },
               {
                 "stat": "Stamina",
@@ -33608,55 +34178,9 @@
             ]
           },
           {
-            "name": "Garb of Florid Feathers",
-            "slotName": "Chest",
-            "current": "Empty slot",
-            "status": "Level 26 required",
-            "kind": "Dungeon",
-            "source": "Shadetooth - Excavation Site: Wetlands",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 273026,
-            "slot": 5,
-            "requiredLevel": 26,
-            "currentScore": 0,
-            "candidateScore": 9.525,
-            "gain": 9.525,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1437,
-              "x": 0.534,
-              "y": 0.653
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 105,
-                "delta": 105
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 15,
-                "delta": 15
-              }
-            ]
-          },
-          {
             "name": "Violet Sorcerer's Wraps",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 28 required",
             "kind": "Dungeon",
             "source": "Trash - City of Dalaran",
@@ -33664,9 +34188,10 @@
             "itemID": 286989,
             "slot": 10,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 9.455,
-            "gain": 9.455,
+            "gain": 9.425,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -33681,9 +34206,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 31,
-                "delta": 31
+                "delta": 25
               },
               {
                 "stat": "Hit",
@@ -33741,9 +34266,56 @@
             ]
           },
           {
+            "name": "Garb of Florid Feathers",
+            "slotName": "Chest",
+            "current": "Scavenger Tunic",
+            "status": "Level 26 required",
+            "kind": "Dungeon",
+            "source": "Shadetooth - Excavation Site: Wetlands",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273026,
+            "slot": 5,
+            "requiredLevel": 26,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
+            "candidateScore": 9.525,
+            "gain": 9.36,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1437,
+              "x": 0.534,
+              "y": 0.653
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Armor",
+                "before": 33,
+                "after": 105,
+                "delta": 72
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              }
+            ]
+          },
+          {
             "name": "Cartilage Shapers",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 28 required",
             "kind": "Dungeon",
             "source": "Lyn the Ignored - City of Dalaran",
@@ -33751,9 +34323,10 @@
             "itemID": 273054,
             "slot": 10,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 9.34,
-            "gain": 9.34,
+            "gain": 9.31,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -33774,9 +34347,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 68,
-                "delta": 68
+                "delta": 62
               },
               {
                 "stat": "Skinning Skill",
@@ -34005,7 +34578,7 @@
           {
             "name": "Thorncursed Grips",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 27 required",
             "kind": "Dungeon",
             "source": "Aggem Thorncurse - Razorfen Kraul",
@@ -34013,9 +34586,10 @@
             "itemID": 274159,
             "slot": 10,
             "requiredLevel": 27,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 9.16,
-            "gain": 9.16,
+            "gain": 9.13,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -34030,49 +34604,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 6,
                 "after": 68,
-                "delta": 68
-              },
-              {
-                "stat": "Attack Power",
-                "before": 0,
-                "after": 18,
-                "delta": 18
-              }
-            ]
-          },
-          {
-            "name": "Blackened Defias Belt",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Level 17 required",
-            "kind": "Dungeon",
-            "source": "Captain Greenskin - The Deadmines",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 10403,
-            "slot": 6,
-            "requiredLevel": 17,
-            "currentScore": 0,
-            "candidateScore": 9.07,
-            "gain": 9.07,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1436,
-              "x": 0.432,
-              "y": 0.724
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 50,
-                "delta": 50
+                "delta": 62
               },
               {
                 "stat": "Attack Power",
@@ -34124,9 +34658,50 @@
             ]
           },
           {
+            "name": "Blackened Defias Belt",
+            "slotName": "Waist",
+            "current": "Old Leather Belt",
+            "status": "Level 17 required",
+            "kind": "Dungeon",
+            "source": "Captain Greenskin - The Deadmines",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 10403,
+            "slot": 6,
+            "requiredLevel": 17,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
+            "candidateScore": 9.07,
+            "gain": 8.975,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1436,
+              "x": 0.432,
+              "y": 0.724
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 50,
+                "delta": 31
+              },
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 18,
+                "delta": 18
+              }
+            ]
+          },
+          {
             "name": "Tigerstrike Mantle",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 29 required",
             "kind": "Review",
             "source": "World drop",
@@ -34134,9 +34709,10 @@
             "itemID": 13108,
             "slot": 15,
             "requiredLevel": 29,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 8.825,
-            "gain": 8.825,
+            "gain": 8.8,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -34152,9 +34728,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 25,
-                "delta": 25
+                "delta": 20
               },
               {
                 "stat": "Stamina",
@@ -34209,7 +34785,7 @@
           {
             "name": "Hawkeye's Cloak",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 30 required",
             "kind": "Review",
             "source": "World drop",
@@ -34217,9 +34793,10 @@
             "itemID": 14593,
             "slot": 15,
             "requiredLevel": 30,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 8.735,
-            "gain": 8.735,
+            "gain": 8.71,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -34235,9 +34812,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 23,
-                "delta": 23
+                "delta": 18
               },
               {
                 "stat": "Strength",
@@ -34714,52 +35291,6 @@
             ]
           },
           {
-            "name": "Skullduggery Belt",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Level 29 required",
-            "kind": "Dungeon",
-            "source": "Grubbis - Gnomeregan",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 274042,
-            "slot": 6,
-            "requiredLevel": 29,
-            "currentScore": 0,
-            "candidateScore": 8.15,
-            "gain": 8.15,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 62,
-                "delta": 62
-              },
-              {
-                "stat": "Attack Power",
-                "before": 0,
-                "after": 16,
-                "delta": 16
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Cloudy Gustwoven Spaulders",
             "slotName": "Shoulders",
             "current": "Empty slot",
@@ -34835,6 +35366,53 @@
               },
               {
                 "stat": "Stamina",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              }
+            ]
+          },
+          {
+            "name": "Skullduggery Belt",
+            "slotName": "Waist",
+            "current": "Old Leather Belt",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Grubbis - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 274042,
+            "slot": 6,
+            "requiredLevel": 29,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
+            "candidateScore": 8.15,
+            "gain": 8.055,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 62,
+                "delta": 43
+              },
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 16,
+                "delta": 16
+              },
+              {
+                "stat": "Spirit",
                 "before": 0,
                 "after": 7,
                 "delta": 7
@@ -34931,7 +35509,7 @@
           {
             "name": "Yeti Fur Cloak",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Unavailable reward",
             "kind": "Review",
             "source": "Bartolo's Yeti Fur Cloak · Quest (Alliance)",
@@ -34939,9 +35517,10 @@
             "itemID": 2805,
             "slot": 15,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 7.735,
-            "gain": 7.735,
+            "gain": 7.71,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -34957,9 +35536,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 23,
-                "delta": 23
+                "delta": 18
               },
               {
                 "stat": "Strength",
@@ -35081,53 +35660,6 @@
             ]
           },
           {
-            "name": "Crocolisk Skin Gaiter",
-            "slotName": "Back",
-            "current": "Empty slot",
-            "status": "Level 25 required",
-            "kind": "Review",
-            "source": "Source not recorded",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 271720,
-            "slot": 15,
-            "requiredLevel": 25,
-            "currentScore": 0,
-            "candidateScore": 7.32,
-            "gain": 7.32,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 24,
-                "delta": 24
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              },
-              {
-                "stat": "Strength",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              }
-            ]
-          },
-          {
             "name": "Truthseeker's Bow",
             "slotName": "Ranged / relic",
             "current": "Small Throwing Knife",
@@ -35211,6 +35743,54 @@
             ]
           },
           {
+            "name": "Crocolisk Skin Gaiter",
+            "slotName": "Back",
+            "current": "Short Duskbat Cape",
+            "status": "Level 25 required",
+            "kind": "Review",
+            "source": "Source not recorded",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 271720,
+            "slot": 15,
+            "requiredLevel": 25,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
+            "candidateScore": 7.32,
+            "gain": 7.295,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Armor",
+                "before": 5,
+                "after": 24,
+                "delta": 19
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Strength",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              }
+            ]
+          },
+          {
             "name": "Barbaric Bracers",
             "slotName": "Wrists",
             "current": "Empty slot",
@@ -35260,7 +35840,7 @@
           {
             "name": "Sergeant Major's Cape",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 25 required",
             "kind": "Review",
             "source": "Rank 9 · PvP Rank",
@@ -35268,9 +35848,10 @@
             "itemID": 16315,
             "slot": 15,
             "requiredLevel": 25,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 6.68,
-            "gain": 6.68,
+            "gain": 6.655,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -35286,9 +35867,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 24,
-                "delta": 24
+                "delta": 19
               },
               {
                 "stat": "Intellect",
@@ -35542,7 +36123,7 @@
           {
             "name": "Cloak of Night",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 23 required",
             "kind": "Review",
             "source": "Rohh the Silent · Redridge Mountains",
@@ -35550,9 +36131,10 @@
             "itemID": 4447,
             "slot": 15,
             "requiredLevel": 23,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 6.105,
-            "gain": 6.105,
+            "gain": 6.08,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -35568,16 +36150,16 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 21,
-                "delta": 21
+                "delta": 16
               }
             ]
           },
           {
             "name": "Glowing Lizardscale Cloak",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 18 required",
             "kind": "Dungeon",
             "source": "Skum - Wailing Caverns",
@@ -35585,9 +36167,10 @@
             "itemID": 6449,
             "slot": 15,
             "requiredLevel": 18,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 6.1,
-            "gain": 6.1,
+            "gain": 6.075,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -35608,9 +36191,9 @@
               },
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 20,
-                "delta": 20
+                "delta": 15
               },
               {
                 "stat": "Nature Resistance",
@@ -35708,52 +36291,6 @@
             ]
           },
           {
-            "name": "Drape of Shifting Energy",
-            "slotName": "Back",
-            "current": "Empty slot",
-            "status": "Level 27 required",
-            "kind": "Dungeon",
-            "source": "Arcanic Enigma - City of Dalaran",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 273045,
-            "slot": 15,
-            "requiredLevel": 27,
-            "currentScore": 0,
-            "candidateScore": 6,
-            "gain": 6,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 24,
-                "delta": 24
-              },
-              {
-                "stat": "Attack Power",
-                "before": 0,
-                "after": 12,
-                "delta": 12
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              }
-            ]
-          },
-          {
             "name": "Dissolved Locket",
             "slotName": "Neck",
             "current": "Empty slot",
@@ -35825,6 +36362,53 @@
                 "before": 0,
                 "after": 2,
                 "delta": 2
+              }
+            ]
+          },
+          {
+            "name": "Drape of Shifting Energy",
+            "slotName": "Back",
+            "current": "Short Duskbat Cape",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Arcanic Enigma - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273045,
+            "slot": 15,
+            "requiredLevel": 27,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
+            "candidateScore": 6,
+            "gain": 5.975,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 5,
+                "after": 24,
+                "delta": 19
+              },
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 7,
+                "delta": 7
               }
             ]
           },
@@ -36043,52 +36627,6 @@
             ]
           },
           {
-            "name": "Cape of the Brotherhood",
-            "slotName": "Back",
-            "current": "Empty slot",
-            "status": "Level 19 required",
-            "kind": "Dungeon",
-            "source": "Edwin VanCleef - The Deadmines",
-            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
-            "itemID": 5193,
-            "slot": 15,
-            "requiredLevel": 19,
-            "currentScore": 0,
-            "candidateScore": 5.405,
-            "gain": 5.405,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1436,
-              "x": 0.432,
-              "y": 0.724
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 5,
-                "delta": 5
-              },
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 21,
-                "delta": 21
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              }
-            ]
-          },
-          {
             "name": "Madwolf Bracers",
             "slotName": "Wrists",
             "current": "Empty slot",
@@ -36126,6 +36664,53 @@
                 "before": 0,
                 "after": 2,
                 "delta": 2
+              }
+            ]
+          },
+          {
+            "name": "Cape of the Brotherhood",
+            "slotName": "Back",
+            "current": "Short Duskbat Cape",
+            "status": "Level 19 required",
+            "kind": "Dungeon",
+            "source": "Edwin VanCleef - The Deadmines",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 5193,
+            "slot": 15,
+            "requiredLevel": 19,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
+            "candidateScore": 5.405,
+            "gain": 5.38,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1436,
+              "x": 0.432,
+              "y": 0.724
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Armor",
+                "before": 5,
+                "after": 21,
+                "delta": 16
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 3,
+                "delta": 3
               }
             ]
           },
@@ -36178,7 +36763,7 @@
           {
             "name": "Wolfmaster Cape",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 22 required",
             "kind": "Dungeon",
             "source": "Wolf Master Nandos - Shadowfang Keep",
@@ -36186,9 +36771,10 @@
             "itemID": 6314,
             "slot": 15,
             "requiredLevel": 22,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 5.31,
-            "gain": 5.31,
+            "gain": 5.285,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -36203,9 +36789,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 22,
-                "delta": 22
+                "delta": 17
               },
               {
                 "stat": "Attack Power",
@@ -36230,7 +36816,7 @@
           {
             "name": "Tattered Kirin Tor Cloak",
             "slotName": "Back",
-            "current": "Empty slot",
+            "current": "Short Duskbat Cape",
             "status": "Level 28 required",
             "kind": "Dungeon",
             "source": "Trash - City of Dalaran",
@@ -36238,9 +36824,10 @@
             "itemID": 286994,
             "slot": 15,
             "requiredLevel": 28,
-            "currentScore": 0,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
             "candidateScore": 4.775,
-            "gain": 4.775,
+            "gain": 4.75,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -36255,9 +36842,9 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 5,
                 "after": 25,
-                "delta": 25
+                "delta": 20
               },
               {
                 "stat": "Hit",
@@ -36800,65 +37387,6 @@
             ]
           },
           {
-            "name": "Infiltrator Armor",
-            "slotName": "Chest",
-            "current": "Empty slot",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "itemID": 7407,
-            "slot": 5,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 0.51,
-            "gain": 0.51,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 102,
-                "delta": 102
-              }
-            ]
-          },
-          {
-            "name": "Headhunter's Woolies",
-            "slotName": "Legs",
-            "current": "Thug Pants",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "itemID": 15358,
-            "slot": 7,
-            "requiredLevel": 30,
-            "currentItemID": 120,
-            "currentScore": 0.01,
-            "candidateScore": 0.445,
-            "gain": 0.435,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 2,
-                "after": 89,
-                "delta": 87
-              }
-            ]
-          },
-          {
             "name": "Infiltrator Cap",
             "slotName": "Head",
             "current": "Empty slot",
@@ -36917,6 +37445,66 @@
             ]
           },
           {
+            "name": "Headhunter's Woolies",
+            "slotName": "Legs",
+            "current": "Ragged Leather Pants",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "itemID": 15358,
+            "slot": 7,
+            "requiredLevel": 30,
+            "currentItemID": 1366,
+            "currentScore": 0.085,
+            "candidateScore": 0.445,
+            "gain": 0.36,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 17,
+                "after": 89,
+                "delta": 72
+              }
+            ]
+          },
+          {
+            "name": "Infiltrator Armor",
+            "slotName": "Chest",
+            "current": "Scavenger Tunic",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "itemID": 7407,
+            "slot": 5,
+            "requiredLevel": 30,
+            "currentItemID": 11851,
+            "currentScore": 0.165,
+            "candidateScore": 0.51,
+            "gain": 0.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 33,
+                "after": 102,
+                "delta": 69
+              }
+            ]
+          },
+          {
             "name": "Ghostwalker Boots",
             "slotName": "Feet",
             "current": "Thug Boots",
@@ -36949,7 +37537,7 @@
           {
             "name": "Archer's Gloves",
             "slotName": "Hands",
-            "current": "Empty slot",
+            "current": "Flax Gloves",
             "status": "Level 30 required",
             "kind": "Review",
             "source": "World drop",
@@ -36957,37 +37545,9 @@
             "itemID": 9861,
             "slot": 10,
             "requiredLevel": 30,
-            "currentScore": 0,
+            "currentItemID": 3275,
+            "currentScore": 0.03,
             "candidateScore": 0.315,
-            "gain": 0.315,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 63,
-                "delta": 63
-              }
-            ]
-          },
-          {
-            "name": "Gizmo Girdle",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "Engineering · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 280307,
-            "slot": 6,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 0.285,
             "gain": 0.285,
             "group": false,
             "tracked": false,
@@ -36998,26 +37558,27 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
-                "after": 57,
+                "before": 6,
+                "after": 63,
                 "delta": 57
               }
             ]
           },
           {
-            "name": "Twilight Cape",
-            "slotName": "Back",
-            "current": "Empty slot",
+            "name": "Gizmo Girdle",
+            "slotName": "Waist",
+            "current": "Old Leather Belt",
             "status": "Level 30 required",
             "kind": "Review",
-            "source": "World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "itemID": 7436,
-            "slot": 15,
+            "source": "Engineering · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 280307,
+            "slot": 6,
             "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 0.115,
-            "gain": 0.115,
+            "currentItemID": 2173,
+            "currentScore": 0.095,
+            "candidateScore": 0.285,
+            "gain": 0.19,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -37027,9 +37588,39 @@
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 0,
+                "before": 19,
+                "after": 57,
+                "delta": 38
+              }
+            ]
+          },
+          {
+            "name": "Twilight Cape",
+            "slotName": "Back",
+            "current": "Short Duskbat Cape",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "itemID": 7436,
+            "slot": 15,
+            "requiredLevel": 30,
+            "currentItemID": 11850,
+            "currentScore": 0.025,
+            "candidateScore": 0.115,
+            "gain": 0.09,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 5,
                 "after": 23,
-                "delta": 23
+                "delta": 18
               }
             ]
           }

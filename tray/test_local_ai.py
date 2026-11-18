@@ -80,6 +80,20 @@ class LocalAITests(unittest.TestCase):
         self.assertEqual(merged['characters'][0]['localAI']['generatedAt'],100)
         _,changed=roster.merge_roster(merged,[new]);self.assertFalse(changed)
 
+    def test_elapsed_price_age_does_not_repeat_analysis(self):
+        s=sample();task=s['dailyPlan']['today'][0]
+        task['source']='Naowh: your realm/faction observations / 0.3 hours old'
+        reply=lambda *a:dict(message=dict(content=json.dumps(self.answer(ai.candidates(s)))))
+        plan=ai.analyze(s,self.k,self.root,request=reply);ai.install_plan(plan,None,self.root)
+        original=ai.fingerprint(s,self.k)
+        task['source']='Naowh: your realm/faction observations / 0.4 hours old'
+        self.assertEqual(original,ai.fingerprint(s,self.k))
+        self.assertIsNotNone(ai.cached_plan(s,self.root))
+        for field,value in [('action','New price: 20s'),('status','Prices stale'),('aiEligible',False),('source','A different market source')]:
+            altered=copy.deepcopy(s);altered['dailyPlan']['today'][0][field]=value
+            self.assertNotEqual(original,ai.fingerprint(altered,self.k))
+            self.assertIsNone(ai.cached_plan(altered,self.root))
+
     def test_classic_confidence_and_no_drop_rates(self):
         self.data['items'][0]['estimated']=1;self.data['item_sources'][0]['chance']=99
         self.k.refresh(download=self.data.__getitem__,force=True)

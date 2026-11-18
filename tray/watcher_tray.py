@@ -21,7 +21,7 @@ from community_feed import CommunityWorker
 from local_ai import AIWorker
 
 APP_NAME = 'SunderCore Watcher'
-VERSION = '1.4.0'
+VERSION = '1.4.1'
 BG, PANEL, FG, MUTED, ACCENT = '#111611', '#1d251b', '#e7eddf', '#a6b39c', '#d3df9a'
 
 

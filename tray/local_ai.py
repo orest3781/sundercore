@@ -37,6 +37,14 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=True, separators=(',', ':')).encode()).hexdigest()
 
 
+def task_signature(task):
+    stable=dict(task)
+    # Elapsed display age changes on every save without a new market observation.
+    # Keep prices, eligibility, status and provenance in the signature.
+    stable['source']=re.sub(r' / \d+(?:\.\d+)? hours old\b',' / captured auction prices',stable.get('source',''))
+    return digest(stable)
+
+
 def local_request(endpoint, payload=None, timeout=600):
     if endpoint not in ('/api/chat', '/api/tags'): raise ValueError('Unsupported local endpoint')
     body=None if payload is None else json.dumps(payload).encode()
@@ -213,7 +221,7 @@ def validate_answer(answer,tasks,evidence):
         refs=[ref for ref in refs if ref in related]
         # Source and executable action always come from deterministic candidates.
         selected.append(dict(taskID=task['id'],title=task.get('title',''),reason=clean(REASONS[code]+' '+task.get('why',''),500),
-            action=task.get('action',''),status=task.get('status',''),taskSignature=digest(task),evidenceIDs=refs,
+            action=task.get('action',''),status=task.get('status',''),taskSignature=task_signature(task),evidenceIDs=refs,
             source=task.get('source',''),kind=task.get('kind',''),itemID=task.get('itemID',0)))
     return clean('Suggested priorities: '+'; '.join(r['title'] for r in selected)+'.' if selected else 'No eligible tasks in this snapshot. Update your goals or profession scans.',500),selected
 
@@ -267,7 +275,7 @@ def analyze(snapshot,knowledge,directory,request=local_request,now=None):
 
 
 def fingerprint(snapshot,knowledge):
-    return digest(dict(context=context(snapshot),tasks=candidates(snapshot),build=knowledge.metadata().get('generated_utc')))
+    return digest(dict(context=context(snapshot),tasks=[task_signature(t) for t in candidates(snapshot)],build=knowledge.metadata().get('generated_utc')))
 
 
 def install_plan(plan,addon,directory):
@@ -289,7 +297,7 @@ def cached_plan(snapshot,directory):
         plan=plans.get(roster.identity(snapshot['character']))
         if plan and plan.get('context')==context(snapshot) and plan.get('expiresAt',0)>time.time():
             current={t['id']:t for t in candidates(snapshot)}
-            if all(r['taskID'] in current and r.get('taskSignature')==digest(current[r['taskID']]) for r in plan.get('recommendations',[])):return plan
+            if all(r['taskID'] in current and r.get('taskSignature')==task_signature(current[r['taskID']]) for r in plan.get('recommendations',[])):return plan
     except (OSError,ValueError,AttributeError):pass
     return None
 

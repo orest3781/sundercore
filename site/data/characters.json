@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T03:09:45Z",
+  "updatedAt": "2026-11-18T22:40:53Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -18439,7 +18439,7 @@
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",
-      "exportedAt": "2026-11-18T02:57:14Z",
+      "exportedAt": "2026-11-18T22:40:53Z",
       "addonVersion": "1.11.0",
       "character": {
         "name": "Seethe",
@@ -18454,7 +18454,7 @@
         "xp": 100,
         "xpForNextLevel": 400,
         "restedXP": 600,
-        "moneyCopper": 4037,
+        "moneyCopper": 3959,
         "maxHealth": 78,
         "maxPower": 67,
         "stats": {
@@ -18466,12 +18466,22 @@
         }
       },
       "bags": {
-        "free": 37,
+        "free": 35,
         "capacity": 38,
         "items": [
           {
+            "itemID": 1288,
+            "name": "Large Venom Sac",
+            "count": 1
+          },
+          {
             "itemID": 6948,
             "name": "Hearthstone",
+            "count": 1
+          },
+          {
+            "itemID": 20752,
+            "name": "Formula: Minor Mana Oil",
             "count": 1
           }
         ]
@@ -18592,7 +18602,7 @@
           "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
           "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
           "actionType": "training",
-          "source": "Naowh Training 1.3.2 / TrainingData + live spellbook",
+          "source": "Naowh Training 1.3.4 / TrainingData + live spellbook",
           "button": "Open training",
           "priority": 78,
           "materials": [],
@@ -18606,7 +18616,7 @@
           "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 66,
           "materials": [],
@@ -18648,7 +18658,7 @@
           "why": "Balance Druid level-30 wishlist; 3 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 65,
           "materials": [],
@@ -18714,7 +18724,7 @@
           "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 60,
           "materials": [],
@@ -18747,7 +18757,7 @@
           "why": "Balance Druid level-30 wishlist; 2 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 60,
           "materials": [],
@@ -18792,7 +18802,7 @@
           "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 59,
           "materials": [],
@@ -18825,7 +18835,7 @@
           "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -18849,7 +18859,7 @@
           "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -18873,7 +18883,7 @@
           "why": "Balance Druid level-30 wishlist; 1 target slots are currently empty.",
           "action": "Review these sourced targets as you level. Meeting an item's level requirement does not establish dungeon or quest readiness.\nThese are curated wishlist candidates, not simulated upgrade percentages. Compare the item tooltip with your current gear before spending gold.\nGear profile: Balance Druid (Naowh selected list).",
           "actionType": "bis",
-          "source": "Naowh BiS 1.3.2 / BiS/Data/Leveling.lua",
+          "source": "Naowh BiS 1.3.4 / BiS/Data/Leveling.lua",
           "button": "Open Naowh BiS",
           "priority": 55,
           "materials": [],
@@ -18928,7 +18938,7 @@
           "category": "Professions",
           "status": "Requirements pending",
           "why": "Alchemy is 1/75. This rank requires 50 skill and level 10.",
-          "action": "Learn Journeyman Alchemy.\nBena Winterhoof, Thunder Bluff (46.8, 33.4)\nListed cost: 5s 0c. Your money: 40s 37c.",
+          "action": "Learn Journeyman Alchemy.\nBena Winterhoof, Thunder Bluff (46.8, 33.4)\nListed cost: 5s 0c. Your money: 39s 59c.",
           "actionType": "waypoint",
           "source": "Naowh Professions 1.2.30 / RecipeData + RecipeReagents",
           "button": "Show vendor / trainer",
@@ -18972,7 +18982,7 @@
         ],
         "notices": [],
         "budget": {
-          "available": 4037,
+          "available": 3959,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -18986,10 +18996,10 @@
       },
       "dailyPlan": {
         "version": 3,
-        "day": "2026-11-17",
+        "day": "2026-11-18",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-18T02:57:14Z",
+        "generatedAt": "2026-11-18T22:40:53Z",
         "today": [
           {
             "id": "quest:752",
@@ -19012,7 +19022,7 @@
             "status": "Trainer / quest",
             "why": "Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
             "action": "Mark of the Wild (level 1, listed 0s 10c)\n\nChoose useful skills within your budget; listed prices may differ at the trainer.",
-            "source": "Naowh Training 1.3.2 / TrainingData + live spellbook",
+            "source": "Naowh Training 1.3.4 / TrainingData + live spellbook",
             "open": "Progression",
             "pinned": false,
             "reviewed": false,
@@ -19062,21 +19072,6 @@
             "snoozed": false
           },
           {
-            "id": "gold:craft:1245246",
-            "kind": "Craft",
-            "title": "Test one craft: Minor Arcane Elixir",
-            "status": "Acquire materials first",
-            "why": "Estimated 0s 8c above 0s 32c of materials, after a 5% AH cut; before deposits.",
-            "action": "Review one Minor Arcane Elixir craft in Alchemy. Check tools, output and the current selling price before making it. List a small test batch.",
-            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (0.1 hours old)",
-            "open": "Gold",
-            "itemID": 247754,
-            "recipeID": 1245246,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "level:next",
             "kind": "Leveling",
             "title": "Reach level 2",
@@ -19113,6 +19108,21 @@
             "open": "Gear",
             "itemID": 15468,
             "questID": 4904,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:16741",
+            "kind": "Gear",
+            "title": "Upgrade: Oilrag Handwraps",
+            "status": "Review source",
+            "why": "Replaces Empty slot; estimated +10.0 stat points. The Lost Pages - Ashenvale - Gurda Ragescar (70, 71.2)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 16741,
+            "questID": 6504,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19158,21 +19168,6 @@
             "open": "Gear",
             "itemID": 19121,
             "questID": 7861,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:2032",
-            "kind": "Gear",
-            "title": "Upgrade: Gallan Cuffs",
-            "status": "Review source",
-            "why": "Replaces Empty slot; estimated +2.2 stat points. To Steal From Thieves - Undercity - Genavie Callow (63.8, 49.5)",
-            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 2032,
-            "questID": 1164,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19253,20 +19248,6 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:5316",
-            "kind": "Gear",
-            "title": "Upgrade: Barkshell Tunic",
-            "status": "Review source",
-            "why": "Replaces Novice's Robe; estimated +8.6 stat points. Betrayal from Within · Quest (Horde)",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 5316,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "upgrade:6750",
             "kind": "Gear",
             "title": "Upgrade: Snake Hoop",
@@ -19277,6 +19258,21 @@
             "open": "Gear",
             "itemID": 6750,
             "questID": 1144,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9622",
+            "kind": "Gear",
+            "title": "Upgrade: Reedknot Ring",
+            "status": "Review source",
+            "why": "Replaces Empty slot; estimated +7.2 stat points. Jarl Needs a Blade - Dustwallow Marsh - \"Swamp Eye\" Jarl (55.4, 26.3)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9622,
+            "questID": 1203,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19293,20 +19289,6 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 10774,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:13084",
-            "kind": "Gear",
-            "title": "Upgrade: Kaleidoscope Chain",
-            "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +1.3 stat points. World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 13084,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19335,6 +19317,20 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 1486,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:15063",
+            "kind": "Gear",
+            "title": "Upgrade: Devilsaur Gauntlets",
+            "status": "Level 53 required",
+            "why": "Replaces Empty slot; estimated +10.4 stat points. Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 15063,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19419,20 +19415,6 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 21120,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:252448",
-            "kind": "Gear",
-            "title": "Upgrade: Totemic Leather Hood",
-            "status": "Level 20 required",
-            "why": "Replaces Empty slot; estimated +9.9 stat points. Leatherworking · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 252448,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19690,20 +19672,6 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:285338",
-            "kind": "Gear",
-            "title": "Upgrade: Kodohide Legguards",
-            "status": "Level 24 required",
-            "why": "Replaces Novice's Pants; estimated +13.5 stat points. Brontus · The Barrens",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 285338,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "upgrade:286985",
             "kind": "Gear",
             "title": "Upgrade: Thicket Bindings",
@@ -19788,15 +19756,15 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:3020",
+            "id": "upgrade:3719",
             "kind": "Gear",
-            "title": "Upgrade: Enduring Cap",
-            "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +4.9 stat points. World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "title": "Upgrade: Hillman's Cloak",
+            "status": "Level 25 required",
+            "why": "Replaces Empty slot; estimated +5.3 stat points. Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 3020,
+            "itemID": 3719,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -19825,20 +19793,6 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 4320,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:4322",
-            "kind": "Gear",
-            "title": "Upgrade: Enchanter's Cowl",
-            "status": "Level 28 required",
-            "why": "Replaces Empty slot; estimated +9.0 stat points. Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 4322,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -20012,15 +19966,15 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:7055",
+            "id": "upgrade:7407",
             "kind": "Gear",
-            "title": "Upgrade: Crimson Silk Belt",
+            "title": "Upgrade: Infiltrator Armor",
             "status": "Level 30 required",
-            "why": "Replaces Empty slot; estimated +8.1 stat points. Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
+            "why": "Replaces Novice's Robe; estimated +0.5 stat points. World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 7055,
+            "itemID": 7407,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -20167,7 +20121,7 @@
         "profileOrigin": "Naowh selected list",
         "source": "Installed NaowhForever 1.2.33",
         "auto": true,
-        "pending": 103,
+        "pending": 105,
         "checked": 192,
         "merchantFavor": {
           "currencyID": 3402,
@@ -20383,44 +20337,55 @@
             ]
           },
           {
-            "name": "Barkshell Tunic",
-            "slotName": "Chest",
-            "current": "Novice's Robe",
+            "name": "Oilrag Handwraps",
+            "slotName": "Hands",
+            "current": "Empty slot",
             "status": "Review source",
-            "kind": "Review",
-            "source": "Betrayal from Within · Quest (Horde)",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 5316,
-            "slot": 5,
+            "kind": "Quest",
+            "source": "The Lost Pages - Ashenvale - Gurda Ragescar (70, 71.2)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "itemID": 16741,
+            "slot": 10,
             "requiredLevel": 0,
-            "currentItemID": 6139,
-            "currentScore": 0.015,
-            "candidateScore": 8.63,
-            "gain": 8.615,
+            "questID": 6504,
+            "currentScore": 0,
+            "candidateScore": 9.955,
+            "gain": 9.955,
             "group": false,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.7,
+              "y": 0.712
+            },
             "materials": [],
             "statChanges": [
               {
                 "stat": "Armor",
-                "before": 3,
-                "after": 86,
-                "delta": 83
+                "before": 0,
+                "after": 59,
+                "delta": 59
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 2,
+                "delta": 2
               },
               {
                 "stat": "Spell Power",
                 "before": 0,
-                "after": 8,
-                "delta": 8
+                "after": 9,
+                "delta": 9
               },
               {
                 "stat": "Stamina",
                 "before": 0,
-                "after": 4,
-                "delta": 4
+                "after": 2,
+                "delta": 2
               }
             ]
           },
@@ -20498,6 +20463,47 @@
                 "before": 0,
                 "after": 6,
                 "delta": 6
+              }
+            ]
+          },
+          {
+            "name": "Reedknot Ring",
+            "slotName": "Ring 1",
+            "current": "Empty slot",
+            "status": "Review source",
+            "kind": "Quest",
+            "source": "Jarl Needs a Blade - Dustwallow Marsh - \"Swamp Eye\" Jarl (55.4, 26.3)",
+            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
+            "itemID": 9622,
+            "slot": 11,
+            "requiredLevel": 0,
+            "questID": 1203,
+            "currentScore": 0,
+            "candidateScore": 7.15,
+            "gain": 7.15,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1445,
+              "x": 0.554,
+              "y": 0.263
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 3,
+                "delta": 3
               }
             ]
           },
@@ -20638,53 +20644,6 @@
             ]
           },
           {
-            "name": "Gallan Cuffs",
-            "slotName": "Wrists",
-            "current": "Empty slot",
-            "status": "Review source",
-            "kind": "Quest",
-            "source": "To Steal From Thieves - Undercity - Genavie Callow (63.8, 49.5)",
-            "action": "Check the quest chain and reward choice. Availability and quest difficulty need confirmation.",
-            "itemID": 2032,
-            "slot": 9,
-            "requiredLevel": 0,
-            "questID": 1164,
-            "currentScore": 0,
-            "candidateScore": 2.215,
-            "gain": 2.215,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1458,
-              "x": 0.638,
-              "y": 0.495
-            },
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 21,
-                "delta": 21
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              }
-            ]
-          },
-          {
             "name": "Tanned Shoulderpads",
             "slotName": "Shoulders",
             "current": "Empty slot",
@@ -20732,6 +20691,32 @@
             ]
           },
           {
+            "name": "Gallan Cuffs",
+            "slotName": "Wrists",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Quest",
+            "source": "To Steal From Thieves - Undercity - Genavie Callow (63.8, 49.5)",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2032,
+            "slot": 9,
+            "requiredLevel": 0,
+            "questID": 1164,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1458,
+              "x": 0.638,
+              "y": 0.495
+            },
+            "materials": [],
+            "statChanges": []
+          },
+          {
             "name": "White Drakeskin Cap",
             "slotName": "Head",
             "current": "Empty slot",
@@ -20752,17 +20737,18 @@
             "statChanges": []
           },
           {
-            "name": "Gnomish Universal Remote",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
+            "name": "Barkshell Tunic",
+            "slotName": "Chest",
+            "current": "Novice's Robe",
             "status": "Loading item data",
             "kind": "Review",
-            "source": "Engineering · Crafted",
+            "source": "Betrayal from Within · Quest (Horde)",
             "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7506,
-            "slot": 13,
+            "itemID": 5316,
+            "slot": 5,
             "requiredLevel": 0,
-            "currentScore": 0,
+            "currentItemID": 6139,
+            "currentScore": 0.015,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -20793,32 +20779,6 @@
               "map": 1456,
               "x": 0.344,
               "y": 0.469
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Reedknot Ring",
-            "slotName": "Ring 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "Jarl Needs a Blade - Dustwallow Marsh - \"Swamp Eye\" Jarl (55.4, 26.3)",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9622,
-            "slot": 11,
-            "requiredLevel": 0,
-            "questID": 1203,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1445,
-              "x": 0.554,
-              "y": 0.263
             },
             "materials": [],
             "statChanges": []
@@ -20890,32 +20850,6 @@
             "statChanges": []
           },
           {
-            "name": "Oilrag Handwraps",
-            "slotName": "Hands",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "The Lost Pages - Ashenvale - Gurda Ragescar (70, 71.2)",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 16741,
-            "slot": 10,
-            "requiredLevel": 0,
-            "questID": 6504,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.7,
-              "y": 0.712
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Silkstream Cuffs",
             "slotName": "Wrists",
             "current": "Empty slot",
@@ -20945,22 +20879,36 @@
             "name": "Witch's Finger",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Loading item data",
+            "status": "Needs weapon set",
             "kind": "Quest",
             "source": "Baron Aquanis - Where it starts is not known yet",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
             "itemID": 16887,
             "slot": 17,
             "requiredLevel": 0,
             "questID": 909,
             "currentScore": 0,
+            "candidateScore": 2.44,
             "group": false,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
             "materials": [],
-            "statChanges": []
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              }
+            ]
           },
           {
             "name": "Black Crystal Dagger",
@@ -21521,54 +21469,6 @@
             ]
           },
           {
-            "name": "Kodohide Legguards",
-            "slotName": "Legs",
-            "current": "Novice's Pants",
-            "status": "Level 24 required",
-            "kind": "Review",
-            "source": "Brontus · The Barrens",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 285338,
-            "slot": 7,
-            "requiredLevel": 24,
-            "currentItemID": 6124,
-            "currentScore": 0.01,
-            "candidateScore": 13.52,
-            "gain": 13.51,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 2,
-                "after": 88,
-                "delta": 86
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 11,
-                "delta": 11
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 10,
-                "delta": 10
-              },
-              {
-                "stat": "Strength",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              }
-            ]
-          },
-          {
             "name": "Tree Bark Jacket",
             "slotName": "Chest",
             "current": "Novice's Robe",
@@ -22060,6 +21960,53 @@
             ]
           },
           {
+            "name": "Devilsaur Gauntlets",
+            "slotName": "Hands",
+            "current": "Empty slot",
+            "status": "Level 53 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 15063,
+            "slot": 10,
+            "requiredLevel": 53,
+            "currentScore": 0,
+            "candidateScore": 10.365,
+            "gain": 10.365,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 103,
+                "delta": 103
+              },
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 28,
+                "delta": 28
+              },
+              {
+                "stat": "Critical Strike",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              }
+            ]
+          },
+          {
             "name": "Belt of Arugal",
             "slotName": "Waist",
             "current": "Empty slot",
@@ -22166,47 +22113,6 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
-              }
-            ]
-          },
-          {
-            "name": "Totemic Leather Hood",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Level 20 required",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 252448,
-            "slot": 1,
-            "requiredLevel": 20,
-            "currentScore": 0,
-            "candidateScore": 9.88,
-            "gain": 9.88,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 76,
-                "delta": 76
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 9,
-                "delta": 9
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 10,
-                "delta": 10
               }
             ]
           },
@@ -22386,47 +22292,6 @@
                 "before": 0,
                 "after": 11,
                 "delta": 11
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              }
-            ]
-          },
-          {
-            "name": "Enchanter's Cowl",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Level 28 required",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 4322,
-            "slot": 1,
-            "requiredLevel": 28,
-            "currentScore": 0,
-            "candidateScore": 8.985,
-            "gain": 8.985,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 37,
-                "delta": 37
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 10,
-                "delta": 10
               },
               {
                 "stat": "Spell Power",
@@ -22642,47 +22507,6 @@
                 "before": 0,
                 "after": 7,
                 "delta": 7
-              }
-            ]
-          },
-          {
-            "name": "Crimson Silk Belt",
-            "slotName": "Waist",
-            "current": "Empty slot",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 7055,
-            "slot": 6,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 8.09,
-            "gain": 8.09,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 26,
-                "delta": 26
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 6,
-                "delta": 6
               }
             ]
           },
@@ -23426,6 +23250,47 @@
             ]
           },
           {
+            "name": "Hillman's Cloak",
+            "slotName": "Back",
+            "current": "Empty slot",
+            "status": "Level 25 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 3719,
+            "slot": 15,
+            "requiredLevel": 25,
+            "currentScore": 0,
+            "candidateScore": 5.305,
+            "gain": 5.305,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 21,
+                "delta": 21
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              }
+            ]
+          },
+          {
             "name": "Stygian Bone Amulet",
             "slotName": "Neck",
             "current": "Empty slot",
@@ -23514,47 +23379,6 @@
                 "before": 0,
                 "after": 5,
                 "delta": 5
-              }
-            ]
-          },
-          {
-            "name": "Enduring Cap",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Level 28 required",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "itemID": 3020,
-            "slot": 1,
-            "requiredLevel": 28,
-            "currentScore": 0,
-            "candidateScore": 4.92,
-            "gain": 4.92,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 0,
-                "after": 88,
-                "delta": 88
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 16,
-                "delta": 16
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
               }
             ]
           },
@@ -23918,59 +23742,6 @@
             ]
           },
           {
-            "name": "Kaleidoscope Chain",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Level 30 required",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
-            "itemID": 13084,
-            "slot": 2,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "candidateScore": 1.32,
-            "gain": 1.32,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": [
-              {
-                "stat": "Agility",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Strength",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              }
-            ]
-          },
-          {
             "name": "Fleshhide Shoulders",
             "slotName": "Shoulders",
             "current": "Empty slot",
@@ -24019,6 +23790,36 @@
                 "before": 0,
                 "after": 5,
                 "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Infiltrator Armor",
+            "slotName": "Chest",
+            "current": "Novice's Robe",
+            "status": "Level 30 required",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Random world drop: no reliable targeted farm is known. Watch for it while doing other goals.",
+            "itemID": 7407,
+            "slot": 5,
+            "requiredLevel": 30,
+            "currentItemID": 6139,
+            "currentScore": 0.015,
+            "candidateScore": 0.51,
+            "gain": 0.495,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 3,
+                "after": 102,
+                "delta": 99
               }
             ]
           },
@@ -24215,6 +24016,26 @@
             "statChanges": []
           },
           {
+            "name": "Enduring Cap",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 3020,
+            "slot": 1,
+            "requiredLevel": 28,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
             "name": "Crested Scepter",
             "slotName": "Main hand",
             "current": "Bent Staff",
@@ -24265,26 +24086,6 @@
                 "delta": 10.73607468605
               }
             ]
-          },
-          {
-            "name": "Hillman's Cloak",
-            "slotName": "Back",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 3719,
-            "slot": 15,
-            "requiredLevel": 25,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
           },
           {
             "name": "Guardian Armor",
@@ -24358,6 +24159,26 @@
             "itemID": 4318,
             "slot": 10,
             "requiredLevel": 21,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Enchanter's Cowl",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4322,
+            "slot": 1,
+            "requiredLevel": 28,
             "currentScore": 0,
             "group": false,
             "tracked": false,
@@ -24541,6 +24362,26 @@
             ]
           },
           {
+            "name": "Crimson Silk Belt",
+            "slotName": "Waist",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 7055,
+            "slot": 6,
+            "requiredLevel": 30,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
             "name": "Green Silk Armor",
             "slotName": "Chest",
             "current": "Novice's Robe",
@@ -24573,27 +24414,6 @@
             "slot": 10,
             "requiredLevel": 20,
             "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Infiltrator Armor",
-            "slotName": "Chest",
-            "current": "Novice's Robe",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7407,
-            "slot": 5,
-            "requiredLevel": 30,
-            "currentItemID": 6139,
-            "currentScore": 0.015,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -24646,15 +24466,14 @@
             "name": "Orb of the Forgotten Seer",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Dungeon",
             "source": "Bloodmage Thalnos - Scarlet Monastery - Graveyard",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 7685,
             "slot": 17,
             "requiredLevel": 32,
             "currentScore": 0,
-            "candidateScore": 14,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -24666,14 +24485,7 @@
               "y": 0.316
             },
             "materials": [],
-            "statChanges": [
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 14,
-                "delta": 14
-              }
-            ]
+            "statChanges": []
           },
           {
             "name": "Explorers' League Commendation",
@@ -24699,16 +24511,15 @@
             "name": "Galgann's Firehammer",
             "slotName": "Main hand",
             "current": "Bent Staff",
-            "status": "Needs weapon set",
+            "status": "Loading item data",
             "kind": "Dungeon",
             "source": "Galgann Firehammer - Uldaman",
-            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
             "itemID": 9419,
             "slot": 16,
             "requiredLevel": 42,
             "currentItemID": 35,
             "currentScore": 0,
-            "candidateScore": 54,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -24720,20 +24531,7 @@
               "y": 0.12
             },
             "materials": [],
-            "statChanges": [
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 54,
-                "delta": 54
-              },
-              {
-                "stat": "damage per second",
-                "before": 1.3793103694916,
-                "after": 20.909090042114,
-                "delta": 19.529779672623
-              }
-            ]
+            "statChanges": []
           },
           {
             "name": "Repairman's Cape",
@@ -24836,26 +24634,6 @@
             "statChanges": []
           },
           {
-            "name": "Greenstone Talisman",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "World drop",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 12029,
-            "slot": 2,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Magician's Mantle",
             "slotName": "Shoulders",
             "current": "Empty slot",
@@ -24866,6 +24644,26 @@
             "itemID": 12998,
             "slot": 3,
             "requiredLevel": 20,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Kaleidoscope Chain",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "World drop",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 13084,
+            "slot": 2,
+            "requiredLevel": 30,
             "currentScore": 0,
             "group": false,
             "tracked": false,
@@ -24906,26 +24704,6 @@
             "itemID": 14201,
             "slot": 3,
             "requiredLevel": 29,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Devilsaur Gauntlets",
-            "slotName": "Hands",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 15063,
-            "slot": 10,
-            "requiredLevel": 53,
             "currentScore": 0,
             "group": false,
             "tracked": false,
@@ -25346,6 +25124,26 @@
             "itemID": 252443,
             "slot": 8,
             "requiredLevel": 17,
+            "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Totemic Leather Hood",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 252448,
+            "slot": 1,
+            "requiredLevel": 20,
             "currentScore": 0,
             "group": false,
             "tracked": false,
@@ -26066,6 +25864,27 @@
             "slot": 2,
             "requiredLevel": 20,
             "currentScore": 0,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Kodohide Legguards",
+            "slotName": "Legs",
+            "current": "Novice's Pants",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Brontus · The Barrens",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 285338,
+            "slot": 7,
+            "requiredLevel": 24,
+            "currentItemID": 6124,
+            "currentScore": 0.01,
             "group": false,
             "tracked": false,
             "ignored": false,

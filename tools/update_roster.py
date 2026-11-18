@@ -118,6 +118,15 @@ PUBLIC = dict(id=text,exportedAt=text,addonVersion=text,character=CHARACTER,
     goals=[GOAL],nextSteps=[text],fieldPlan=FIELD,dailyPlan=DAILY,gearPlan=GEAR,sessions=[SESSION],activeSession=SESSION,
     coverage={k:text for k in ('bags','bank','professions','bankCapturedAt','bankStatus','sessions')})
 
+# AI data is explicitly projected. Prompts, local paths, context signatures,
+# account identifiers and full downloaded datasets never enter the public file.
+AI_REFERENCE=dict(id=text,title=text,url=text,confidence=text,text=text)
+AI_RECOMMENDATION=dict(taskID=text,title=text,reason=text,action=text,status=text,source=text,kind=text,itemID=integer,evidenceIDs=[text])
+PUBLIC['localAI']=dict(schemaVersion=integer,generatedAt=integer,expiresAt=integer,snapshotAt=text,model=text,summary=text,
+    recommendations=[AI_RECOMMENDATION],evidence=[AI_REFERENCE],notices=[text],
+    knowledge=dict(build=text,updatedAt=text,items=integer,quests=integer,sources=integer,url=text))
+DAILY_TASK['aiReason']=text
+
 def identity(character):
     name=text(character.get('name','')).strip();realm=text(character.get('realm','')).strip()
     if not name or not realm: raise ValueError('Character name and realm are required')
@@ -173,6 +182,7 @@ def public_snapshot(source):
     if source.get('activeFarmSession'): result['activeSession']=source['activeFarmSession']
     if isinstance(source.get('dailyPlan'),dict): result['dailyPlan']=source['dailyPlan']
     if isinstance(source.get('gearPlan'),dict): result['gearPlan']=source['gearPlan']
+    if isinstance(source.get('localAI'),dict): result['localAI']=source['localAI']
     clean=normalize_public(result)
     for m in clean['fieldPlan'].get('materials',[]):
         if not m.get('action'):
@@ -202,7 +212,11 @@ def merge_roster(existing,incoming):
         row=normalize_public(raw);old=rows.get(row['id'])
         if old is None or timestamp(row['exportedAt'])>timestamp(old['exportedAt']):
             rows[row['id']]=row;changed=True
-        # Equal timestamps are deliberately idempotent, even if contents differ.
+        # Analysis finishes after the character upload. At the same snapshot
+        # timestamp only a strictly newer AI result may be attached; all other
+        # character fields retain their original idempotent behavior.
+        elif timestamp(row['exportedAt'])==timestamp(old['exportedAt']) and row.get('localAI',{}).get('generatedAt',0)>old.get('localAI',{}).get('generatedAt',0):
+            rows[row['id']]=dict(old,localAI=row['localAI']);changed=True
     ordered=sorted(rows.values(),key=lambda r:(r['character']['realm'].casefold(),r['character']['name'].casefold()))
     result={'schemaVersion':1,'updatedAt':max((r['exportedAt'] for r in ordered),default=None),'characters':ordered}
     return result,changed
@@ -241,6 +255,17 @@ def publish(repo,remote_path,incoming,api=gh_api):
         sha=None;existing=None
         try:
             response=api(endpoint)
+            # Contents responses omit inline data above 1 MB. Read the exact
+            # immutable blob, then retain its SHA for the normal conflict check.
+            if response.get('encoding')=='none':
+                file_sha=response.get('sha');size=response.get('size')
+                if not isinstance(file_sha,str) or not re.fullmatch(r'[0-9a-f]{40}',file_sha) or type(size) is not int or not 0<size<=MAX_BYTES:
+                    raise ValueError('Invalid large roster metadata')
+                try: response=api('repos/'+repo+'/git/blobs/'+file_sha)
+                except GitHubError as exc:
+                    # A missing blob is not a missing roster: never replace it.
+                    raise ValueError('Existing roster blob could not be read') from exc
+                if response.get('sha')!=file_sha:raise ValueError('Roster blob identity mismatch')
             if response.get('encoding')!='base64' or not isinstance(response.get('content'),str):raise ValueError('Unexpected GitHub content response')
             existing=strict_json(base64.b64decode(response['content']).decode('utf-8'));sha=response['sha']
         except GitHubError as exc:

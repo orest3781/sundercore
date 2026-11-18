@@ -30,6 +30,7 @@ jobs:
           node tools/test_daily_views.cjs
           node tools/test_gear_views.cjs
           node tools/test_journal.cjs
+          node tools/test_local_ai.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

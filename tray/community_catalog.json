@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": 1794959400,
+  "strategies": [
+    {
+      "id": "cloth", "title": "Grind cloth, then compare your surplus",
+      "summary": "Players discuss humanoid cloth farming as a leveling income option. Reports disagree about vendor conversions, so cloth and crafted outputs need separate price checks.",
+      "steps": "Choose a level-appropriate camp in Ledger. Keep cloth required by both professions and saved projects. Compare the remaining cloth with current auction listings and vendor value. Record an outing before deciding to repeat it.",
+      "professions": [], "items": [2589,2592,4306,4338,14047], "kinds": ["Farm","Sell"],
+      "sources": [{"title": "Early-area farming discussion", "url": "https://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327"}]
+    },
+    {
+      "id": "bags", "title": "Test a small bag craft",
+      "summary": "Community players report selling bags, but a report from another realm or day does not establish demand on yours.",
+      "steps": "Open Tailoring and scan auction prices. Compare a learned bag recipe with the sale value of its materials. Only queue one test when Ledger has a complete recipe, fresh quotes and a worthwhile margin. Check deposits and actual sales before making more.",
+      "professions": [197], "items": [4238,4240,4245,10050,14046], "kinds": ["Craft","Sell"],
+      "sources": [{"title": "Players discuss bags and wands", "url": "https://www.reddit.com/r/wowforever/comments/1xozkp4/how_are_you_guys_making_gold/"}]
+    },
+    {
+      "id": "wands", "title": "Check the market for learned wands",
+      "summary": "Wand selling appears in community gold discussions. Enchanting materials still have a resale cost even when you obtained them yourself.",
+      "steps": "Open Enchanting and refresh auction prices. Check only learned wand recipes with captured ingredients. Protect your profession supplies first. Use an eligible one-craft comparison in Gold; do not assume buying greens to disenchant is profitable.",
+      "professions": [333], "items": [11287,11288,11289,11290], "kinds": ["Craft","Sell"],
+      "sources": [{"title": "Players discuss bags and wands", "url": "https://www.reddit.com/r/wowforever/comments/1xozkp4/how_are_you_guys_making_gold/"}]
+    },
+    {
+      "id": "cooking", "title": "Price spare cooking materials before vendoring",
+      "summary": "A recent community thread highlights checking meat and other cooking supplies at the auction house. Listed prices alone do not show whether buyers will purchase them.",
+      "steps": "Keep ingredients reserved for profession progress and projects. Compare unreserved meat or fish with current listings. If you know a cooking recipe, compare its ingredient cost with the cooked output before choosing a small test craft.",
+      "professions": [185,356], "items": [2672,2677,3712,12037,12202,12203,6358,6362], "kinds": ["Farm","Sell","Craft"],
+      "sources": [{"title": "Gold tips and spending discussion", "url": "https://www.reddit.com/r/wowforever/comments/1xuv2bv/gold_is_not_an_issue_gold_tips_tricks/"}]
+    }
+  ],
+  "notices": [
+    {"title": "Blackmaw Hold loot farm was hotfixed", "summary": "Blizzard confirmed that the unusually lucrative non-elite dungeon drops were corrected. Older earnings claims for that farm should not be used to plan an outing.", "url": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757"}
+  ]
+}

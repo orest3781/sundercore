@@ -1,6 +1,24 @@
+// Public analysis is display-only. The website never connects to local Ollama.
+function aiCurrent(c){return c.localAI?.schemaVersion===1&&Number(c.localAI.expiresAt)*1000>Date.now();}
+function aiSourceLink(value,label){
+  try{const u=new URL(value);if(u.protocol==='https:'&&['www.wowhead.com','github.com','us.forums.blizzard.com'].includes(u.hostname))return `<a href="${e(u.href)}" target="_blank" rel="noopener noreferrer">${e(label)}</a>`;}catch{}
+  return e(label);
+}
+function localAICard(c){
+  const p=c.localAI;
+  return `<section class="panel ai-card"><div class="panel-header"><h2>Local advisor</h2><span class="pill ${aiCurrent(c)?'green':''}">${p?(aiCurrent(c)?'Ready':'Needs refresh'):'Waiting'}</span></div><div class="panel-content"><p>${p?e(p.summary):'Update SunderCore in game and keep the watcher running to receive your local analysis.'}</p>${p?`<p class="panel-caption">Analyzed ${e(date(new Date(p.generatedAt*1000).toISOString()))}. Based on your saved character.</p>`:''}<a class="small-link" href="${routeLink('advisor',c)}">Review recommendations & sources</a></div></section>`;
+}
+function advisor(c){
+  const p=c.localAI;
+  if(!p)return `<div class="view-header"><div><span class="eyebrow">LOCAL ADVISOR</span><h2>A plan grounded in your character.</h2><p>Analysis runs on your PC through SunderCore Watcher.</p></div></div>${localAICard(c)}`;
+  const evidence=new Map(list(p.evidence).map(r=>[r.id,r]));
+  const card=r=>`<article class="panel ai-recommendation"><div class="panel-header"><div><span class="eyebrow">${e(r.kind||'SUGGESTION')}</span><h2>${e(r.title)}</h2></div></div><div class="panel-content"><p>${e(r.reason)}</p><h3>Next action</h3><p class="preserve-lines">${e(r.action)}</p><details class="task-evidence"><summary>Sources & confidence</summary><p class="preserve-lines">${e(r.source)}</p>${list(r.evidenceIDs).map(id=>{const s=evidence.get(id);return s?`<p>${aiSourceLink(s.url,s.title)}<br><small>${e(s.confidence)}</small></p>`:'';}).join('')}<p class="panel-caption">AI chose the priority. Reasons, actions and quantities come from your saved facts.</p></details></div></article>`;
+  return `<div class="view-header"><div><span class="eyebrow">LOCAL ADVISOR</span><h2>Your next worthwhile steps.</h2><p>${e(p.summary)}</p></div><span class="pill ${aiCurrent(c)?'green':''}">${aiCurrent(c)?'Saved analysis':'Expired analysis'}</span></div>${!aiCurrent(c)?'<div class="notice">This analysis has expired. Update SunderCore for a fresh plan before acting.</div>':''}<p class="source-note">Character snapshot ${e(date(p.snapshotAt))} · analyzed ${e(date(new Date(p.generatedAt*1000).toISOString()))}. Today retains your pins, urgent bag space and local eligibility checks.</p><div class="stack">${list(p.recommendations).map(card).join('')}</div><section class="panel section-gap"><div class="panel-header"><h2>Knowledge & limits</h2></div><div class="panel-content"><p>${fmt(p.knowledge?.items)} items · ${fmt(p.knowledge?.quests)} quests · ${fmt(p.knowledge?.sources)} acquisition records. Build ${e(p.knowledge?.build)}.</p><p>${aiSourceLink(p.knowledge?.url,'WoW Forever KB and upstream data attribution')} · ${e(p.knowledge?.updatedAt)}</p>${list(p.notices).map(n=>`<p class="panel-caption">${e(n)}</p>`).join('')}<p>In game, open Browse → Local advisor. Update SunderCore exports your character; reload again after analysis finishes to load the result.</p></div></section>`;
+}
+
 'use strict';
 const REPOSITORY = 'https://github.com/orest3781/sundercore';
-const VIEWS = {today:'Today',goals:'My Goals',browse:'Browse',ideas:'More ideas',gold:'Gold routine',sources:'About the data',projects:'Crafting projects',upgrades:'Gear upgrades',overview:'Overview',field:'Field guide',inventory:'Inventory',professions:'Professions',equipment:'Armory',activity:'Outings'};
+const VIEWS = {advisor:'Local advisor',today:'Today',goals:'My Goals',browse:'Browse',ideas:'More ideas',gold:'Gold routine',sources:'About the data',projects:'Crafting projects',upgrades:'Gear upgrades',overview:'Overview',field:'Field guide',inventory:'Inventory',professions:'Professions',equipment:'Armory',activity:'Outings'};
 const state = {roster:[],selected:null,view:'today',filter:''};
 const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -180,7 +198,7 @@ function professionMini(c){
 function today(c){
   const p=dailyFor(c),tasks=list(p.today),visible=tasks.slice(0,3);
   return `<div class="view-header journal-heading"><div><div class="eyebrow">TODAY</div><h2>Your next step, made simple.</h2><p>${p.legacy?'Basic plan from an older snapshot. Update Character Ledger and save to share your chosen daily plan.':`${e(FOCUS_LABELS[p.mode]||'Saved focus')} · Saved plan for ${e(p.day||'this snapshot')}`}</p></div><a class="small-link" href="${routeLink('ideas',c)}">More ideas ↗</a></div>
-  <div class="journal-layout"><div class="stack"><section class="panel today-board" aria-label="Daily checklist">${visible.length?visible.map((t,i)=>taskCard(c,p,t,i,i===0)).join(''):empty('Your checklist is clear.','Browse more ideas or choose a project in My Goals.')}${tasks.length>3?`<details class="extra-tasks"><summary>${tasks.length-3} more tasks in your saved checklist</summary>${tasks.slice(3).map((t,i)=>taskCard(c,p,t,i+3)).join('')}</details>`:''}<div class="daily-local-note">Website reviews stay on this device. Change your plan in game.</div></section><div class="journal-help"><span>Focus and checklist size are set in <strong>/chartoday</strong>.</span><button class="text-button" data-manage>How to update ↗</button></div></div><aside class="stack" aria-label="Tracked goal and professions"><section class="panel tracked-panel">${trackedObjective(c)}</section>${professionMini(c)}</aside></div>`;
+  <div class="journal-layout"><div class="stack"><section class="panel today-board" aria-label="Daily checklist">${visible.length?visible.map((t,i)=>taskCard(c,p,t,i,i===0)).join(''):empty('Your checklist is clear.','Browse more ideas or choose a project in My Goals.')}${tasks.length>3?`<details class="extra-tasks"><summary>${tasks.length-3} more tasks in your saved checklist</summary>${tasks.slice(3).map((t,i)=>taskCard(c,p,t,i+3)).join('')}</details>`:''}<div class="daily-local-note">Website reviews stay on this device. Change your plan in game.</div></section><div class="journal-help"><span>Focus and checklist size are set in <strong>/chartoday</strong>.</span><button class="text-button" data-manage>How to update ↗</button></div></div><aside class="stack" aria-label="Tracked goal and professions"><section class="panel tracked-panel">${trackedObjective(c)}</section>${professionMini(c)}${localAICard(c)}</aside></div>`;
 }
 function professionGoal(c,prof){
   return allDailyTasks(c).find(t=>(prof.skillLineID!=null&&t.skillLineID===prof.skillLineID)||(prof.name&&(t.profession===prof.name||t.title?.startsWith(prof.name+':'))));
@@ -194,7 +212,7 @@ function myGoals(c){
 const BROWSE_GROUPS=[
   {title:'Adventure',items:[['field','Grind camps','Compare locations and material needs.','⌖'],['upgrades','Gear upgrades','Compare your gear and where to find upgrades.','↟'],['equipment','Character armory','See equipped items and your character portrait.','◇'],['ideas','More ideas','Soon, Someday and tasks set aside.','☷']]},
   {title:'Professions & gold',items:[['gold','Gold routine','Saved farming, crafting and selling opportunities.','◉'],['professions','Profession progress','Ranks, recipe scans and training milestones.','⚒'],['projects','Crafting projects','Materials, progress and paused projects.','▧'],['inventory','Inventory','Search everything in your saved bags.','▦']]},
-  {title:'Journal & reference',items:[['activity','Recorded outings','Your recorded time, XP and loot totals.','↗'],['overview','Progression overview','The complete saved progression plan.','◈'],['sources','About the data','Snapshot freshness, sources and coverage.','ⓘ']]}
+  {title:'Journal & reference',items:[['advisor','Local advisor','Your AI plan, evidence and data coverage.','✦'],['activity','Recorded outings','Your recorded time, XP and loot totals.','↗'],['overview','Progression overview','The complete saved progression plan.','◈'],['sources','About the data','Snapshot freshness, sources and coverage.','ⓘ']]}
 ];
 function browse(c){return `<div class="view-header journal-heading"><div><span class="eyebrow">BROWSE</span><h2>Everything you need, when you need it.</h2><p>Open a tool to explore. Your next step stays on Today.</p></div></div><div class="browse-groups">${BROWSE_GROUPS.map(group=>`<section class="browse-group"><h3>${e(group.title)}</h3>${group.items.map(([view,title,description,icon])=>`<a class="browse-card" href="${routeLink(view,c)}"><span class="browse-icon" aria-hidden="true">${icon}</span><span><strong>${title}</strong><small>${description}</small></span><span aria-hidden="true">↗</span></a>`).join('')}</section>`).join('')}</div>`;}
 function moreIdeas(c){
@@ -231,7 +249,7 @@ function render(){
     if(selected)el.setAttribute('aria-current',mainPage?'page':'location');else el.removeAttribute('aria-current');
   });
   $('#addon-version').textContent=`v${c.addonVersion}`;document.title=`${c.character.name} Sundercore · ${VIEWS[state.view]}`;
-  const renderer={today,goals:myGoals,browse,ideas:moreIdeas,gold,sources,projects,upgrades,overview,field,inventory,professions,equipment,activity}[state.view];
+  const renderer={advisor,today,goals:myGoals,browse,ideas:moreIdeas,gold,sources,projects,upgrades,overview,field,inventory,professions,equipment,activity}[state.view];
   $('#main').innerHTML=hero(c)+(!mainPage?`<a class="back-link" href="${routeLink('browse',c)}">← Browse all tools</a>`:'')+renderer(c);
 }
 function route(){if($('#info-dialog').open)$('#info-dialog').close();if(location.hash==='#main'){if(!$('#main').querySelector('.hero'))render();$('#main').focus();return;}const [view,id]=location.hash.slice(1).split('/');state.view=VIEWS[view]?view:'today';if(id&&state.roster.some(c=>c.id===id)){state.selected=id;savedSet('sundercore-character',id);}state.filter='';render();}

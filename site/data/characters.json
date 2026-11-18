@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T03:01:20Z",
+  "updatedAt": "2026-11-18T03:08:55Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -26107,7 +26107,7 @@
     },
     {
       "id": "d187aa611059994a1c69ee92",
-      "exportedAt": "2026-11-18T03:01:20Z",
+      "exportedAt": "2026-11-18T03:08:55Z",
       "addonVersion": "1.11.0",
       "character": {
         "name": "Writhe",
@@ -26118,27 +26118,32 @@
         "faction": "Horde",
         "zone": "Tirisfal Glades",
         "powerType": "ENERGY",
-        "level": 4,
-        "xp": 1724,
-        "xpForNextLevel": 2100,
-        "moneyCopper": 64,
-        "maxHealth": 116,
+        "level": 5,
+        "xp": 130,
+        "xpForNextLevel": 2800,
+        "moneyCopper": 82,
+        "maxHealth": 133,
         "maxPower": 100,
         "stats": {
-          "agility": 25,
+          "agility": 26,
           "intellect": 19,
           "spirit": 26,
-          "stamina": 24,
-          "strength": 22
+          "stamina": 25,
+          "strength": 23
         }
       },
       "bags": {
-        "free": 10,
+        "free": 3,
         "capacity": 20,
         "items": [
           {
             "itemID": 1368,
             "name": "Ragged Leather Gloves",
+            "count": 1
+          },
+          {
+            "itemID": 1374,
+            "name": "Frayed Shoes",
             "count": 1
           },
           {
@@ -26149,17 +26154,32 @@
           {
             "itemID": 1378,
             "name": "Frayed Pants",
-            "count": 1
+            "count": 2
           },
           {
             "itemID": 1476,
             "name": "Snapped Spider Limb",
-            "count": 8
+            "count": 14
+          },
+          {
+            "itemID": 2070,
+            "name": "Darnassian Bleu",
+            "count": 1
+          },
+          {
+            "itemID": 2210,
+            "name": "Battered Buckler",
+            "count": 1
           },
           {
             "itemID": 2589,
             "name": "Linen Cloth",
             "count": 9
+          },
+          {
+            "itemID": 4865,
+            "name": "Ruined Pelt",
+            "count": 1
           },
           {
             "itemID": 6948,
@@ -26169,12 +26189,12 @@
           {
             "itemID": 7100,
             "name": "Sticky Ichor",
-            "count": 3
+            "count": 9
           },
           {
             "itemID": 7101,
             "name": "Bug Eye",
-            "count": 7
+            "count": 10
           }
         ]
       },
@@ -26301,8 +26321,8 @@
           "zone": "Deathknell",
           "objectives": [
             {
-              "text": "0/6 Webbed Forsaken freed",
-              "have": 0,
+              "text": "2/6 Webbed Forsaken freed",
+              "have": 2,
               "need": 6,
               "finished": false
             }
@@ -26324,8 +26344,8 @@
               "finished": true
             },
             {
-              "text": "0/8 Night Web Spider slain",
-              "have": 0,
+              "text": "3/8 Night Web Spider slain",
+              "have": 3,
               "need": 8,
               "finished": false
             }
@@ -26333,6 +26353,20 @@
         }
       ],
       "goals": [
+        {
+          "id": "bags:room",
+          "title": "Make room before your next outing",
+          "category": "Bags",
+          "status": "3 general slots free",
+          "why": "3 of 20 general bag slots are free. Keyring and reagent-only slots are excluded.",
+          "action": "Bank materials you are saving for later; keep the reagents needed for your chosen craft.\nSnapped Spider Limb: 3 occupied slots\nBug Eye: 2 occupied slots\nFrayed Pants: 2 occupied slots\nSticky Ichor: 2 occupied slots",
+          "actionType": "bags",
+          "source": "Live bag containers",
+          "button": "Open bags",
+          "priority": 73,
+          "materials": [],
+          "targets": []
+        },
         {
           "id": "gear:Quest",
           "title": "Quest: 3 gear targets",
@@ -26374,36 +26408,6 @@
               "current": "Empty slot"
             }
           ]
-        },
-        {
-          "id": "quest:380",
-          "title": "Quest: Night Web's Hollow",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
-          "action": "0/8 Night Web Spider slain",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 65,
-          "questID": 380,
-          "materials": [],
-          "targets": []
-        },
-        {
-          "id": "quest:98389",
-          "title": "Quest: A Light in the Darkness",
-          "category": "Leveling",
-          "status": "Current quest",
-          "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
-          "action": "0/6 Webbed Forsaken freed",
-          "actionType": "quest",
-          "source": "Live Forever quest log",
-          "button": "Open quest",
-          "priority": 65,
-          "questID": 98389,
-          "materials": [],
-          "targets": []
         },
         {
           "id": "gear:Quest (Horde)",
@@ -26457,11 +26461,41 @@
           ]
         },
         {
+          "id": "quest:380",
+          "title": "Quest: Night Web's Hollow",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 4 quest in Deathknell fits your current level 5. No group flag is reported.",
+          "action": "3/8 Night Web Spider slain",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 380,
+          "materials": [],
+          "targets": []
+        },
+        {
+          "id": "quest:98389",
+          "title": "Quest: A Light in the Darkness",
+          "category": "Leveling",
+          "status": "Current quest",
+          "why": "Level 4 quest in Deathknell fits your current level 5. No group flag is reported.",
+          "action": "2/6 Webbed Forsaken freed",
+          "actionType": "quest",
+          "source": "Live Forever quest log",
+          "button": "Open quest",
+          "priority": 63,
+          "questID": 98389,
+          "materials": [],
+          "targets": []
+        },
+        {
           "id": "level:next",
-          "title": "Reach level 5",
+          "title": "Reach level 6",
           "category": "Leveling",
           "status": "Ongoing",
-          "why": "376 XP remaining (82.1% through level 4).",
+          "why": "2670 XP remaining (4.6% through level 5).",
           "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
           "source": "Live character XP and quest log",
           "priority": 60,
@@ -26658,17 +26692,79 @@
         }
       ],
       "nextSteps": [
+        "bags:room",
         "gear:Quest",
+        "gear:Quest (Horde)",
         "quest:380",
         "quest:98389",
-        "gear:Quest (Horde)",
-        "level:next",
-        "bags:bank"
+        "level:next"
       ],
       "fieldPlan": {
         "materials": [],
         "crafts": [],
         "spots": [
+          {
+            "spot": {
+              "id": "observed:1919",
+              "name": "Samuel Fipps",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 5,
+              "high": 5,
+              "map": 1420,
+              "x": 0.36622565984726,
+              "y": 0.61546754837036
+            },
+            "score": 60,
+            "reasons": [
+              "1 observed kills / 1 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:1505",
+              "name": "Night Web Spider",
+              "zone": "Tirisfal Glades",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 3,
+              "high": 3,
+              "map": 1420,
+              "x": 0.25918090343475,
+              "y": 0.59518492221832
+            },
+            "score": 54,
+            "reasons": [
+              "3 observed kills / 3 inspected corpses",
+              "In your current zone"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 0,
+            "matchedMaterials": [],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
           {
             "spot": {
               "id": "observed:1509",
@@ -26682,7 +26778,7 @@
               "x": 0.34604460000992,
               "y": 0.65300798416138
             },
-            "score": 57,
+            "score": 54,
             "reasons": [
               "1 observed kills / 0 inspected corpses",
               "In your current zone"
@@ -26713,40 +26809,9 @@
               "x": 0.32090723514557,
               "y": 0.61029171943665
             },
-            "score": 57,
+            "score": 54,
             "reasons": [
               "13 observed kills / 13 inspected corpses",
-              "In your current zone"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
-            "matchCount": 0,
-            "matchedMaterials": [],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:1919",
-              "name": "Samuel Fipps",
-              "zone": "Tirisfal Glades",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 5,
-              "high": 5,
-              "map": 1420,
-              "x": 0.36622565984726,
-              "y": 0.61546754837036
-            },
-            "score": 57,
-            "reasons": [
-              "1 observed kills / 1 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -26772,12 +26837,12 @@
               "low": 2,
               "high": 2,
               "map": 1420,
-              "x": 0.30466508865356,
-              "y": 0.56532716751099
+              "x": 0.28225862979889,
+              "y": 0.59334075450897
             },
-            "score": 54,
+            "score": 51,
             "reasons": [
-              "15 observed kills / 15 inspected corpses",
+              "23 observed kills / 23 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -26806,7 +26871,7 @@
               "x": 0.31670516729355,
               "y": 0.63967227935791
             },
-            "score": 51,
+            "score": 48,
             "reasons": [
               "8 observed kills / 8 inspected corpses",
               "In your current zone"
@@ -26837,7 +26902,7 @@
               "x": 0.32789319753647,
               "y": 0.62159222364426
             },
-            "score": 51,
+            "score": 48,
             "reasons": [
               "11 observed kills / 11 inspected corpses",
               "In your current zone"
@@ -26865,12 +26930,12 @@
               "low": 1,
               "high": 1,
               "map": 1420,
-              "x": 0.29300582408905,
-              "y": 0.65386927127838
+              "x": 0.30929279327393,
+              "y": 0.55949491262436
             },
-            "score": 51,
+            "score": 48,
             "reasons": [
-              "10 observed kills / 10 inspected corpses",
+              "11 observed kills / 11 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -26899,7 +26964,7 @@
               "x": 0.2944393157959,
               "y": 0.64330965280533
             },
-            "score": 51,
+            "score": 48,
             "reasons": [
               "8 observed kills / 8 inspected corpses",
               "In your current zone"
@@ -26921,7 +26986,7 @@
         "tasks": [],
         "notices": [],
         "budget": {
-          "available": 64,
+          "available": 82,
           "rankTotal": 0,
           "reserve": 0,
           "shortfall": 0
@@ -26938,18 +27003,17 @@
         "day": "2026-11-17",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-18T03:01:20Z",
+        "generatedAt": "2026-11-18T03:08:55Z",
         "today": [
           {
-            "id": "upgrade:1368",
-            "kind": "Gear",
-            "title": "Equip: Ragged Leather Gloves",
-            "status": "In your bags",
-            "why": "Replaces Flax Gloves; estimated +0.1 stat points. Your current bags",
-            "action": "Compare the tooltip and equip manually when ready.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 1368,
+            "id": "bags:room",
+            "kind": "Bags",
+            "title": "Make room before your next outing",
+            "status": "3 general slots free",
+            "why": "3 of 20 general bag slots are free. Keyring and reagent-only slots are excluded.",
+            "action": "Bank materials you are saving for later; keep the reagents needed for your chosen craft.\nSnapped Spider Limb: 3 occupied slots\nBug Eye: 2 occupied slots\nFrayed Pants: 2 occupied slots\nSticky Ichor: 2 occupied slots",
+            "source": "Live bag containers",
+            "open": "Progression",
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -26961,7 +27025,7 @@
             "status": "Unreserved stock",
             "why": "0s 19c estimated net each versus 0s 13c at a vendor; before deposits.",
             "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 9. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 0.2 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Naowh: your realm/faction observations / 0.3 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,
@@ -26975,7 +27039,7 @@
             "status": "Test nearby camp",
             "why": "0s 19c estimated net per material; quantity/hour is unknown.",
             "action": "Map Rattlecage Skeleton in Tirisfal Glades. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.2 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.3 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,
@@ -27004,7 +27068,7 @@
             "status": "Test nearby camp",
             "why": "0s 19c estimated net per material; quantity/hour is unknown.",
             "action": "Map Mindless Zombie in Tirisfal Glades. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.2 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 0.3 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,
@@ -27014,9 +27078,9 @@
           {
             "id": "level:next",
             "kind": "Leveling",
-            "title": "Reach level 5",
+            "title": "Reach level 6",
             "status": "Ongoing",
-            "why": "376 XP remaining (82.1% through level 4).",
+            "why": "2670 XP remaining (4.6% through level 5).",
             "action": "Work through level-appropriate quests. Higher-level and group quests are kept out of the solo suggestions.",
             "source": "Live character XP and quest log",
             "open": "Progression",
@@ -27042,8 +27106,8 @@
             "kind": "Leveling",
             "title": "Quest: Night Web's Hollow",
             "status": "Current quest",
-            "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
-            "action": "0/8 Night Web Spider slain",
+            "why": "Level 4 quest in Deathknell fits your current level 5. No group flag is reported.",
+            "action": "3/8 Night Web Spider slain",
             "source": "Live Forever quest log",
             "open": "Progression",
             "questID": 380,
@@ -27056,8 +27120,8 @@
             "kind": "Leveling",
             "title": "Quest: A Light in the Darkness",
             "status": "Current quest",
-            "why": "Level 4 quest in Deathknell fits your current level 4. No group flag is reported.",
-            "action": "0/6 Webbed Forsaken freed",
+            "why": "Level 4 quest in Deathknell fits your current level 5. No group flag is reported.",
+            "action": "2/6 Webbed Forsaken freed",
             "source": "Live Forever quest log",
             "open": "Progression",
             "questID": 98389,
@@ -27159,6 +27223,34 @@
             "open": "Gear",
             "itemID": 11862,
             "questID": 4300,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:1368",
+            "kind": "Gear",
+            "title": "Equip: Ragged Leather Gloves",
+            "status": "In your bags",
+            "why": "Replaces Flax Gloves; estimated +0.1 stat points. Your current bags",
+            "action": "Compare the tooltip and equip manually when ready.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 1368,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:1374",
+            "kind": "Gear",
+            "title": "Equip: Frayed Shoes",
+            "status": "In your bags",
+            "why": "Replaces Thug Boots; estimated +0.0 stat points. Your current bags",
+            "action": "Compare the tooltip and equip manually when ready.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 1374,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -29687,7 +29779,7 @@
         "source": "Installed NaowhForever 1.2.33",
         "auto": true,
         "pending": 0,
-        "checked": 198,
+        "checked": 199,
         "merchantFavor": {
           "currencyID": 3402,
           "name": "Merchant's Favor",
@@ -29726,6 +29818,36 @@
                 "before": 6,
                 "after": 17,
                 "delta": 11
+              }
+            ]
+          },
+          {
+            "name": "Frayed Shoes",
+            "slotName": "Feet",
+            "current": "Thug Boots",
+            "status": "In your bags",
+            "kind": "Owned",
+            "source": "Your current bags",
+            "action": "Compare the tooltip and equip manually when ready.",
+            "itemID": 1374,
+            "slot": 8,
+            "requiredLevel": 1,
+            "currentItemID": 121,
+            "currentScore": 0.01,
+            "candidateScore": 0.025,
+            "gain": 0.015,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": true,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 2,
+                "after": 5,
+                "delta": 3
               }
             ]
           },

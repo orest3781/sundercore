@@ -15980,6 +15980,141 @@
         "bankCapturedAt": "2026-11-19T00:19:05Z",
         "bankStatus": "last_seen",
         "sessions": "Snapshot session summaries"
+      },
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795126140,
+        "expiresAt": 1795212404,
+        "snapshotAt": "2026-11-19T22:06:44Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: Craft: Novice Arcanist's Sash; List up to 10 Enchanted Lute; Farm Large Fang: Blackened Basilisk.",
+        "recommendations": [
+          {
+            "taskID": "upgrade:253885",
+            "title": "Craft: Novice Arcanist's Sash",
+            "reason": "Review this locally identified gear improvement and its acquisition requirements. Replaces Wise Man's Belt; estimated +3.9 stat points. Learned recipe: Novice Arcanist's Sash",
+            "action": "Queue one craft to reserve materials and find farming camps.",
+            "status": "Craft upgrade",
+            "source": "Installed NaowhForever 1.2.33",
+            "kind": "Gear",
+            "itemID": 253885,
+            "evidenceIDs": [
+              "item:253885"
+            ]
+          },
+          {
+            "taskID": "gold:sell:279976",
+            "title": "List up to 10 Enchanted Lute",
+            "reason": "This is an eligible step from your saved character plan. 3s 50c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
+            "status": "Unreserved stock",
+            "source": "Naowh: your realm/faction observations / 19.9 hours old",
+            "kind": "Sell",
+            "itemID": 279976,
+            "evidenceIDs": [
+              "item:279976"
+            ]
+          },
+          {
+            "taskID": "gold:farm:observed:4044:5637",
+            "title": "Farm Large Fang: Blackened Basilisk",
+            "reason": "This fits your preference for grinding mobs. Test the camp and compare your own results. 0s 82c estimated net per material; quantity/hour is unknown.",
+            "action": "Map Blackened Basilisk in Stonetalon Mountains. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim. Your recorded position near this mob; not a complete spawn map.",
+            "status": "Test nearby camp",
+            "source": "Personal observations. Sample may be small; use session history to compare results. Naowh: your realm/faction observations / 19.9 hours old",
+            "kind": "Farm",
+            "itemID": 5637,
+            "evidenceIDs": [
+              "item:5637"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "item:253885",
+            "title": "Novice Arcanist's Sash",
+            "url": "https://www.wowhead.com/forever/item=253885",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 10, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 55}]}"
+          },
+          {
+            "id": "item:279976",
+            "title": "Enchanted Lute",
+            "url": "https://www.wowhead.com/forever/item=279976",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Enchanting\", \"min_level\": 20}]}"
+          },
+          {
+            "id": "item:279972",
+            "title": "Faction Banner",
+            "url": "https://www.wowhead.com/forever/item=279972",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 20}]}"
+          },
+          {
+            "id": "item:2589",
+            "title": "Linen Cloth",
+            "url": "https://www.wowhead.com/forever/item=2589",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Kogan Forgestone\", \"zone\": \"Dun Morogh\", \"min_level\": 8, \"max_level\": 10}, {\"kind\": \"drop\", \"name\": \"Lisan Pierce\", \"zone\": \"Stormwind City\", \"min_level\": 25, \"max_level\": 25}, {\"kind\": \"drop\", \"name\": \"Adam Lind\", \"zone\": \"Wetlands\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Tamara Armstrong\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 15, \"max_level\": 15}, {\"kind\": \"drop\", \"name\": \"Saean\", \"zone\": \"Loch Modan\", \"min_level\": 10, \"max_level\": 10}]}"
+          },
+          {
+            "id": "item:5637",
+            "title": "Large Fang",
+            "url": "https://www.wowhead.com/forever/item=5637",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Skullsplitter Panther\", \"min_level\": 41, \"max_level\": 42}, {\"kind\": \"drop\", \"name\": \"Swamp Jaguar\", \"zone\": \"Swamp of Sorrows\", \"min_level\": 36, \"max_level\": 37}, {\"kind\": \"drop\", \"name\": \"Shadow Panther\", \"zone\": \"Swamp of Sorrows\", \"min_level\": 39, \"max_level\": 40}, {\"kind\": \"drop\", \"name\": \"Murk Thresher\", \"zone\": \"Dustwallow Marsh\", \"min_level\": 41, \"max_level\": 43}, {\"kind\": \"drop\", \"name\": \"Elder Murk Thresher\", \"zone\": \"Dustwallow Marsh\", \"min_level\": 43, \"max_level\": 45}]}"
+          },
+          {
+            "id": "item:279981",
+            "title": "Basic Campfire Kit",
+            "url": "https://www.wowhead.com/forever/item=279981",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Cooking\", \"min_level\": 1}]}"
+          },
+          {
+            "id": "item:6358",
+            "title": "Oily Blackmouth",
+            "url": "https://www.wowhead.com/forever/item=6358",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"object\", \"name\": \"School of Tastyfish\", \"zone\": \"Stranglethorn Vale\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\", \"zone\": \"The Barrens\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\", \"zone\": \"The Barrens\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\"}]}"
+          },
+          {
+            "id": "quest:1062",
+            "title": "Goblin Invaders",
+            "url": "https://www.wowhead.com/forever/quest=1062",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 1062, \"name\": \"Goblin Invaders\", \"quest_level\": 19, \"required_level\": 13, \"faction\": \"Horde\", \"zone\": \"Stonetalon Mountains\", \"repeatable\": 0, \"start_npc\": \"Seereth Stonebreak\", \"end_npc\": \"Seereth Stonebreak\", \"wowhead\": \"https://www.wowhead.com/forever/quest=1062\", \"start_where\": \"The Barrens\", \"end_where\": \"The Barrens\"}"
+          },
+          {
+            "id": "discussion:0",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Enchanters getting suspended",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanters-getting-suspended/2421048",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-18T15:39:11Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
       }
     },
     {

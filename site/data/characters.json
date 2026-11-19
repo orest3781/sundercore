@@ -21847,6 +21847,97 @@
         "professions": "current ranks; recipes last scanned",
         "bankStatus": "not_visited",
         "sessions": "Snapshot session summaries"
+      },
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795054570,
+        "expiresAt": 1795140828,
+        "snapshotAt": "2026-11-19T02:13:48Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: Turn in: A Humble Task; Review 1 unlearned class skills; Quest: The Hunt Begins.",
+        "recommendations": [
+          {
+            "taskID": "quest:752",
+            "title": "Turn in: A Humble Task",
+            "reason": "This is an eligible step from your saved character plan. The game marks this quest complete.",
+            "action": "Return to the quest giver for the reward.",
+            "status": "Ready to turn in",
+            "source": "Live Forever quest log",
+            "kind": "Leveling",
+            "itemID": 0,
+            "evidenceIDs": [
+              "quest:752"
+            ]
+          },
+          {
+            "taskID": "training:now",
+            "title": "Review 1 unlearned class skills",
+            "reason": "This is an eligible step from your saved character plan. Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
+            "action": "Mark of the Wild (level 1, listed 0s 10c) Choose useful skills within your budget; listed prices may differ at the trainer.",
+            "status": "Trainer / quest",
+            "source": "Naowh Training 1.4.0 / TrainingData + live spellbook",
+            "kind": "Leveling",
+            "itemID": 0,
+            "evidenceIDs": []
+          },
+          {
+            "taskID": "quest:747",
+            "title": "Quest: The Hunt Begins",
+            "reason": "This is an eligible step from your saved character plan. Level 2 quest in Red Cloud Mesa fits your current level 1. No group flag is reported.",
+            "action": "0/7 Plainstrider Meat 0/7 Plainstrider Feather",
+            "status": "Current quest",
+            "source": "Live Forever quest log",
+            "kind": "Leveling",
+            "itemID": 0,
+            "evidenceIDs": [
+              "quest:747"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "quest:752",
+            "title": "A Humble Task",
+            "url": "https://www.wowhead.com/forever/quest=752",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 752, \"name\": \"A Humble Task\", \"quest_level\": 2, \"required_level\": 1, \"faction\": \"Horde\", \"zone\": \"Red Cloud Mesa\", \"repeatable\": 0, \"start_npc\": \"Chief Hawkwind\", \"end_npc\": \"Greatmother Hawkwind\", \"wowhead\": \"https://www.wowhead.com/forever/quest=752\", \"start_where\": \"Mulgore\", \"end_where\": \"Mulgore\"}"
+          },
+          {
+            "id": "quest:747",
+            "title": "The Hunt Begins",
+            "url": "https://www.wowhead.com/forever/quest=747",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 747, \"name\": \"The Hunt Begins\", \"quest_level\": 2, \"required_level\": 1, \"faction\": \"Horde\", \"zone\": \"Red Cloud Mesa\", \"repeatable\": 0, \"start_npc\": \"Grull Hawkwind\", \"end_npc\": \"Grull Hawkwind\", \"wowhead\": \"https://www.wowhead.com/forever/quest=747\", \"start_where\": \"Mulgore\", \"end_where\": \"Mulgore\"}"
+          },
+          {
+            "id": "discussion:0",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Enchanters getting suspended",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanters-getting-suspended/2421048",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-18T15:39:11Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
       }
     },
     {

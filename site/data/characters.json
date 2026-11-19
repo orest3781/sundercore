@@ -20362,6 +20362,141 @@
         "bankCapturedAt": "2026-11-19T00:19:05Z",
         "bankStatus": "last_seen",
         "sessions": "Snapshot session summaries"
+      },
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795052919,
+        "expiresAt": 1795139182,
+        "snapshotAt": "2026-11-19T01:46:22Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: Craft: Green Woolen Vest; List up to 10 Enchanted Lute; Farm Heavy Blasting Powder: XT:4.",
+        "recommendations": [
+          {
+            "taskID": "upgrade:2582",
+            "title": "Craft: Green Woolen Vest",
+            "reason": "Review this locally identified gear improvement and its acquisition requirements. Replaces Aboriginal Robe of the Eagle; estimated +4.1 stat points. Learned recipe: Green Woolen Vest",
+            "action": "Queue one craft to reserve materials and find farming camps.",
+            "status": "Craft upgrade",
+            "source": "Installed NaowhForever 1.2.33",
+            "kind": "Gear",
+            "itemID": 2582,
+            "evidenceIDs": [
+              "item:2582"
+            ]
+          },
+          {
+            "taskID": "gold:sell:279976",
+            "title": "List up to 10 Enchanted Lute",
+            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 3s 70c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
+            "status": "Unreserved stock",
+            "source": "Naowh: your realm/faction observations / 3.2 hours old",
+            "kind": "Sell",
+            "itemID": 279976,
+            "evidenceIDs": [
+              "item:279976"
+            ]
+          },
+          {
+            "taskID": "gold:farm:observed:4073:4377",
+            "title": "Farm Heavy Blasting Powder: XT:4",
+            "reason": "This fits your preference for grinding mobs. Test the camp and compare your own results. 3s 97c estimated net per material; quantity/hour is unknown.",
+            "action": "Map XT:4 in Stonetalon Mountains. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim. Your recorded position near this mob; not a complete spawn map.",
+            "status": "Test nearby camp",
+            "source": "Personal observations. Sample may be small; use session history to compare results. Naowh: your realm/faction observations / 3.2 hours old",
+            "kind": "Farm",
+            "itemID": 4377,
+            "evidenceIDs": [
+              "item:4377"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "item:2582",
+            "title": "Green Woolen Vest",
+            "url": "https://www.wowhead.com/forever/item=2582",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 12, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 85}]}"
+          },
+          {
+            "id": "item:279976",
+            "title": "Enchanted Lute",
+            "url": "https://www.wowhead.com/forever/item=279976",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Enchanting\", \"min_level\": 20}]}"
+          },
+          {
+            "id": "item:3820",
+            "title": "Stranglekelp",
+            "url": "https://www.wowhead.com/forever/item=3820",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"container\", \"name\": \"Evergreen Herb Casing\"}, {\"kind\": \"container\", \"name\": \"Torwa's Pouch\"}, {\"kind\": \"container\", \"name\": \"Un'Goro Tested Sample\"}, {\"kind\": \"container\", \"name\": \"Corrupt Tested Sample\"}, {\"kind\": \"container\", \"name\": \"Scum Covered Bag\"}]}"
+          },
+          {
+            "id": "item:279972",
+            "title": "Faction Banner",
+            "url": "https://www.wowhead.com/forever/item=279972",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 20}]}"
+          },
+          {
+            "id": "item:4377",
+            "title": "Heavy Blasting Powder",
+            "url": "https://www.wowhead.com/forever/item=4377",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"container\", \"name\": \"Waterlogged Crate\"}, {\"kind\": \"container\", \"name\": \"Sturdy Locked Chest\"}, {\"kind\": \"container\", \"name\": \"Sealed Crate\"}, {\"kind\": \"container\", \"name\": \"Message in a Bottle\"}, {\"kind\": \"crafted\", \"name\": \"Engineering\", \"min_level\": 125}]}"
+          },
+          {
+            "id": "item:279981",
+            "title": "Basic Campfire Kit",
+            "url": "https://www.wowhead.com/forever/item=279981",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Cooking\", \"min_level\": 1}]}"
+          },
+          {
+            "id": "item:4234",
+            "title": "Heavy Leather",
+            "url": "https://www.wowhead.com/forever/item=4234",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"container\", \"name\": \"Mithril Lockbox\"}, {\"kind\": \"container\", \"name\": \"Small Locked Chest\"}, {\"kind\": \"container\", \"name\": \"Sturdy Locked Chest\"}, {\"kind\": \"container\", \"name\": \"Scorched Rocket Boots\"}, {\"kind\": \"container\", \"name\": \"Hoard of the Black Dragonflight\"}]}"
+          },
+          {
+            "id": "quest:1062",
+            "title": "Goblin Invaders",
+            "url": "https://www.wowhead.com/forever/quest=1062",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 1062, \"name\": \"Goblin Invaders\", \"quest_level\": 19, \"required_level\": 13, \"faction\": \"Horde\", \"zone\": \"Stonetalon Mountains\", \"repeatable\": 0, \"start_npc\": \"Seereth Stonebreak\", \"end_npc\": \"Seereth Stonebreak\", \"wowhead\": \"https://www.wowhead.com/forever/quest=1062\", \"start_where\": \"The Barrens\", \"end_where\": \"The Barrens\"}"
+          },
+          {
+            "id": "discussion:0",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Enchanters getting suspended",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanters-getting-suspended/2421048",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-18T15:39:11Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
       }
     },
     {

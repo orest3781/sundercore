@@ -33626,6 +33626,68 @@
         "professions": "current ranks; recipes last scanned",
         "bankStatus": "not_visited",
         "sessions": "Snapshot session summaries"
+      },
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795130868,
+        "expiresAt": 1795217116,
+        "snapshotAt": "2026-11-19T23:25:16Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: Refresh auction prices; Review 1 unlearned class skills.",
+        "recommendations": [
+          {
+            "taskID": "gold:prices",
+            "title": "Refresh auction prices",
+            "reason": "This is an eligible step from your saved character plan. Unknown, stale and other-market values are not treated as profit. 0 fresh / 0 missing or stale checked prices.",
+            "action": "Visit your auction house and run Naowh Scan Prices or Auctionator Full Scan. Wait for completion, close the auction house, then refresh Ledger. Check exact item variants before selling gear.",
+            "status": "No fresh local prices",
+            "source": "Local market price coverage",
+            "kind": "Review",
+            "itemID": 0,
+            "evidenceIDs": []
+          },
+          {
+            "taskID": "training:now",
+            "title": "Review 1 unlearned class skills",
+            "reason": "This is an eligible step from your saved character plan. Naowh's training planner reports these available for your level, after its skip and prerequisite checks.",
+            "action": "Rockbiter Weapon (level 1, listed 0s 10c) Choose useful skills within your budget; listed prices may differ at the trainer.",
+            "status": "Trainer / quest",
+            "source": "Naowh Training 1.4.1 / TrainingData + live spellbook",
+            "kind": "Leveling",
+            "itemID": 0,
+            "evidenceIDs": []
+          }
+        ],
+        "evidence": [
+          {
+            "id": "discussion:0",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Enchanters getting suspended",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanters-getting-suspended/2421048",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-19T15:44:16Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
       }
     },
     {

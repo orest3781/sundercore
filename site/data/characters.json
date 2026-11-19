@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T23:20:29Z",
+  "updatedAt": "2026-11-19T23:21:01Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
@@ -30036,7 +30036,7 @@
     },
     {
       "id": "0d5f4f9d0de4efedd40716c0",
-      "exportedAt": "2026-11-19T23:20:29Z",
+      "exportedAt": "2026-11-19T23:21:01Z",
       "addonVersion": "1.12.0",
       "character": {
         "name": "Æsop",
@@ -30704,7 +30704,7 @@
         "day": "2026-11-19",
         "mode": "gold",
         "minutes": 45,
-        "generatedAt": "2026-11-19T23:20:29Z",
+        "generatedAt": "2026-11-19T23:21:01Z",
         "today": [
           {
             "id": "bags:room",

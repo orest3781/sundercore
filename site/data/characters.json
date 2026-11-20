@@ -1301,7 +1301,27 @@
             "usesText": "Barbaric Linen Vest, SkillUp Forever tracked routes",
             "action": "Buy",
             "done": false,
-            "vendor": true
+            "vendor": true,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "Barbaric Linen Vest",
+                "need": 1,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 1
+              },
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 21,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 21
+              }
+            ]
           },
           {
             "id": 2678,
@@ -1314,7 +1334,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Buy",
             "done": false,
-            "vendor": true
+            "vendor": true,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 36,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 36
+              }
+            ]
           },
           {
             "id": 2692,
@@ -1327,7 +1359,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Buy",
             "done": false,
-            "vendor": true
+            "vendor": true,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 25,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 25
+              }
+            ]
           },
           {
             "id": 3371,
@@ -1340,7 +1384,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Buy",
             "done": false,
-            "vendor": true
+            "vendor": true,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 18,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 18
+              }
+            ]
           },
           {
             "id": 4340,
@@ -1353,7 +1409,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Buy",
             "done": false,
-            "vendor": true
+            "vendor": true,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 18,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 18
+              }
+            ]
           },
           {
             "id": 2318,
@@ -1366,7 +1434,19 @@
             "usesText": "Barbaric Linen Vest",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "Barbaric Linen Vest",
+                "need": 1,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 1
+              }
+            ]
           },
           {
             "id": 2450,
@@ -1379,7 +1459,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 18,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 18
+              }
+            ]
           },
           {
             "id": 2592,
@@ -1392,7 +1484,27 @@
             "usesText": "Gathering target, SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "Gathering target",
+                "need": 15,
+                "bag": 6,
+                "bank": 0,
+                "make": 0,
+                "missing": 9
+              },
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 60,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 60
+              }
+            ]
           },
           {
             "id": 3383,
@@ -1405,7 +1517,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 4,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 4
+              }
+            ]
           },
           {
             "id": 3731,
@@ -1418,7 +1542,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 25,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 25
+              }
+            ]
           },
           {
             "id": 4305,
@@ -1431,7 +1567,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 18,
+                "bag": 2,
+                "bank": 0,
+                "make": 0,
+                "missing": 16
+              }
+            ]
           },
           {
             "id": 4306,
@@ -1444,7 +1592,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 72,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 72
+              }
+            ]
           },
           {
             "id": 10940,
@@ -1457,7 +1617,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 97,
+                "bag": 1,
+                "bank": 0,
+                "make": 0,
+                "missing": 96
+              }
+            ]
           },
           {
             "id": 10978,
@@ -1470,7 +1642,19 @@
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "SkillUp Forever tracked routes",
+                "need": 1,
+                "bag": 0,
+                "bank": 0,
+                "make": 0,
+                "missing": 1
+              }
+            ]
           },
           {
             "id": 2996,
@@ -1483,7 +1667,19 @@
             "usesText": "Barbaric Linen Vest",
             "action": "Ready",
             "done": true,
-            "vendor": false
+            "vendor": false,
+            "bankSeen": 0,
+            "bankAt": "2026-11-19T00:19:05Z",
+            "allocations": [
+              {
+                "owner": "Barbaric Linen Vest",
+                "need": 4,
+                "bag": 4,
+                "bank": 0,
+                "make": 0,
+                "missing": 0
+              }
+            ]
           }
         ],
         "crafts": [
@@ -5967,7 +6163,36 @@
           "name": "Durnholde Syndicate",
           "zone": "Hillsbrad Foothills",
           "chosen": true
-        }
+        },
+        "focus": {
+          "id": "outing:syndicate",
+          "kind": "Farm",
+          "title": "Durnholde Syndicate",
+          "status": "Chosen outing",
+          "why": "Hillsbrad Foothills",
+          "open": "Outing",
+          "spot": {
+            "id": "syndicate",
+            "name": "Durnholde Syndicate",
+            "zone": "Hillsbrad Foothills",
+            "note": "Syndicate camps; alternate camp near 66,48. Watch linked pulls and runners.",
+            "low": 20,
+            "high": 22,
+            "map": 1424,
+            "x": 0.79,
+            "y": 0.43,
+            "items": [
+              2592,
+              2589
+            ],
+            "quests": [
+              549,
+              498
+            ]
+          }
+        },
+        "personal": [],
+        "listSize": 3
       },
       "gearPlan": {
         "version": 1,
@@ -20722,7 +20947,8 @@
           "sources": 62456,
           "url": "https://github.com/gBlaku/wow-forever-kb"
         }
-      }
+      },
+      "projectionVersion": 2
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",

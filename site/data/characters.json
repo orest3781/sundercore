@@ -20590,9 +20590,9 @@
       },
       "localAI": {
         "schemaVersion": 1,
-        "generatedAt": 1795139340,
-        "expiresAt": 1795225546,
-        "snapshotAt": "2026-11-20T01:45:46Z",
+        "generatedAt": 1795139898,
+        "expiresAt": 1795226118,
+        "snapshotAt": "2026-11-20T01:55:18Z",
         "model": "qwen3.5:9b",
         "summary": "Suggested priorities: Craft: Green Woolen Vest; List up to 10 Enchanted Lute; List up to 20 Linen Cloth.",
         "recommendations": [
@@ -20615,7 +20615,7 @@
             "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 3s 50c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
             "status": "Unreserved stock",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old",
             "kind": "Sell",
             "itemID": 279976,
             "evidenceIDs": [
@@ -20628,7 +20628,7 @@
             "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 0s 20c estimated net each versus 0s 13c at a vendor; before deposits.",
             "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 20. Start small; unsold goods are not earnings.",
             "status": "Unreserved stock",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old Community idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data. https://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old Community idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data. https://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "kind": "Sell",
             "itemID": 2589,
             "evidenceIDs": [

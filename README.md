@@ -4,7 +4,9 @@ A public, snapshot-based dashboard for the Sundercore roster: character progress
 
 Repository: [orest3781/sundercore](https://github.com/orest3781/sundercore). GitHub Pages address after deployment: [orest3781.github.io/sundercore](https://orest3781.github.io/sundercore/). The published site is built from `site/`; a custom domain can be configured later.
 
-Character Ledger 1.12 and Watcher 1.4 add a **local Ollama advisor**. Click Update SunderCore in game; the tray watcher analyzes the saved character and publishes selected priorities to Today and Browse > Local advisor. Reload the game after analysis is ready to load those priorities into the addon. See [local advisor setup, data coverage and limits](tray/LOCAL_AI.md) and the [Windows tray watcher](tray/README.md).
+The website matches **Character Ledger 1.13**: a persistent chosen focus, optional checklist, shared supplies, and searchable reference pages. **Watcher 1.4.2** carries these new fields to the public snapshot, including safe enrichment of an existing capture. Its install path and startup behavior remain unchanged.
+
+The **local Ollama advisor** remains optional under Browse > Local advisor. Click Update SunderCore in game; the tray watcher analyzes the saved character and publishes its advice without replacing your chosen focus. Reload the game after analysis is ready to load those suggestions into the addon. See [local advisor setup, data coverage and limits](tray/LOCAL_AI.md) and the [Windows tray watcher](tray/README.md).
 
 ## What is public
 
@@ -48,7 +50,7 @@ Explicit continuous watch and publication:
 python tools/update_roster.py --source $snapshotPath --watch --publish --repo orest3781/sundercore
 ```
 
-Watch mode only runs while that command remains running; stop it with Ctrl+C. No scheduled task, Windows startup entry, or automatic startup behavior is enabled by default. Use `python tools/update_roster.py --help` for source-location and other supported options. Publication updates the repository's `site/data/characters.json`; newer snapshots win. At an equal snapshot timestamp, only a newer local analysis may be attached; character facts remain unchanged. Site deployment follows the repository's Pages configuration.
+Watch mode only runs while that command remains running; stop it with Ctrl+C. No scheduled task, Windows startup entry, or automatic startup behavior is enabled by default. Use `python tools/update_roster.py --help` for source-location and other supported options. Publication updates the repository's `site/data/characters.json`; newer snapshots win. At an equal snapshot timestamp, a newer local analysis or missing fields from an upgraded public projection may be attached; existing character facts remain unchanged. Site deployment follows the repository's Pages configuration.
 
 ## Preview the site locally
 
@@ -64,15 +66,17 @@ Open `http://localhost:8000`. Publishing is separate from this local preview. Gi
 
 The website follows Character Ledger's simpler journal layout:
 
-- **Today** emphasizes one next action and shows up to three saved tasks initially. Additional saved Today tasks remain available in an expandable section. The saved focus, tracked objective and both primary professions provide context without a wall of tools.
-- **My Goals** brings both professions, saved crafting projects, tracked gear and shared material targets together. It shows the next saved profession step where available.
-- **Browse** groups the detailed tools into Adventure, Professions & gold, and Journal & reference. Armory, gear upgrades, camps, recipes, bags, activity and source details remain accessible here. Existing character links continue to work.
+- **Today** centers on the activity you chose in game. Loot, level-ups and fresh recommendations do not silently replace it. Your personal checklist and other suggestions are optional expandable sections. Without a chosen focus, the page clearly labels its suggested starting point.
+- **My Goals** brings both professions, saved crafting projects, tracked gear and shared material targets together. Supply ownership shows carried items separately from reservations, bank stock, intermediate crafts and deficits, with allocation details for each goal.
+- **Browse** searches the character's published tasks, camps, items, upgrades, professions and material goals. Detailed tools are grouped into Adventure, Professions & gold, and Journal & reference. Existing armory and character links continue to work.
 
-Each task has a primary action to review its next step. **More** contains the explanation, a local review checkmark and a related tool link. **More ideas** exposes Soon, Someday, and reminders dismissed or set aside in game. Gold opportunities come from the saved addon analysis; any price estimates retain the snapshot's limitations.
+The web journal uses original CSS with Classic-inspired gold borders, warm panels, serif headings and red buttons. It does not bundle Blizzard's in-game texture files. Layouts adapt to wide monitors, medium windows and phones.
 
-Website checkmarks mean **Reviewed on this device**, scoped to this browser, character and saved-plan day. They do not complete tasks in game. Focus, checklist size, pins, pauses and project order are managed in Character Ledger. The site accepts daily-plan versions 1, 2 and 3; snapshots without a supported plan show a labeled basic fallback. It does not present old session budgets as task-duration estimates.
+Each suggestion has a primary action to review its next step. **More** contains the explanation, a local review checkmark and a related tool link. **Compare options** exposes saved Today, Soon, Someday, and reminders dismissed or set aside in game. Gold opportunities come from the saved addon analysis; any price estimates retain the snapshot's limitations.
 
-Queue learned recipes in the addon. Projects reserve shared materials and distinguish bag stock, bank withdrawals, intermediate crafts and missing materials. Completion counts successful crafting casts recorded in game. Click **Update SunderCore** in the planner or compact HUD to save and reload; the running watcher publishes the snapshot. The website does not require a watcher update for this layout change.
+Website checkmarks mean **Reviewed on this device**, scoped to this browser and character; legacy plans retain their original day scope. They do not complete tasks in game. The separate personal checklist displays text and completion saved in Character Ledger and is public with the snapshot. Focus, checklist size, pins, pauses and project order are managed in game. The site accepts daily-plan versions 1, 2 and 3; snapshots without a supported plan show a labeled basic fallback. It does not present old session budgets as task-duration estimates.
+
+Queue learned recipes in the addon. Projects reserve shared materials and distinguish bag stock, bank withdrawals, intermediate crafts and missing materials. Completion counts successful crafting casts recorded in game. Click **Update SunderCore** in the planner or compact HUD to save and reload; the running watcher publishes the snapshot. Use Watcher 1.4.2 or newer to include the rebuilt journal's focus, checklist and supply allocations. Older snapshots remain readable.
 
 ### Character armories
 

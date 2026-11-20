@@ -21,6 +21,12 @@ priorities feed Character Ledger 1.12 and the website's Local advisor view.
 See [LOCAL_AI.md](LOCAL_AI.md) for the save/analyze/reload workflow, public
 Forever data attribution, performance limits, and failure behavior.
 
+Version 1.4.2 carries Character Ledger 1.13's chosen focus, personal checklist,
+and shared supply allocations to the website. A projection upgrade enriches an
+existing capture without replacing its character facts or newer AI analysis.
+The saved focus remains separate from recommendations. Updating the EXE at
+its existing location preserves settings and the configured startup entry.
+
 The worker waits for a stable file, validates the capture before publishing,
 merges remote characters with SHA conflict handling, and skips unchanged/stale
 snapshots. Transient failures retry with backoff. Settings, the sanitized cache,

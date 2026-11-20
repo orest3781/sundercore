@@ -75,6 +75,7 @@ ITEM = dict(itemID=integer,name=text,count=integer,quality=integer,itemLevel=int
 MATERIAL = {k:integer for k in ('id','itemID','bag','bank','missing','need','make','receivedThisOuting','owned','required','count')}
 MATERIAL.update({k:text for k in ('name','usesText','action','kind')})
 MATERIAL.update({k:boolean for k in ('done','vendor','collect')})
+MATERIAL.update(bankSeen=integer,bankAt=text,allocations=[dict(owner=text,need=integer,bag=integer,bank=integer,make=integer,missing=integer)])
 WAYPOINT = dict(mapID=integer,map=integer,x=number,y=number,title=text)
 PROJECT = dict(recipeID=integer,name=text,remaining=integer,total=integer,completed=integer,paused=boolean,cancelled=boolean,
     status=text,outputItemID=integer,materials=[MATERIAL])
@@ -90,6 +91,8 @@ GOAL.update(priority=number,questID=integer,purchaseCost=integer,materials=[MATE
 SPOT = {k:text for k in ('id','name','zone','note','source','evidence','faction','provider','confidence')}
 SPOT.update({k:integer for k in ('low','high','map','npcID','sampleSize','windows','reporters','installs')})
 SPOT.update(x=number,y=number,items=[integer],quests=[integer])
+DAILY_TASK.update(profession=text,skillLineID=integer,nextAction=text,spot=SPOT,materials=[MATERIAL])
+DAILY.update(focus=DAILY_TASK,listSize=integer,personal=[dict(id=integer,text=text,done=boolean)])
 FIELD = dict(materials=[MATERIAL],crafts=[dict(recipeID=integer,name=text,remaining=integer)],
     spots=[dict(spot=SPOT,score=number,reasons=[text],evidence=text,comparison=text,travel=text,localZone=boolean,matchCount=integer,
         matchedMaterials=[MATERIAL],history=dict(sessions=integer,seconds=number,xp=integer,kills=integer))],tasks=[text],notices=[text],
@@ -101,6 +104,7 @@ QUEST = dict(questID=integer,name=text,level=integer,complete=boolean,failed=boo
 SESSION = {k:text for k in ('label','spotID','zone')}
 SESSION.update({k:number for k in ('started','ended','seconds','elapsed','segmentAt','pausedAt','lastAt')})
 SESSION.update(kills=integer,xp=integer)
+SESSION.update(moneyIn=integer,moneyOut=integer)
 def item_counts(value):
     if not isinstance(value, dict): raise ValueError('Expected item count map')
     return {str(k):integer(v) for k,v in value.items() if re.fullmatch(r'[1-9][0-9]*', str(k))}
@@ -117,6 +121,7 @@ PUBLIC = dict(id=text,exportedAt=text,addonVersion=text,character=CHARACTER,
     bags=dict(free=integer,capacity=integer,items=[ITEM]),equipment=[ITEM],professions=[PROFESSION],quests=[QUEST],
     goals=[GOAL],nextSteps=[text],fieldPlan=FIELD,dailyPlan=DAILY,gearPlan=GEAR,sessions=[SESSION],activeSession=SESSION,
     coverage={k:text for k in ('bags','bank','professions','bankCapturedAt','bankStatus','sessions')})
+PUBLIC['projectionVersion']=integer
 
 # AI data is explicitly projected. Prompts, local paths, context signatures,
 # account identifiers and full downloaded datasets never enter the public file.
@@ -184,6 +189,7 @@ def public_snapshot(source):
     if isinstance(source.get('gearPlan'),dict): result['gearPlan']=source['gearPlan']
     if isinstance(source.get('localAI'),dict): result['localAI']=source['localAI']
     clean=normalize_public(result)
+    clean['projectionVersion']=2
     for m in clean['fieldPlan'].get('materials',[]):
         if not m.get('action'):
             m['action']='Ready' if m.get('done') else 'Collect' if m.get('collect') else 'Withdraw' if m.get('bank',0)>0 else 'Craft' if m.get('make',0)>0 else 'Buy' if m.get('vendor') else 'Farm'
@@ -212,9 +218,22 @@ def merge_roster(existing,incoming):
         row=normalize_public(raw);old=rows.get(row['id'])
         if old is None or timestamp(row['exportedAt'])>timestamp(old['exportedAt']):
             rows[row['id']]=row;changed=True
-        # Analysis finishes after the character upload. At the same snapshot
-        # timestamp only a strictly newer AI result may be attached; all other
-        # character fields retain their original idempotent behavior.
+        # Equal captures may acquire newly supported projection fields or a
+        # newer AI result, while existing character facts remain unchanged.
+        elif timestamp(row['exportedAt'])==timestamp(old['exportedAt']) and row.get('projectionVersion',0)>old.get('projectionVersion',0):
+            # Enrich the identical capture with newly supported journal fields.
+            # Existing character facts and newer AI analysis remain authoritative.
+            upgraded=dict(old,projectionVersion=row['projectionVersion'])
+            daily=dict(old.get('dailyPlan',{}))
+            for key in ('focus','personal','listSize'):
+                if key not in daily and key in row.get('dailyPlan',{}):daily[key]=row['dailyPlan'][key]
+            if daily:upgraded['dailyPlan']=daily
+            field=dict(old.get('fieldPlan',{}));incoming_materials={m.get('id'):m for m in row.get('fieldPlan',{}).get('materials',[])}
+            if 'materials' in field:
+                field['materials']=[dict(m,**{k:v for k,v in incoming_materials.get(m.get('id'),{}).items() if k not in m and k in ('owned','bankSeen','bankAt','allocations')}) for m in field['materials']]
+            upgraded['fieldPlan']=field
+            if row.get('localAI',{}).get('generatedAt',0)>old.get('localAI',{}).get('generatedAt',0):upgraded['localAI']=row['localAI']
+            rows[row['id']]=upgraded;changed=True
         elif timestamp(row['exportedAt'])==timestamp(old['exportedAt']) and row.get('localAI',{}).get('generatedAt',0)>old.get('localAI',{}).get('generatedAt',0):
             rows[row['id']]=dict(old,localAI=row['localAI']);changed=True
     ordered=sorted(rows.values(),key=lambda r:(r['character']['realm'].casefold(),r['character']['name'].casefold()))

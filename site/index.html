@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111311">
   <meta name="description" content="The SunderCore character chronicle. Progress, professions, and the next worthwhile adventure in WoW Forever.">
-  <title>SunderCore — Character Chronicle</title>
+  <title>SunderCore — Character Journal</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=1.13.0">
+  <link rel="stylesheet" href="journal.css?v=1.13.0">
+  <script src="app.js?v=1.13.0" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to character details</a>
   <aside class="sidebar">
-    <a href="#today" class="brand" aria-label="SunderCore home"><span class="crest" aria-hidden="true">S</span><span>SUNDERCORE<small>THE CHARACTER CHRONICLE</small></span></a>
+    <a href="#today" class="brand" aria-label="SunderCore home"><span class="crest" aria-hidden="true">S</span><span>SUNDERCORE<small>CHARACTER LEDGER · WEB JOURNAL</small></span></a>
     <div class="section-label roster-label">THE ROSTER <span id="roster-count"></span></div>
     <div id="roster" class="roster"><p class="muted">Reading character snapshots…</p></div>
     <div class="section-label nav-label">CHARACTER JOURNAL</div>
@@ -22,7 +23,7 @@
       <a href="#goals" data-view="goals"><span aria-hidden="true">⚒</span> My Goals</a>
       <a href="#browse" data-view="browse"><span aria-hidden="true">◈</span> Browse</a>
     </nav>
-    <div class="sidebar-bottom"><span class="tiny-dot"></span> WORLD OF WARCRAFT FOREVER<p>One family. Many adventures.</p><button class="text-button" id="manage-button">Manage updates <span aria-hidden="true">↗</span></button></div>
+    <div class="sidebar-bottom"><span class="tiny-dot"></span> WORLD OF WARCRAFT FOREVER<p>One family. Many adventures.</p><button class="text-button" id="manage-button">Manage updates</button></div>
   </aside>
   <div class="workspace">
     <header class="topbar"><span>THE SUNDERCORE JOURNAL <span class="separator">/</span> <span id="breadcrumb">Today</span></span><span class="public-label"><span class="tiny-dot"></span> PUBLIC CHRONICLE</span></header>

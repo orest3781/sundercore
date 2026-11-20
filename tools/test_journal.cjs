@@ -10,7 +10,7 @@ for(const version of [1,2,3]){
   assert.match(a.today(c),/Make gold/);assert.match(a.today(c),/Sell spare cloth/);assert.doesNotMatch(a.today(c),/minute session|older snapshot/);
 }
 c.dailyPlan.today=Array.from({length:5},(_,i)=>({id:'gold:sell:'+i,title:'Saved task '+i,kind:'Sell',open:'Gold'}));
-let html=a.today(c);assert.equal((html.match(/featured-task/g)||[]).length,1);assert.match(html,/2 more tasks in your saved checklist/);assert.match(html,/Saved task 4/,'additional saved tasks are not lost');
+let html=a.today(c);assert.equal((html.match(/featured-task/g)||[]).length,0);assert.match(html,/Compare options/);assert.match(a.moreIdeas(c),/Saved task 4/,'all suggestions remain available for comparison');
 assert.match(html,/Reviewed on this device/);assert.doesNotMatch(html,/Mark complete/);
 c.dailyPlan.camp={id:'old',name:'Chosen camp',zone:'Zone',chosen:true};
 c.dailyPlan.soon=[{id:'upgrade:42',title:'Pinned upgrade',kind:'Gear',open:'Gear',pinned:true,why:'<script>bad</script>',action:'<img onerror=bad>'}];
@@ -29,4 +29,4 @@ values.set(a.dailyCheckKey(c,c.dailyPlan),JSON.stringify(['gold:sell:0']));asser
 assert.notEqual(a.dailyCheckKey(c,c.dailyPlan),a.dailyCheckKey({...c,id:'other'},c.dailyPlan));
 assert.notEqual(a.dailyCheckKey(c,c.dailyPlan),a.dailyCheckKey(c,{day:'2026-11-17'}));
 const index=fs.readFileSync(path.join(__dirname,'../site/index.html'),'utf8');assert.deepEqual([...index.matchAll(/data-view="([^"]+)"/g)].map(m=>m[1]),['today','goals','browse']);
-console.log('PASS journal: schemas 1–3, gold focus, three-step default, retained overflow, both professions, explicit tracking, browse routes, escaped details, and isolated browser reviews');
+console.log('PASS journal: schemas 1–3, saved suggestions, optional comparisons, retained overflow, both professions, explicit tracking, browse routes, escaped details, and isolated browser reviews');

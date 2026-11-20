@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T01:45:46Z",
+  "updatedAt": "2026-11-20T01:51:34Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-20T01:45:46Z",
+      "exportedAt": "2026-11-20T01:51:34Z",
       "addonVersion": "1.13.0",
       "character": {
         "name": "Scathe",
@@ -18,16 +18,16 @@
         "level": 24,
         "xp": 20631,
         "xpForNextLevel": 31700,
-        "restedXP": 542,
+        "restedXP": 562,
         "moneyCopper": 29414,
-        "maxHealth": 283,
-        "maxPower": 607,
+        "maxHealth": 526,
+        "maxPower": 1147,
         "stats": {
-          "agility": 6,
-          "intellect": 28,
-          "spirit": 23,
-          "stamina": 17,
-          "strength": 10
+          "agility": 27,
+          "intellect": 64,
+          "spirit": 65,
+          "stamina": 44,
+          "strength": 31
         }
       },
       "bags": {
@@ -559,25 +559,25 @@
           "zone": "Stonetalon Mountains",
           "objectives": [
             {
-              "text": "0/5 Stonetalon Sap",
+              "text": "0/5  ",
               "have": 0,
               "need": 5,
               "finished": false
             },
             {
-              "text": "0/5 Twilight Whisker",
+              "text": "0/5  ",
               "have": 0,
               "need": 5,
               "finished": false
             },
             {
-              "text": "0/30 Courser Eye",
+              "text": "0/30  ",
               "have": 0,
               "need": 30,
               "finished": false
             },
             {
-              "text": "0/1 Fey Dragon Scale",
+              "text": "0/1  ",
               "have": 0,
               "need": 1,
               "finished": false
@@ -611,7 +611,7 @@
           "zone": "The Barrens",
           "objectives": [
             {
-              "text": "0/1 Cats Eye Emerald",
+              "text": "0/1  ",
               "have": 0,
               "need": 1,
               "finished": false
@@ -628,7 +628,7 @@
           "zone": "The Barrens",
           "objectives": [
             {
-              "text": "0/1 Verog's Head",
+              "text": "0/1  ",
               "have": 0,
               "need": 1,
               "finished": false
@@ -645,7 +645,7 @@
           "zone": "The Barrens",
           "objectives": [
             {
-              "text": "0/1 Ishamuhale's Fang",
+              "text": "0/1  ",
               "have": 0,
               "need": 1,
               "finished": false
@@ -689,7 +689,7 @@
           "zone": "Thunder Bluff",
           "objectives": [
             {
-              "text": "0/1 Steelsnap's Rib",
+              "text": "0/1  ",
               "have": 0,
               "need": 1,
               "finished": false
@@ -706,7 +706,7 @@
           "zone": "Warsong Gulch",
           "objectives": [
             {
-              "text": "0/3 Warsong Gulch Mark of Honor",
+              "text": "0/3  ",
               "have": 0,
               "need": 3,
               "finished": false
@@ -723,7 +723,7 @@
           "zone": "Warlock",
           "objectives": [
             {
-              "text": "0/1 Withered Scarf",
+              "text": "0/1  ",
               "have": 0,
               "need": 1,
               "finished": false
@@ -1304,6 +1304,58 @@
             "vendor": true
           },
           {
+            "id": 2678,
+            "bag": 0,
+            "bank": 0,
+            "missing": 36,
+            "need": 36,
+            "owned": 0,
+            "name": "Mild Spices",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Buy",
+            "done": false,
+            "vendor": true
+          },
+          {
+            "id": 2692,
+            "bag": 0,
+            "bank": 0,
+            "missing": 25,
+            "need": 25,
+            "owned": 0,
+            "name": "Hot Spices",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Buy",
+            "done": false,
+            "vendor": true
+          },
+          {
+            "id": 3371,
+            "bag": 0,
+            "bank": 0,
+            "missing": 18,
+            "need": 18,
+            "owned": 0,
+            "name": "Empty Vial",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Buy",
+            "done": false,
+            "vendor": true
+          },
+          {
+            "id": 4340,
+            "bag": 0,
+            "bank": 0,
+            "missing": 18,
+            "need": 18,
+            "owned": 0,
+            "name": "Gray Dye",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Buy",
+            "done": false,
+            "vendor": true
+          },
+          {
             "id": 2318,
             "bag": 0,
             "bank": 0,
@@ -1338,45 +1390,6 @@
             "owned": 6,
             "name": "Wool Cloth",
             "usesText": "Gathering target, SkillUp Forever tracked routes",
-            "action": "Farm",
-            "done": false,
-            "vendor": false
-          },
-          {
-            "id": 2678,
-            "bag": 0,
-            "bank": 0,
-            "missing": 36,
-            "need": 36,
-            "owned": 0,
-            "name": "Mild Spices",
-            "usesText": "SkillUp Forever tracked routes",
-            "action": "Farm",
-            "done": false,
-            "vendor": false
-          },
-          {
-            "id": 2692,
-            "bag": 0,
-            "bank": 0,
-            "missing": 25,
-            "need": 25,
-            "owned": 0,
-            "name": "Hot Spices",
-            "usesText": "SkillUp Forever tracked routes",
-            "action": "Farm",
-            "done": false,
-            "vendor": false
-          },
-          {
-            "id": 3371,
-            "bag": 0,
-            "bank": 0,
-            "missing": 18,
-            "need": 18,
-            "owned": 0,
-            "name": "Empty Vial",
-            "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
             "vendor": false
@@ -1428,19 +1441,6 @@
             "need": 72,
             "owned": 0,
             "name": "Silk Cloth",
-            "usesText": "SkillUp Forever tracked routes",
-            "action": "Farm",
-            "done": false,
-            "vendor": false
-          },
-          {
-            "id": 4340,
-            "bag": 0,
-            "bank": 0,
-            "missing": 18,
-            "need": 18,
-            "owned": 0,
-            "name": "Gray Dye",
             "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
@@ -2469,23 +2469,8 @@
         "day": "2026-11-19",
         "mode": "gold",
         "minutes": 90,
-        "generatedAt": "2026-11-20T01:45:46Z",
+        "generatedAt": "2026-11-20T01:51:34Z",
         "today": [
-          {
-            "id": "upgrade:2582",
-            "kind": "Gear",
-            "title": "Craft: Green Woolen Vest",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Robe of the Eagle; estimated +4.1 stat points. Learned recipe: Green Woolen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 2582,
-            "recipeID": 2399,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
           {
             "id": "gold:sell:279976",
             "kind": "Sell",
@@ -2493,9 +2478,23 @@
             "status": "Unreserved stock",
             "why": "3s 50c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old",
             "open": "Gold",
             "itemID": 279976,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "gold:sell:279972",
+            "kind": "Sell",
+            "title": "List up to 6 Faction Banner",
+            "status": "Unreserved stock",
+            "why": "1s 14c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "action": "Search Faction Banner, compare unit prices and the posting deposit, then list up to 6. Start small; unsold goods are not earnings.",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old",
+            "open": "Gold",
+            "itemID": 279972,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2507,7 +2506,7 @@
             "status": "Test nearby camp",
             "why": "0s 71c estimated net per material; quantity/hour is unknown.",
             "action": "Map Starving Mountain Lion in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.6 hours old",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.7 hours old",
             "open": "Gold",
             "itemID": 3731,
             "pinned": false,
@@ -2565,7 +2564,7 @@
             "status": "Make intermediates first",
             "why": "Estimated 1s 96c above 1s 98c of materials, after a 5% AH cut; before deposits.",
             "action": "Review one Red Linen Vest craft in Tailoring. Check tools, output and the current selling price before making it. List a small test batch.",
-            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (23.6 hours old)",
+            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (23.7 hours old)",
             "open": "Gold",
             "itemID": 6239,
             "recipeID": 7629,
@@ -2580,7 +2579,7 @@
             "status": "Test nearby camp",
             "why": "0s 13c estimated net per material; quantity/hour is unknown.",
             "action": "Map Giant Moss Creeper in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.6 hours old",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.7 hours old",
             "open": "Gold",
             "itemID": 2251,
             "pinned": false,
@@ -2594,23 +2593,9 @@
             "status": "Unreserved stock",
             "why": "0s 20c estimated net each versus 0s 13c at a vendor; before deposits.",
             "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 20. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "gold:sell:279972",
-            "kind": "Sell",
-            "title": "List up to 6 Faction Banner",
-            "status": "Unreserved stock",
-            "why": "1s 14c estimated net each versus 0s 0c at a vendor; before deposits.",
-            "action": "Search Faction Banner, compare unit prices and the posting deposit, then list up to 6. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old",
-            "open": "Gold",
-            "itemID": 279972,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2622,7 +2607,7 @@
             "status": "Unreserved stock",
             "why": "0s 52c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Basic Campfire Kit, compare unit prices and the posting deposit, then list up to 8. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old",
             "open": "Gold",
             "itemID": 279981,
             "pinned": false,
@@ -2636,7 +2621,7 @@
             "status": "Unreserved stock",
             "why": "0s 47c estimated net each versus 0s 4c at a vendor; before deposits.",
             "action": "Search Oily Blackmouth, compare unit prices and the posting deposit, then list up to 4. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old\n\nCommunity idea: Price spare cooking materials before vendoring (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://www.reddit.com/r/wowforever/comments/1xuv2bv/gold_is_not_an_issue_gold_tips_tricks/",
+            "source": "Naowh: your realm/faction observations / 23.7 hours old\n\nCommunity idea: Price spare cooking materials before vendoring (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://www.reddit.com/r/wowforever/comments/1xuv2bv/gold_is_not_an_issue_gold_tips_tricks/",
             "open": "Gold",
             "itemID": 6358,
             "pinned": false,
@@ -2784,16 +2769,15 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:10047",
+            "id": "upgrade:1486",
             "kind": "Gear",
-            "title": "Craft: Simple Kilt",
-            "status": "Craft upgrade",
-            "why": "Replaces Sea Dog Britches; estimated +1.1 stat points. Learned recipe: Simple Kilt",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Tree Bark Jacket",
+            "status": "Group upgrade",
+            "why": "Replaces Aboriginal Robe of the Eagle; estimated +12.3 stat points. Trash - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 10047,
-            "recipeID": 12046,
+            "itemID": 1486,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2813,31 +2797,15 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:253885",
+            "id": "upgrade:2549",
             "kind": "Gear",
-            "title": "Craft: Novice Arcanist's Sash",
-            "status": "Craft upgrade",
-            "why": "Replaces Wise Man's Belt; estimated +3.9 stat points. Learned recipe: Novice Arcanist's Sash",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Staff of the Shade",
+            "status": "Group upgrade",
+            "why": "Replaces Medicine Staff of Magic; estimated +25.5 stat points. Trash - Razorfen Kraul",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 253885,
-            "recipeID": 1257368,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:253887",
-            "kind": "Gear",
-            "title": "Craft: Novice Ardent's Sash",
-            "status": "Craft upgrade",
-            "why": "Replaces Wise Man's Belt; estimated +2.5 stat points. Learned recipe: Novice Ardent's Sash",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 253887,
-            "recipeID": 1257369,
+            "itemID": 2549,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2871,6 +2839,49 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:273645",
+            "kind": "Gear",
+            "title": "Upgrade: Blindwatcher's Sight",
+            "status": "Group upgrade",
+            "why": "Replaces Empty slot; estimated +0.2 stat points. Odo the Blindwatcher - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273645,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273806",
+            "kind": "Gear",
+            "title": "Upgrade: Dark Horde Band",
+            "status": "Group upgrade",
+            "why": "Replaces Empty slot; estimated +6.6 stat points. Targorr the Dread - The Stockade",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273806,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:279845",
+            "kind": "Gear",
+            "title": "Upgrade: Solid Gold Band",
+            "status": "Group upgrade",
+            "why": "Replaces Empty slot; estimated +5.5 stat points. Opportunistic Education - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires City of Dalaran.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 279845,
+            "questID": 96987,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:3748",
             "kind": "Gear",
             "title": "Upgrade: Feline Mantle",
@@ -2885,74 +2896,16 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:4307",
+            "id": "upgrade:4197",
             "kind": "Gear",
-            "title": "Craft: Heavy Linen Gloves",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Gloves of the Eagle; estimated +0.4 stat points. Learned recipe: Heavy Linen Gloves",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Berylline Pads",
+            "status": "Group upgrade",
+            "why": "Replaces Double-Stitched Woolen Shoulders; estimated +4.9 stat points. A Vengeful Fate - Thunder Bluff - Auld Stonespire (36, 59.9)",
+            "action": "Check the quest chain and reward choice. Requires Razorfen Kraul.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 4307,
-            "recipeID": 3840,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:4309",
-            "kind": "Gear",
-            "title": "Craft: Handstitched Linen Britches",
-            "status": "Craft upgrade",
-            "why": "Replaces Sea Dog Britches; estimated +1.1 stat points. Learned recipe: Handstitched Linen Britches",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 4309,
-            "recipeID": 3842,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:4310",
-            "kind": "Gear",
-            "title": "Craft: Heavy Woolen Gloves",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Gloves of the Eagle; estimated +1.8 stat points. Learned recipe: Heavy Woolen Gloves",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 4310,
-            "recipeID": 3843,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:4311",
-            "kind": "Gear",
-            "title": "Upgrade: Heavy Woolen Cloak",
-            "status": "Review source",
-            "why": "Replaces Woolen Cape; estimated +3.9 stat points. Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 4311,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
-            "id": "upgrade:4318",
-            "kind": "Gear",
-            "title": "Upgrade: Gloves of Meditation",
-            "status": "Review source",
-            "why": "Replaces Aboriginal Gloves of the Eagle; estimated +6.6 stat points. Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 4318,
+            "itemID": 4197,
+            "questID": 1102,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2972,21 +2925,6 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:5542",
-            "kind": "Gear",
-            "title": "Craft: Pearl-clasped Cloak",
-            "status": "Craft upgrade",
-            "why": "Replaces Woolen Cape; estimated +1.2 stat points. Learned recipe: Pearl-clasped Cloak",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "source": "Installed NaowhForever 1.2.33",
-            "open": "Gear",
-            "itemID": 5542,
-            "recipeID": 6521,
-            "pinned": false,
-            "reviewed": false,
-            "snoozed": false
-          },
-          {
             "id": "upgrade:5970",
             "kind": "Gear",
             "title": "Upgrade: Serpent Gloves",
@@ -3001,67 +2939,106 @@
             "snoozed": false
           },
           {
-            "id": "upgrade:6239",
+            "id": "upgrade:6392",
             "kind": "Gear",
-            "title": "Craft: Red Linen Vest",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Robe of the Eagle; estimated +0.2 stat points. Learned recipe: Red Linen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Belt of Arugal",
+            "status": "Group upgrade",
+            "why": "Replaces Wise Man's Belt; estimated +10.2 stat points. Archmage Arugal - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 6239,
-            "recipeID": 7629,
+            "itemID": 6392,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
           },
           {
-            "id": "upgrade:6240",
+            "id": "upgrade:6750",
             "kind": "Gear",
-            "title": "Craft: Blue Linen Vest",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Robe of the Eagle; estimated +0.5 stat points. Learned recipe: Blue Linen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Snake Hoop",
+            "status": "Group upgrade",
+            "why": "Replaces Empty slot; estimated +6.8 stat points. Willix the Importer - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires Razorfen Kraul.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 6240,
-            "recipeID": 7630,
+            "itemID": 6750,
+            "questID": 1144,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
           },
           {
-            "id": "upgrade:6242",
+            "id": "upgrade:6901",
             "kind": "Gear",
-            "title": "Craft: Blue Linen Robe",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Robe of the Eagle; estimated +1.8 stat points. Learned recipe: Blue Linen Robe",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Glowing Thresher Cape",
+            "status": "Group upgrade",
+            "why": "Replaces Woolen Cape; estimated +4.1 stat points. Old Serra'kis - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 6242,
-            "recipeID": 7633,
+            "itemID": 6901,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
           },
           {
-            "id": "upgrade:6264",
+            "id": "upgrade:6903",
             "kind": "Gear",
-            "title": "Craft: Greater Adept's Robe",
-            "status": "Craft upgrade",
-            "why": "Replaces Aboriginal Robe of the Eagle; estimated +2.4 stat points. Learned recipe: Greater Adept's Robe",
-            "action": "Queue one craft to reserve materials and find farming camps.",
+            "title": "Upgrade: Gaze Dreamer Pants",
+            "status": "Group upgrade",
+            "why": "Replaces Sea Dog Britches; estimated +13.6 stat points. Twilight Lord Kelris - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
-            "itemID": 6264,
-            "recipeID": 7643,
+            "itemID": 6903,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:6908",
+            "kind": "Gear",
+            "title": "Upgrade: Ghamoo-ra's Bind",
+            "status": "Group upgrade",
+            "why": "Replaces Wise Man's Belt; estimated +7.9 stat points. Ghamoo-ra - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6908,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
           }
         ],
         "someday": [
+          {
+            "id": "upgrade:16687",
+            "kind": "Gear",
+            "title": "Upgrade: Magister's Leggings",
+            "status": "Level 56 required",
+            "why": "Replaces Sea Dog Britches; estimated +20.8 stat points. Baron Rivendare - Stratholme",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 16687,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:16688",
+            "kind": "Gear",
+            "title": "Upgrade: Magister's Robes",
+            "status": "Level 58 required",
+            "why": "Replaces Aboriginal Robe of the Eagle; estimated +19.3 stat points. General Drakkisath - Upper Blackrock Spire",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 16688,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
           {
             "id": "upgrade:16692",
             "kind": "Gear",
@@ -3399,6 +3376,90 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:286988",
+            "kind": "Gear",
+            "title": "Upgrade: Violet Sorcerer's Leggings",
+            "status": "Level 29 required",
+            "why": "Replaces Sea Dog Britches; estimated +14.6 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286988,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:286989",
+            "kind": "Gear",
+            "title": "Upgrade: Violet Sorcerer's Wraps",
+            "status": "Level 28 required",
+            "why": "Replaces Aboriginal Gloves of the Eagle; estimated +6.3 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286989,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:286994",
+            "kind": "Gear",
+            "title": "Upgrade: Tattered Kirin Tor Cloak",
+            "status": "Level 28 required",
+            "why": "Replaces Woolen Cape; estimated +2.7 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286994,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:286995",
+            "kind": "Gear",
+            "title": "Upgrade: Guardian's Emblem",
+            "status": "Level 28 required",
+            "why": "Replaces Empty slot; estimated +6.8 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286995,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:3719",
+            "kind": "Gear",
+            "title": "Upgrade: Hillman's Cloak",
+            "status": "Level 25 required",
+            "why": "Replaces Woolen Cape; estimated +4.1 stat points. Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 3719,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:6407",
+            "kind": "Gear",
+            "title": "Upgrade: Nightsky Wristbands",
+            "status": "Level 28 required",
+            "why": "Replaces Green Linen Bracers; estimated +1.7 stat points. Grubbis - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6407,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:6685",
             "kind": "Gear",
             "title": "Upgrade: Death Speaker Mantle",
@@ -3455,6 +3516,62 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:7684",
+            "kind": "Gear",
+            "title": "Upgrade: Bloodmage Mantle",
+            "status": "Level 30 required",
+            "why": "Replaces Double-Stitched Woolen Shoulders; estimated +6.2 stat points. Bloodmage Thalnos - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7684,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:7691",
+            "kind": "Gear",
+            "title": "Upgrade: Embalmed Shroud",
+            "status": "Level 30 required",
+            "why": "Replaces Empty slot; estimated +12.5 stat points. Fallen Champion - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7691,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:7708",
+            "kind": "Gear",
+            "title": "Upgrade: Necrotic Wand",
+            "status": "Level 30 required",
+            "why": "Replaces Greater Magic Wand; estimated +1.0 stat points. Azshir the Sleepless - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7708,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:7709",
+            "kind": "Gear",
+            "title": "Upgrade: Blighted Leggings",
+            "status": "Level 30 required",
+            "why": "Replaces Sea Dog Britches; estimated +22.1 stat points. Azshir the Sleepless - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7709,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:7728",
             "kind": "Gear",
             "title": "Upgrade: Beguiler Robes",
@@ -3464,6 +3581,48 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 7728,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9448",
+            "kind": "Gear",
+            "title": "Upgrade: Spidertank Oilrag",
+            "status": "Level 29 required",
+            "why": "Replaces Green Linen Bracers; estimated +8.8 stat points. Electrocutioner 6000 - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9448,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9452",
+            "kind": "Gear",
+            "title": "Upgrade: Hydrocane",
+            "status": "Level 27 required",
+            "why": "Replaces Medicine Staff of Magic; estimated +23.0 stat points. Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9452,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9454",
+            "kind": "Gear",
+            "title": "Upgrade: Acidic Walkers",
+            "status": "Level 27 required",
+            "why": "Replaces Firewalker Boots; estimated +3.9 stat points. Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9454,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -3567,865 +3726,61 @@
         "coverage": "Selected class/spec catalogue, leveling picks, learned crafts, trade-camp unlocks and carried gear. Missing data is unknown. Solo first; dungeon goals stay in Soon.",
         "upgrades": [
           {
-            "name": "Green Woolen Vest",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Green Woolen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 2582,
-            "slot": 5,
-            "requiredLevel": 12,
-            "currentItemID": 14120,
-            "recipeID": 2399,
-            "currentScore": 1.25,
-            "candidateScore": 5.35,
-            "gain": 4.1,
-            "group": false,
+            "name": "Staff of the Shade",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Trash - Razorfen Kraul",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 2549,
+            "slot": 16,
+            "requiredLevel": 22,
+            "currentItemID": 4575,
+            "currentScore": 13.02,
+            "candidateScore": 38.5,
+            "gain": 25.48,
+            "group": true,
             "tracked": false,
             "ignored": false,
-            "eligible": true,
+            "eligible": false,
             "later": false,
-            "recommended": true,
-            "materials": [
-              {
-                "itemID": 2997,
-                "count": 2,
-                "name": "Bolt of Woolen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 2,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 2605,
-                "count": 1,
-                "name": "Green Dye"
-              }
-            ],
+            "waypoint": {
+              "map": 1413,
+              "x": 0.422,
+              "y": 0.898
+            },
+            "materials": [],
             "statChanges": [
               {
-                "stat": "Armor",
-                "before": 34,
-                "after": 30,
-                "delta": -4
-              },
-              {
                 "stat": "Intellect",
-                "before": 4,
+                "before": 6,
                 "after": 0,
-                "delta": -4
+                "delta": -6
               },
               {
-                "stat": "Spell Power",
+                "stat": "Shadow Damage",
                 "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Stamina",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Novice Arcanist's Sash",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Novice Arcanist's Sash",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 253885,
-            "slot": 6,
-            "requiredLevel": 10,
-            "currentItemID": 4786,
-            "recipeID": 1257368,
-            "currentScore": 0.945,
-            "candidateScore": 4.895,
-            "gain": 3.95,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 8,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 2,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 2455,
-                "count": 2,
-                "name": "Minor Mana Potion"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 19,
-                "after": 17,
-                "delta": -2
-              },
-              {
-                "stat": "Intellect",
-                "before": 5,
-                "after": 3,
-                "delta": -2
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 4,
-                "delta": 4
-              },
-              {
-                "stat": "Stamina",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              }
-            ]
-          },
-          {
-            "name": "Novice Ardent's Sash",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Novice Ardent's Sash",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 253887,
-            "slot": 6,
-            "requiredLevel": 10,
-            "currentItemID": 4786,
-            "recipeID": 1257369,
-            "currentScore": 0.945,
-            "candidateScore": 3.495,
-            "gain": 2.55,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 12,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 2,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 118,
-                "count": 2,
-                "name": "Minor Healing Potion"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 19,
-                "after": 17,
-                "delta": -2
-              },
-              {
-                "stat": "Intellect",
-                "before": 5,
-                "after": 3,
-                "delta": -2
-              },
-              {
-                "stat": "Spell Damage",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Spell Healing",
-                "before": 0,
-                "after": 6,
-                "delta": 6
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              }
-            ]
-          },
-          {
-            "name": "Greater Adept's Robe",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Greater Adept's Robe",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 6264,
-            "slot": 5,
-            "requiredLevel": 18,
-            "currentItemID": 14120,
-            "recipeID": 7643,
-            "currentScore": 1.25,
-            "candidateScore": 3.625,
-            "gain": 2.375,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2997,
-                "count": 5,
-                "name": "Bolt of Woolen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 3,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 2604,
-                "count": 3,
-                "name": "Red Dye"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 34,
                 "after": 37,
-                "delta": 3
-              },
-              {
-                "stat": "Intellect",
-                "before": 4,
-                "after": 2,
-                "delta": -2
+                "delta": 37
               },
               {
                 "stat": "Spell Power",
-                "before": 0,
-                "after": 1,
-                "delta": 1
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
-              },
-              {
-                "stat": "Stamina",
-                "before": 4,
+                "before": 12,
                 "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Heavy Woolen Gloves",
-            "slotName": "Hands",
-            "current": "Aboriginal Gloves of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Heavy Woolen Gloves",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 4310,
-            "slot": 10,
-            "requiredLevel": 12,
-            "currentItemID": 14117,
-            "recipeID": 3843,
-            "currentScore": 0.63,
-            "candidateScore": 2.435,
-            "gain": 1.805,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2997,
-                "count": 3,
-                "name": "Bolt of Woolen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 1,
-                "name": "Fine Thread"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 18,
-                "after": 19,
-                "delta": 1
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Stamina",
-                "before": 2,
-                "after": 0,
-                "delta": -2
-              }
-            ]
-          },
-          {
-            "name": "Blue Linen Robe",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Blue Linen Robe",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 6242,
-            "slot": 5,
-            "requiredLevel": 9,
-            "currentItemID": 14120,
-            "recipeID": 7633,
-            "currentScore": 1.25,
-            "candidateScore": 3.03,
-            "gain": 1.78,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 4,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2320,
-                "count": 2,
-                "name": "Coarse Thread"
-              },
-              {
-                "itemID": 6260,
-                "count": 2,
-                "name": "Blue Dye"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 34,
-                "after": 26,
-                "delta": -8
-              },
-              {
-                "stat": "Intellect",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              },
-              {
-                "stat": "Stamina",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Pearl-clasped Cloak",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Pearl-clasped Cloak",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 5542,
-            "slot": 15,
-            "requiredLevel": 14,
-            "currentItemID": 2584,
-            "recipeID": 6521,
-            "currentScore": 1.375,
-            "candidateScore": 2.59,
-            "gain": 1.215,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2997,
-                "count": 3,
-                "name": "Bolt of Woolen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 2,
-                "name": "Fine Thread"
-              },
-              {
-                "itemID": 5498,
-                "count": 1,
-                "name": "Small Lustrous Pearl"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 15,
-                "after": 16,
-                "delta": 1
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 3,
-                "delta": 3
-              },
-              {
-                "stat": "Spell Power",
-                "before": 1,
-                "after": 2,
-                "delta": 1
-              },
-              {
-                "stat": "Spirit",
-                "before": 1,
-                "after": 0,
-                "delta": -1
-              }
-            ]
-          },
-          {
-            "name": "Handstitched Linen Britches",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Handstitched Linen Britches",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 4309,
-            "slot": 7,
-            "requiredLevel": 9,
-            "currentItemID": 5310,
-            "recipeID": 3842,
-            "currentScore": 1.345,
-            "candidateScore": 2.455,
-            "gain": 1.11,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 4,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 2,
-                "name": "Fine Thread"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 29,
-                "after": 23,
-                "delta": -6
-              },
-              {
-                "stat": "Intellect",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Spirit",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              },
-              {
-                "stat": "Strength",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Barbaric Linen Vest",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Project queued",
-            "kind": "Craft",
-            "source": "Learned recipe: Barbaric Linen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 2578,
-            "slot": 5,
-            "requiredLevel": 9,
-            "currentItemID": 14120,
-            "recipeID": 2395,
-            "currentScore": 1.25,
-            "candidateScore": 2.33,
-            "gain": 1.08,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "queued": true,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 4,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2318,
-                "count": 1,
-                "name": "Light Leather"
-              },
-              {
-                "itemID": 2321,
-                "count": 1,
-                "name": "Fine Thread"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 34,
-                "after": 26,
-                "delta": -8
-              },
-              {
-                "stat": "Intellect",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Stamina",
-                "before": 4,
-                "after": 2,
-                "delta": -2
-              }
-            ]
-          },
-          {
-            "name": "Simple Kilt",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Simple Kilt",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 10047,
-            "slot": 7,
-            "requiredLevel": 10,
-            "currentItemID": 5310,
-            "recipeID": 12046,
-            "currentScore": 1.345,
-            "candidateScore": 2.42,
-            "gain": 1.075,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 4,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2321,
-                "count": 1,
-                "name": "Fine Thread"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 29,
-                "after": 24,
-                "delta": -5
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Spirit",
-                "before": 4,
-                "after": 0,
-                "delta": -4
+                "delta": -12
               },
               {
                 "stat": "Stamina",
                 "before": 0,
-                "after": 3,
-                "delta": 3
+                "after": 15,
+                "delta": 15
               },
               {
-                "stat": "Strength",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Blue Linen Vest",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Blue Linen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 6240,
-            "slot": 5,
-            "requiredLevel": 7,
-            "currentItemID": 14120,
-            "recipeID": 7630,
-            "currentScore": 1.25,
-            "candidateScore": 1.715,
-            "gain": 0.465,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 3,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2320,
-                "count": 1,
-                "name": "Coarse Thread"
-              },
-              {
-                "itemID": 6260,
-                "count": 1,
-                "name": "Blue Dye"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 34,
-                "after": 23,
-                "delta": -11
-              },
-              {
-                "stat": "Intellect",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 1,
-                "delta": 1
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 2,
-                "delta": 2
-              },
-              {
-                "stat": "Stamina",
-                "before": 4,
-                "after": 0,
-                "delta": -4
-              }
-            ]
-          },
-          {
-            "name": "Heavy Linen Gloves",
-            "slotName": "Hands",
-            "current": "Aboriginal Gloves of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Heavy Linen Gloves",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 4307,
-            "slot": 10,
-            "requiredLevel": 5,
-            "currentItemID": 14117,
-            "recipeID": 3840,
-            "currentScore": 0.63,
-            "candidateScore": 1.06,
-            "gain": 0.43,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 2,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2320,
-                "count": 1,
-                "name": "Coarse Thread"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 18,
-                "after": 12,
-                "delta": -6
-              },
-              {
-                "stat": "Intellect",
-                "before": 2,
-                "after": 0,
-                "delta": -2
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 1,
-                "delta": 1
-              },
-              {
-                "stat": "Stamina",
-                "before": 2,
-                "after": 0,
-                "delta": -2
-              }
-            ]
-          },
-          {
-            "name": "Red Linen Vest",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Craft upgrade",
-            "kind": "Craft",
-            "source": "Learned recipe: Red Linen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "itemID": 6239,
-            "slot": 5,
-            "requiredLevel": 7,
-            "currentItemID": 14120,
-            "recipeID": 7629,
-            "currentScore": 1.25,
-            "candidateScore": 1.455,
-            "gain": 0.205,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": true,
-            "later": false,
-            "materials": [
-              {
-                "itemID": 2996,
-                "count": 3,
-                "name": "Bolt of Linen Cloth"
-              },
-              {
-                "itemID": 2320,
-                "count": 1,
-                "name": "Coarse Thread"
-              },
-              {
-                "itemID": 2604,
-                "count": 1,
-                "name": "Red Dye"
-              }
-            ],
-            "statChanges": [
-              {
-                "stat": "Armor",
-                "before": 34,
-                "after": 23,
-                "delta": -11
-              },
-              {
-                "stat": "Intellect",
-                "before": 4,
-                "after": 2,
-                "delta": -2
-              },
-              {
-                "stat": "Spell Power",
-                "before": 0,
-                "after": 1,
-                "delta": 1
-              },
-              {
-                "stat": "Stamina",
-                "before": 4,
-                "after": 0,
-                "delta": -4
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 16.538461685181,
+                "delta": 7.3384618759155
               }
             ]
           },
@@ -4495,6 +3850,260 @@
             ]
           },
           {
+            "name": "Gaze Dreamer Pants",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Twilight Lord Kelris - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6903,
+            "slot": 7,
+            "requiredLevel": 23,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 14.9,
+            "gain": 13.555,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 40,
+                "delta": 11
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 9,
+                "delta": 5
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Tree Bark Jacket",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Trash - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 1486,
+            "slot": 5,
+            "requiredLevel": 21,
+            "currentItemID": 14120,
+            "currentScore": 1.25,
+            "candidateScore": 13.52,
+            "gain": 12.27,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 34,
+                "after": 104,
+                "delta": 70
+              },
+              {
+                "stat": "Intellect",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Belt of Arugal",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Archmage Arugal - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6392,
+            "slot": 6,
+            "requiredLevel": 23,
+            "currentItemID": 4786,
+            "currentScore": 0.945,
+            "candidateScore": 11.14,
+            "gain": 10.195,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1421,
+              "x": 0.455,
+              "y": 0.677
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 2,
+                "delta": 2
+              },
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 26,
+                "delta": 7
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 3,
+                "delta": -2
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Ghamoo-ra's Bind",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Ghamoo-ra - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6908,
+            "slot": 6,
+            "requiredLevel": 22,
+            "currentItemID": 4786,
+            "currentScore": 0.945,
+            "candidateScore": 8.825,
+            "gain": 7.88,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 25,
+                "delta": 6
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 0,
+                "delta": -5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              }
+            ]
+          },
+          {
+            "name": "Snake Hoop",
+            "slotName": "Ring 2",
+            "current": "Empty slot",
+            "status": "Group upgrade",
+            "kind": "Quest",
+            "source": "Willix the Importer - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires Razorfen Kraul.",
+            "itemID": 6750,
+            "slot": 12,
+            "requiredLevel": 0,
+            "questID": 1144,
+            "currentScore": 0,
+            "candidateScore": 6.85,
+            "gain": 6.85,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              }
+            ]
+          },
+          {
             "name": "Tuskwrap Belt",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -4548,56 +4157,42 @@
             ]
           },
           {
-            "name": "Gloves of Meditation",
-            "slotName": "Hands",
-            "current": "Aboriginal Gloves of the Eagle",
-            "status": "Review source",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 4318,
-            "slot": 10,
+            "name": "Dark Horde Band",
+            "slotName": "Ring 2",
+            "current": "Empty slot",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Targorr the Dread - The Stockade",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273806,
+            "slot": 12,
             "requiredLevel": 21,
-            "currentItemID": 14117,
-            "currentScore": 0.63,
-            "candidateScore": 7.225,
-            "gain": 6.595,
-            "group": false,
+            "currentScore": 0,
+            "candidateScore": 6.6,
+            "gain": 6.6,
+            "group": true,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
+            "waypoint": {
+              "map": 1453,
+              "x": 0.51,
+              "y": 0.681
+            },
             "materials": [],
             "statChanges": [
               {
-                "stat": "Armor",
-                "before": 18,
-                "after": 25,
-                "delta": 7
-              },
-              {
-                "stat": "Intellect",
-                "before": 2,
-                "after": 0,
-                "delta": -2
-              },
-              {
                 "stat": "Spell Power",
                 "before": 0,
-                "after": 5,
-                "delta": 5
-              },
-              {
-                "stat": "Spirit",
-                "before": 0,
-                "after": 7,
-                "delta": 7
+                "after": 6,
+                "delta": 6
               },
               {
                 "stat": "Stamina",
-                "before": 2,
-                "after": 0,
-                "delta": -2
+                "before": 0,
+                "after": 6,
+                "delta": 6
               }
             ]
           },
@@ -4661,6 +4256,102 @@
             ]
           },
           {
+            "name": "Solid Gold Band",
+            "slotName": "Ring 2",
+            "current": "Empty slot",
+            "status": "Group upgrade",
+            "kind": "Quest",
+            "source": "Opportunistic Education - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires City of Dalaran.",
+            "itemID": 279845,
+            "slot": 12,
+            "requiredLevel": 1,
+            "questID": 96987,
+            "currentScore": 0,
+            "candidateScore": 5.5,
+            "gain": 5.5,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Spell Damage",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Spell Healing",
+                "before": 0,
+                "after": 11,
+                "delta": 11
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Berylline Pads",
+            "slotName": "Shoulders",
+            "current": "Double-Stitched Woolen Shoulders",
+            "status": "Group upgrade",
+            "kind": "Quest",
+            "source": "A Vengeful Fate - Thunder Bluff - Auld Stonespire (36, 59.9)",
+            "action": "Check the quest chain and reward choice. Requires Razorfen Kraul.",
+            "itemID": 4197,
+            "slot": 3,
+            "requiredLevel": 0,
+            "currentItemID": 4314,
+            "questID": 1102,
+            "currentScore": 4.535,
+            "candidateScore": 9.395,
+            "gain": 4.86,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1456,
+              "x": 0.36,
+              "y": 0.599
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 27,
+                "after": 39,
+                "delta": 12
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 10,
+                "delta": 10
+              },
+              {
+                "stat": "Spell Power",
+                "before": 4,
+                "after": 7,
+                "delta": 3
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 5,
+                "delta": 1
+              }
+            ]
+          },
+          {
             "name": "Spidersilk Boots",
             "slotName": "Feet",
             "current": "Firewalker Boots",
@@ -4715,44 +4406,61 @@
             ]
           },
           {
-            "name": "Heavy Woolen Cloak",
+            "name": "Glowing Thresher Cape",
             "slotName": "Back",
             "current": "Woolen Cape",
-            "status": "Review source",
-            "kind": "Review",
-            "source": "Tailoring · Crafted",
-            "action": "Check the source and requirements before planning a farm.",
-            "itemID": 4311,
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Old Serra'kis - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6901,
             "slot": 15,
-            "requiredLevel": 16,
+            "requiredLevel": 24,
             "currentItemID": 2584,
             "currentScore": 1.375,
-            "candidateScore": 5.285,
-            "gain": 3.91,
-            "group": false,
+            "candidateScore": 5.515,
+            "gain": 4.14,
+            "group": true,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
             "materials": [],
             "statChanges": [
               {
                 "stat": "Armor",
                 "before": 15,
-                "after": 17,
-                "delta": 2
+                "after": 23,
+                "delta": 8
+              },
+              {
+                "stat": "Spell Damage",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Spell Healing",
+                "before": 0,
+                "after": 7,
+                "delta": 7
               },
               {
                 "stat": "Spell Power",
                 "before": 1,
-                "after": 4,
-                "delta": 3
+                "after": 0,
+                "delta": -1
               },
               {
                 "stat": "Spirit",
                 "before": 1,
-                "after": 4,
-                "delta": 3
+                "after": 8,
+                "delta": 7
               }
             ]
           },
@@ -4844,30 +4552,38 @@
             ]
           },
           {
-            "name": "Tree Bark Jacket",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Loading item data",
+            "name": "Blindwatcher's Sight",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Group upgrade",
             "kind": "Dungeon",
-            "source": "Trash - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 1486,
-            "slot": 5,
+            "source": "Odo the Blindwatcher - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273645,
+            "slot": 1,
             "requiredLevel": 21,
-            "currentItemID": 14120,
-            "currentScore": 1.25,
+            "currentScore": 0,
+            "candidateScore": 0.175,
+            "gain": 0.175,
             "group": true,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
             "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
+              "map": 1421,
+              "x": 0.455,
+              "y": 0.677
             },
             "materials": [],
-            "statChanges": []
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 35,
+                "delta": 35
+              }
+            ]
           },
           {
             "name": "Gallan Cuffs",
@@ -4897,44 +4613,19 @@
             "statChanges": []
           },
           {
-            "name": "Staff of the Shade",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - Razorfen Kraul",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 2549,
-            "slot": 16,
-            "requiredLevel": 22,
-            "currentItemID": 4575,
-            "currentScore": 13.02,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.422,
-              "y": 0.898
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Evocator's Blade",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
+            "status": "Needs weapon set",
             "kind": "Dungeon",
             "source": "Trash - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
             "itemID": 2567,
             "slot": 16,
             "requiredLevel": 20,
             "currentItemID": 4575,
             "currentScore": 13.02,
+            "candidateScore": 29.84,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -4946,6 +4637,321 @@
               "y": 0.143
             },
             "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 2,
+                "delta": -4
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 28,
+                "delta": 16
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 10.9375,
+                "delta": 1.7375001907349
+              }
+            ]
+          },
+          {
+            "name": "Brown Linen Vest",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Brown Linen Vest",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2568,
+            "slot": 5,
+            "requiredLevel": 3,
+            "currentItemID": 14120,
+            "recipeID": 2385,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 1,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Linen Boots",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Linen Boots",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2569,
+            "slot": 8,
+            "requiredLevel": 8,
+            "currentItemID": 6482,
+            "recipeID": 2386,
+            "currentScore": 3.8,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 3,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 2318,
+                "count": 1,
+                "name": "Light Leather"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Linen Cloak",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Linen Cloak",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2570,
+            "slot": 15,
+            "requiredLevel": 1,
+            "currentItemID": 2584,
+            "recipeID": 2387,
+            "currentScore": 1.375,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 1,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Red Linen Robe",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Red Linen Robe",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2572,
+            "slot": 5,
+            "requiredLevel": 5,
+            "currentItemID": 14120,
+            "recipeID": 2389,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 3,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 2,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 2604,
+                "count": 2,
+                "name": "Red Dye"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Barbaric Linen Vest",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Project queued",
+            "kind": "Craft",
+            "source": "Learned recipe: Barbaric Linen Vest",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2578,
+            "slot": 5,
+            "requiredLevel": 9,
+            "currentItemID": 14120,
+            "recipeID": 2395,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "queued": true,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 4,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2318,
+                "count": 1,
+                "name": "Light Leather"
+              },
+              {
+                "itemID": 2321,
+                "count": 1,
+                "name": "Fine Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Reinforced Linen Cape",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Reinforced Linen Cape",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2580,
+            "slot": 15,
+            "requiredLevel": 7,
+            "currentItemID": 2584,
+            "recipeID": 2397,
+            "currentScore": 1.375,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 2,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 3,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Green Woolen Vest",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Green Woolen Vest",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2582,
+            "slot": 5,
+            "requiredLevel": 12,
+            "currentItemID": 14120,
+            "recipeID": 2399,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 2,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 2605,
+                "count": 1,
+                "name": "Green Dye"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Woolen Boots",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Woolen Boots",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 2583,
+            "slot": 8,
+            "requiredLevel": 14,
+            "currentItemID": 6482,
+            "recipeID": 2401,
+            "currentScore": 3.8,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 4,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 2318,
+                "count": 2,
+                "name": "Light Leather"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -4976,30 +4982,215 @@
             "statChanges": []
           },
           {
-            "name": "Berylline Pads",
-            "slotName": "Shoulders",
-            "current": "Double-Stitched Woolen Shoulders",
+            "name": "Heavy Linen Gloves",
+            "slotName": "Hands",
+            "current": "Aboriginal Gloves of the Eagle",
             "status": "Loading item data",
-            "kind": "Quest",
-            "source": "A Vengeful Fate - Thunder Bluff - Auld Stonespire (36, 59.9)",
+            "kind": "Craft",
+            "source": "Learned recipe: Heavy Linen Gloves",
             "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 4197,
-            "slot": 3,
-            "requiredLevel": 0,
-            "currentItemID": 4314,
-            "questID": 1102,
-            "currentScore": 4.535,
-            "group": true,
+            "itemID": 4307,
+            "slot": 10,
+            "requiredLevel": 5,
+            "currentItemID": 14117,
+            "recipeID": 3840,
+            "currentScore": 0.63,
+            "group": false,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
-            "waypoint": {
-              "map": 1456,
-              "x": 0.36,
-              "y": 0.599
-            },
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 2,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Handstitched Linen Britches",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Handstitched Linen Britches",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4309,
+            "slot": 7,
+            "requiredLevel": 9,
+            "currentItemID": 5310,
+            "recipeID": 3842,
+            "currentScore": 1.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 4,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Heavy Woolen Gloves",
+            "slotName": "Hands",
+            "current": "Aboriginal Gloves of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Heavy Woolen Gloves",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4310,
+            "slot": 10,
+            "requiredLevel": 12,
+            "currentItemID": 14117,
+            "recipeID": 3843,
+            "currentScore": 0.63,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 3,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 1,
+                "name": "Fine Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Heavy Woolen Cloak",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4311,
+            "slot": 15,
+            "requiredLevel": 16,
+            "currentItemID": 2584,
+            "currentScore": 1.375,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
             "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Soft-soled Linen Boots",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Soft-soled Linen Boots",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4312,
+            "slot": 8,
+            "requiredLevel": 11,
+            "currentItemID": 6482,
+            "recipeID": 3845,
+            "currentScore": 3.8,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 5,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2318,
+                "count": 2,
+                "name": "Light Leather"
+              },
+              {
+                "itemID": 2321,
+                "count": 1,
+                "name": "Fine Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Gloves of Meditation",
+            "slotName": "Hands",
+            "current": "Aboriginal Gloves of the Eagle",
+            "status": "Loading item data",
+            "kind": "Review",
+            "source": "Tailoring · Crafted",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4318,
+            "slot": 10,
+            "requiredLevel": 21,
+            "currentItemID": 14117,
+            "currentScore": 0.63,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Brown Linen Pants",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Brown Linen Pants",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 4343,
+            "slot": 7,
+            "requiredLevel": 5,
+            "currentItemID": 5310,
+            "recipeID": 3914,
+            "currentScore": 1.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 2,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -5050,29 +5241,264 @@
             "statChanges": []
           },
           {
-            "name": "Belt of Arugal",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
+            "name": "Pearl-clasped Cloak",
+            "slotName": "Back",
+            "current": "Woolen Cape",
             "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Archmage Arugal - Shadowfang Keep",
+            "kind": "Craft",
+            "source": "Learned recipe: Pearl-clasped Cloak",
             "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6392,
-            "slot": 6,
-            "requiredLevel": 23,
-            "currentItemID": 4786,
-            "currentScore": 0.945,
-            "group": true,
+            "itemID": 5542,
+            "slot": 15,
+            "requiredLevel": 14,
+            "currentItemID": 2584,
+            "recipeID": 6521,
+            "currentScore": 1.375,
+            "group": false,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
-            "waypoint": {
-              "map": 1421,
-              "x": 0.455,
-              "y": 0.677
-            },
-            "materials": [],
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 3,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 5498,
+                "count": 1,
+                "name": "Small Lustrous Pearl"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Brown Linen Robe",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Brown Linen Robe",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6238,
+            "slot": 5,
+            "requiredLevel": 5,
+            "currentItemID": 14120,
+            "recipeID": 7623,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 3,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Red Linen Vest",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Red Linen Vest",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6239,
+            "slot": 5,
+            "requiredLevel": 7,
+            "currentItemID": 14120,
+            "recipeID": 7629,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 3,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 2604,
+                "count": 1,
+                "name": "Red Dye"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Blue Linen Vest",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Blue Linen Vest",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6240,
+            "slot": 5,
+            "requiredLevel": 7,
+            "currentItemID": 14120,
+            "recipeID": 7630,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 3,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 6260,
+                "count": 1,
+                "name": "Blue Dye"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "White Linen Robe",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: White Linen Robe",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6241,
+            "slot": 5,
+            "requiredLevel": 5,
+            "currentItemID": 14120,
+            "recipeID": 7624,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 3,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 2324,
+                "count": 1,
+                "name": "Bleach"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Blue Linen Robe",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Blue Linen Robe",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6242,
+            "slot": 5,
+            "requiredLevel": 9,
+            "currentItemID": 14120,
+            "recipeID": 7633,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 4,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 2,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 6260,
+                "count": 2,
+                "name": "Blue Dye"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Greater Adept's Robe",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Greater Adept's Robe",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 6264,
+            "slot": 5,
+            "requiredLevel": 18,
+            "currentItemID": 14120,
+            "recipeID": 7643,
+            "currentScore": 1.25,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2997,
+                "count": 5,
+                "name": "Bolt of Woolen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 3,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 2604,
+                "count": 3,
+                "name": "Red Dye"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -5103,24 +5529,46 @@
             "statChanges": []
           },
           {
-            "name": "Snake Hoop",
-            "slotName": "Ring 2",
-            "current": "Empty slot",
+            "name": "Simple Dress",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
             "status": "Loading item data",
-            "kind": "Quest",
-            "source": "Willix the Importer - Where it starts is not known yet",
+            "kind": "Craft",
+            "source": "Learned recipe: Simple Dress",
             "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6750,
-            "slot": 12,
+            "itemID": 6786,
+            "slot": 5,
             "requiredLevel": 0,
-            "questID": 1144,
-            "currentScore": 0,
-            "group": true,
+            "currentItemID": 14120,
+            "recipeID": 8465,
+            "currentScore": 1.25,
+            "group": false,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
-            "materials": [],
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 2,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              },
+              {
+                "itemID": 6260,
+                "count": 1,
+                "name": "Blue Dye"
+              },
+              {
+                "itemID": 2324,
+                "count": 1,
+                "name": "Bleach"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -5177,84 +5625,6 @@
             "statChanges": []
           },
           {
-            "name": "Glowing Thresher Cape",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Old Serra'kis - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6901,
-            "slot": 15,
-            "requiredLevel": 24,
-            "currentItemID": 2584,
-            "currentScore": 1.375,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Gaze Dreamer Pants",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Twilight Lord Kelris - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6903,
-            "slot": 7,
-            "requiredLevel": 23,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Ghamoo-ra's Bind",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Ghamoo-ra - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6908,
-            "slot": 6,
-            "requiredLevel": 22,
-            "currentItemID": 4786,
-            "currentScore": 0.945,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Gravestone Scepter",
             "slotName": "Ranged / relic",
             "current": "Greater Magic Wand",
@@ -5274,6 +5644,39 @@
             "eligible": false,
             "later": false,
             "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Linen Belt",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Linen Belt",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 7026,
+            "slot": 6,
+            "requiredLevel": 4,
+            "currentItemID": 4786,
+            "recipeID": 8776,
+            "currentScore": 0.945,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 1,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -5387,6 +5790,110 @@
             "statChanges": []
           },
           {
+            "name": "Simple Linen Pants",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Simple Linen Pants",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 10045,
+            "slot": 7,
+            "requiredLevel": 2,
+            "currentItemID": 5310,
+            "recipeID": 12044,
+            "currentScore": 1.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 1,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Simple Linen Boots",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Simple Linen Boots",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 10046,
+            "slot": 8,
+            "requiredLevel": 4,
+            "currentItemID": 6482,
+            "recipeID": 12045,
+            "currentScore": 3.8,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 2,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2318,
+                "count": 1,
+                "name": "Light Leather"
+              },
+              {
+                "itemID": 2320,
+                "count": 1,
+                "name": "Coarse Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Simple Kilt",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Simple Kilt",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 10047,
+            "slot": 7,
+            "requiredLevel": 10,
+            "currentItemID": 5310,
+            "recipeID": 12046,
+            "currentScore": 1.345,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 4,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 1,
+                "name": "Fine Thread"
+              }
+            ],
+            "statChanges": []
+          },
+          {
             "name": "Spellpower Goggles Xtreme",
             "slotName": "Head",
             "current": "Empty slot",
@@ -5431,6 +5938,39 @@
               "y": 0.054
             },
             "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Lesser Magic Wand",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Lesser Magic Wand",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 11287,
+            "slot": 18,
+            "requiredLevel": 5,
+            "currentItemID": 11288,
+            "recipeID": 14293,
+            "currentScore": 2,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 4470,
+                "count": 1,
+                "name": "Simple Wood"
+              },
+              {
+                "itemID": 10938,
+                "count": 1,
+                "name": "Lesser Magic Essence"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -5714,6 +6254,39 @@
             "statChanges": []
           },
           {
+            "name": "Novice's Practice Wand",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Novice's Practice Wand",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 247789,
+            "slot": 18,
+            "requiredLevel": 1,
+            "currentItemID": 11288,
+            "recipeID": 1245321,
+            "currentScore": 2,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 4470,
+                "count": 1,
+                "name": "Simple Wood"
+              },
+              {
+                "itemID": 247786,
+                "count": 1,
+                "name": "Mote of Magic"
+              }
+            ],
+            "statChanges": []
+          },
+          {
             "name": "Tabitha's Cuffs",
             "slotName": "Wrists",
             "current": "Green Linen Bracers",
@@ -5738,6 +6311,82 @@
               "y": 0.428
             },
             "materials": [],
+            "statChanges": []
+          },
+          {
+            "name": "Novice Arcanist's Sash",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Novice Arcanist's Sash",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 253885,
+            "slot": 6,
+            "requiredLevel": 10,
+            "currentItemID": 4786,
+            "recipeID": 1257368,
+            "currentScore": 0.945,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 8,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 2455,
+                "count": 2,
+                "name": "Minor Mana Potion"
+              }
+            ],
+            "statChanges": []
+          },
+          {
+            "name": "Novice Ardent's Sash",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Loading item data",
+            "kind": "Craft",
+            "source": "Learned recipe: Novice Ardent's Sash",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 253887,
+            "slot": 6,
+            "requiredLevel": 10,
+            "currentItemID": 4786,
+            "recipeID": 1257369,
+            "currentScore": 0.945,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [
+              {
+                "itemID": 2996,
+                "count": 12,
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "itemID": 2321,
+                "count": 2,
+                "name": "Fine Thread"
+              },
+              {
+                "itemID": 118,
+                "count": 2,
+                "name": "Minor Healing Potion"
+              }
+            ],
             "statChanges": []
           },
           {
@@ -7337,127 +7986,6 @@
             "statChanges": []
           },
           {
-            "name": "Worgenbane Talisman",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Commander Springvale - Shadowfang Keep",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273643,
-            "slot": 13,
-            "requiredLevel": 21,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1421,
-              "x": 0.455,
-              "y": 0.677
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Blindwatcher's Sight",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Odo the Blindwatcher - Shadowfang Keep",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273645,
-            "slot": 1,
-            "requiredLevel": 21,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1421,
-              "x": 0.455,
-              "y": 0.677
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Dark Horde Band",
-            "slotName": "Ring 2",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Targorr the Dread - The Stockade",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273806,
-            "slot": 12,
-            "requiredLevel": 21,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1453,
-              "x": 0.51,
-              "y": 0.681
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Cursed Murloc Eye",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Gelihast - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273840,
-            "slot": 13,
-            "requiredLevel": 24,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Transformative Cocoon",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "The Broodmother - Mulgore - Muln Earthfury (33.4, 22.4)",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 276895,
-            "slot": 13,
-            "requiredLevel": 1,
-            "questID": 96261,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "A Lesson in Destruction",
             "slotName": "Off hand",
             "current": "Empty slot",
@@ -7542,27 +8070,6 @@
             "statChanges": []
           },
           {
-            "name": "Solid Gold Band",
-            "slotName": "Ring 2",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "Opportunistic Education - Where it starts is not known yet",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 279845,
-            "slot": 12,
-            "requiredLevel": 1,
-            "questID": 96987,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Mutinous Cuffs",
             "slotName": "Wrists",
             "current": "Green Linen Bracers",
@@ -7580,32 +8087,6 @@
             "ignored": false,
             "eligible": false,
             "later": false,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Satchel of Potions",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "Changing Tastes - Orgrimmar - Borstan (57.4, 53.4)",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 280766,
-            "slot": 13,
-            "requiredLevel": 1,
-            "questID": 95697,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1454,
-              "x": 0.574,
-              "y": 0.534
-            },
             "materials": [],
             "statChanges": []
           },
@@ -7768,6 +8249,118 @@
             ]
           },
           {
+            "name": "Hydrocane",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 9452,
+            "slot": 16,
+            "requiredLevel": 27,
+            "currentItemID": 4575,
+            "currentScore": 13.02,
+            "candidateScore": 36,
+            "gain": 22.98,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Frost Resistance",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              },
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 0,
+                "delta": -6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 36,
+                "delta": 24
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 19.82142829895,
+                "delta": 10.621428489685
+              },
+              {
+                "stat": "frost resistance",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              }
+            ]
+          },
+          {
+            "name": "Blighted Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 30 required",
+            "kind": "Dungeon",
+            "source": "Azshir the Sleepless - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 7709,
+            "slot": 7,
+            "requiredLevel": 30,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 23.425,
+            "gain": 22.08,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 45,
+                "delta": 16
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 19,
+                "delta": 19
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 14,
+                "delta": 10
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
             "name": "Death Prophet Spine",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
@@ -7823,6 +8416,253 @@
                 "before": 9.1999998092651,
                 "after": 18.92857170105,
                 "delta": 9.7285718917847
+              }
+            ]
+          },
+          {
+            "name": "Magister's Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 56 required",
+            "kind": "Dungeon",
+            "source": "Baron Rivendare - Stratholme",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 16687,
+            "slot": 7,
+            "requiredLevel": 56,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 22.11,
+            "gain": 20.765,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1423,
+              "x": 0.269,
+              "y": 0.118
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 76,
+                "delta": 47
+              },
+              {
+                "stat": "Hit",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 21,
+                "delta": 17
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Magister's Robes",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Level 58 required",
+            "kind": "Dungeon",
+            "source": "General Drakkisath - Upper Blackrock Spire",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 16688,
+            "slot": 5,
+            "requiredLevel": 58,
+            "currentItemID": 14120,
+            "currentScore": 1.25,
+            "candidateScore": 20.505,
+            "gain": 19.255,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1427,
+              "x": 0.411,
+              "y": 0.953
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 34,
+                "after": 89,
+                "delta": 55
+              },
+              {
+                "stat": "Intellect",
+                "before": 4,
+                "after": 28,
+                "delta": 24
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 9,
+                "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Violet Sorcerer's Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286988,
+            "slot": 7,
+            "requiredLevel": 29,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 15.93,
+            "gain": 14.585,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 44,
+                "delta": 15
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 5,
+                "delta": 1
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Embalmed Shroud",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Level 30 required",
+            "kind": "Dungeon",
+            "source": "Fallen Champion - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 7691,
+            "slot": 1,
+            "requiredLevel": 30,
+            "currentScore": 0,
+            "candidateScore": 12.51,
+            "gain": 12.51,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 42,
+                "delta": 42
+              },
+              {
+                "stat": "Spell Damage",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Spell Healing",
+                "before": 0,
+                "after": 24,
+                "delta": 24
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 7,
+                "delta": 7
               }
             ]
           },
@@ -8377,6 +9217,59 @@
             ]
           },
           {
+            "name": "Spidertank Oilrag",
+            "slotName": "Wrists",
+            "current": "Green Linen Bracers",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Electrocutioner 6000 - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 9448,
+            "slot": 9,
+            "requiredLevel": 29,
+            "currentItemID": 4308,
+            "currentScore": 0.35,
+            "candidateScore": 9.11,
+            "gain": 8.76,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 10,
+                "after": 22,
+                "delta": 12
+              },
+              {
+                "stat": "Mana Regeneration per 5 sec",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              }
+            ]
+          },
+          {
             "name": "Blightleaf Rope",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -8473,6 +9366,158 @@
                 "before": 1,
                 "after": 6,
                 "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Guardian's Emblem",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286995,
+            "slot": 2,
+            "requiredLevel": 28,
+            "currentScore": 0,
+            "candidateScore": 6.8,
+            "gain": 6.8,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              }
+            ]
+          },
+          {
+            "name": "Violet Sorcerer's Wraps",
+            "slotName": "Hands",
+            "current": "Aboriginal Gloves of the Eagle",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286989,
+            "slot": 10,
+            "requiredLevel": 28,
+            "currentItemID": 14117,
+            "currentScore": 0.63,
+            "candidateScore": 6.885,
+            "gain": 6.255,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 18,
+                "after": 31,
+                "delta": 13
+              },
+              {
+                "stat": "Hit",
+                "before": 0,
+                "after": 10,
+                "delta": 10
+              },
+              {
+                "stat": "Intellect",
+                "before": 2,
+                "after": 9,
+                "delta": 7
+              },
+              {
+                "stat": "Stamina",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              }
+            ]
+          },
+          {
+            "name": "Bloodmage Mantle",
+            "slotName": "Shoulders",
+            "current": "Double-Stitched Woolen Shoulders",
+            "status": "Level 30 required",
+            "kind": "Dungeon",
+            "source": "Bloodmage Thalnos - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 7684,
+            "slot": 3,
+            "requiredLevel": 30,
+            "currentItemID": 4314,
+            "currentScore": 4.535,
+            "candidateScore": 10.72,
+            "gain": 6.185,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 27,
+                "after": 38,
+                "delta": 11
+              },
+              {
+                "stat": "Health Per 5 Sec.",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spell Power",
+                "before": 4,
+                "after": 9,
+                "delta": 5
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 0,
+                "delta": -4
               }
             ]
           },
@@ -8824,6 +9869,119 @@
             ]
           },
           {
+            "name": "Hillman's Cloak",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Level 25 required",
+            "kind": "Review",
+            "source": "Leatherworking · Crafted",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 3719,
+            "slot": 15,
+            "requiredLevel": 25,
+            "currentItemID": 2584,
+            "currentScore": 1.375,
+            "candidateScore": 5.505,
+            "gain": 4.13,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 15,
+                "after": 21,
+                "delta": 6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 1,
+                "after": 5,
+                "delta": 4
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              }
+            ]
+          },
+          {
+            "name": "Acidic Walkers",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 9454,
+            "slot": 8,
+            "requiredLevel": 27,
+            "currentItemID": 6482,
+            "currentScore": 3.8,
+            "candidateScore": 7.73,
+            "gain": 3.93,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 34,
+                "delta": 8
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 8,
+                "delta": 7
+              },
+              {
+                "stat": "Nature Resistance",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 5,
+                "delta": 3
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 4,
+                "delta": -1
+              },
+              {
+                "stat": "nature resistance",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              }
+            ]
+          },
+          {
             "name": "Batwing Mantle",
             "slotName": "Shoulders",
             "current": "Double-Stitched Woolen Shoulders",
@@ -8936,6 +10094,65 @@
             ]
           },
           {
+            "name": "Tattered Kirin Tor Cloak",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286994,
+            "slot": 15,
+            "requiredLevel": 28,
+            "currentItemID": 2584,
+            "currentScore": 1.375,
+            "candidateScore": 4.085,
+            "gain": 2.71,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 15,
+                "after": 25,
+                "delta": 10
+              },
+              {
+                "stat": "Hit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Spell Power",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              }
+            ]
+          },
+          {
             "name": "Roogug's Severed Head",
             "slotName": "Trinket 1",
             "current": "Empty slot",
@@ -8966,6 +10183,53 @@
                 "before": 0,
                 "after": 6,
                 "delta": 6
+              }
+            ]
+          },
+          {
+            "name": "Nightsky Wristbands",
+            "slotName": "Wrists",
+            "current": "Green Linen Bracers",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Grubbis - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6407,
+            "slot": 9,
+            "requiredLevel": 28,
+            "currentItemID": 4308,
+            "currentScore": 0.35,
+            "candidateScore": 2.02,
+            "gain": 1.67,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 10,
+                "after": 20,
+                "delta": 10
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 3,
+                "delta": 2
               }
             ]
           },
@@ -9076,6 +10340,71 @@
                 "before": 0,
                 "after": 6,
                 "delta": 6
+              }
+            ]
+          },
+          {
+            "name": "Necrotic Wand",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Level 30 required",
+            "kind": "Dungeon",
+            "source": "Azshir the Sleepless - Scarlet Monastery - Graveyard",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 7708,
+            "slot": 18,
+            "requiredLevel": 30,
+            "currentItemID": 11288,
+            "currentScore": 2,
+            "candidateScore": 3,
+            "gain": 1,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Shadow Resistance",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Spell Damage",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Spell Healing",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "damage per second",
+                "before": 17.5,
+                "after": 33.214286804199,
+                "delta": 15.714286804199
+              },
+              {
+                "stat": "shadow resistance",
+                "before": 0,
+                "after": 4,
+                "delta": 4
               }
             ]
           },
@@ -9230,27 +10559,6 @@
             "slot": 17,
             "requiredLevel": 26,
             "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Hillman's Cloak",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "Leatherworking · Crafted",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 3719,
-            "slot": 15,
-            "requiredLevel": 25,
-            "currentItemID": 2584,
-            "currentScore": 1.375,
             "group": false,
             "tracked": false,
             "ignored": false,
@@ -9444,32 +10752,6 @@
             "statChanges": []
           },
           {
-            "name": "Nightsky Wristbands",
-            "slotName": "Wrists",
-            "current": "Green Linen Bracers",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Grubbis - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6407,
-            "slot": 9,
-            "requiredLevel": 28,
-            "currentItemID": 4308,
-            "currentScore": 0.35,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Swinetusk Shank",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
@@ -9653,109 +10935,6 @@
             "statChanges": []
           },
           {
-            "name": "Bloodmage Mantle",
-            "slotName": "Shoulders",
-            "current": "Double-Stitched Woolen Shoulders",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Bloodmage Thalnos - Scarlet Monastery - Graveyard",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7684,
-            "slot": 3,
-            "requiredLevel": 30,
-            "currentItemID": 4314,
-            "currentScore": 4.535,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Embalmed Shroud",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Fallen Champion - Scarlet Monastery - Graveyard",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7691,
-            "slot": 1,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Necrotic Wand",
-            "slotName": "Ranged / relic",
-            "current": "Greater Magic Wand",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Azshir the Sleepless - Scarlet Monastery - Graveyard",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7708,
-            "slot": 18,
-            "requiredLevel": 30,
-            "currentItemID": 11288,
-            "currentScore": 2,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Blighted Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Azshir the Sleepless - Scarlet Monastery - Graveyard",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7709,
-            "slot": 7,
-            "requiredLevel": 30,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Hypnotic Blade",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
@@ -9894,84 +11073,6 @@
             "ignored": false,
             "eligible": false,
             "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Spidertank Oilrag",
-            "slotName": "Wrists",
-            "current": "Green Linen Bracers",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Electrocutioner 6000 - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9448,
-            "slot": 9,
-            "requiredLevel": 29,
-            "currentItemID": 4308,
-            "currentScore": 0.35,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Hydrocane",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Viscous Fallout - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9452,
-            "slot": 16,
-            "requiredLevel": 27,
-            "currentItemID": 4575,
-            "currentScore": 13.02,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Acidic Walkers",
-            "slotName": "Feet",
-            "current": "Firewalker Boots",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Viscous Fallout - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9454,
-            "slot": 8,
-            "requiredLevel": 27,
-            "currentItemID": 6482,
-            "currentScore": 3.8,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
             "materials": [],
             "statChanges": []
           },
@@ -10380,58 +11481,6 @@
             "ignored": false,
             "eligible": false,
             "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Magister's Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Baron Rivendare - Stratholme",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 16687,
-            "slot": 7,
-            "requiredLevel": 56,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1423,
-              "x": 0.269,
-              "y": 0.118
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Magister's Robes",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "General Drakkisath - Upper Blackrock Spire",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 16688,
-            "slot": 5,
-            "requiredLevel": 58,
-            "currentItemID": 14120,
-            "currentScore": 1.25,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1427,
-              "x": 0.411,
-              "y": 0.953
-            },
             "materials": [],
             "statChanges": []
           },
@@ -14122,109 +15171,6 @@
             "later": true,
             "materials": [],
             "statChanges": []
-          },
-          {
-            "name": "Violet Sorcerer's Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286988,
-            "slot": 7,
-            "requiredLevel": 29,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Violet Sorcerer's Wraps",
-            "slotName": "Hands",
-            "current": "Aboriginal Gloves of the Eagle",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286989,
-            "slot": 10,
-            "requiredLevel": 28,
-            "currentItemID": 14117,
-            "currentScore": 0.63,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Tattered Kirin Tor Cloak",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286994,
-            "slot": 15,
-            "requiredLevel": 28,
-            "currentItemID": 2584,
-            "currentScore": 1.375,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Guardian's Emblem",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286995,
-            "slot": 2,
-            "requiredLevel": 28,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
           }
         ]
       },
@@ -14368,141 +15314,6 @@
         "bankCapturedAt": "2026-11-19T00:19:05Z",
         "bankStatus": "last_seen",
         "sessions": "Snapshot session summaries"
-      },
-      "localAI": {
-        "schemaVersion": 1,
-        "generatedAt": 1795139340,
-        "expiresAt": 1795225546,
-        "snapshotAt": "2026-11-20T01:45:46Z",
-        "model": "qwen3.5:9b",
-        "summary": "Suggested priorities: Craft: Green Woolen Vest; List up to 10 Enchanted Lute; List up to 20 Linen Cloth.",
-        "recommendations": [
-          {
-            "taskID": "upgrade:2582",
-            "title": "Craft: Green Woolen Vest",
-            "reason": "Review this locally identified gear improvement and its acquisition requirements. Replaces Aboriginal Robe of the Eagle; estimated +4.1 stat points. Learned recipe: Green Woolen Vest",
-            "action": "Queue one craft to reserve materials and find farming camps.",
-            "status": "Craft upgrade",
-            "source": "Installed NaowhForever 1.2.33",
-            "kind": "Gear",
-            "itemID": 2582,
-            "evidenceIDs": [
-              "item:2582"
-            ]
-          },
-          {
-            "taskID": "gold:sell:279976",
-            "title": "List up to 10 Enchanted Lute",
-            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 3s 50c estimated net each versus 0s 0c at a vendor; before deposits.",
-            "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
-            "status": "Unreserved stock",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old",
-            "kind": "Sell",
-            "itemID": 279976,
-            "evidenceIDs": [
-              "item:279976"
-            ]
-          },
-          {
-            "taskID": "gold:sell:2589",
-            "title": "List up to 20 Linen Cloth",
-            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 0s 20c estimated net each versus 0s 13c at a vendor; before deposits.",
-            "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 20. Start small; unsold goods are not earnings.",
-            "status": "Unreserved stock",
-            "source": "Naowh: your realm/faction observations / 23.6 hours old Community idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data. https://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
-            "kind": "Sell",
-            "itemID": 2589,
-            "evidenceIDs": [
-              "item:2589"
-            ]
-          }
-        ],
-        "evidence": [
-          {
-            "id": "item:2582",
-            "title": "Green Woolen Vest",
-            "url": "https://www.wowhead.com/forever/item=2582",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 12, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 85}]}"
-          },
-          {
-            "id": "item:279976",
-            "title": "Enchanted Lute",
-            "url": "https://www.wowhead.com/forever/item=279976",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Enchanting\", \"min_level\": 20}]}"
-          },
-          {
-            "id": "item:279972",
-            "title": "Faction Banner",
-            "url": "https://www.wowhead.com/forever/item=279972",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 20}]}"
-          },
-          {
-            "id": "item:2589",
-            "title": "Linen Cloth",
-            "url": "https://www.wowhead.com/forever/item=2589",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Kogan Forgestone\", \"zone\": \"Dun Morogh\", \"min_level\": 8, \"max_level\": 10}, {\"kind\": \"drop\", \"name\": \"Lisan Pierce\", \"zone\": \"Stormwind City\", \"min_level\": 25, \"max_level\": 25}, {\"kind\": \"drop\", \"name\": \"Adam Lind\", \"zone\": \"Wetlands\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Tamara Armstrong\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 15, \"max_level\": 15}, {\"kind\": \"drop\", \"name\": \"Saean\", \"zone\": \"Loch Modan\", \"min_level\": 10, \"max_level\": 10}]}"
-          },
-          {
-            "id": "item:3731",
-            "title": "Lion Meat",
-            "url": "https://www.wowhead.com/forever/item=3731",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Mountain Lion\", \"zone\": \"Alterac Mountains\", \"min_level\": 32, \"max_level\": 33}, {\"kind\": \"drop\", \"name\": \"Hulking Mountain Lion\", \"zone\": \"Alterac Mountains\", \"min_level\": 33, \"max_level\": 34}, {\"kind\": \"drop\", \"name\": \"Feral Mountain Lion\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 27, \"max_level\": 28}, {\"kind\": \"drop\", \"name\": \"Starving Mountain Lion\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 23, \"max_level\": 24}, {\"kind\": \"drop\", \"name\": \"Shadumbra\", \"zone\": \"Ashenvale\", \"min_level\": 28, \"max_level\": 28}]}"
-          },
-          {
-            "id": "item:279981",
-            "title": "Basic Campfire Kit",
-            "url": "https://www.wowhead.com/forever/item=279981",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Cooking\", \"min_level\": 1}]}"
-          },
-          {
-            "id": "item:6358",
-            "title": "Oily Blackmouth",
-            "url": "https://www.wowhead.com/forever/item=6358",
-            "confidence": "Forever client item; acquisition may use Classic data",
-            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"object\", \"name\": \"School of Tastyfish\", \"zone\": \"Stranglethorn Vale\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\", \"zone\": \"The Barrens\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\", \"zone\": \"The Barrens\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\"}]}"
-          },
-          {
-            "id": "quest:1062",
-            "title": "Goblin Invaders",
-            "url": "https://www.wowhead.com/forever/quest=1062",
-            "confidence": "Questie reference; verify prerequisites",
-            "text": "{\"id\": 1062, \"name\": \"Goblin Invaders\", \"quest_level\": 19, \"required_level\": 13, \"faction\": \"Horde\", \"zone\": \"Stonetalon Mountains\", \"repeatable\": 0, \"start_npc\": \"Seereth Stonebreak\", \"end_npc\": \"Seereth Stonebreak\", \"wowhead\": \"https://www.wowhead.com/forever/quest=1062\", \"start_where\": \"The Barrens\", \"end_where\": \"The Barrens\"}"
-          },
-          {
-            "id": "discussion:0",
-            "title": "Enchanting Vellums are needed",
-            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
-            "confidence": "Unreviewed community lead",
-            "text": "Recent discussion title only; open the source to verify its claims."
-          },
-          {
-            "id": "discussion:1",
-            "title": "Tailoring in Forever",
-            "url": "https://us.forums.blizzard.com/en/wow/t/tailoring-in-forever/2422636",
-            "confidence": "Unreviewed community lead",
-            "text": "Recent discussion title only; open the source to verify its claims."
-          }
-        ],
-        "notices": [
-          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
-          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
-          "Forum coverage contains recent discussion titles, not verified strategy claims.",
-          "Auction observations belong to the saved snapshot; check live prices."
-        ],
-        "knowledge": {
-          "build": "1.60.1.70959",
-          "updatedAt": "2026-11-19T15:44:16Z",
-          "items": 22765,
-          "quests": 4244,
-          "sources": 62456,
-          "url": "https://github.com/gBlaku/wow-forever-kb"
-        }
       }
     },
     {

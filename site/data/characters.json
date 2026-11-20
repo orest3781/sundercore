@@ -30249,6 +30249,120 @@
         "professions": "current ranks; recipes last scanned",
         "bankStatus": "not_visited",
         "sessions": "Snapshot session summaries"
+      },
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795132913,
+        "expiresAt": 1795219162,
+        "snapshotAt": "2026-11-19T23:59:22Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: List up to 4 Linen Cloth; List up to 2 Ruined Leather Scraps; Quest: Burning Blade Medallion.",
+        "recommendations": [
+          {
+            "taskID": "gold:sell:2589",
+            "title": "List up to 4 Linen Cloth",
+            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 0s 20c estimated net each versus 0s 13c at a vendor; before deposits.",
+            "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 4. Start small; unsold goods are not earnings.",
+            "status": "Unreserved stock",
+            "source": "Naowh: your realm/faction observations / 21.8 hours old Community idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data. https://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "kind": "Sell",
+            "itemID": 2589,
+            "evidenceIDs": [
+              "item:2589"
+            ]
+          },
+          {
+            "taskID": "gold:sell:2934",
+            "title": "List up to 2 Ruined Leather Scraps",
+            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 0s 8c estimated net each versus 0s 7c at a vendor; before deposits.",
+            "action": "Search Ruined Leather Scraps, compare unit prices and the posting deposit, then list up to 2. Start small; unsold goods are not earnings.",
+            "status": "Unreserved stock",
+            "source": "Naowh: your realm/faction observations / 21.8 hours old",
+            "kind": "Sell",
+            "itemID": 2934,
+            "evidenceIDs": [
+              "item:2934"
+            ]
+          },
+          {
+            "taskID": "quest:794",
+            "title": "Quest: Burning Blade Medallion",
+            "reason": "This is an eligible step from your saved character plan. Level 5 quest in Valley of Trials fits your current level 5. No group flag is reported.",
+            "action": "0/1 Burning Blade Medallion",
+            "status": "Current quest",
+            "source": "Live Forever quest log",
+            "kind": "Leveling",
+            "itemID": 0,
+            "evidenceIDs": [
+              "quest:794"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "item:2589",
+            "title": "Linen Cloth",
+            "url": "https://www.wowhead.com/forever/item=2589",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Kogan Forgestone\", \"zone\": \"Dun Morogh\", \"min_level\": 8, \"max_level\": 10}, {\"kind\": \"drop\", \"name\": \"Lisan Pierce\", \"zone\": \"Stormwind City\", \"min_level\": 25, \"max_level\": 25}, {\"kind\": \"drop\", \"name\": \"Adam Lind\", \"zone\": \"Wetlands\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Tamara Armstrong\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 15, \"max_level\": 15}, {\"kind\": \"drop\", \"name\": \"Saean\", \"zone\": \"Loch Modan\", \"min_level\": 10, \"max_level\": 10}]}"
+          },
+          {
+            "id": "item:2934",
+            "title": "Ruined Leather Scraps",
+            "url": "https://www.wowhead.com/forever/item=2934",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": []}"
+          },
+          {
+            "id": "quest:1516",
+            "title": "Call of Earth",
+            "url": "https://www.wowhead.com/forever/quest=1516",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 1516, \"name\": \"Call of Earth\", \"quest_level\": 4, \"required_level\": 4, \"faction\": \"Horde\", \"classes\": \"Shaman\", \"zone\": \"Shaman\", \"repeatable\": 0, \"start_npc\": \"Canaga Earthcaller\", \"end_npc\": \"Canaga Earthcaller\", \"wowhead\": \"https://www.wowhead.com/forever/quest=1516\", \"start_where\": \"Durotar\", \"end_where\": \"Durotar\"}"
+          },
+          {
+            "id": "quest:6394",
+            "title": "Thazz'ril's Pick",
+            "url": "https://www.wowhead.com/forever/quest=6394",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 6394, \"name\": \"Thazz'ril's Pick\", \"quest_level\": 4, \"required_level\": 3, \"faction\": \"Horde\", \"zone\": \"Valley of Trials\", \"repeatable\": 0, \"start_npc\": \"Foreman Thazz'ril\", \"end_npc\": \"Foreman Thazz'ril\", \"wowhead\": \"https://www.wowhead.com/forever/quest=6394\", \"start_where\": \"Durotar\", \"end_where\": \"Durotar\"}"
+          },
+          {
+            "id": "quest:794",
+            "title": "Burning Blade Medallion",
+            "url": "https://www.wowhead.com/forever/quest=794",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 794, \"name\": \"Burning Blade Medallion\", \"quest_level\": 5, \"required_level\": 1, \"faction\": \"Horde\", \"zone\": \"Valley of Trials\", \"repeatable\": 0, \"start_npc\": \"Zureetha Fargaze\", \"end_npc\": \"Zureetha Fargaze\", \"wowhead\": \"https://www.wowhead.com/forever/quest=794\", \"start_where\": \"Durotar\", \"end_where\": \"Durotar\"}"
+          },
+          {
+            "id": "discussion:0",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Enchanters getting suspended",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanters-getting-suspended/2421048",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-19T15:44:16Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
       }
     },
     {

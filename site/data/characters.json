@@ -14403,7 +14403,119 @@
         "bankStatus": "last_seen",
         "sessions": "Snapshot session summaries"
       },
-      "projectionVersion": 2
+      "projectionVersion": 2,
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795144207,
+        "expiresAt": 1795230430,
+        "snapshotAt": "2026-11-20T03:07:10Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: Refresh auction prices; Craft: Green Woolen Vest; Keep stock: Wool Cloth.",
+        "recommendations": [
+          {
+            "taskID": "gold:prices",
+            "title": "Refresh auction prices",
+            "reason": "This is an eligible step from your saved character plan. Unknown, stale and other-market values are not treated as profit. 0 fresh / 88 missing or stale checked prices.",
+            "action": "Visit your auction house and run Naowh Scan Prices or Auctionator Full Scan. Wait for completion, close the auction house, then refresh Ledger. Check exact item variants before selling gear.",
+            "status": "No fresh local prices",
+            "source": "Local market price coverage",
+            "kind": "Review",
+            "itemID": 0,
+            "evidenceIDs": []
+          },
+          {
+            "taskID": "upgrade:2582",
+            "title": "Craft: Green Woolen Vest",
+            "reason": "Review this locally identified gear improvement and its acquisition requirements. Replaces Aboriginal Robe of the Eagle; estimated +4.1 stat points. Learned recipe: Green Woolen Vest",
+            "action": "Queue one craft to reserve materials and find farming camps.",
+            "status": "Craft upgrade",
+            "source": "Installed NaowhForever 1.2.33",
+            "kind": "Gear",
+            "itemID": 2582,
+            "evidenceIDs": [
+              "item:2582"
+            ]
+          },
+          {
+            "taskID": "stock:2592",
+            "title": "Keep stock: Wool Cloth",
+            "reason": "This fits your preference for grinding mobs. Test the camp and compare your own results. Gathering target, SkillUp Forever tracked routes",
+            "action": "6 / 75 allocated; 69 still acquire; 0 withdraw.",
+            "status": "Farm",
+            "source": "Your saved material targets",
+            "kind": "Farm",
+            "itemID": 2592,
+            "evidenceIDs": [
+              "item:2592"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "item:2582",
+            "title": "Green Woolen Vest",
+            "url": "https://www.wowhead.com/forever/item=2582",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 12, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 85}]}"
+          },
+          {
+            "id": "item:2592",
+            "title": "Wool Cloth",
+            "url": "https://www.wowhead.com/forever/item=2592",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Target Dummy\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Farrin Daris\", \"zone\": \"Duskwood\", \"min_level\": 18, \"max_level\": 19}, {\"kind\": \"drop\", \"name\": \"Adam Lind\", \"zone\": \"Wetlands\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Bart Tidewater\", \"zone\": \"Wetlands\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Mountaineer Kalmir\", \"zone\": \"Loch Modan\", \"min_level\": 30, \"max_level\": 30}]}"
+          },
+          {
+            "id": "quest:1062",
+            "title": "Goblin Invaders",
+            "url": "https://www.wowhead.com/forever/quest=1062",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 1062, \"name\": \"Goblin Invaders\", \"quest_level\": 19, \"required_level\": 13, \"faction\": \"Horde\", \"zone\": \"Stonetalon Mountains\", \"repeatable\": 0, \"start_npc\": \"Seereth Stonebreak\", \"end_npc\": \"Seereth Stonebreak\", \"wowhead\": \"https://www.wowhead.com/forever/quest=1062\", \"start_where\": \"The Barrens\", \"end_where\": \"The Barrens\"}"
+          },
+          {
+            "id": "quest:235",
+            "title": "The Ashenvale Hunt",
+            "url": "https://www.wowhead.com/forever/quest=235",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 235, \"name\": \"The Ashenvale Hunt\", \"quest_level\": 20, \"required_level\": 20, \"faction\": \"Horde\", \"zone\": \"Orgrimmar\", \"repeatable\": 0, \"start_npc\": \"Warcaller Gorlach\", \"end_npc\": \"Senani Thunderheart\", \"wowhead\": \"https://www.wowhead.com/forever/quest=235\", \"start_where\": \"Orgrimmar\", \"end_where\": \"Ashenvale\"}"
+          },
+          {
+            "id": "quest:6541",
+            "title": "Report to Kadrak",
+            "url": "https://www.wowhead.com/forever/quest=6541",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 6541, \"name\": \"Report to Kadrak\", \"quest_level\": 19, \"required_level\": 17, \"faction\": \"Horde\", \"zone\": \"The Barrens\", \"repeatable\": 0, \"start_npc\": \"Thork\", \"end_npc\": \"Kadrak\", \"wowhead\": \"https://www.wowhead.com/forever/quest=6541\", \"start_where\": \"The Barrens\", \"end_where\": \"The Barrens\"}"
+          },
+          {
+            "id": "discussion:0",
+            "title": "Is tailoring ever really going to be a money maker?",
+            "url": "https://us.forums.blizzard.com/en/wow/t/is-tailoring-ever-really-going-to-be-a-money-maker/2423016",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-19T15:44:16Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
+      }
     },
     {
       "id": "59fd50bf5d7dccbf32f62b7a",

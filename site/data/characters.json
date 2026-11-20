@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T01:36:47Z",
+  "updatedAt": "2026-11-20T01:41:08Z",
   "characters": [
     {
       "id": "e29b7f172a19a4e3046c3c4a",
-      "exportedAt": "2026-11-20T01:36:47Z",
-      "addonVersion": "1.12.0",
+      "exportedAt": "2026-11-20T01:41:08Z",
+      "addonVersion": "1.13.0",
       "character": {
         "name": "Scathe",
         "realm": "CAMWOW US2 Realm 5 PvE",
@@ -18,7 +18,7 @@
         "level": 24,
         "xp": 20631,
         "xpForNextLevel": 31700,
-        "restedXP": 516,
+        "restedXP": 526,
         "moneyCopper": 29414,
         "maxHealth": 283,
         "maxPower": 607,
@@ -1294,10 +1294,11 @@
             "id": 2321,
             "bag": 0,
             "bank": 0,
-            "missing": 1,
-            "need": 1,
+            "missing": 22,
+            "need": 22,
+            "owned": 0,
             "name": "Fine Thread",
-            "usesText": "Barbaric Linen Vest",
+            "usesText": "Barbaric Linen Vest, SkillUp Forever tracked routes",
             "action": "Buy",
             "done": false,
             "vendor": true
@@ -1308,8 +1309,22 @@
             "bank": 0,
             "missing": 1,
             "need": 1,
+            "owned": 0,
             "name": "Light Leather",
             "usesText": "Barbaric Linen Vest",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 2450,
+            "bag": 0,
+            "bank": 0,
+            "missing": 18,
+            "need": 18,
+            "owned": 0,
+            "name": "Briarthorn",
+            "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
             "vendor": false
@@ -1318,10 +1333,141 @@
             "id": 2592,
             "bag": 6,
             "bank": 0,
-            "missing": 9,
-            "need": 15,
+            "missing": 69,
+            "need": 75,
+            "owned": 6,
             "name": "Wool Cloth",
-            "usesText": "Gathering target",
+            "usesText": "Gathering target, SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 2678,
+            "bag": 0,
+            "bank": 0,
+            "missing": 36,
+            "need": 36,
+            "owned": 0,
+            "name": "Mild Spices",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 2692,
+            "bag": 0,
+            "bank": 0,
+            "missing": 25,
+            "need": 25,
+            "owned": 0,
+            "name": "Hot Spices",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 3371,
+            "bag": 0,
+            "bank": 0,
+            "missing": 18,
+            "need": 18,
+            "owned": 0,
+            "name": "Empty Vial",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 3383,
+            "bag": 0,
+            "bank": 0,
+            "missing": 4,
+            "need": 4,
+            "owned": 0,
+            "name": "Elixir of Wisdom",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 3731,
+            "bag": 0,
+            "bank": 0,
+            "missing": 25,
+            "need": 25,
+            "owned": 0,
+            "name": "Lion Meat",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 4305,
+            "bag": 2,
+            "bank": 0,
+            "missing": 16,
+            "need": 18,
+            "owned": 2,
+            "name": "Bolt of Silk Cloth",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 4306,
+            "bag": 0,
+            "bank": 0,
+            "missing": 72,
+            "need": 72,
+            "owned": 0,
+            "name": "Silk Cloth",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 4340,
+            "bag": 0,
+            "bank": 0,
+            "missing": 18,
+            "need": 18,
+            "owned": 0,
+            "name": "Gray Dye",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 10940,
+            "bag": 1,
+            "bank": 0,
+            "missing": 96,
+            "need": 97,
+            "owned": 1,
+            "name": "Strange Dust",
+            "usesText": "SkillUp Forever tracked routes",
+            "action": "Farm",
+            "done": false,
+            "vendor": false
+          },
+          {
+            "id": 10978,
+            "bag": 0,
+            "bank": 0,
+            "missing": 1,
+            "need": 1,
+            "owned": 0,
+            "name": "Small Glimmering Shard",
+            "usesText": "SkillUp Forever tracked routes",
             "action": "Farm",
             "done": false,
             "vendor": false
@@ -1332,6 +1478,7 @@
             "bank": 0,
             "missing": 0,
             "need": 4,
+            "owned": 5,
             "name": "Bolt of Linen Cloth",
             "usesText": "Barbaric Linen Vest",
             "action": "Ready",
@@ -1347,6 +1494,50 @@
           }
         ],
         "spots": [
+          {
+            "spot": {
+              "id": "observed:2261",
+              "name": "Syndicate Watchman",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 21,
+              "high": 21,
+              "map": 1424,
+              "x": 0.78252017498016,
+              "y": 0.44702196121216
+            },
+            "score": 111,
+            "reasons": [
+              "61 observed kills / 61 inspected corpses",
+              "In your current zone",
+              "Observed needed material: Silk Cloth",
+              "Observed needed material: Wool Cloth"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 2,
+            "matchedMaterials": [
+              {
+                "id": 2592,
+                "missing": 69,
+                "name": "Wool Cloth"
+              },
+              {
+                "id": 4306,
+                "missing": 72,
+                "name": "Silk Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
           {
             "spot": {
               "id": "syndicate",
@@ -1381,7 +1572,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1425,8 +1616,46 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
+              }
+            ],
+            "history": {
+              "sessions": 0,
+              "seconds": 0,
+              "xp": 0,
+              "kills": 0
+            }
+          },
+          {
+            "spot": {
+              "id": "observed:2384",
+              "name": "Starving Mountain Lion",
+              "zone": "Hillsbrad Foothills",
+              "note": "Your recorded position near this mob; not a complete spawn map.",
+              "source": "Personal observations. Sample may be small; use session history to compare results.",
+              "low": 24,
+              "high": 24,
+              "map": 1424,
+              "x": 0.46221566200256,
+              "y": 0.44388145208359
+            },
+            "score": 90,
+            "reasons": [
+              "2 observed kills / 2 inspected corpses",
+              "In your current zone",
+              "Observed needed material: Lion Meat"
+            ],
+            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
+            "comparison": "No comparable personal outing recorded yet.",
+            "travel": "Current zone; travel time not measured",
+            "localZone": true,
+            "matchCount": 1,
+            "matchedMaterials": [
+              {
+                "id": 3731,
+                "missing": 25,
+                "name": "Lion Meat"
               }
             ],
             "history": {
@@ -1463,7 +1692,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1501,45 +1730,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
-                "name": "Wool Cloth"
-              }
-            ],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:2261",
-              "name": "Syndicate Watchman",
-              "zone": "Hillsbrad Foothills",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 21,
-              "high": 21,
-              "map": 1424,
-              "x": 0.78252017498016,
-              "y": 0.44702196121216
-            },
-            "score": 81,
-            "reasons": [
-              "61 observed kills / 61 inspected corpses",
-              "In your current zone",
-              "Observed needed material: Wool Cloth"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
-            "matchCount": 1,
-            "matchedMaterials": [
-              {
-                "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1579,7 +1770,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1616,7 +1807,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1653,7 +1844,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1690,7 +1881,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1727,7 +1918,7 @@
             "matchedMaterials": [
               {
                 "id": 2592,
-                "missing": 9,
+                "missing": 69,
                 "name": "Wool Cloth"
               }
             ],
@@ -1754,37 +1945,6 @@
             "score": 60,
             "reasons": [
               "1 observed kills / 1 inspected corpses",
-              "In your current zone"
-            ],
-            "evidence": "Personal observations. Sample may be small; use session history to compare results.",
-            "comparison": "No comparable personal outing recorded yet.",
-            "travel": "Current zone; travel time not measured",
-            "localZone": true,
-            "matchCount": 0,
-            "matchedMaterials": [],
-            "history": {
-              "sessions": 0,
-              "seconds": 0,
-              "xp": 0,
-              "kills": 0
-            }
-          },
-          {
-            "spot": {
-              "id": "observed:2384",
-              "name": "Starving Mountain Lion",
-              "zone": "Hillsbrad Foothills",
-              "note": "Your recorded position near this mob; not a complete spawn map.",
-              "source": "Personal observations. Sample may be small; use session history to compare results.",
-              "low": 24,
-              "high": 24,
-              "map": 1424,
-              "x": 0.46221566200256,
-              "y": 0.44388145208359
-            },
-            "score": 60,
-            "reasons": [
-              "2 observed kills / 2 inspected corpses",
               "In your current zone"
             ],
             "evidence": "Personal observations. Sample may be small; use session history to compare results.",
@@ -2309,7 +2469,7 @@
         "day": "2026-11-19",
         "mode": "gold",
         "minutes": 90,
-        "generatedAt": "2026-11-20T01:36:47Z",
+        "generatedAt": "2026-11-20T01:41:08Z",
         "today": [
           {
             "id": "upgrade:2582",
@@ -2333,7 +2493,7 @@
             "status": "Unreserved stock",
             "why": "3s 50c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.4 hours old",
+            "source": "Naowh: your realm/faction observations / 23.5 hours old",
             "open": "Gold",
             "itemID": 279976,
             "pinned": false,
@@ -2347,7 +2507,7 @@
             "status": "Test nearby camp",
             "why": "0s 71c estimated net per material; quantity/hour is unknown.",
             "action": "Map Starving Mountain Lion in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.4 hours old",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.5 hours old",
             "open": "Gold",
             "itemID": 3731,
             "pinned": false,
@@ -2405,7 +2565,7 @@
             "status": "Make intermediates first",
             "why": "Estimated 1s 96c above 1s 98c of materials, after a 5% AH cut; before deposits.",
             "action": "Review one Red Linen Vest craft in Tailoring. Check tools, output and the current selling price before making it. List a small test batch.",
-            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (23.4 hours old)",
+            "source": "Your captured recipe schematic; Naowh: your realm/faction observations (23.5 hours old)",
             "open": "Gold",
             "itemID": 6239,
             "recipeID": 7629,
@@ -2420,7 +2580,7 @@
             "status": "Test nearby camp",
             "why": "0s 13c estimated net per material; quantity/hour is unknown.",
             "action": "Map Giant Moss Creeper in Hillsbrad Foothills. Test roughly 20 minutes if safe and uncrowded. Record the outing; this is a price-led candidate, not a measured best-gold/hour claim.\nYour recorded position near this mob; not a complete spawn map.",
-            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.4 hours old",
+            "source": "Personal observations. Sample may be small; use session history to compare results.\nNaowh: your realm/faction observations / 23.5 hours old",
             "open": "Gold",
             "itemID": 2251,
             "pinned": false,
@@ -2434,7 +2594,7 @@
             "status": "Unreserved stock",
             "why": "0s 20c estimated net each versus 0s 13c at a vendor; before deposits.",
             "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 20. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.4 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "source": "Naowh: your realm/faction observations / 23.5 hours old\n\nCommunity idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
             "open": "Gold",
             "itemID": 2589,
             "pinned": false,
@@ -2448,7 +2608,7 @@
             "status": "Unreserved stock",
             "why": "1s 14c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Faction Banner, compare unit prices and the posting deposit, then list up to 6. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.4 hours old",
+            "source": "Naowh: your realm/faction observations / 23.5 hours old",
             "open": "Gold",
             "itemID": 279972,
             "pinned": false,
@@ -2462,7 +2622,7 @@
             "status": "Unreserved stock",
             "why": "0s 52c estimated net each versus 0s 0c at a vendor; before deposits.",
             "action": "Search Basic Campfire Kit, compare unit prices and the posting deposit, then list up to 8. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.4 hours old",
+            "source": "Naowh: your realm/faction observations / 23.5 hours old",
             "open": "Gold",
             "itemID": 279981,
             "pinned": false,
@@ -2476,7 +2636,7 @@
             "status": "Unreserved stock",
             "why": "0s 47c estimated net each versus 0s 4c at a vendor; before deposits.",
             "action": "Search Oily Blackmouth, compare unit prices and the posting deposit, then list up to 4. Start small; unsold goods are not earnings.",
-            "source": "Naowh: your realm/faction observations / 23.4 hours old\n\nCommunity idea: Price spare cooking materials before vendoring (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://www.reddit.com/r/wowforever/comments/1xuv2bv/gold_is_not_an_issue_gold_tips_tricks/",
+            "source": "Naowh: your realm/faction observations / 23.5 hours old\n\nCommunity idea: Price spare cooking materials before vendoring (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data.\nhttps://www.reddit.com/r/wowforever/comments/1xuv2bv/gold_is_not_an_issue_gold_tips_tricks/",
             "open": "Gold",
             "itemID": 6358,
             "pinned": false,
@@ -2598,12 +2758,12 @@
             "kind": "Farm",
             "title": "Keep stock: Wool Cloth",
             "status": "Farm",
-            "why": "Gathering target",
-            "action": "6 / 15 allocated; 9 still acquire; 0 withdraw.",
+            "why": "Gathering target, SkillUp Forever tracked routes",
+            "action": "6 / 75 allocated; 69 still acquire; 0 withdraw.",
             "source": "Your saved material targets",
             "open": "Checklist",
             "have": 6,
-            "need": 15,
+            "need": 75,
             "itemID": 2592,
             "done": false,
             "pinned": false,
@@ -2634,6 +2794,20 @@
             "open": "Gear",
             "itemID": 10047,
             "recipeID": 12046,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:1486",
+            "kind": "Gear",
+            "title": "Upgrade: Tree Bark Jacket",
+            "status": "Group upgrade",
+            "why": "Replaces Aboriginal Robe of the Eagle; estimated +12.3 stat points. Trash - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 1486,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2698,6 +2872,20 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:2549",
+            "kind": "Gear",
+            "title": "Upgrade: Staff of the Shade",
+            "status": "Group upgrade",
+            "why": "Replaces Medicine Staff of Magic; estimated +25.5 stat points. Trash - Razorfen Kraul",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 2549,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:271210",
             "kind": "Gear",
             "title": "Upgrade: Tuskwrap Belt",
@@ -2721,6 +2909,34 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 273298,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273645",
+            "kind": "Gear",
+            "title": "Upgrade: Blindwatcher's Sight",
+            "status": "Group upgrade",
+            "why": "Replaces Empty slot; estimated +0.2 stat points. Odo the Blindwatcher - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273645,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273806",
+            "kind": "Gear",
+            "title": "Upgrade: Dark Horde Band",
+            "status": "Group upgrade",
+            "why": "Replaces Empty slot; estimated +6.6 stat points. Targorr the Dread - The Stockade",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273806,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -2900,6 +3116,77 @@
             "pinned": false,
             "reviewed": false,
             "snoozed": false
+          },
+          {
+            "id": "upgrade:6392",
+            "kind": "Gear",
+            "title": "Upgrade: Belt of Arugal",
+            "status": "Group upgrade",
+            "why": "Replaces Wise Man's Belt; estimated +10.2 stat points. Archmage Arugal - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6392,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:6901",
+            "kind": "Gear",
+            "title": "Upgrade: Glowing Thresher Cape",
+            "status": "Group upgrade",
+            "why": "Replaces Woolen Cape; estimated +4.1 stat points. Old Serra'kis - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6901,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:6903",
+            "kind": "Gear",
+            "title": "Upgrade: Gaze Dreamer Pants",
+            "status": "Group upgrade",
+            "why": "Replaces Sea Dog Britches; estimated +13.6 stat points. Twilight Lord Kelris - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6903,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:6908",
+            "kind": "Gear",
+            "title": "Upgrade: Ghamoo-ra's Bind",
+            "status": "Group upgrade",
+            "why": "Replaces Wise Man's Belt; estimated +7.9 stat points. Ghamoo-ra - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6908,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:7001",
+            "kind": "Gear",
+            "title": "Upgrade: Gravestone Scepter",
+            "status": "Group upgrade",
+            "why": "Replaces Greater Magic Wand; estimated +4.9 stat points. Blackfathom Villainy - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires Blackfathom Deeps.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7001,
+            "questID": 6561,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
           }
         ],
         "someday": [
@@ -2913,6 +3200,20 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 16692,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:16698",
+            "kind": "Gear",
+            "title": "Upgrade: Dreadmist Mask",
+            "status": "Level 57 required",
+            "why": "Replaces Empty slot; estimated +23.4 stat points. Darkmaster Gandling - Scholomance",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 16698,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -3030,6 +3331,20 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:271920",
+            "kind": "Gear",
+            "title": "Upgrade: Seal of the Expedition",
+            "status": "Level 28 required",
+            "why": "Replaces Empty slot; estimated +1.7 stat points. Theramore Expeditionary Force - Honored · Reputation",
+            "action": "Check the source and requirements before planning a farm.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 271920,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:272075",
             "kind": "Gear",
             "title": "Upgrade: Darkspear Warding Pendant",
@@ -3044,6 +3359,20 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:273024",
+            "kind": "Gear",
+            "title": "Upgrade: Glinteye Slippers",
+            "status": "Level 26 required",
+            "why": "Replaces Firewalker Boots; estimated +6.1 stat points. Saltspine - Excavation Site: Wetlands",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273024,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:273030",
             "kind": "Gear",
             "title": "Upgrade: Ring of Power Regulation",
@@ -3053,6 +3382,90 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 273030,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273034",
+            "kind": "Gear",
+            "title": "Upgrade: Ephemeral Grips",
+            "status": "Level 27 required",
+            "why": "Replaces Aboriginal Gloves of the Eagle; estimated +10.4 stat points. Arcane Anomaly - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273034,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273036",
+            "kind": "Gear",
+            "title": "Upgrade: Graveweave Bindings",
+            "status": "Level 26 required",
+            "why": "Replaces Green Linen Bracers; estimated +4.8 stat points. Atrexis the Grave Knight - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273036,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273039",
+            "kind": "Gear",
+            "title": "Upgrade: Blightleaf Rope",
+            "status": "Level 29 required",
+            "why": "Replaces Wise Man's Belt; estimated +7.9 stat points. Fel Ancient - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273039,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273040",
+            "kind": "Gear",
+            "title": "Upgrade: Spine of the Devourer",
+            "status": "Level 28 required",
+            "why": "Replaces Medicine Staff of Magic; estimated +24.4 stat points. Mana Devourer - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273040,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273044",
+            "kind": "Gear",
+            "title": "Upgrade: Violet Sorcerer's Robes",
+            "status": "Level 27 required",
+            "why": "Replaces Aboriginal Robe of the Eagle; estimated +10.5 stat points. Arcanic Enigma - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273044,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:273049",
+            "kind": "Gear",
+            "title": "Upgrade: Archmagister's Faceted Pendant",
+            "status": "Level 30 required",
+            "why": "Replaces Empty slot; estimated +1.0 stat points. Shade of the Archmage - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 273049,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -3114,6 +3527,76 @@
             "snoozed": false
           },
           {
+            "id": "upgrade:286988",
+            "kind": "Gear",
+            "title": "Upgrade: Violet Sorcerer's Leggings",
+            "status": "Level 29 required",
+            "why": "Replaces Sea Dog Britches; estimated +14.6 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286988,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:286989",
+            "kind": "Gear",
+            "title": "Upgrade: Violet Sorcerer's Wraps",
+            "status": "Level 28 required",
+            "why": "Replaces Aboriginal Gloves of the Eagle; estimated +6.3 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286989,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:286994",
+            "kind": "Gear",
+            "title": "Upgrade: Tattered Kirin Tor Cloak",
+            "status": "Level 28 required",
+            "why": "Replaces Woolen Cape; estimated +2.7 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286994,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:286995",
+            "kind": "Gear",
+            "title": "Upgrade: Guardian's Emblem",
+            "status": "Level 28 required",
+            "why": "Replaces Empty slot; estimated +6.8 stat points. Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 286995,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:6407",
+            "kind": "Gear",
+            "title": "Upgrade: Nightsky Wristbands",
+            "status": "Level 28 required",
+            "why": "Replaces Green Linen Bracers; estimated +1.7 stat points. Grubbis - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 6407,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
             "id": "upgrade:6685",
             "kind": "Gear",
             "title": "Upgrade: Death Speaker Mantle",
@@ -3165,6 +3648,62 @@
             "source": "Installed NaowhForever 1.2.33",
             "open": "Gear",
             "itemID": 7050,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:7728",
+            "kind": "Gear",
+            "title": "Upgrade: Beguiler Robes",
+            "status": "Level 29 required",
+            "why": "Replaces Aboriginal Robe of the Eagle; estimated +12.4 stat points. Trash - Scarlet Monastery - Armory",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 7728,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9448",
+            "kind": "Gear",
+            "title": "Upgrade: Spidertank Oilrag",
+            "status": "Level 29 required",
+            "why": "Replaces Green Linen Bracers; estimated +8.8 stat points. Electrocutioner 6000 - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9448,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9452",
+            "kind": "Gear",
+            "title": "Upgrade: Hydrocane",
+            "status": "Level 27 required",
+            "why": "Replaces Medicine Staff of Magic; estimated +23.0 stat points. Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9452,
+            "pinned": false,
+            "reviewed": false,
+            "snoozed": false
+          },
+          {
+            "id": "upgrade:9454",
+            "kind": "Gear",
+            "title": "Upgrade: Acidic Walkers",
+            "status": "Level 27 required",
+            "why": "Replaces Firewalker Boots; estimated +3.9 stat points. Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "source": "Installed NaowhForever 1.2.33",
+            "open": "Gear",
+            "itemID": 9454,
             "pinned": false,
             "reviewed": false,
             "snoozed": false
@@ -3240,7 +3779,7 @@
         "notices": [
           "Checklist size limits suggestions, not expected play time.",
           "Gold routine prioritizes priced opportunities. Professions, gear and projects remain available in Soon; pins and urgent bag space come first.",
-          "Dismissed and Set aside choices reset each local calendar day. Projects and stock goals carry forward."
+          "Personal tasks, dismissals and your chosen focus carry forward until you change them."
         ],
         "camp": {
           "id": "syndicate",
@@ -3255,7 +3794,7 @@
         "profileOrigin": "your selected plan profile",
         "source": "Installed NaowhForever 1.2.33",
         "auto": true,
-        "pending": 232,
+        "pending": 200,
         "checked": 294,
         "merchantFavor": {
           "currencyID": 3402,
@@ -4131,6 +4670,65 @@
             ]
           },
           {
+            "name": "Staff of the Shade",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Trash - Razorfen Kraul",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 2549,
+            "slot": 16,
+            "requiredLevel": 22,
+            "currentItemID": 4575,
+            "currentScore": 13.02,
+            "candidateScore": 38.5,
+            "gain": 25.48,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1413,
+              "x": 0.422,
+              "y": 0.898
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 0,
+                "delta": -6
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 37,
+                "delta": 37
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 0,
+                "delta": -12
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 16.538461685181,
+                "delta": 7.3384618759155
+              }
+            ]
+          },
+          {
             "name": "Necrology Robes",
             "slotName": "Chest",
             "current": "Aboriginal Robe of the Eagle",
@@ -4196,6 +4794,224 @@
             ]
           },
           {
+            "name": "Gaze Dreamer Pants",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Twilight Lord Kelris - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6903,
+            "slot": 7,
+            "requiredLevel": 23,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 14.9,
+            "gain": 13.555,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 40,
+                "delta": 11
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 9,
+                "delta": 5
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Tree Bark Jacket",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Trash - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 1486,
+            "slot": 5,
+            "requiredLevel": 21,
+            "currentItemID": 14120,
+            "currentScore": 1.25,
+            "candidateScore": 13.52,
+            "gain": 12.27,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 34,
+                "after": 104,
+                "delta": 70
+              },
+              {
+                "stat": "Intellect",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Belt of Arugal",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Archmage Arugal - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6392,
+            "slot": 6,
+            "requiredLevel": 23,
+            "currentItemID": 4786,
+            "currentScore": 0.945,
+            "candidateScore": 11.14,
+            "gain": 10.195,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1421,
+              "x": 0.455,
+              "y": 0.677
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Agility",
+                "before": 0,
+                "after": 2,
+                "delta": 2
+              },
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 26,
+                "delta": 7
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 3,
+                "delta": -2
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Ghamoo-ra's Bind",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Ghamoo-ra - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6908,
+            "slot": 6,
+            "requiredLevel": 22,
+            "currentItemID": 4786,
+            "currentScore": 0.945,
+            "candidateScore": 8.825,
+            "gain": 7.88,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 25,
+                "delta": 6
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 0,
+                "delta": -5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              }
+            ]
+          },
+          {
             "name": "Tuskwrap Belt",
             "slotName": "Waist",
             "current": "Wise Man's Belt",
@@ -4245,6 +5061,46 @@
                 "before": 0,
                 "after": 5,
                 "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Dark Horde Band",
+            "slotName": "Ring 2",
+            "current": "Empty slot",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Targorr the Dread - The Stockade",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273806,
+            "slot": 12,
+            "requiredLevel": 21,
+            "currentScore": 0,
+            "candidateScore": 6.6,
+            "gain": 6.6,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1453,
+              "x": 0.51,
+              "y": 0.681
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 6,
+                "delta": 6
               }
             ]
           },
@@ -4362,6 +5218,55 @@
             ]
           },
           {
+            "name": "Gravestone Scepter",
+            "slotName": "Ranged / relic",
+            "current": "Greater Magic Wand",
+            "status": "Group upgrade",
+            "kind": "Quest",
+            "source": "Blackfathom Villainy - Where it starts is not known yet",
+            "action": "Check the quest chain and reward choice. Requires Blackfathom Deeps.",
+            "itemID": 7001,
+            "slot": 18,
+            "requiredLevel": 0,
+            "currentItemID": 11288,
+            "questID": 6561,
+            "currentScore": 2,
+            "candidateScore": 6.9,
+            "gain": 4.9,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "damage per second",
+                "before": 17.5,
+                "after": 29,
+                "delta": 11.5
+              }
+            ]
+          },
+          {
             "name": "Spidersilk Boots",
             "slotName": "Feet",
             "current": "Firewalker Boots",
@@ -4412,6 +5317,65 @@
                 "before": 0,
                 "after": 4,
                 "delta": 4
+              }
+            ]
+          },
+          {
+            "name": "Glowing Thresher Cape",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Group upgrade",
+            "kind": "Dungeon",
+            "source": "Old Serra'kis - Blackfathom Deeps",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6901,
+            "slot": 15,
+            "requiredLevel": 24,
+            "currentItemID": 2584,
+            "currentScore": 1.375,
+            "candidateScore": 5.515,
+            "gain": 4.14,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1440,
+              "x": 0.139,
+              "y": 0.143
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 15,
+                "after": 23,
+                "delta": 8
+              },
+              {
+                "stat": "Spell Damage",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Spell Healing",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              },
+              {
+                "stat": "Spell Power",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 8,
+                "delta": 7
               }
             ]
           },
@@ -4557,30 +5521,38 @@
             ]
           },
           {
-            "name": "Tree Bark Jacket",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Loading item data",
+            "name": "Blindwatcher's Sight",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Group upgrade",
             "kind": "Dungeon",
-            "source": "Trash - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 1486,
-            "slot": 5,
+            "source": "Odo the Blindwatcher - Shadowfang Keep",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273645,
+            "slot": 1,
             "requiredLevel": 21,
-            "currentItemID": 14120,
-            "currentScore": 1.25,
+            "currentScore": 0,
+            "candidateScore": 0.175,
+            "gain": 0.175,
             "group": true,
             "tracked": false,
             "ignored": false,
             "eligible": false,
             "later": false,
             "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
+              "map": 1421,
+              "x": 0.455,
+              "y": 0.677
             },
             "materials": [],
-            "statChanges": []
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 35,
+                "delta": 35
+              }
+            ]
           },
           {
             "name": "Gallan Cuffs",
@@ -4610,44 +5582,19 @@
             "statChanges": []
           },
           {
-            "name": "Staff of the Shade",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - Razorfen Kraul",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 2549,
-            "slot": 16,
-            "requiredLevel": 22,
-            "currentItemID": 4575,
-            "currentScore": 13.02,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1413,
-              "x": 0.422,
-              "y": 0.898
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Evocator's Blade",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
+            "status": "Needs weapon set",
             "kind": "Dungeon",
             "source": "Trash - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
             "itemID": 2567,
             "slot": 16,
             "requiredLevel": 20,
             "currentItemID": 4575,
             "currentScore": 13.02,
+            "candidateScore": 29.84,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -4659,7 +5606,32 @@
               "y": 0.143
             },
             "materials": [],
-            "statChanges": []
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 2,
+                "delta": -4
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 28,
+                "delta": 16
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 10.9375,
+                "delta": 1.7375001907349
+              }
+            ]
           },
           {
             "name": "Darkspear Cuffs",
@@ -4784,32 +5756,6 @@
             "statChanges": []
           },
           {
-            "name": "Belt of Arugal",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Archmage Arugal - Shadowfang Keep",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6392,
-            "slot": 6,
-            "requiredLevel": 23,
-            "currentItemID": 4786,
-            "currentScore": 0.945,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1421,
-              "x": 0.455,
-              "y": 0.677
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Fizzle's Zippy Lighter",
             "slotName": "Ranged / relic",
             "current": "Greater Magic Wand",
@@ -4907,106 +5853,6 @@
               "x": 0.493,
               "y": 0.572
             },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Glowing Thresher Cape",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Old Serra'kis - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6901,
-            "slot": 15,
-            "requiredLevel": 24,
-            "currentItemID": 2584,
-            "currentScore": 1.375,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Gaze Dreamer Pants",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Twilight Lord Kelris - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6903,
-            "slot": 7,
-            "requiredLevel": 23,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Ghamoo-ra's Bind",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Ghamoo-ra - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6908,
-            "slot": 6,
-            "requiredLevel": 22,
-            "currentItemID": 4786,
-            "currentScore": 0.945,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Gravestone Scepter",
-            "slotName": "Ranged / relic",
-            "current": "Greater Magic Wand",
-            "status": "Loading item data",
-            "kind": "Quest",
-            "source": "Blackfathom Villainy - Where it starts is not known yet",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7001,
-            "slot": 18,
-            "requiredLevel": 0,
-            "currentItemID": 11288,
-            "questID": 6561,
-            "currentScore": 2,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
             "materials": [],
             "statChanges": []
           },
@@ -7044,106 +7890,6 @@
             "statChanges": []
           },
           {
-            "name": "Worgenbane Talisman",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Commander Springvale - Shadowfang Keep",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273643,
-            "slot": 13,
-            "requiredLevel": 21,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1421,
-              "x": 0.455,
-              "y": 0.677
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Blindwatcher's Sight",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Odo the Blindwatcher - Shadowfang Keep",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273645,
-            "slot": 1,
-            "requiredLevel": 21,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1421,
-              "x": 0.455,
-              "y": 0.677
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Dark Horde Band",
-            "slotName": "Ring 2",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Targorr the Dread - The Stockade",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273806,
-            "slot": 12,
-            "requiredLevel": 21,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1453,
-              "x": 0.51,
-              "y": 0.681
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Cursed Murloc Eye",
-            "slotName": "Trinket 1",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Gelihast - Blackfathom Deeps",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273840,
-            "slot": 13,
-            "requiredLevel": 24,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": false,
-            "waypoint": {
-              "map": 1440,
-              "x": 0.139,
-              "y": 0.143
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Transformative Cocoon",
             "slotName": "Trinket 1",
             "current": "Empty slot",
@@ -7291,6 +8037,32 @@
             "statChanges": []
           },
           {
+            "name": "Satchel of Potions",
+            "slotName": "Trinket 1",
+            "current": "Empty slot",
+            "status": "Loading item data",
+            "kind": "Quest",
+            "source": "Changing Tastes - Orgrimmar - Borstan (57.4, 53.4)",
+            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "itemID": 280766,
+            "slot": 13,
+            "requiredLevel": 1,
+            "questID": 95697,
+            "currentScore": 0,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": false,
+            "waypoint": {
+              "map": 1454,
+              "x": 0.574,
+              "y": 0.534
+            },
+            "materials": [],
+            "statChanges": []
+          },
+          {
             "name": "Philanthropist's Ring",
             "slotName": "Ring 2",
             "current": "Empty slot",
@@ -7330,6 +8102,182 @@
             "later": false,
             "materials": [],
             "statChanges": []
+          },
+          {
+            "name": "Spine of the Devourer",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Mana Devourer - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273040,
+            "slot": 16,
+            "requiredLevel": 28,
+            "currentItemID": 4575,
+            "currentScore": 13.02,
+            "candidateScore": 37.4,
+            "gain": 24.38,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 0,
+                "delta": -6
+              },
+              {
+                "stat": "Spell Piercing",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 36,
+                "delta": 24
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 20.694444656372,
+                "delta": 11.494444847107
+              }
+            ]
+          },
+          {
+            "name": "Dreadmist Mask",
+            "slotName": "Head",
+            "current": "Empty slot",
+            "status": "Level 57 required",
+            "kind": "Dungeon",
+            "source": "Darkmaster Gandling - Scholomance",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 16698,
+            "slot": 1,
+            "requiredLevel": 57,
+            "currentScore": 0,
+            "candidateScore": 23.365,
+            "gain": 23.365,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1422,
+              "x": 0.707,
+              "y": 0.71
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 0,
+                "after": 71,
+                "delta": 71
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 23,
+                "delta": 23
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 14,
+                "delta": 14
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              }
+            ]
+          },
+          {
+            "name": "Hydrocane",
+            "slotName": "Main hand",
+            "current": "Medicine Staff of Magic",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 9452,
+            "slot": 16,
+            "requiredLevel": 27,
+            "currentItemID": 4575,
+            "currentScore": 13.02,
+            "candidateScore": 36,
+            "gain": 22.98,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Frost Resistance",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              },
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 0,
+                "delta": -6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 36,
+                "delta": 24
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 19.82142829895,
+                "delta": 10.621428489685
+              },
+              {
+                "stat": "frost resistance",
+                "before": 0,
+                "after": 15,
+                "delta": 15
+              }
+            ]
           },
           {
             "name": "Death Prophet Spine",
@@ -7387,6 +8335,124 @@
                 "before": 9.1999998092651,
                 "after": 18.92857170105,
                 "delta": 9.7285718917847
+              }
+            ]
+          },
+          {
+            "name": "Violet Sorcerer's Leggings",
+            "slotName": "Legs",
+            "current": "Sea Dog Britches",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286988,
+            "slot": 7,
+            "requiredLevel": 29,
+            "currentItemID": 5310,
+            "currentScore": 1.345,
+            "candidateScore": 15.93,
+            "gain": 14.585,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 29,
+                "after": 44,
+                "delta": 15
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 13,
+                "delta": 13
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Spirit",
+                "before": 4,
+                "after": 5,
+                "delta": 1
+              },
+              {
+                "stat": "Strength",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Beguiler Robes",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Trash - Scarlet Monastery - Armory",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 7728,
+            "slot": 5,
+            "requiredLevel": 29,
+            "currentItemID": 14120,
+            "currentScore": 1.25,
+            "candidateScore": 13.69,
+            "gain": 12.44,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1420,
+              "x": 0.839,
+              "y": 0.316
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 34,
+                "after": 50,
+                "delta": 16
+              },
+              {
+                "stat": "Intellect",
+                "before": 4,
+                "after": 12,
+                "delta": 8
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spirit",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 0,
+                "delta": -4
               }
             ]
           },
@@ -7664,6 +8730,118 @@
             ]
           },
           {
+            "name": "Violet Sorcerer's Robes",
+            "slotName": "Chest",
+            "current": "Aboriginal Robe of the Eagle",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Arcanic Enigma - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273044,
+            "slot": 5,
+            "requiredLevel": 27,
+            "currentItemID": 14120,
+            "currentScore": 1.25,
+            "candidateScore": 11.795,
+            "gain": 10.545,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 34,
+                "after": 49,
+                "delta": 15
+              },
+              {
+                "stat": "Intellect",
+                "before": 4,
+                "after": 15,
+                "delta": 11
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Stamina",
+                "before": 4,
+                "after": 0,
+                "delta": -4
+              }
+            ]
+          },
+          {
+            "name": "Ephemeral Grips",
+            "slotName": "Hands",
+            "current": "Aboriginal Gloves of the Eagle",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Arcane Anomaly - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273034,
+            "slot": 10,
+            "requiredLevel": 27,
+            "currentItemID": 14117,
+            "currentScore": 0.63,
+            "candidateScore": 11.045,
+            "gain": 10.415,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Arcane Damage",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Armor",
+                "before": 18,
+                "after": 31,
+                "delta": 13
+              },
+              {
+                "stat": "Intellect",
+                "before": 2,
+                "after": 7,
+                "delta": 5
+              },
+              {
+                "stat": "Shadow Damage",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Stamina",
+                "before": 2,
+                "after": 7,
+                "delta": 5
+              }
+            ]
+          },
+          {
             "name": "Silk Headband",
             "slotName": "Head",
             "current": "Empty slot",
@@ -7770,6 +8948,112 @@
             ]
           },
           {
+            "name": "Spidertank Oilrag",
+            "slotName": "Wrists",
+            "current": "Green Linen Bracers",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Electrocutioner 6000 - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 9448,
+            "slot": 9,
+            "requiredLevel": 29,
+            "currentItemID": 4308,
+            "currentScore": 0.35,
+            "candidateScore": 9.11,
+            "gain": 8.76,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 10,
+                "after": 22,
+                "delta": 12
+              },
+              {
+                "stat": "Mana Regeneration per 5 sec",
+                "before": 0,
+                "after": 3,
+                "delta": 3
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 9,
+                "delta": 9
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              }
+            ]
+          },
+          {
+            "name": "Blightleaf Rope",
+            "slotName": "Waist",
+            "current": "Wise Man's Belt",
+            "status": "Level 29 required",
+            "kind": "Dungeon",
+            "source": "Fel Ancient - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273039,
+            "slot": 6,
+            "requiredLevel": 29,
+            "currentItemID": 4786,
+            "currentScore": 0.945,
+            "candidateScore": 8.84,
+            "gain": 7.895,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 19,
+                "after": 28,
+                "delta": 9
+              },
+              {
+                "stat": "Health Per 5 Sec.",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Intellect",
+                "before": 5,
+                "after": 10,
+                "delta": 5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 7,
+                "delta": 7
+              }
+            ]
+          },
+          {
             "name": "Thornweaver Drape",
             "slotName": "Back",
             "current": "Woolen Cape",
@@ -7813,6 +9097,158 @@
                 "before": 1,
                 "after": 6,
                 "delta": 5
+              }
+            ]
+          },
+          {
+            "name": "Guardian's Emblem",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286995,
+            "slot": 2,
+            "requiredLevel": 28,
+            "currentScore": 0,
+            "candidateScore": 6.8,
+            "gain": 6.8,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              }
+            ]
+          },
+          {
+            "name": "Violet Sorcerer's Wraps",
+            "slotName": "Hands",
+            "current": "Aboriginal Gloves of the Eagle",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286989,
+            "slot": 10,
+            "requiredLevel": 28,
+            "currentItemID": 14117,
+            "currentScore": 0.63,
+            "candidateScore": 6.885,
+            "gain": 6.255,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 18,
+                "after": 31,
+                "delta": 13
+              },
+              {
+                "stat": "Hit",
+                "before": 0,
+                "after": 10,
+                "delta": 10
+              },
+              {
+                "stat": "Intellect",
+                "before": 2,
+                "after": 9,
+                "delta": 7
+              },
+              {
+                "stat": "Stamina",
+                "before": 2,
+                "after": 0,
+                "delta": -2
+              }
+            ]
+          },
+          {
+            "name": "Glinteye Slippers",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Level 26 required",
+            "kind": "Dungeon",
+            "source": "Saltspine - Excavation Site: Wetlands",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273024,
+            "slot": 8,
+            "requiredLevel": 26,
+            "currentItemID": 6482,
+            "currentScore": 3.8,
+            "candidateScore": 9.865,
+            "gain": 6.065,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1437,
+              "x": 0.534,
+              "y": 0.653
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 33,
+                "delta": 7
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 7,
+                "delta": 5
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 6,
+                "delta": 1
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 9,
+                "delta": 9
               }
             ]
           },
@@ -7938,6 +9374,65 @@
             ]
           },
           {
+            "name": "Graveweave Bindings",
+            "slotName": "Wrists",
+            "current": "Green Linen Bracers",
+            "status": "Level 26 required",
+            "kind": "Dungeon",
+            "source": "Atrexis the Grave Knight - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273036,
+            "slot": 9,
+            "requiredLevel": 26,
+            "currentItemID": 4308,
+            "currentScore": 0.35,
+            "candidateScore": 5.105,
+            "gain": 4.755,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 10,
+                "after": 21,
+                "delta": 11
+              },
+              {
+                "stat": "Mana Regeneration per 5 sec",
+                "before": 0,
+                "after": 2,
+                "delta": 2
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Strength",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              }
+            ]
+          },
+          {
             "name": "Highlander's Cloth Boots",
             "slotName": "Feet",
             "current": "Firewalker Boots",
@@ -8042,6 +9537,71 @@
                 "before": 0,
                 "after": 8,
                 "delta": 8
+              }
+            ]
+          },
+          {
+            "name": "Acidic Walkers",
+            "slotName": "Feet",
+            "current": "Firewalker Boots",
+            "status": "Level 27 required",
+            "kind": "Dungeon",
+            "source": "Viscous Fallout - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 9454,
+            "slot": 8,
+            "requiredLevel": 27,
+            "currentItemID": 6482,
+            "currentScore": 3.8,
+            "candidateScore": 7.73,
+            "gain": 3.93,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 26,
+                "after": 34,
+                "delta": 8
+              },
+              {
+                "stat": "Intellect",
+                "before": 1,
+                "after": 8,
+                "delta": 7
+              },
+              {
+                "stat": "Nature Resistance",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Spell Power",
+                "before": 2,
+                "after": 5,
+                "delta": 3
+              },
+              {
+                "stat": "Spirit",
+                "before": 5,
+                "after": 4,
+                "delta": -1
+              },
+              {
+                "stat": "nature resistance",
+                "before": 0,
+                "after": 5,
+                "delta": 5
               }
             ]
           },
@@ -8158,6 +9718,65 @@
             ]
           },
           {
+            "name": "Tattered Kirin Tor Cloak",
+            "slotName": "Back",
+            "current": "Woolen Cape",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Trash - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 286994,
+            "slot": 15,
+            "requiredLevel": 28,
+            "currentItemID": 2584,
+            "currentScore": 1.375,
+            "candidateScore": 4.085,
+            "gain": 2.71,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 15,
+                "after": 25,
+                "delta": 10
+              },
+              {
+                "stat": "Hit",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Spell Power",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 0,
+                "delta": -1
+              }
+            ]
+          },
+          {
             "name": "Roogug's Severed Head",
             "slotName": "Trinket 1",
             "current": "Empty slot",
@@ -8188,6 +9807,88 @@
                 "before": 0,
                 "after": 6,
                 "delta": 6
+              }
+            ]
+          },
+          {
+            "name": "Nightsky Wristbands",
+            "slotName": "Wrists",
+            "current": "Green Linen Bracers",
+            "status": "Level 28 required",
+            "kind": "Dungeon",
+            "source": "Grubbis - Gnomeregan",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 6407,
+            "slot": 9,
+            "requiredLevel": 28,
+            "currentItemID": 4308,
+            "currentScore": 0.35,
+            "candidateScore": 2.02,
+            "gain": 1.67,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1426,
+              "x": 0.24,
+              "y": 0.4
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Armor",
+                "before": 10,
+                "after": 20,
+                "delta": 10
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 6,
+                "delta": 6
+              },
+              {
+                "stat": "Spirit",
+                "before": 1,
+                "after": 3,
+                "delta": 2
+              }
+            ]
+          },
+          {
+            "name": "Seal of the Expedition",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Level 28 required",
+            "kind": "Review",
+            "source": "Theramore Expeditionary Force - Honored · Reputation",
+            "action": "Check the source and requirements before planning a farm.",
+            "itemID": 271920,
+            "slot": 2,
+            "requiredLevel": 28,
+            "currentScore": 0,
+            "candidateScore": 1.65,
+            "gain": 1.65,
+            "group": false,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 8,
+                "delta": 8
               }
             ]
           },
@@ -8223,6 +9924,46 @@
                 "before": 0,
                 "after": 8,
                 "delta": 8
+              }
+            ]
+          },
+          {
+            "name": "Archmagister's Faceted Pendant",
+            "slotName": "Neck",
+            "current": "Empty slot",
+            "status": "Level 30 required",
+            "kind": "Dungeon",
+            "source": "Shade of the Archmage - City of Dalaran",
+            "action": "Plan a group run. Map points to the entrance; check dungeon level, access and loot rules.",
+            "itemID": 273049,
+            "slot": 2,
+            "requiredLevel": 30,
+            "currentScore": 0,
+            "candidateScore": 1.02,
+            "gain": 1.02,
+            "group": true,
+            "tracked": false,
+            "ignored": false,
+            "eligible": false,
+            "later": true,
+            "waypoint": {
+              "map": 1416,
+              "x": 0.217,
+              "y": 0.683
+            },
+            "materials": [],
+            "statChanges": [
+              {
+                "stat": "Attack Power",
+                "before": 0,
+                "after": 12,
+                "delta": 12
+              },
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 6,
+                "delta": 6
               }
             ]
           },
@@ -8587,32 +10328,6 @@
             "ignored": false,
             "eligible": false,
             "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Nightsky Wristbands",
-            "slotName": "Wrists",
-            "current": "Green Linen Bracers",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Grubbis - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 6407,
-            "slot": 9,
-            "requiredLevel": 28,
-            "currentItemID": 4308,
-            "currentScore": 0.35,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
             "materials": [],
             "statChanges": []
           },
@@ -9005,32 +10720,6 @@
             "statChanges": []
           },
           {
-            "name": "Beguiler Robes",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - Scarlet Monastery - Armory",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 7728,
-            "slot": 5,
-            "requiredLevel": 29,
-            "currentItemID": 14120,
-            "currentScore": 1.25,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1420,
-              "x": 0.839,
-              "y": 0.316
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Explorers' League Commendation",
             "slotName": "Neck",
             "current": "Empty slot",
@@ -9067,84 +10756,6 @@
             "ignored": false,
             "eligible": false,
             "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Spidertank Oilrag",
-            "slotName": "Wrists",
-            "current": "Green Linen Bracers",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Electrocutioner 6000 - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9448,
-            "slot": 9,
-            "requiredLevel": 29,
-            "currentItemID": 4308,
-            "currentScore": 0.35,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Hydrocane",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Viscous Fallout - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9452,
-            "slot": 16,
-            "requiredLevel": 27,
-            "currentItemID": 4575,
-            "currentScore": 13.02,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Acidic Walkers",
-            "slotName": "Feet",
-            "current": "Firewalker Boots",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Viscous Fallout - Gnomeregan",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 9454,
-            "slot": 8,
-            "requiredLevel": 27,
-            "currentItemID": 6482,
-            "currentScore": 3.8,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1426,
-              "x": 0.24,
-              "y": 0.4
-            },
             "materials": [],
             "statChanges": []
           },
@@ -9604,31 +11215,6 @@
               "map": 1427,
               "x": 0.411,
               "y": 0.953
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Dreadmist Mask",
-            "slotName": "Head",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Darkmaster Gandling - Scholomance",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 16698,
-            "slot": 1,
-            "requiredLevel": 57,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1422,
-              "x": 0.707,
-              "y": 0.71
             },
             "materials": [],
             "statChanges": []
@@ -13032,63 +14618,18 @@
             "statChanges": []
           },
           {
-            "name": "Seal of the Expedition",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Review",
-            "source": "Theramore Expeditionary Force - Honored · Reputation",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 271920,
-            "slot": 2,
-            "requiredLevel": 28,
-            "currentScore": 0,
-            "group": false,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Glinteye Slippers",
-            "slotName": "Feet",
-            "current": "Firewalker Boots",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Saltspine - Excavation Site: Wetlands",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273024,
-            "slot": 8,
-            "requiredLevel": 26,
-            "currentItemID": 6482,
-            "currentScore": 3.8,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1437,
-              "x": 0.534,
-              "y": 0.653
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
             "name": "Raptor's Gaze",
             "slotName": "Off hand",
             "current": "Empty slot",
-            "status": "Loading item data",
+            "status": "Needs weapon set",
             "kind": "Dungeon",
             "source": "Shadetooth - Excavation Site: Wetlands",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
             "itemID": 273027,
             "slot": 17,
             "requiredLevel": 26,
             "currentScore": 0,
+            "candidateScore": 9.08,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -13100,202 +14641,41 @@
               "y": 0.653
             },
             "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Ephemeral Grips",
-            "slotName": "Hands",
-            "current": "Aboriginal Gloves of the Eagle",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Arcane Anomaly - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273034,
-            "slot": 10,
-            "requiredLevel": 27,
-            "currentItemID": 14117,
-            "currentScore": 0.63,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Graveweave Bindings",
-            "slotName": "Wrists",
-            "current": "Green Linen Bracers",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Atrexis the Grave Knight - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273036,
-            "slot": 9,
-            "requiredLevel": 26,
-            "currentItemID": 4308,
-            "currentScore": 0.35,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Blightleaf Rope",
-            "slotName": "Waist",
-            "current": "Wise Man's Belt",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Fel Ancient - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273039,
-            "slot": 6,
-            "requiredLevel": 29,
-            "currentItemID": 4786,
-            "currentScore": 0.945,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Spine of the Devourer",
-            "slotName": "Main hand",
-            "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Mana Devourer - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273040,
-            "slot": 16,
-            "requiredLevel": 28,
-            "currentItemID": 4575,
-            "currentScore": 13.02,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Wand of Mana Concentration",
-            "slotName": "Ranged / relic",
-            "current": "Greater Magic Wand",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Arcanic Enigma - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273043,
-            "slot": 18,
-            "requiredLevel": 27,
-            "currentItemID": 11288,
-            "currentScore": 2,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Violet Sorcerer's Robes",
-            "slotName": "Chest",
-            "current": "Aboriginal Robe of the Eagle",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Arcanic Enigma - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273044,
-            "slot": 5,
-            "requiredLevel": 27,
-            "currentItemID": 14120,
-            "currentScore": 1.25,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Archmagister's Faceted Pendant",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Shade of the Archmage - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 273049,
-            "slot": 2,
-            "requiredLevel": 30,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
+            "statChanges": [
+              {
+                "stat": "Intellect",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              },
+              {
+                "stat": "Spell Power",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 4,
+                "delta": 4
+              }
+            ]
           },
           {
             "name": "Tendonscraper Dagger",
             "slotName": "Main hand",
             "current": "Medicine Staff of Magic",
-            "status": "Loading item data",
+            "status": "Needs weapon set",
             "kind": "Dungeon",
             "source": "Lyn the Ignored - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
+            "action": "Compare a complete main-hand/off-hand set before replacing your two-handed weapon.",
             "itemID": 273053,
             "slot": 16,
             "requiredLevel": 28,
             "currentItemID": 4575,
             "currentScore": 13.02,
+            "candidateScore": 36.5,
             "group": true,
             "tracked": false,
             "ignored": false,
@@ -13307,7 +14687,38 @@
               "y": 0.683
             },
             "materials": [],
-            "statChanges": []
+            "statChanges": [
+              {
+                "stat": "Health Per 5 Sec.",
+                "before": 0,
+                "after": 8,
+                "delta": 8
+              },
+              {
+                "stat": "Intellect",
+                "before": 6,
+                "after": 0,
+                "delta": -6
+              },
+              {
+                "stat": "Spell Power",
+                "before": 12,
+                "after": 36,
+                "delta": 24
+              },
+              {
+                "stat": "Stamina",
+                "before": 0,
+                "after": 5,
+                "delta": 5
+              },
+              {
+                "stat": "damage per second",
+                "before": 9.1999998092651,
+                "after": 14.375,
+                "delta": 5.1750001907349
+              }
+            ]
           },
           {
             "name": "Neophyte's Wand",
@@ -13493,109 +14904,6 @@
             "ignored": false,
             "eligible": false,
             "later": true,
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Violet Sorcerer's Leggings",
-            "slotName": "Legs",
-            "current": "Sea Dog Britches",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286988,
-            "slot": 7,
-            "requiredLevel": 29,
-            "currentItemID": 5310,
-            "currentScore": 1.345,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Violet Sorcerer's Wraps",
-            "slotName": "Hands",
-            "current": "Aboriginal Gloves of the Eagle",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286989,
-            "slot": 10,
-            "requiredLevel": 28,
-            "currentItemID": 14117,
-            "currentScore": 0.63,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Tattered Kirin Tor Cloak",
-            "slotName": "Back",
-            "current": "Woolen Cape",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286994,
-            "slot": 15,
-            "requiredLevel": 28,
-            "currentItemID": 2584,
-            "currentScore": 1.375,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
-            "materials": [],
-            "statChanges": []
-          },
-          {
-            "name": "Guardian's Emblem",
-            "slotName": "Neck",
-            "current": "Empty slot",
-            "status": "Loading item data",
-            "kind": "Dungeon",
-            "source": "Trash - City of Dalaran",
-            "action": "Wait for item information, then refresh. Unknown stats are never treated as zero.",
-            "itemID": 286995,
-            "slot": 2,
-            "requiredLevel": 28,
-            "currentScore": 0,
-            "group": true,
-            "tracked": false,
-            "ignored": false,
-            "eligible": false,
-            "later": true,
-            "waypoint": {
-              "map": 1416,
-              "x": 0.217,
-              "y": 0.683
-            },
             "materials": [],
             "statChanges": []
           }

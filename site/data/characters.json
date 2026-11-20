@@ -14368,6 +14368,141 @@
         "bankCapturedAt": "2026-11-19T00:19:05Z",
         "bankStatus": "last_seen",
         "sessions": "Snapshot session summaries"
+      },
+      "localAI": {
+        "schemaVersion": 1,
+        "generatedAt": 1795139340,
+        "expiresAt": 1795225546,
+        "snapshotAt": "2026-11-20T01:45:46Z",
+        "model": "qwen3.5:9b",
+        "summary": "Suggested priorities: Craft: Green Woolen Vest; List up to 10 Enchanted Lute; List up to 20 Linen Cloth.",
+        "recommendations": [
+          {
+            "taskID": "upgrade:2582",
+            "title": "Craft: Green Woolen Vest",
+            "reason": "Review this locally identified gear improvement and its acquisition requirements. Replaces Aboriginal Robe of the Eagle; estimated +4.1 stat points. Learned recipe: Green Woolen Vest",
+            "action": "Queue one craft to reserve materials and find farming camps.",
+            "status": "Craft upgrade",
+            "source": "Installed NaowhForever 1.2.33",
+            "kind": "Gear",
+            "itemID": 2582,
+            "evidenceIDs": [
+              "item:2582"
+            ]
+          },
+          {
+            "taskID": "gold:sell:279976",
+            "title": "List up to 10 Enchanted Lute",
+            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 3s 50c estimated net each versus 0s 0c at a vendor; before deposits.",
+            "action": "Search Enchanted Lute, compare unit prices and the posting deposit, then list up to 10. Start small; unsold goods are not earnings.",
+            "status": "Unreserved stock",
+            "source": "Naowh: your realm/faction observations / 23.6 hours old",
+            "kind": "Sell",
+            "itemID": 279976,
+            "evidenceIDs": [
+              "item:279976"
+            ]
+          },
+          {
+            "taskID": "gold:sell:2589",
+            "title": "List up to 20 Linen Cloth",
+            "reason": "Review unreserved stock at the auction house. Check current prices and deposits; a listing is not a sale. 0s 20c estimated net each versus 0s 13c at a vendor; before deposits.",
+            "action": "Search Linen Cloth, compare unit prices and the posting deposit, then list up to 20. Start small; unsold goods are not earnings.",
+            "status": "Unreserved stock",
+            "source": "Naowh: your realm/faction observations / 23.6 hours old Community idea: Grind cloth, then compare your surplus (reviewed Nov 17, 2026 18:50). This is a player report; eligibility and prices come from your local data. https://us.forums.blizzard.com/en/wow/t/are-begginning-areas-good-to-farm-in-forever/2398327",
+            "kind": "Sell",
+            "itemID": 2589,
+            "evidenceIDs": [
+              "item:2589"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "id": "item:2582",
+            "title": "Green Woolen Vest",
+            "url": "https://www.wowhead.com/forever/item=2582",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 12, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 85}]}"
+          },
+          {
+            "id": "item:279976",
+            "title": "Enchanted Lute",
+            "url": "https://www.wowhead.com/forever/item=279976",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Enchanting\", \"min_level\": 20}]}"
+          },
+          {
+            "id": "item:279972",
+            "title": "Faction Banner",
+            "url": "https://www.wowhead.com/forever/item=279972",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Tailoring\", \"min_level\": 20}]}"
+          },
+          {
+            "id": "item:2589",
+            "title": "Linen Cloth",
+            "url": "https://www.wowhead.com/forever/item=2589",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Kogan Forgestone\", \"zone\": \"Dun Morogh\", \"min_level\": 8, \"max_level\": 10}, {\"kind\": \"drop\", \"name\": \"Lisan Pierce\", \"zone\": \"Stormwind City\", \"min_level\": 25, \"max_level\": 25}, {\"kind\": \"drop\", \"name\": \"Adam Lind\", \"zone\": \"Wetlands\", \"min_level\": 20, \"max_level\": 20}, {\"kind\": \"drop\", \"name\": \"Tamara Armstrong\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 15, \"max_level\": 15}, {\"kind\": \"drop\", \"name\": \"Saean\", \"zone\": \"Loch Modan\", \"min_level\": 10, \"max_level\": 10}]}"
+          },
+          {
+            "id": "item:3731",
+            "title": "Lion Meat",
+            "url": "https://www.wowhead.com/forever/item=3731",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"drop\", \"name\": \"Mountain Lion\", \"zone\": \"Alterac Mountains\", \"min_level\": 32, \"max_level\": 33}, {\"kind\": \"drop\", \"name\": \"Hulking Mountain Lion\", \"zone\": \"Alterac Mountains\", \"min_level\": 33, \"max_level\": 34}, {\"kind\": \"drop\", \"name\": \"Feral Mountain Lion\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 27, \"max_level\": 28}, {\"kind\": \"drop\", \"name\": \"Starving Mountain Lion\", \"zone\": \"Hillsbrad Foothills\", \"min_level\": 23, \"max_level\": 24}, {\"kind\": \"drop\", \"name\": \"Shadumbra\", \"zone\": \"Ashenvale\", \"min_level\": 28, \"max_level\": 28}]}"
+          },
+          {
+            "id": "item:279981",
+            "title": "Basic Campfire Kit",
+            "url": "https://www.wowhead.com/forever/item=279981",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"crafted\", \"name\": \"Cooking\", \"min_level\": 1}]}"
+          },
+          {
+            "id": "item:6358",
+            "title": "Oily Blackmouth",
+            "url": "https://www.wowhead.com/forever/item=6358",
+            "confidence": "Forever client item; acquisition may use Classic data",
+            "text": "{\"requiredLevel\": 0, \"sources\": [{\"kind\": \"object\", \"name\": \"School of Tastyfish\", \"zone\": \"Stranglethorn Vale\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\", \"zone\": \"The Barrens\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\", \"zone\": \"The Barrens\"}, {\"kind\": \"object\", \"name\": \"Oily Blackmouth School\"}]}"
+          },
+          {
+            "id": "quest:1062",
+            "title": "Goblin Invaders",
+            "url": "https://www.wowhead.com/forever/quest=1062",
+            "confidence": "Questie reference; verify prerequisites",
+            "text": "{\"id\": 1062, \"name\": \"Goblin Invaders\", \"quest_level\": 19, \"required_level\": 13, \"faction\": \"Horde\", \"zone\": \"Stonetalon Mountains\", \"repeatable\": 0, \"start_npc\": \"Seereth Stonebreak\", \"end_npc\": \"Seereth Stonebreak\", \"wowhead\": \"https://www.wowhead.com/forever/quest=1062\", \"start_where\": \"The Barrens\", \"end_where\": \"The Barrens\"}"
+          },
+          {
+            "id": "discussion:0",
+            "title": "Enchanting Vellums are needed",
+            "url": "https://us.forums.blizzard.com/en/wow/t/enchanting-vellums-are-needed/2413868",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          },
+          {
+            "id": "discussion:1",
+            "title": "Tailoring in Forever",
+            "url": "https://us.forums.blizzard.com/en/wow/t/tailoring-in-forever/2422636",
+            "confidence": "Unreviewed community lead",
+            "text": "Recent discussion title only; open the source to verify its claims."
+          }
+        ],
+        "notices": [
+          "AI interpretation; verify before spending. Actions and eligibility come from your addon.",
+          "Forever item records include Classic fallbacks; loot sources and drop rates may differ.",
+          "Forum coverage contains recent discussion titles, not verified strategy claims.",
+          "Auction observations belong to the saved snapshot; check live prices."
+        ],
+        "knowledge": {
+          "build": "1.60.1.70959",
+          "updatedAt": "2026-11-19T15:44:16Z",
+          "items": 22765,
+          "quests": 4244,
+          "sources": 62456,
+          "url": "https://github.com/gBlaku/wow-forever-kb"
+        }
       }
     },
     {
